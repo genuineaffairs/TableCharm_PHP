@@ -1,0 +1,2 @@
+INSERT IGNORE INTO `engine4_activity_actiontypes` (`type`, `module`, `body`, `enabled`, `displayable`, `attachable`, `commentable`, `shareable`, `is_generated`) VALUES
+('sitepagenote_admin_new', 'sitepagenote', '{item:$subject} created a new note:', 1, 1, 2, 1, 1, 0);

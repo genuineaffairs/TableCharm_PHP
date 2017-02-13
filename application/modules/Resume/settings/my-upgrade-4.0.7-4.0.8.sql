@@ -1,0 +1,1 @@
+ALTER TABLE `engine4_resume_sections` ADD COLUMN `default_in_categories` VARCHAR(255);

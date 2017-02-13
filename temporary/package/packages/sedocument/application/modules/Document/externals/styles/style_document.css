@@ -1,0 +1,104 @@
+/* $Id: style_document.css 2010-08-11 9:40:21Z SocialEngineAddOns Copyright 2009-2010 BigStep Technologies Pvt. Ltd. $ */
+
+/*Document Browse Carousel start here*/
+.layout_document_featured_documents{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+div.browse_document_carousel{
+	clear:both;
+}
+div.document_carousel td{
+	text-align:left;
+	direction: rtl;
+}
+.document_carousel{
+	width:718px;
+	margin:5px 0px 10px 0px;
+	text-align:center;
+	border-width:1px;
+	padding:5px;
+	float:left; 
+	display:block;
+  -moz-border-radius:3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+	direction: ltr !important;
+}
+.document_carousel_documents{
+	width: 685px;
+	padding-top:1px; 
+	margin: 0px 5px 0px 5px; 
+	text-align: center; 
+	overflow: hidden;
+	direction: ltr !important;
+}
+.browse_document_carousel_item {
+	padding: 5px 7px 5px 8px;
+	text-align:center;
+	font-size:11px;
+}
+.browse_document_carousel_item img{ 
+	width:120px;
+	height:120px;
+	border:1px solid #dadada;
+	float:left;
+}
+.browse_document_carousel_item a img:hover{ 
+	width:120px;
+	height:120px;
+	border:1px solid #ccc;
+}
+.document_tooltip{
+	-moz-border-radius:3px 3px 3px 3px;
+	display: block;
+	background: #222;
+	color: #fff;
+	text-align: left;
+	padding: 5px;
+	width: 260px;
+	font-size: .8em;
+	margin:0;
+	-moz-box-shadow:3px 3px 3px #bcbcbc;
+	-webkit-box-shadow:3px 3px 3px #bcbcbc;
+	box-shadow: 3px 3px 3px #bcbcbc;
+	float:left;
+}
+.document_tooltip .document_tooltip_content{
+	width:250px;
+	float:left;
+	background:#FFFFFF;
+	padding:5px;
+	position:relative;
+}
+.document_tooltip .document_tooltip_content,
+.document_tooltip .document_tooltip_content div{
+	font-family:Arial, Helvetica, sans-serif !important;
+	line-height:18px;
+}
+.document_tooltip .document_tooltip_content a, 
+.document_tooltip .document_tooltip_content div a{
+	color:#398bcc !important;
+}
+.document_tooltip .title{
+	font-weight:bold;
+	font-size:13px;
+	overflow:hidden;
+}
+.document_tooltip .document_tooltip_details{
+	font-size:11px;
+	color:#acacac;
+}
+.document_tooltip .tooltip_arrow{
+	position:absolute;
+	width:250px;
+	text-align:center;
+	top:-18px;
+}
+.document_tooltip .tooltip_arrow img{
+	border:none;
+	width:13px;
+	height:9px;
+	float:none;
+}
+/*Document Browse Carousel end here*/

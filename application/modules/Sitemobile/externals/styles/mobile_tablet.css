@@ -1,0 +1,332 @@
+
+.b_light       {border-color:$theme_border_color}
+.b_medium      {border-color:$theme_border_medium_color}
+.b_dark        {border-color:$theme_border_dark_color}
+.t_light       {color:$theme_font_color_light;} 
+.f_small       {font-size:$theme_font_size_small;}
+
+/* Rating Text */
+.rating_text{
+  color:$theme_font_color_light;
+  cursor: pointer;
+  cursor: default;
+  font-size:$theme_font_size_small;
+}
+/*Content Pages*/
+.sm-ui-cont-cont-heading{
+  border-bottom: 1px solid $theme_border_color;
+}
+.sm-ui-cont-cont-date{
+  font-size:$theme_font_size_small;
+  color:$theme_font_color_light;
+}
+/*Profile Status and Information*/
+.sm_ui_item_profile_details table td{
+  border-top:1px solid $theme_border_color;
+}
+.sm_ui_item_profile_details table td.label div{
+  color:$theme_font_color_light;
+}
+/*Profile Fields*/
+.profile_fields h4{
+  border-bottom:1px solid $theme_border_medium_color;
+}
+
+/*Discussion Topic*/
+.sm-ui-topic-view > li{
+  border-top:1px solid $theme_border_color;
+  padding-top:15px;
+  padding:15px !important;
+}
+/*Photo View Page*/
+.sm-ui-photo-view-info-date{
+  color:$theme_font_color_light;
+}
+.sm-ui-photo-view-info-date,
+.sm-ui-photo-view-info-tags,
+.sm-ui-photo-view-info-options{
+  font-size:$theme_font_size_small;
+}
+/*Filter Form*/
+.sm-search-form-wrapper{
+  border-bottom:1px solid $theme_border_medium_color;
+}
+/*Global Form*/
+.global_form h3{
+  border-bottom: 1px solid $theme_border_color;
+}
+.global_form .form-element .description{
+  font-size:$theme_font_size_small;
+}
+.global_form .form-element .description{
+  color:$theme_font_color_light;
+}
+/*Global Form Popup*/
+.global_form_popup h3{
+  border-bottom: 1px solid $theme_border_color;
+}
+/*Share Content Popup*/
+.sharebox{
+  background-color:$theme_foreground_background_color;
+}
+.sharebox_photo img{
+  border: 1px solid $theme_photo_border_color;
+}
+/*Comments*/
+.comments > ul > li + li{
+  border-top:1px solid $theme_border_color;
+}
+.comments .comments_options{
+  color: $theme_font_color_light;
+}
+.comments .comments_date{
+  font-size: $theme_font_size_small;
+  color: $theme_font_color_light;
+}
+div.comments_comment_likes_tips{
+  color: $theme_font_color_light;
+}
+.comments form{
+  border-top:1px solid $theme_border_color;
+}
+/*Generic Block*/
+.sm-widget-block{
+  background-color:$theme_foreground_background_color;
+  border:1px solid $theme_foreground_border_color_light;
+  box-shadow:$theme_foreground_shadow;
+}
+.sm-rating-table td{
+  font-size: $theme_font_size_small;
+}
+
+/*Profile Tabs*/
+.sm-ui-profile-tabs{
+  background-color:$theme_tabs_background_color;
+  border-bottom:1px solid $theme_border_medium_color;
+}
+.sm-ui-profile-tabs > ul li.active a{
+  border-bottom:2px solid $theme_tabs_border_color_active;
+}
+.sm-ui-profile-tabs > ul li .tab-title{
+  color:$theme_tabs_font_color;
+}
+.sm-ui-profile-tabs > ul li.active .tab-title{
+  color:$theme_tabs_font_color_active;
+}
+.sm-mini-menu a.sm-mini-menu-icon{
+  color:$theme_mini_menu_icon_color;
+}
+
+/*Profile Cover Photo Start Here*/
+.seaocore_profile_cover_wrapper{
+  background:$theme_foreground_background_color;
+  box-shadow:$theme_foreground_shadow;
+}
+.seaocore_profile_cover_photo_wrapper {
+  border-bottom:1px solid $theme_border_medium_color;
+}
+.seaocore_profile_cover_upload_op span{
+  background-image:url(~/application/modules/Seaocore/externals/images/icons/camera-transprent.png);
+}
+/*Profile Cover Photo Endst Here*/
+/*Cover Information Starts Here*/
+.seaocore_profile_main_photo{
+  border:1px solid $theme_border_medium_color;
+  box-shadow:$theme_foreground_shadow;
+}
+.siteuser_cover_profile_fields{
+  font-size:$theme_font_size_small;
+}
+/*Listing Type Grid*/
+.sm-fl {
+  background-image: url(~/application/modules/Seaocore/externals/images/featured-label.png);
+}
+.p_list_grid > li{
+  border:1px solid $theme_border_medium_color;
+}
+
+/*ACTIVITY FEED*/
+/*Request and Notifications*/
+.sm-ui-notification-date{
+  color:$theme_font_color_light;
+  font-size:$theme_font_size_small;
+}
+/*Notification, Message and Request Popup*/
+.sm-pulldown-contents{
+  border: 1px solid $theme_pulldown_border_color;
+  background: 		$theme_pulldown_background_gradient_top_color;
+  background-image: -webkit-gradient(linear, left top, left bottom, from( $theme_pulldown_background_gradient_top_color ), to( $theme_pulldown_background_gradient_bottom_color));
+  background-image: -webkit-linear-gradient( $theme_pulldown_background_gradient_top_color, $theme_pulldown_background_gradient_bottom_color); 
+  background-image:    -moz-linear-gradient( $theme_pulldown_background_gradient_top_color, $theme_pulldown_background_gradient_bottom_color); 
+  background-image:     -ms-linear-gradient( $theme_pulldown_background_gradient_top_color, $theme_pulldown_background_gradient_bottom_color); 
+  background-image:      -o-linear-gradient( $theme_pulldown_background_gradient_top_color, $theme_pulldown_background_gradient_bottom_color); 
+  background-image:         linear-gradient( $theme_pulldown_background_gradient_top_color, $theme_pulldown_background_gradient_bottom_color);
+}
+.sm-pulldown-arrow{
+  color:$theme_pulldown_arrow_color;
+}
+.sm-pulldown-heading{
+  color:$theme_pulldown_header_color;
+}
+.sm-pulldown-header .ui-icon{
+  color:$theme_pulldown_header_color !important;
+}
+.sm-ui-popup-notification-footer{
+  border-top: 1px solid $theme_border_medium_color;
+}
+/*Status Box Starts here*/
+.activity-profile-post-options{
+  background-color:$theme_foreground_background_color !important;
+  box-shadow:$theme_foreground_shadow;
+  border:1px solid $theme_foreground_border_color;
+}
+.activity-profile-post-options table td + td{
+  border-left:1px solid $theme_foreground_border_color;
+}
+.activity-post-options table td .ui-icon-caret-up{
+  color:$theme_input_background_color;
+  text-shadow: 0 -1px 0 $theme_border_medium_color;
+}
+.activity-post-container-input input{
+  border:1px solid $theme_border_medium_color;
+  background-color:$theme_input_background_color;
+}
+.activity-post-container #activity_body{
+  border:1px solid $theme_border_medium_color;
+  background-color:$theme_input_background_color;
+}
+/*Social Share Option*/
+.compose_share_op{
+  border-bottom: 1px solid $theme_border_medium_color;
+}
+/*Privacy Option*/
+.compose_pr_op table tr td{
+  border-top:1px solid $theme_border_medium_color;
+  padding:5px;
+}
+/*Composer*/
+.compose-tray{
+  border:1px solid $theme_border_color;
+}
+/*Attachment*/
+.compose-preview-image,
+.compose-preview-images{
+  border: 1px solid $theme_photo_border_color;
+}
+.compose-preview-info .compose-preview-title a{
+  font-size:$theme_font_size_small;
+}
+.compose-preview-info .compose-preview-description{
+  font-size:$theme_font_size_small;
+}
+.ui-input-field, 
+.compose-preview-info input[type="text"], 
+.compose-preview-info textarea, 
+input#compose-link-form-submit, #compose-video-form-type, #compose-video-form-input, #compose-photo-body input{
+  background-color:$theme_input_background_color;
+  border:1px solid $theme_input_border_color;
+  color:$theme_input_text_color;
+
+}
+/*Search Location & Add People*/
+.sm-post-search-fields{
+  border-bottom: 1px solid $theme_border_medium_color;
+}
+.sm-post-show-tags, .aaf-add-friend-tagcontainer{
+  border-bottom:1px solid $theme_border_medium_color;
+}
+/*Status Box Ends Here*/
+/*Feeds*/
+.feeds > li{
+  background-color: $theme_feed_background_color;
+  box-shadow: $theme_feed_shadow;
+}
+.feed_item_btm{
+  color:$theme_font_color_light;
+  font-size:$theme_font_size_small;
+}
+.feed_item_btm .ui-icon:before{
+  font-size:$theme_font_size_small;
+}
+.feed_item_option .ui-navbar li + li .ui-btn{
+  border-left:1px solid $theme_border_medium_color;
+}
+.feed_item_option .ui-btn-up-c, 
+.feed_item_option .ui-btn-hover-c{
+  background:$theme_feed_foreground_color !important;
+}
+.feed_item_option .ui-btn-up-c .ui-btn-inner .ui-icon:before,
+.feed_item_option .ui-btn-hover-c .ui-btn-inner .ui-icon:before{
+  color:#afafaf !important;
+}
+/*Feed Photo Attachments*/
+.feeds .feed_item_link_desc{
+  font-size:$theme_font_size_small;
+}
+/*Birthday Feeds*/
+.feeds .feed_item_birthday{
+  border:1px solid $theme_border_medium_color ;
+}
+.feeds .feed_item_birthday img{
+  border:1px solid $theme_border_color ;
+}
+.feed_item_birthday_post > li{
+  border-bottom:1px solid $theme_border_color;
+}
+.feed_item_birthday_feeds > li + li{
+  border-top:1px solid $theme_border_color;
+}
+.feed_item_birthday_feeds > li.feed_item_birthday_feeds_more{
+  font-size:$theme_font_size_small;
+}
+
+/*Edit Photo*/
+.ui-page-edit-user-photo .form-element img{
+  border: 1px solid $theme_border_medium_color;
+}
+/*NETWORK SETTINGS*/
+ul.networks > li{
+  border: 1px solid $theme_border_medium_color;
+}
+div.field-privacy-selector ul{
+  border:1px solid $theme_border_medium_color;
+}
+
+/*Message*/
+.sm-ui-message-time{
+  font-size:$theme_font_size_small;
+  color:$theme_font_color_light;
+}
+.message_attachment_title,
+.message_attachment_desc{
+  font-size:$theme_font_size_small;
+}
+
+.iscroll_carousal_wrapper {
+  width:300px;
+  margin: 0 auto;
+  position:relative;	
+  z-index:1;
+  overflow:hidden;
+}
+
+.iscroll_carousal_scroller {
+  width:2100px;
+  height:100%;
+  float:left;
+  padding:0;
+}
+
+.ul-sub-list{
+  margin-left: 1.5em !important;
+}
+.ul-sub-list > .ui-btn-inner{
+  min-width: .40em !important;
+}
+.ul-sub-list .ui-link-inherit{
+  min-height:  0 !important;
+}
+.ul-sub-list .ui-li-thumb{
+  width: 42px !important;
+  height:  42px !important;
+}

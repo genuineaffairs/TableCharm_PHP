@@ -1,0 +1,66 @@
+
+
+#global_page_document-admin-fields-field-create #select-action {
+    display: none;
+}
+/*manage page*/
+table.document_admin_table thead tr th,
+table.document_admin_table tbody tr td{
+	font-size:11px;
+}
+.document_admin_search {
+	max-width: 950px !important;
+}
+.document_admin_search .cat_loader{
+	display:none;
+	margin-top:18px !important;
+}
+.document_admin_search .document_search_button{
+	margin-top:10px;
+	margin-left:0px;
+	clear:both;
+}
+/*document category page*/
+.settings .global_form_document
+{
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background-color: #E9F4FA;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+}
+.settings .global_form_document > div
+{
+	background: #fff;
+	border: 1px solid #d7e8f1;
+	overflow: hidden;
+	padding: 20px;
+}
+.admin_document_cat
+{
+	margin-bottom:10px;
+}
+.admin_document_cat > div > span a
+{
+	font-weight:bold;
+}
+.admin_document_categories
+{
+	padding-left: 5px;
+	margin-top:10px;
+}
+.document_add_new_cat{
+	padding-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.document_subcat_handle{
+	vertical-align: middle; 
+	margin-right: 5px; 
+	cursor: move;
+}
+.doc_cat_pl_20{
+	padding-left:20px;
+}

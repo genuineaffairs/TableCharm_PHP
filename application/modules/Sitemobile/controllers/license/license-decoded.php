@@ -1,0 +1,84 @@
+<?php
+
+${"GLOBALS"}["ucwwkwvy"] = "O3";
+${"GLOBALS"}["twiikmtpz"] = "O0";
+${"GLOBALS"}["pmnswzsyi"] = "l3";
+${"GLOBALS"}["ephuxzvjnud"] = "O2";
+${"GLOBALS"}["nquewrczixwh"] = "l2";
+${"GLOBALS"}["glchxctqc"] = "O1";
+${"GLOBALS"}["roilviplbir"] = "l1";
+${"GLOBALS"}["gdxvwrl"] = "O1";
+${"GLOBALS"}["szoujtcyp"] = "O2";
+$truxtsbllbf = "O0";
+${"GLOBALS"}["csdqexyeo"] = "file_path";
+$knucaakzezy = "O0";
+${"GLOBALS"}["kyetbjyv"] = "l0";
+$_SERVER["HTTP_HOST"] = !empty($_SERVER["HTTP_HOST"]) ? $_SERVER["HTTP_HOST"] : "";
+${"GLOBALS"}["jgcjat"] = "file_path";
+${${"GLOBALS"}["jgcjat"]} = APPLICATION_PATH . "/application/modules/Sitemobile/controllers/license/ilicense.php";
+${${"GLOBALS"}["kyetbjyv"]} = @file_exists(${${"GLOBALS"}["csdqexyeo"]});
+${$knucaakzezy} = ${${"GLOBALS"}["roilviplbir"]} = ${${"GLOBALS"}["glchxctqc"]} = "";
+${${"GLOBALS"}["glchxctqc"]} = str_replace("www.", "", strtolower($_SERVER["HTTP_HOST"]));
+$vppxqhhosagb = "l0";
+$nwxwwzgo = "l1";
+${${"GLOBALS"}["nquewrczixwh"]} = Engine_Api::_()->getapi("settings", "core")->getsetting("sitemobile.mobi.viewed", 0);
+${${"GLOBALS"}["ephuxzvjnud"]} = Engine_Api::_()->getapi("settings", "core")->getsetting("sitemobile.mobi.attempt", 0);
+if (!empty(${${"GLOBALS"}["szoujtcyp"]})) {
+  ${"GLOBALS"}["acggicap"] = "O2";
+  $cvcysim = "O2";
+  ${$cvcysim} = @convert_uudecode(${${"GLOBALS"}["ephuxzvjnud"]});
+  ${${"GLOBALS"}["roilviplbir"]} = ${${"GLOBALS"}["acggicap"]};
+}if (!empty(${${"GLOBALS"}["nquewrczixwh"]})) {
+  ${"GLOBALS"}["gmaebqklnki"] = "O3";
+  ${"GLOBALS"}["fphmtyndsgi"] = "l2";
+  $btvgqnwtj = "l3";
+  ${${"GLOBALS"}["pmnswzsyi"]} = @convert_uudecode(${${"GLOBALS"}["fphmtyndsgi"]});
+  ${${"GLOBALS"}["gmaebqklnki"]} = @unserialize(${$btvgqnwtj});
+  ${${"GLOBALS"}["twiikmtpz"]} = ${${"GLOBALS"}["ucwwkwvy"]}["host_att"];
+}if (!empty(${$vppxqhhosagb}) || ((${$truxtsbllbf} == ${${"GLOBALS"}["glchxctqc"]}) && (${$nwxwwzgo} == ${${"GLOBALS"}["gdxvwrl"]}))) {
+  Zend_Registry::set("sitemobileProfileAlbum", "set");
+  Zend_Registry::set("sitemobileProfileBlog", "enabled");
+  Zend_Registry::set("sitemobileComments", "set");
+  Zend_Registry::set("sitemobileEventProfileDiscussion", "user");
+  Zend_Registry::set("sitemobileEventProfile", "user");
+  Zend_Registry::set("sitemobileGroupProfileEvent", "enabled");
+  Zend_Registry::set("sitemobileGroupProfileGroup", "attempt");
+  Zend_Registry::set("sitemobileGroupProfileMember", "group");
+  Zend_Registry::set("sitemobileLoginSignup", "enabled");
+  Zend_Registry::set("sitemobileRecentMessage", "message");
+  Zend_Registry::set("sitemobileAdvfeed", "feed_enabled");
+  Zend_Registry::set("sitemobileFeed", "mobile_feed");
+  Zend_Registry::set("sitemobileFooter", "footer");
+  Zend_Registry::set("sitemobileMainMenu", "main_menu_enabled");
+  Zend_Registry::set("sitemobileMiniMenu", "mini_menu_enabled");
+  Zend_Registry::set("sitemobileNavigation", "navigation");
+  Zend_Registry::set("sitemobileProfileFriend", "friend_profile");
+  Zend_Registry::set("sitemobileCommonFriend", "common_friend");
+  Zend_Registry::set("sitemobileFriendFollower", "friend_follow");
+  Zend_Registry::set("sitemobileFriendFollowing", "friend_following");
+  Zend_Registry::set("sitemobileProfileFields", "profile_fields");
+  Zend_Registry::set("sitemobileProfileFields", "enabled");
+  Zend_Registry::set("sitemobileAlbumType", "check");
+} else {
+  Zend_Registry::set("sitemobileProfileAlbum", 0);
+  Zend_Registry::set("sitemobileProfileBlog", 0);
+  Zend_Registry::set("sitemobileComments", 0);
+  Zend_Registry::set("sitemobileEventProfileDiscussion", 0);
+  Zend_Registry::set("sitemobileEventProfile", 0);
+  Zend_Registry::set("sitemobileGroupProfileEvent", 0);
+  Zend_Registry::set("sitemobileGroupProfileGroup", 0);
+  Zend_Registry::set("sitemobileGroupProfileMember", 0);
+  Zend_Registry::set("sitemobileLoginSignup", 0);
+  Zend_Registry::set("sitemobileRecentMessage", 0);
+  Zend_Registry::set("sitemobileAdvfeed", 0);
+  Zend_Registry::set("sitemobileFeed", 0);
+  Zend_Registry::set("sitemobileFooter", 0);
+  Zend_Registry::set("sitemobileMainMenu", 0);
+  Zend_Registry::set("sitemobileNavigation", 0);
+  Zend_Registry::set("sitemobileProfileFriend", 0);
+  Zend_Registry::set("sitemobileCommonFriend", 0);
+  Zend_Registry::set("sitemobileFriendFollower", 0);
+  Zend_Registry::set("sitemobileFriendFollowing", 0);
+  Zend_Registry::set("sitemobileProfileFields", 0);
+  Zend_Registry::set("sitemobileAlbumType", 0);
+}?>

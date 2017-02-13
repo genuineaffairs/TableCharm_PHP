@@ -1,0 +1,35 @@
+#message_search>div {
+  width: auto;
+}
+#message_search>div>div {
+  padding: 0;
+}
+#message_search input[type=text] {
+  width: 180px;
+}
+#message_search select {
+  width: 150px;
+}
+#message_search>div {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#message_search .form-wrapper {
+  float: left;
+  clear: none;
+}
+#message_search .form-elements>.form-wrapper {
+  margin-right: 15px;
+}
+#message_search .form-elements:last-child {
+  margin: 0;
+}
+#message_search #submit-element {
+  min-width: 0;
+}
+#message_search button {
+  padding: 3px 7px;
+  font-size: 12px;
+  margin: 0;
+}

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:2px; padding:2px;}
+body{font-family:Arial, Helvetica, sans-serif; font-size:82%;}
+form{display:none;}
+
+#form_box {
+    background: #f8f8f8;
+    border: 1px solid #d6d6d6;
+    border-left-color: #e4e4e4;
+    border-top-color: #e4e4e4;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0.5em;
+    margin-top: 10px;
+    margin-bottom: 2px;
+	width:98%;
+} 
+
+#log {
+    float:right;
+    padding: 0.5em;
+    margin-left: 10px;
+    margin-right:10px;	
+    border: 1px solid #d6d6d6;
+    border-left-color: #e4e4e4;
+    border-top-color: #e4e4e4;
+    margin-top: 10px;
+
+}
+#log h3{	
+    border: 1px solid #666666;
+    border-left-color: #e4e4e4;
+    border-top-color: #e4e4e4;
+    margin-top: 5px;
+    margin-bottom:10px;
+    text-align:center;	
+}
+
+
+#log_res {	
+    height:500px;
+    overflow:auto;
+    font-family:monospace;
+    font-size:12px;
+}
+
+#log_res.ajax-loading {
+    padding: 20px 0;
+    background: url(images/spinner.gif) no-repeat center;
+}
+.formheader{
+    width:50%;
+    text-align:center;
+    font-size:18px;
+    border:2px #666666 solid;
+    margin:auto;
+    background-color:#f8f8f8;
+}
+
+
+input[type="text"], input[type="username"], input[type="email"], input[type="password"], input.text, textarea,select{ border-width:1px; border-color:#D6D6D6; margin: 0 0 11px;}
+input[type=submit]{ border:0px solid #D6D6D6; background:none; background:#000; color:#fff; border-radius:3px; cursor:pointer; padding:5px 10px;}
+
+
+
+
+#global_content_simple{ display:block}
+#global_page_iphone-signup-index #global_content_simple > h2{ display:none}
+#global_content_simple h3{ background:#79B4D4; padding:5px; color:#fff; border-radius:0px; padding-left:0px;}
+.global_form > div{ float:none}
+
+#global_content_simple div.form-description{ font-size:17px; padding:0px; margin-bottom:0px; font-weight:normal; color:#000; background:#fff; margin-top:0px;}
+.global_form div > input + p{ font-size:8pt}
+* + ul.form-errors, * + ul.form-notices{ padding:5px 0px; margin-top:0px;}
+.global_form div.form-label{ width:auto; float:none; text-align:left; font-weight:normal; color:#000}
+.global_form div.form-element{ float:none; margin-bottom:5px;}
+.global_form > div > div{ border:0px; padding:0 3px; border-radius:0px;}
+.global_form > div > div > h3 + div, .global_form > div > div > h3 + p + div{ margin-top:4px;}
+.global_form div.form-label{ margin-bottom:3px; padding-top:0px;}
+.global_form div.form-wrapper{ margin-bottom:0px;}
+.global_form div.form-element{ margin-bottom:0px;}
+ul.form-errors, ul.form-notices{ margin-bottom:0px;}
+.global_form{background:#ECEFF5; }
+.global_form div.form-elements{padding:0px;}
+ul.form-errors > li, ul.form-notices > li{ margin-left:0px;}
+
+
+
+div#form_box h4 {
+    border-bottom: 1px solid #EAEAEA;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 0.5em 0;
+}
+
+div#form_box label{
+	font-size: 14px;
+    font-weight: normal;
+	}
+
+div#form_box p{
+    font-size: 14px;
+    font-weight: normal;
+}
+ body#global_page_bananaapi-index-test-tool-version-two textarea {width: 275px !important;}

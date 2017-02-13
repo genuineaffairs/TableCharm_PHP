@@ -1,0 +1,36 @@
+.layout_core_menu_main .navigation li a.new_message {
+  background-image: url(/application/themes/mgsl/images/menu/menubar_new_message.png?c=269);
+  background-repeat: no-repeat;
+}
+.navigation a {
+  position: relative;
+}
+.navigation .count-bubble {
+  position: absolute;
+  top: 1px;
+  right: 7px;
+  background-color: #e8423e;
+  border-radius: 10px;
+  height: 15px;
+  color: #fff;
+  display: block;
+  text-indent: 0;
+  font-size: 11px;
+  line-height: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.messages_list>ul>li, .messages_list>ul>li:nth-child(2n) {
+  background: rgba(210,210,210,.85);
+  border-top: 1px solid rgb(236, 236, 236);
+  margin-top: 0;
+}
+.messages_list>ul>li.messages_list_new {
+  background: #FFFFFF;
+}
+.messages_list>ul>li.messages_list_new+li.messages_list_new {
+  border-top: 1px solid #EEEEEE;
+}
+.messages_list>ul>li+li {
+  margin-top: 0;
+}

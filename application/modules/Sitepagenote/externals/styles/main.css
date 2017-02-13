@@ -1,0 +1,5 @@
+
+
+.activity_icon_sitepagenote_admin_new, .activity_icon_sitepagenote_new, .icon_sitepagenote_note, .item_icon_sitepagenote, .notification_type_sitepagenote_create{
+	background-image: url(~/application/modules/Sitepage/externals/images/icons/note.png);
+}

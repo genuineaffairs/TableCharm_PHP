@@ -1,0 +1,11 @@
+/* 
+    Created on : Oct 21, 2014, 9:57:11 AM
+    Author     : abakivn
+*/
+
+.headline, .seaocore_db_tabs, .sitepage_edit_content .sitepage_edit_header, .breadcrumb, .tabs {
+  display: none;
+}
+#global_page_user-settings-general .tabs {
+  display: block;
+}

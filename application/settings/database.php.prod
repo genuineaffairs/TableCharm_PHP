@@ -1,0 +1,15 @@
+<?php defined('_ENGINE') or die('Access Denied'); return array (
+  'adapter' => 'mysqli',
+  'params' => 
+  array (
+    'host' => 'aazhpuqobwu6gb.cijeopa46pte.ap-southeast-2.rds.amazonaws.com',
+    'username' => 'ebroot',
+    'password' => 'pvsONvqJ5Ax4yW',
+    'dbname' => 'ebdb',
+    'charset' => 'UTF8',
+    'adapterNamespace' => 'Zend_Db_Adapter',
+  ),
+  'isDefaultTableAdapter' => true,
+  'tablePrefix' => 'engine4_',
+  'tableAdapterClass' => 'Engine_Db_Table',
+); ?>

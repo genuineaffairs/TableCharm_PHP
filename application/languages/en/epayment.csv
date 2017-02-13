@@ -1,0 +1,34 @@
+"ITEM_TYPE_EPAYMENT";"Epayments"
+
+"epayment";"epayment";"epayments"
+"ePayment";"ePayment";"ePayments"
+"Epayment";"Epayment";"Epayments"
+"Epayments";"Epayments"
+
+"%d payment found";"%d payment found";"%d payments found"
+
+"ePayment Plugin";"ePayment Plugin"
+
+"Paypal Email";"Paypal Email"
+"Please select currency you would like to use";"Please select currency you would like to use"
+"Please enter your Paypal account email";"Please enter your Paypal account email"
+
+"pagetitle-epayment-index-admin-settings";"Admin - Epayments - Global Settings"
+
+"Australian Dollar";"Australian Dollar"
+"Brazilian Real";"Brazilian Real"
+"Canadian Dollar";"Canadian Dollar"
+"Swiss Franc";"Swiss Franc"
+"Danish Krone";"Danish Krone"
+"Euro";"Euro"
+"British Pound Sterling";"British Pound Sterling"
+"Hong Kong Dollar";"Hong Kong Dollar"
+"Japanese Yen";"Japanese Yen"
+"Mexican Peso";"Mexican Peso"
+"Norwegian Krone";"Norwegian Krone"
+"New Zealand Dollar";"New Zealand Dollar"
+"Swedish Krona";"Swedish Krona"
+"US Dollar";"US Dollar"
+
+"You have not configured your epayment account settings. Please go to <a href=""%s"">ePayment :: Global Settings</a> to update your settings now.";"You have not configured your epayment account settings. Please go to <a href=""%s"">ePayment :: Global Settings</a> to update your settings now."
+

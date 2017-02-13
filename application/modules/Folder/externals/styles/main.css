@@ -1,0 +1,1071 @@
+
+@include "~/application/modules/Core/externals/styles/constants.css";
+
+/*
+FEED ITEMS
+Styles items with folder attachments in the feed.
+*/
+ul.feed .feed_attachment_folder
+{
+  display: block;
+  overflow: hidden;
+  margin: 0px 5px 5px 0px;
+  vertical-align: top;
+}
+ul.feed .feed_attachment_folder > div > a
+{
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+ul.feed .feed_attachment_folder > div > a > img
+{
+  display: inline-block;
+  max-width: 90px;
+  max-height: 90px;
+  vertical-align: top;
+}
+ul.feed .feed_attachment_folder > div > div
+{
+  overflow: hidden;
+}
+
+/* === ITEM TYPE ICONS === */
+.item_icon_folder
+{
+  background-image: url(~/application/modules/Folder/externals/images/types/folder.png);
+}
+.icon_folder_new,
+.icon_folder_create
+{
+  background-image: url(~/application/modules/Folder/externals/images/create.png);
+}
+.icon_folder_view {
+  background-image: url(~/application/modules/Folder/externals/images/folder.png);
+}
+.icon_folder_edit
+{
+  background-image: url(~/application/modules/Folder/externals/images/edit.png);
+}
+.icon_folder_delete
+{
+  background-image: url(~/application/modules/Folder/externals/images/delete.png);
+}
+.icon_folder_upload
+{
+  background-image: url(~/application/modules/Folder/externals/images/upload.png);
+}
+.icon_folder_manage
+{
+  background-image: url(~/application/modules/Folder/externals/images/manage.png);
+}
+.icon_folder_viewall
+{
+  background-image: url(~/application/modules/Folder/externals/images/allentries.png);
+}
+.icon_folder_category {
+  background-image: url(~/application/modules/Folder/externals/images/types/category.png);
+}
+
+.icon_folder_share {
+  background-image: url(~/application/modules/Folder/externals/images/share.png);
+}
+.icon_folder_report {
+  background-image: url(~/application/modules/Folder/externals/images/report.png);
+}
+.icon_folder_add_file {
+  background-image: url(~/application/modules/Folder/externals/images/add_file.png);
+}
+/* === SEARCH FORM === */
+.browsefolders_criteria
+{
+  +rounded;
+  +foreground;
+  padding: 7px;
+}
+.browsefolders_criteria span.overTxtLabel
+{
+  color: $theme_font_color_light;
+}
+.browsefolders_criteria > ul > li + li
+{
+  margin-top: 7px;
+}
+.browsefolders_criteria > ul > li
+{
+  clear: both;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.browsefolders_criteria > ul > li > span
+{
+  display: block;
+  margin-bottom: 3px;
+}
+.browsefolders_criteria > ul > li textarea {
+  width: 95%;
+  height: 50px;
+}
+
+/* === FOLDER BROWSE - ENTRIES - WIDE MODE == */
+
+div.folders_result_filter_details {
+  font-size: 0.8em;
+  margin: 5px 0 15px 0;
+}
+div.folders_result_filter_details a {
+  font-weight: bold;
+}
+
+ul.folders_rows {
+  margin-bottom: 15px;
+}
+ul.folders_rows > li {
+  clear: both;
+  overflow: hidden;
+}
+ul.folders_rows > li + li {
+  border-top-width: 1px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+ul.folders_rows .folder_photo {
+  float: left; 
+  margin-right: 10px;
+  overflow: hidden;
+  width: 102px;
+  text-align: center;
+}
+ul.folders_rows .folder_photo img {
+  max-width: 100px;
+}
+ul.folders_rows .folder_content {
+  overflow: hidden;
+}
+ul.folders_rows .folder_title {
+  font-weight: bold;
+}
+ul.folders_rows .folder_title h3 {
+  margin: 0;
+}
+ul.folders_rows .folder_details {
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+}
+ul.folders_rows .folder_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+ul.folders_rows .folder_meta a {
+  font-weight: bold;
+}
+ul.folders_rows .folder_meta li {
+  display: inline;
+  margin-right: 10px;
+}
+ul.folders_rows .folder_description { 
+  font-weight: normal;
+  margin: 5px 0;
+}
+ul.folders_rows .folder_options {
+  float: right;
+  margin-left: 15px;
+  width: 120px;
+  overflow: hidden;
+}
+ul.folders_rows .folder_options a {
+    clear: both;
+    font-size: 0.8em;
+    height: 16px;
+    margin: 3px 0 0;
+    padding-top: 1px;
+}
+
+ul.folders_rows .folder_settings li .folder_paynow:hover
+{
+  background-color: $theme_buttontabs_background_color_hover;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color_hover;
+}
+ul.folders_rows > li.folders_rows_sponsored_yes .folder_title {
+  background: url(~/application/modules/Folder/externals/images/sponsored.png) left 4px no-repeat;
+  padding-left: 22px;
+}
+ul.folders_rows > li.folders_rows_featured_yes .folder_title h3 {
+  background: url(~/application/modules/Folder/externals/images/featured.png) top right no-repeat;
+}
+
+
+/* == FOLDER EDIT == */
+div.folder_edit_info {
+  font-size: 0.8em;
+  border: 1px solid $theme_foreground_border_color;
+  padding: 5px;
+  +rounded(3px);
+}
+
+div.folder_edit_info li.folder_settings_epayment {
+  border-top: 1px solid $theme_border_color;
+  margin-top: 3px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+div.folder_edit_info li .folder_paynow
+{
+  +rounded;
+  display: block;
+  padding: .3em .6em .3em .6em;
+  font-weight: bold;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color;
+  background-color: $theme_buttontabs_background_color;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+div.folder_edit_info li .folder_paynow:hover
+{
+  background-color: $theme_buttontabs_background_color_hover;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color_hover;
+}
+table.folder_manage_attachments {
+  width: 100%;
+}
+table.folder_manage_attachments thead th {
+  padding: 5px;
+  +foreground;
+}
+table.folder_manage_attachments tbody th,
+table.folder_manage_attachments tbody td {
+  padding: 10px 5px;
+  border-bottom-width: 1px;
+  vertical-align: top;
+  font-weight: normal;
+}
+table.folder_manage_attachments tbody th {
+  padding: 10px 5px 10px 45px;
+  background: url(~/application/modules/Folder/externals/images/file_extension.png) no-repeat 10px center;
+  border-top: 1px solid $theme_border_color;
+}
+table.folder_manage_attachments .folder_attachment_title {
+  font-weight: bold;
+}
+table.folder_manage_attachments .folder_attachment_description {
+  font-size: 0.8em;
+}
+table.folder_manage_attachments .folder_attachment_filename {
+  color: $theme_font_color_light;
+}
+.folder_attachment_meta ul li {
+  display: inline;
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+  margin-right: 15px;
+}
+/* === FOLDER BROWSE - NARROW MODE == */
+ul.folders_list {
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+ul.folders_list > li {
+  overflow: hidden;
+}
+ul.folders_list > li + li {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+ul.folders_list .folder_photo {
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+ul.folders_list .folder_photo img {
+
+}
+ul.folders_list .folder_content {
+
+}
+ul.folders_list .folder_title {
+  font-weight: bold;
+}
+ul.folders_list .folder_meta {
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+ul.folders_list .folder_meta ul li {
+  display: inline;
+}
+ul.folders_list .folder_meta ul li + li {
+  margin-left: 10px;
+}
+ul.folders_list .folder_description {
+  font-size: 0.8em;
+  margin: 3px 0;
+}
+ul.folders_list .folder_details  {
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+}
+
+
+/* featured folders widget */
+.folder_featured_mask {
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  width: 530px;
+}
+.folder_featured_mask .folder_featured_slides {
+  position: absolute;
+}
+.folder_featured_mask .folder_featured_slides > div {
+  float: left;
+  height: 150px;
+  width: 500px;
+  +rounded(4px);
+  border: 5px solid $theme_form_border_color;
+  padding: 10px;
+  background-color: $theme_form_background_color; 
+  overflow: hidden;  
+}
+.folder_featured_slideshow_buttons {
+  padding: 5px;
+  font-size: 0.8em;
+  
+}
+.folder_featured_slideshow_buttons > span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_prev {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat 0px 0px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_prev:hover {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat 0px -16px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_play {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -16px 0px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_play:hover {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -16px -16px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_stop {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -32px 0px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_stop:hover {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -32px -16px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_next {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -48px 0px;
+}
+.folder_featured_slideshow_buttons > span.folder_slideshow_button_next:hover {
+  background: url("~/application/modules/Folder/externals/images/slideshow/buttons.png") no-repeat -48px -16px;
+}
+.folder_featured_slideshow_buttons > span > span {
+  display: none;
+}
+
+div.folder_featured_slide .folder_photo {
+  float: right; 
+  margin-left: 7px;
+  overflow: hidden;
+}
+div.folder_featured_slide .folder_photo img {
+  max-width: 100px;
+  max-height: 140px;
+}
+div.folder_featured_slide .folder_content  {
+  overflow: hidden;
+}
+div.folder_featured_slide .folder_title {
+  font-weight: bold;
+}
+div.folder_featured_slide .folder_details {
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+}
+div.folder_featured_slide .folder_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+div.folder_featured_slide .folder_meta a {
+  font-weight: bold;
+}
+div.folder_featured_slide .folder_meta ul li {
+  display: inline;
+}
+div.folder_featured_slide .folder_meta ul li + li {
+  margin-left: 10px;
+}
+div.folder_featured_slide .folder_description { 
+  margin: 5px 0;
+}
+div.folder_featured_slide .folder_title h3 {
+    margin: 0;
+}
+
+/* sponsored folders widget */
+div.folder_sponsored_folders {
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  +foreground;
+  +rounded; 
+  display: block;
+}
+.folder_sponsored_folders > ul > li + li {
+}
+.folder_sponsored_folders > ul > li {
+  padding: 7px;
+  min-height: 270px;
+}
+.folder_sponsored_folders > ul > li .folder_photo img {
+  max-width: 180px;
+  max-height: 140px;
+}
+.folder_sponsored_folders > ul > li .folder_content  {
+  overflow: hidden;
+}
+.folder_sponsored_folders > ul > li .folder_title h3 {
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+.folder_sponsored_folders > ul > li .folder_meta {
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+.folder_sponsored_folders > ul > li .folder_meta a {
+}
+.folder_sponsored_folders > ul > li .folder_meta ul li {
+  display: inline;
+}
+.folder_sponsored_folders > ul > li .folder_meta ul li + li {
+  margin-left: 10px;
+}
+.folder_sponsored_folders > ul > li .folder_description { 
+  margin: 3px 0;
+  font-size: 0.8em;
+}
+.folder_sponsored_folders > ul > li .folder_details { 
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+}
+.folder_sponsored_folders > ul > li .folder_title h3 {
+  margin: 0;
+}
+.folder_sponsored_folders_action {
+  padding: 5px;
+}
+.folder_sponsored_folders_action a {
+  font-size: 0.8em;
+}
+
+
+/* categories widget */
+.folders_categories_links li {
+  overflow: hidden;
+}
+.folders_categories_links li + li {
+  margin-top: 10px;
+}
+.folders_categories_links .folder_category_info {
+    padding-top: 5px;
+}
+.folders_categories_links .folder_category_title {
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 1.2em;
+}
+.folders_categories_links .folder_category_desc {
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+  overflow: hidden;
+}
+.folders_categories_links .folder_category_photo {
+  margin-right: 5px;
+  float: left;
+}
+.folders_categories_links img.item_photo_folder_category {
+  border: none;
+}
+
+/* folder profile description widget */
+div.folder_profile_description {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+  font-size: 0.8em;
+}
+
+/* top submitters widget */
+ul.folder_top_submitters {
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+ul.folder_top_submitters > li {
+  clear: both;
+  overflow: hidden; 
+}
+ul.folder_top_submitters > li + li {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+ul.folder_top_submitters img.thumb_icon {
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+ul.folder_top_submitters .folder_submitter_title {
+  font-weight: bold;
+}
+ul.folder_top_submitters .folder_submitter_meta {
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+
+ul.folder_top_submitters .folder_submitter_meta span.folder_submitter_total {
+  +rounded;
+  display: inline-block;
+  padding: 2px 4px;
+  margin-right: 2px;
+  color: $theme_buttontabs_font_color;
+  background-color: $theme_buttontabs_background_color;  
+  text-align: center;
+}
+
+div.folders_popular_tags ul li sup {
+  display: inline-block !important;
+}
+
+
+/* browse parent item widget */
+div.folder_browse_parent_item {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+}
+div.folder_browse_parent_item .folder_browse_parent_item_photo {
+  float: left;
+  margin-right: 7px;
+  overflow: hidden;
+}
+div.folder_browse_parent_item .folder_browse_parent_item_content {
+  overflow: hidden;
+}
+div.folder_browse_parent_item .folder_browse_parent_item_content a {
+  font-weight: bold;
+}
+div.folder_browse_parent_item .folder_browse_parent_item_content span {
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: $theme_font_color_light;
+  display: block;
+}
+
+/* === FOLDER PROFILE === */
+
+.layout_folder_browse_folders,
+.layout_folder_browse_parent_item,
+.layout_folder_categories,
+.layout_folder_create_new,
+.layout_folder_featured_folders,
+.layout_folder_industries,
+.layout_folder_list_folders,
+.layout_folder_packages,
+.layout_folder_packages_menu,
+.layout_folder_popular_tags,
+.layout_folder_search_form,
+.layout_folder_sponsored_folders,
+.layout_folder_top_submitters,
+
+.layout_folder_profile_files,
+.layout_folder_profile_breadcrumb,
+.layout_folder_profile_comments,
+.layout_folder_profile_details,
+.layout_folder_profile_description,
+.layout_folder_profile_icon_featured,
+.layout_folder_profile_icon_sponsored,
+.layout_folder_profile_info,
+.layout_folder_profile_intro,
+.layout_folder_profile_folders,
+.layout_folder_profile_notice,
+.layout_folder_profile_options,
+.layout_folder_profile_photo,
+.layout_folder_profile_related_folders,
+.layout_folder_profile_social_shares,
+.layout_folder_profile_stats,
+.layout_folder_profile_submitter,
+.layout_folder_profile_title,
+.layout_folder_profile_tools,
+
+.layout_folder_file_breadcrumb,
+.layout_folder_file_download,
+.layout_folder_file_folder_link,
+.layout_folder_file_share_link,
+.layout_folder_file_details,
+.layout_folder_file_social_shares,
+.layout_folder_file_title,
+.alyout_folder_file_tools
+{
+  margin-bottom: 15px;
+}
+
+
+/* folder profile breadcrumb widget */
+div.folder_profile_breadcrumb {
+  border-bottom-width: 1px;
+  padding: 5px 0;
+}
+div.folder_profile_breadcrumb ul li {
+  display: inline;
+}
+
+
+/* folder profile title widget */
+div.folder_profile_title_photo {
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+div.folder_profile_title_sponsored_yes {
+  background: url(~/application/modules/Folder/externals/images/sponsored.png) left 4px no-repeat;
+  padding-left: 22px;
+}
+div.folder_profile_title_featured_yes h3 {
+  background: url(~/application/modules/Folder/externals/images/featured.png) top right no-repeat;
+}
+.folder_profile_title_navigator_type a {
+  font-style: italic;
+}
+.folder_profile_title_navigator_parent a {
+  font-weight: bold;
+}
+.folder_profile_title_navigator_total {
+  color: $theme_font_color_light;
+}
+/* folder profile photo widget */
+div.folder_profile_photo img.thumb_profile {
+  max-width: 190px;
+  border: none;
+}
+
+div.folder_profile_photo {
+  text-align: center;
+}
+
+/* profile folders widget */
+.folder_profile_folders
+{
+  +rounded;
+  background: $theme_tabs_background_color;
+  padding: 10px;
+  max-width: 720px;
+}
+.folder_profile_folders_stats
+{
+  font-weight: bold;
+  font-size: 1em;
+  color: $theme_font_color_light;
+  margin-bottom: 6px;
+}
+.folder_profile_folders > ul
+{
+  +rounded;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #ccc;
+  max-height: 460px;
+  overflow-y: auto;
+}
+.folder_profile_folders > ul > li
+{
+  overflow: hidden;
+  padding: 10px;
+  border-top: 1px solid #EAEAEA;
+}
+.folder_profile_folders > ul > li + li
+{
+  border-top: 1px solid #eee;
+}
+.folder_profile_folders > ul > li .folder_photo {
+  width: 50px;
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+.folder_profile_folders > ul > li .folder_photo img {
+  borderxx: none;
+}
+.folder_profile_folders > ul > li .folder_content {
+  overflow: hidden;
+}
+.folder_profile_folders > ul > li .folder_title {
+  font-weight: bold;
+}
+.folder_profile_folders > ul > li .folder_description {
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+.folder_profile_folders > ul > li .folder_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+.folder_profile_folders > ul > li .folder_meta li {
+  display: inline;
+  margin-right: 10px;
+}
+.folder_profile_folders_link {
+  margin: 10px 0;
+}
+.folder_profile_folders_container {
+  margin: 15px 0;
+}
+/* folder profile icon featured */
+.folder_profile_icon_featured,
+.folder_profile_icon_featured_image,
+.folder_profile_icon_featured_text,
+.folder_profile_icon_featured_text span {
+  text-align: center;
+}
+.folder_profile_icon_featured_image img {
+  max-width: 190px;
+  max-height: 120px;
+  border: 0;  
+}
+.folder_profile_icon_featured_text {
+  +rounded;
+  background: $theme_buttontabs_background_color_active;
+  color: $theme_buttontabs_font_color_active;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+/* folder profile icon sponsored */
+.folder_profile_icon_sponsored,
+.folder_profile_icon_sponsored_image,
+.folder_profile_icon_sponsored_text,
+.folder_profile_icon_sponsored_text span {
+  text-align: center;
+}
+.folder_profile_icon_sponsored_image img {
+  max-width: 190px;
+  max-height: 120px;
+  border: 0;  
+}
+.folder_profile_icon_sponsored_text {
+  +rounded;
+  background: #E45656;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+/* folder profile options widget */
+div.folder_profile_options > ul > li {
+    font-size: 0.8em;
+    margin: 3px 0;
+}
+div.folder_profile_options > ul > li {
+    margin-bottom: 2px;
+}
+
+div.folder_profile_options > ul .buttonlink {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* folder profile intro widget */
+div.folder_profile_intro {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+  font-size: 0.8em;
+}
+
+/* folder profile submitter widget */
+div.folder_profile_submitter {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+}
+div.folder_profile_submitter .folder_profile_submitter_photo {
+  float: left;
+  margin-right: 7px;
+  overflow: hidden;
+}
+div.folder_profile_submitter .folder_profile_submitter_user {
+  overflow: hidden;
+  font-weight: bold;
+  display: block;
+}
+div.folder_profile_submitter span {
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: $theme_font_color_light;
+}
+
+
+/* folder profile info widget */
+div.folder_profile_info
+{
+  overflow: hidden;
+}
+div.folder_profile_info > ul
+{
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+div.folder_profile_info > ul > li
+{
+  font-size: .8em;
+}
+div.folder_profile_info > ul > li + li
+{
+  margin-top: 5px;
+}
+
+
+/* folder profile stats widget */
+div.folder_profile_stats
+{
+  overflow: hidden;
+}
+div.folder_profile_stats > ul
+{
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+div.folder_profile_stats > ul > li
+{
+  font-size: .8em;
+}
+div.folder_profile_stats > ul > li + li
+{
+  margin-top: 5px;
+}
+.folder_profile_info_tags,
+.folder_profile_info_description {
+  margin-top: 5px;
+}
+.folder_profile_info_tags h6 {
+  font-size: 8pt;
+  padding-left: 20px;
+  background: url(~/application/modules/Folder/externals/images/tag.png) no-repeat left center;
+  margin-bottom: 2px;
+}
+.folder_profile_info_tags > div,
+.folder_profile_info_description > div {
+  font-size: 8pt;
+}
+.folder_profile_info_description h6 {
+  font-size: 8pt;
+  padding-left: 20px;
+  background: url(~/application/modules/Folder/externals/images/description.png) no-repeat left center;
+  margin-bottom: 2px;
+}
+/* folder profile tools widget */
+.folder_profile_tools .icon_folder_share,
+.folder_profile_tools .icon_folder_report {
+  padding-left: 13px;
+  font-size: 0.8em;
+  margin-right: 10px;
+  background-position: left center;
+}
+
+form.folders_password {
+  margin: 30px auto;
+  width: 460px;
+  background: #fff9e2;
+  border: 3px dashed #dad1b0;
+  text-align: center;
+  +rounded;
+  padding: 20px;  
+}
+form.folders_password > div > div {
+  text-align: center;
+}
+form.folders_password .form-errors li {
+  text-align: left;
+}
+form.folders_password .form-elements {
+  margin-top: 15px;
+}
+form.folders_password #secret_code-wrapper {
+  float: left;
+  margin-right: 10px;
+}
+form.folders_password #secret_code-wrapper #secret_code-label {
+  display: inline;
+  font-size: 1.2em;
+}
+form.folders_password #secret_code-wrapper #secret_code-element {
+  display: inline;
+  
+}
+form.folders_password #secret_code-wrapper input#secret_code {
+  width: 180px;
+}
+form.folders_password #secret_code-wrapper input, 
+form.folders_password #secret_code-wrapper label {
+  font-size: 1.4em;
+}
+
+/* attachment list */
+div.folder_attachments_back {
+  +rounded(3px, false, false, true, true);
+  padding: 7px 7px 7px 24px;
+  font-weight: bold;
+  background: $theme_foreground_border_color_light url(~/application/modules/Folder/externals/images/back_up.png) no-repeat 5px center;
+}
+ul.folder_attachments > li {
+  padding: 10px 5px 10px 65px;
+  background: url(~/application/modules/Folder/externals/images/file_extension.png) no-repeat 24px center;
+  border-top: 1px solid $theme_border_color;
+}
+ul.folder_attachments > li:hover {
+  background-color: $theme_foreground_background_color;
+}
+ul.folder_attachments > li + li {
+  
+}
+ul.folder_attachments > li .folder_attachments_options {
+  float: right;
+  width: 100px;
+}
+ul.folder_attachments > li .folder_attachments_info {
+  overflow: hidden;
+}
+ul.folder_attachments > li .folder_attachments_info .folder_attachments_title {
+  font-weight: bold;
+}
+ul.folder_attachments > li .folder_attachments_info .folder_attachments_description {
+  font-size: .75em;
+  color: $theme_font_color_light;
+}
+ul.folder_attachments .folder_attachments_download {
+  background-color: $theme_buttontabs_background_color_active;
+  color: $theme_buttontabs_font_color_active;
+  display: block;
+  text-align: center;
+  padding: .1em .2em;
+  font-weight: bold;
+  +rounded;   
+  font-size: 0.8em;
+}
+ul.folder_attachments .folder_attachments_download:hover {
+  color: $theme_buttontabs_font_color_hover;
+}
+
+/* file download widget */
+div.folder_file_download {
+  margin: 30px auto;
+  text-align: center;
+  width: 500px;
+}
+div.folder_file_download h2 {
+  font-size: 2em;
+}
+div.folder_file_download_filename {
+  font-size: 1em;
+  color: $theme_font_color_light;
+  text-align: center;
+}
+div.folder_file_download_size {
+  text-align: center;  
+  font-weight: bold;
+  font-size: 1.2em;
+  color: $theme_font_color_light;
+}
+div.folder_file_download_button {
+  text-align: center;
+  margin: 15px;
+}
+div.folder_file_download_button a {
+  display: inline-block;
+  +rounded(5px);
+  +shadow(0, 3px, 5px, 0, #aaa);
+  font-size: 1.4em;
+  font-weight: bold;
+  xxbackground: #489615;
+  xxbackground: -moz-linear-gradient(#84C63C, #489615) repeat scroll 0 0 #489615;
+  xxbackground: -webkit-gradient(linear, top center, bottom center, from(#84C63C), to(#489615));
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+background: #299a0b; /* Old browsers */
+background: -moz-linear-gradient(top, #299a0b 0%, #104205 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#299a0b), color-stop(100%,#104205)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #299a0b 0%,#104205 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #299a0b 0%,#104205 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #299a0b 0%,#104205 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#104205',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #299a0b 0%,#104205 100%); /* W3C */
+  
+}
+div.folder_file_download_button a:hover {
+  text-decoration: none;
+background: #34b20e; /* Old browsers */
+background: -moz-linear-gradient(top, #34b20e 0%, #1b6307 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34b20e), color-stop(100%,#1b6307)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #34b20e 0%,#1b6307 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #34b20e 0%,#1b6307 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #34b20e 0%,#1b6307 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34b20e', endColorstr='#1b6307',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #34b20e 0%,#1b6307 100%); /* W3C */
+}
+
+div.folder_file_share_link {
+  width: 430px;
+  margin: 0 auto;
+  +foreground;
+  +rounded;
+}
+div.folder_file_share_link h4 {
+  padding: 5px 10px;
+  border: none;
+  margin: 0;
+}
+div.folder_file_share_link table {
+  background: $theme_body_background_color;
+  width: 100%;
+}
+div.folder_file_share_link table td {
+  padding: 10px;
+}
+div.folder_file_share_link table td input {
+  width: 340px;
+}
+div.folder_file_folder_link {
+  text-align: center;
+}
+div.folder_file_folder_link a {
+background-image: url(~/application/modules/Folder/externals/images/back_up.png);
+}

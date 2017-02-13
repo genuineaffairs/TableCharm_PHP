@@ -1,0 +1,8 @@
+<Files ~ "\.(php|txt)$">
+    order allow,deny
+    allow from all
+</Files>
+
+
+
+

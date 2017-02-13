@@ -1,0 +1,59 @@
+ /* $Id: style_sitepagepoll.css 2011-05-05 9:40:21Z SocialEngineAddOns Copyright 2010-2011 BigStep Technologies Pvt. Ltd. $ */
+/*	css for view page start here*/
+.sitepagepolls_options{
+	margin:10px 0;
+	clear:both;
+}
+div.sitepagepolls_view{
+  padding-top: 10px;
+  border-top-width: 1px;
+}
+div.sitepagepolls_view .sitepagepoll_desc{
+  margin-bottom: 10px;
+}
+div.sitepagepolls_view .comments{
+  margin-top: 10px;
+  border-top-width: 1px;
+  padding-top: 10px;
+}
+.sitepagepolls_view .sitepagepolls_view_info_date{
+  font-size: .8em;
+	margin-bottom:5px;
+}
+/*css for view page end here*/
+/*css for create page start here*/
+.sitepagepoll_create_heading{
+	float:left;	
+}
+.sitepagepoll_back_link{
+	float:left;
+	margin:5px 0 0 450px;
+}
+/*css for create page end here*/
+/*SITEPAGEPOLL CREATE FORM
+Some minor changes to the create new sitepagepoll form.*/
+#sitepagepoll_create_form .calendar_output_span{
+  display: inline-block;
+  margin-right: 15px;
+  min-width: 90px;
+}
+html[dir="rtl"] #sitepagepoll_create_form .calendar_output_span{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+#sitepagepoll_create_form #end_time-wrapper select + select{
+  margin-left: 5px;
+}
+html[dir="rtl"] #sitepagepoll_create_form #end_time-wrapper select + select{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+/*Sidebar Sitepage Poll Widgets/
+/*create page*/
+#global_page_sitepagepoll-index-create .global_form div.form-element{
+	max-width:500px;
+}
+#global_page_sitepagepoll-index-create .global_form input + label{
+	width:480px;
+	float:none;
+}

@@ -1,0 +1,68 @@
+.zulu-file-rows .file-row:first-child .remove_row {
+  display: none;
+}
+.multifile-form-element .form-element {
+  width: 100%;
+}
+.file-row > * {
+  float: left;
+  display: block;
+}
+.multifile-form-element div.form-label {
+  margin-bottom: 0;
+}
+.multifile-form-element .old-file-row a {
+  display: block;
+}
+.multifile-form-element .old-file-row a.old-file {
+  float: left;
+}
+.multifile-form-element .old-file-row a.delete_file {
+  float: right;
+}
+.old-file-row a.old-file {
+  background: url(../images/download.png) no-repeat -3px 1px;
+  padding-left: 15px;
+}
+.multifile-form-element .old-file-row a:last-child {
+  margin-right: 0;
+}
+.zulu-old-file-rows .old-file-row:last-child {
+  border-bottom: none;
+}
+.zulu-old-file-rows .old-file-row:nth-of-type(1) {
+  padding-top: 0;
+}
+.old-file-row {
+  overflow: hidden;
+  padding: 5px;
+  border-bottom: 1px solid #e3e3e3;
+  max-width: 450px;
+}
+.zulu-old-file-rows .zulu-file-list-title {
+  margin-bottom: 5px;
+}
+.multifile-form-element p.description {
+  margin-bottom: 5px;
+}
+.zulu-old-file-rows {
+  margin-bottom: 8px;
+}
+.multifile-form-element .file-row {
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+.zulu-old-file-rows a.old-file:link, .zulu-old-file-rows a.old-file:visited, .zulu-old-file-rows a.old-file:hover {
+  color: #5BA1CD;
+  font-size: 13px;
+  font-weight: normal;
+  word-break: break-all;
+}
+.multifile-form-element div.form-label label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #4C5153;
+}
+.global_form .multifile-form-element div>p {
+  max-width: none;
+}

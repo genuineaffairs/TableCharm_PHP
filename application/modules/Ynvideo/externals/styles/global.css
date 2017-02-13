@@ -1,0 +1,12 @@
+.layout_core_menu_main .navigation li a.core_main_ynvideo {
+  width: 58px;
+  background-image: url(../images/menubar_video.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.layout_core_menu_main {
+  width: 492px;
+}
+.layout_mgsl_menu_mini #core_menu_mini_menu>ul>li {
+  margin-left: 10px;
+}

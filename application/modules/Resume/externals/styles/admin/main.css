@@ -1,0 +1,156 @@
+@include "~/application/modules/Core/externals/styles/admin/constants.css";
+
+.icon_resume_preview_new {
+  background: url("~/application/modules/Resume/externals/images/admin/preview_create.png") no-repeat left center;
+  
+}
+
+#global_page_resume-admin-manage-index .admin_search {
+	max-width: 98%;
+}
+
+
+.resume_widget_form .form-wrapper {
+    border-top: 1px solid #EEEEEE;
+    clear: both;
+    overflow: hidden;
+    padding: 0px 0;
+    margin-top: 4px !important;
+}
+.resume_widget_form .form-label {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 15px;
+    width: 160px;
+}
+.resume_widget_form .form-element {
+    float: left;
+    overflow: hidden;
+}
+#category_list .move-me {
+  cursor: move;
+}
+
+.resume_text_desc {
+  font-size: 0.8em;
+}
+
+#resume_admin_manage_filter #category-search-wrapper  {
+  clear: left;
+  margin-left: 0;
+}
+
+
+#resume_list_resumes {
+  
+}
+#resume_list_resumes thead th.resume_header_package {
+  width: 100px;
+}
+#resume_list_resumes thead th.resume_header_status {
+  width: 60px;
+}
+#resume_list_resumes thead th.resume_header_epayment {
+  width: 80px;
+}
+#resume_list_resumes thead th.resume_header_icon {
+  width: 65px;
+}
+#resume_list_resumes thead th.resume_header_expires {
+  width: 60px;
+}
+#resume_list_resumes .resume_list_epayment_process_no a {
+  font-weight: bold;
+  color: red;
+}
+
+
+
+.icon_radcodes_section_new
+{
+  background-image: url(~/application/modules/Core/externals/images/admin/new_category.png);
+}
+.icon_radcodes_section_move
+{
+  background-image: url(~/application/modules/Radcodes/externals/images/admin/move_category.png);
+}
+
+/*
+ * CATEGORY MANAGEMENT
+ */
+div.radcodes_sections_options {
+  margin: 15px 0;
+}
+ul.radcodes_sections_list 
+{
+  overflow: hidden;
+}
+ul.radcodes_sections_list > li,
+ul.radcodes_sections_sublist > li {
+ clear:both;
+ margin:5px 0 0;
+ overflow:hidden;
+}
+ul.radcodes_sections_sublist {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+ul.radcodes_sections_list div.radcodes_section_item {
+  display: inline-block;
+  +rounded(3px);
+  overflow: hidden;
+  padding: 7px 10px 7px 7px;
+  +foreground;
+  border: 1px solid $theme_foreground_border_color;
+  min-width: 560px;
+}
+ul.radcodes_sections_sublist div.radcodes_section_item {
+  +foreground;
+  border: 1px solid $theme_foreground_border_color;
+  min-width: 530px;
+}
+ul.radcodes_sections_list img.move-me {
+  float: left;
+  margin-right: 4px;
+}
+ul.radcodes_sections_list .section_name {
+  font-weight: bold;
+  width: 260px;
+  float: left;
+}
+ul.radcodes_sections_list .section_type {
+  font-size: 0.8em;
+  float: left;
+  width: 80px;
+}
+ul.radcodes_sections_list .section_enabled {
+  font-size: 0.8em;
+  float: left;
+  width: 80px;
+  padding-left: 20px;
+}
+ul.radcodes_sections_list .section_enabled_on {
+  background: url(~/application/modules/Resume/externals/images/show.png) no-repeat left center;
+}
+ul.radcodes_sections_list .section_enabled_off {
+  background: url(~/application/modules/Resume/externals/images/show_off.png) no-repeat left center;
+}
+ul.radcodes_sections_list .section_options {
+  float: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+ul.radcodes_sections_list .section_options a {
+ font-size:0.8em;
+ font-weight:bold;
+}
+ul.radcodes_sections_list .section_options img {
+  vertical-align: bottom;
+}
+ul.radcodes_sections_list .move-me {
+  cursor: move;
+}
+

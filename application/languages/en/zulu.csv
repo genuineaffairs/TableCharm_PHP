@@ -1,0 +1,35 @@
+"ADMIN_SIGNUP_STEP_ZULU_PLUGIN_SIGNUP_PROFILEFIELDS";"Create Zulu Profile"
+"ADMIN_SIGNUP_STEP_ZULU_PLUGIN_SIGNUP_CLINICALFIELDS";"Clinical Data"
+"edit choices";"manage responses"
+
+# zulu_announcement
+"_EMAIL_ZULU_ANNOUNCEMENT_TITLE";"Medical Record Announcement"
+"_EMAIL_ZULU_ANNOUNCEMENT_DESCRIPTION";"This is the email about the medical record that is sent 2 days after signing up."
+"_EMAIL_ZULU_ANNOUNCEMENT_SUBJECT";"My Global Sport Link - Medical Record Announcement"
+"_EMAIL_ZULU_ANNOUNCEMENT_BODY";"[header]
+
+My Global Sport Link also provides you with a free medical record repository.
+
+You can load the medical records that are important for your sports performance and emergency situations.
+
+You may want to use the medical record repository instead of completing hand written medical summaries. Just complete and update when your conditions change and print the document or give online access to your medicos.
+
+Click here to use the medical record repository
+http://[host][object_link]
+
+[footer]"
+
+# zulu_no_profilephoto
+"_EMAIL_ZULU_NO_PROFILEPHOTO_TITLE";"No Profile Photo Notification"
+"_EMAIL_ZULU_NO_PROFILEPHOTO_DESCRIPTION";"This is the email about the photo to be sent immediately after user signing up if he or she has not uploaded any profile picture."
+"_EMAIL_ZULU_NO_PROFILEPHOTO_SUBJECT";"My Global Sport Link - No Profile Photo Uploaded"
+"_EMAIL_ZULU_NO_PROFILEPHOTO_BODY";"[header]
+
+We have noticed that you have not loaded a photo to your profile.
+
+If you want to obtain maximum exposure we suggest that you load a photo to your profile now.
+
+To load a photo just click here
+http://[host][object_link]
+
+[footer]"

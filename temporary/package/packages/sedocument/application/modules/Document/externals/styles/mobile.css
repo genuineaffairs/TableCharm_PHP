@@ -1,0 +1,259 @@
+/* $Id: core.js 2010-08-11 9:40:21Z SocialEngineAddOns Copyright 2009-2010 BigStep Technologies Pvt. Ltd. $ */
+
+/* ACTION TYPE ICONS */
+.activity_icon_comment_document{
+  background-image: url(~/application/modules/Core/externals/images/types/post.png);
+}
+/* ICONS */
+.icon_type_document_new{
+  background-image: url(~/application/modules/Document/externals/images/new.png);
+}
+.icon_type_document_edit{
+  background-image: url(~/application/modules/Document/externals/images/edit.png);
+}
+.icon_type_document_delete{
+  background-image: url(~/application/modules/Document/externals/images/delete.png);
+}
+.item_icon_document,
+.icon_type_document{
+  background-image: url(~/application/modules/Document/externals/images/document16.png);
+}
+.icon_document_publish{
+  background-image: url(~/application/modules/Document/externals/images/document_publish.png);
+}
+.icon_document_download{
+  background-image: url(~/application/modules/Document/externals/images/document_download.gif);
+}
+.icon_documents_email{
+  background-image: url(~/application/modules/Document/externals/images/document_email.gif);
+}
+/*Document Browse Carousel start here*/
+.layout_document_featured_documents{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+div.browse_document_carousel{
+	clear:both;
+}
+.document_carousel{
+	width:718px;
+	margin:5px 0px 10px 0px;
+	text-align:center;
+	border-width:1px;
+	padding:5px;
+	float:left; 
+	display:block;
+  -moz-border-radius:3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+	+foreground;
+}
+.document_carousel_documents{
+	width: 685px;
+	padding-top:1px; 
+	margin: 0px 5px 0px 5px; 
+	text-align: center; 
+	overflow: hidden;
+}
+.browse_document_carousel_item {
+	padding: 5px 7px 5px 8px;
+	text-align:center;
+	font-size:11px;
+}
+.browse_document_carousel_item img{ 
+	width:120px;
+	height:120px;
+	border:1px solid #dadada;
+	float:left;
+}
+.browse_document_carousel_item a img:hover{ 
+	width:120px;
+	height:120px;
+	border:1px solid #ccc;
+}
+.document_tooltip{
+	-moz-border-radius:3px 3px 3px 3px;
+	display: block;
+	background: #222;
+	color: #fff;
+	text-align: left;
+	padding: 5px;
+	width: 260px;
+	font-size: .8em;
+	margin:0;
+	-moz-box-shadow:3px 3px 3px #bcbcbc;
+	-webkit-box-shadow:3px 3px 3px #bcbcbc;
+	box-shadow: 3px 3px 3px #bcbcbc;
+	float:left;
+}
+.document_tooltip .document_tooltip_content{
+	width:250px;
+	float:left;
+	background:#FFFFFF;
+	padding:5px;
+	position:relative;
+}
+.document_tooltip .document_tooltip_content,
+.document_tooltip .document_tooltip_content div{
+	font-family:Arial, Helvetica, sans-serif !important;
+	line-height:18px;
+}
+.document_tooltip .document_tooltip_content a, 
+.document_tooltip .document_tooltip_content div a{
+	color:#398bcc !important;
+}
+.document_tooltip .title{
+	font-weight:bold;
+	font-size:13px;
+}
+.document_tooltip .document_tooltip_details{
+	font-size:11px;
+	color:#acacac;
+}
+.document_tooltip .tooltip_arrow{
+	position:absolute;
+	width:250px;
+	text-align:center;
+	top:-18px;
+}
+.document_tooltip .tooltip_arrow img{
+	border:none;
+	width:13px;
+	height:9px;
+	float:none;
+}
+/*Document Browse Carousel end here*/
+/*Create and Edit Document*/
+#form-upload-document div.form-label{
+  float: none;
+	margin-bottom:5px;
+  text-align: left;
+	width:auto;
+}
+#form-upload-document div.form-element{
+  clear:both;
+	max-width:700px !important;
+}
+#form-upload-document #search-wrapper div.form-label{
+	display:none;
+}
+#form-upload-document .form-element p{
+	font-size:8pt;
+	max-width:600px;
+	margin-bottom:0px;
+}
+#form-upload-document .defaultSkin iframe {
+	height:250px !important;
+	width: 650px !important;
+}
+.document_uploading_white_content{
+	display: none;	
+	position: absolute;
+	left: 40%;
+	width: 30%;
+	margin-top:550px;
+	padding: 16px;
+	border:4px solid #525252;
+	background-color: #fff;	
+	z-index:1002;	
+	overflow: auto;	
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.document_uploading_black_overlay{	
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 1000%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.50;	
+	filter: alpha(opacity=50);
+}
+.document_alert-message{
+	color:#FF0000;
+	font-size:11px;
+	font-weight:normal;
+	line-height:13px;
+	margin:5px 0;
+}
+.document_alert-message img{
+	vertical-align:middle;
+}
+.document_show_tooltip{
+ display: none;
+ position: absolute;
+ background: #222;
+ color: #fff;
+ text-align: left;
+ padding: 5px;
+ width: 200px;
+ font-size: .8em;
+ margin-top: -25px;
+ margin-left: -35px;
+ -moz-box-shadow:3px 3px 3px #bcbcbc;
+ -webkit-box-shadow:3px 3px 3px #bcbcbc;
+ box-shadow: 3px 3px 3px #bcbcbc;
+}
+.document_show_tooltip_wrapper:hover .document_show_tooltip{
+ display: block;
+}
+/*document view page start*/
+#global_page_document-index-view .layout_right{
+	display:none;
+}
+.document_alert_box{
+	background:#FFEAAE none repeat scroll 0 0;
+	border:1px solid #F6DC93;
+	color:#000000;
+	font-size:12px;
+	padding:5px;
+	margin:15px 0;
+}
+.document_view_ipaper{
+	margin-top:15px;
+	margin-bottom:5px;
+}
+.document_view_ipaper .scribd_iframe_embed,
+.document_view_ipaper embed{
+	width:98% !important;
+}
+.documents_user_options{
+	display:none;
+}
+#global_page_document-index-view .comments{
+	margin-top:15px;
+}
+.layout_document_document_view_documents .comments .comments_options {
+ 	text-align: left;
+}
+/*document view page end*/
+/*browse list pages start here*/
+.documents_browse_filters input[type="text"], 
+.documents_browse_filters select{
+	max-width:160px;
+}
+.documents_browse_filters > ul > li.browse-separator-wrapper{
+	display:none;
+}
+.document_browse_list{
+	border-top-width:1px;
+	margin-top:10px;
+	padding-top:15px;
+}
+.layout_document_search_documents,
+.layout_document_create_documents,
+.layout_document_rate_documents,
+.layout_document_tagcloud_documents,
+.layout_document_comment_documents,
+.layout_document_popular_documents,
+.layout_document_recent_documents,
+.layout_document_featurelist_documents,
+.layout_document_profile_documents{
+	margin-bottom:15px;
+}
+/*browse list pages end here*/

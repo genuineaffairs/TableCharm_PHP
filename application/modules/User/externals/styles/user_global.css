@@ -1,0 +1,82 @@
+.layout_core_menu_main .navigation li a.core_main_friend {
+  background-image: url(../images/friends.png);
+  background-repeat: no-repeat;
+  width: 41px;
+  background-position: center center;
+}
+.layout_core_menu_main .navigation li a.core_main_friend .count-bubble {
+  right: 0;
+}
+.browsemembers_results div.browsemembers_results_info>div.medical_icon_access_text, div.medical_icon_access_text {
+  font-size: 12px;
+  margin-top: 7px;
+  float:left;
+  font-style: italic;
+  font-weight: normal;
+}
+div.medical_icon_access_text.concussion_text {
+  line-height: 20px;
+}
+.zulu_small_icon {
+  margin-right: 5px;
+  float: left;
+}
+.sitepagemember_profile_list .zulu_icon_wrapper div.medical_icon_access_text {
+  word-break: normal;
+  margin-top: 0;
+}
+.sitepagemember_profile_list .zulu_icon_wrapper {
+  width: 100%;
+}
+.sitepagemember_profile_list .zulu_icon_wrapper img {
+  float: left;
+  margin-right: 5px;
+}
+#notifications_settings .form-options-wrapper {
+  margin-top: 3px;
+}
+#notifications_settings div.form-element {
+  margin-bottom: 15px;
+}
+.browse_loading {
+  float: left;
+  padding: 5px 0;
+  width: 100%;
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 12px;
+  background-color: #ccc;
+}
+.browse_loading img {
+  margin-right: 5px;
+  vertical-align: middle;
+  border: none;
+}
+.members_friend_request {
+  margin-top: 5px;
+  height: 252px;
+  overflow: auto;
+  width: 554px;
+  border-style: solid;
+  clear: both;
+}
+.members_friend_request .item_member_list li {
+  padding: 5px;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.members_friend_request .item_member_list li > * {
+  float: left;
+}
+.members_friend_request .item_member_list li > a {
+  float: none !important;
+}
+.members_friend_request .item_member_list li img {
+  margin-right: 10px;
+}
+.browsemembers_results .sitepage_member_see_waiting {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 10px;
+}

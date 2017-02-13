@@ -1,0 +1,306 @@
+{
+  "type": "module",
+  "name": "i4usprofileimportexportcsv",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/modules\/I4usprofileimportexportcsv",
+  "repository": null,
+  "date": "Thu, 19 Jan 2012 11:55:22 +0000",
+  "title": "I4US Profile Import\/Export using CSV File",
+  "description": "I4US Profile Import\/Export CSV File ",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Integration4us.com"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 19 Jan 2012 11:55:22 +0000",
+    "title": "I4US Profile Import\/Export using CSV File",
+    "description": "I4US Profile Import\/Export CSV File ",
+    "developer": null,
+    "authors": [
+      "Integration4us.com"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/I4usprofileimportexportcsv\/settings\/install.php",
+    "class": "I4usprofileimportexportcsv_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/I4usprofileimportexportcsv": {
+      "type": "directory",
+      "path": "application\/modules\/I4usprofileimportexportcsv",
+      "structure": [
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 166,
+          "sha1": "989480baf7d5b5bf922370d2a843674161abc271"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 187,
+          "sha1": "aec319c9be71200bf1a1bb5b3bcd04a0d247f37c"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 104,
+          "sha1": "75a3ccd827af0de8ca7433efd51718974a0c0e1a"
+        },
+        {
+          "path": "install.txt",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 83,
+          "sha1": "9dcef22ed27119fa8f6fd77f8513cacee788ae13"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 13560,
+          "sha1": "45cf9c33d8fd97a000fc35eeaf2715efe38a2961"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 243,
+          "sha1": "e246df94d0bf36dcbe18449f118633ec2a45a1e9"
+        },
+        {
+          "path": ".htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 86,
+          "sha1": "548d4e387eab2fb61a8246e9b77623dde8be2a0f"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 977,
+          "sha1": "dcaec1704452ea0ae73f1cf4781f1ef5e7568d1e"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 698,
+          "sha1": "32633635be429f26b3d6c2202c911110f1c9ec5c"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 99,
+          "sha1": "b770991b250b59154c53e166944c4a5225ddbd66"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 698,
+          "sha1": "32633635be429f26b3d6c2202c911110f1c9ec5c"
+        }
+      ]
+    },
+    "application\/languages\/en\/i4usprofileimportexportcsv.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/i4usprofileimportexportcsv.csv",
+      "structure": {
+        "path": "i4usprofileimportexportcsv.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

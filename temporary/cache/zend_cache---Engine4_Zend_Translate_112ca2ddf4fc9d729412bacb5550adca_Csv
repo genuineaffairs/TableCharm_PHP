@@ -1,0 +1,524 @@
+a:1:{s:2:"en";a:43:{s:21:"_EMAIL_INVITE_SUBJECT";s:51:"You have received an invitation to join Smart Link.";s:18:"_EMAIL_INVITE_BODY";s:249:"[header]
+
+You have been invited by [sender_title] to join Smart Link. To join, please follow the link below:
+
+http://[host][object_link]
+
+----------------------------------------
+[message]
+----------------------------------------
+
+[footer]";s:26:"_EMAIL_INVITE_CODE_SUBJECT";s:51:"You have received an invitation to join Smart Link.";s:23:"_EMAIL_INVITE_CODE_BODY";s:249:"[header]
+
+You have been invited by [sender_title] to join Smart Link. To join, please follow the link below:
+
+http://[host][object_link]
+
+----------------------------------------
+[message]
+----------------------------------------
+
+[footer]";s:42:"_EMAIL_PAYMENT_SUBSCRIPTION_ACTIVE_SUBJECT";s:32:"Your subscription is now active.";s:39:"_EMAIL_PAYMENT_SUBSCRIPTION_ACTIVE_BODY";s:233:"[header]
+
+Thank you for subscribing to Smart Link! Your subscription is now active.
+
+[subscription_title]
+[subscription_description]
+[subscription_terms]
+
+You may follow the link below to sign in.
+
+[object_link]
+
+[footer]";s:43:"_EMAIL_PAYMENT_SUBSCRIPTION_PENDING_SUBJECT";s:29:"Your subscription is pending.";s:40:"_EMAIL_PAYMENT_SUBSCRIPTION_PENDING_BODY";s:326:"[header]
+
+Thank you for subscribing to Smart Link! Your subscription is
+pending, awaiting completion of the transaction. Your membership will be
+activated soon; we will notify you by email when it is ready.
+Thank you for your patience.
+
+[subscription_title]
+[subscription_description]
+[subscription_terms]
+
+[footer]";s:46:"_EMAIL_PAYMENT_SUBSCRIPTION_RECURRENCE_SUBJECT";s:34:"Your subscription has been billed.";s:43:"_EMAIL_PAYMENT_SUBSCRIPTION_RECURRENCE_BODY";s:312:"[header]
+
+Your subscription has been billed. You should receive an email from the
+payment gateway regarding this charge. Thank you for subscribing to Smart Link.
+
+[subscription_title]
+[subscription_description]
+[subscription_terms]
+
+You may follow the link below to sign in.
+
+[object_link]
+
+[footer]";s:41:"_EMAIL_CORE_VERIFICATION_GUARDIAN_SUBJECT";s:56:"Smart Link - Guardian Verification for [recipient_title]";s:38:"_EMAIL_CORE_VERIFICATION_GUARDIAN_BODY";s:374:"Hello,
+
+[recipient_title] has nominated you as their guardian for verification of their membership with Smart Link and will require you to verify their account before they are able to use it. To find out more about Smart Link, visit [host]
+
+To verify [recipient_title] for membership on Smart Link please click the following link:
+http://[host][object_link]
+
+[footer]";s:36:"_EMAIL_CORE_WELCOME_PASSWORD_SUBJECT";s:22:"Welcome to Smart Link!";s:33:"_EMAIL_CORE_WELCOME_PASSWORD_BODY";s:346:"[header]
+
+Thank you for joining Smart Link. Click the following link and enter your information below to login:
+
+http://[host][object_link]
+
+Email: [email]
+Password: [password]
+
+Be sure to follow the SmartLink Help Circle to get all your tips and tutorials click below to jump right to it
+
+http://[host]/circleitem/mgslhelp
+
+[footer]";s:27:"_EMAIL_CORE_WELCOME_SUBJECT";s:22:"Welcome to Smart Link!";s:24:"_EMAIL_CORE_WELCOME_BODY";s:324:"[header]
+
+Thank you for joining Smart Link. Click the following link and enter your information below to login:
+
+http://[host][object_link]
+
+Email: [email]
+
+Be sure to follow the SmartLink Help Circle to get all your tips and tutorials click below to jump right to it
+
+http://[host]/circleitem/mgslhelp
+
+[footer]";s:32:"_EMAIL_CORE_VERIFICATION_SUBJECT";s:31:"Smart Link - Email Verification";s:29:"_EMAIL_CORE_VERIFICATION_BODY";s:457:"[header]
+
+Thank you for joining Smart Link. To verify your email address and continue, please click the following link:
+http://[host][object_link]
+
+Email: [email]
+
+Be sure to follow the SmartLink Help Circle, the circle is where you can ask questions, get tips and find the tutorials on how to get around and connect with  Smart Link.
+ 
+Click on the link below to jump to the SmartLink Help Circle
+ 
+http://[host]//circleitem/mgslhelp
+
+[footer]";s:41:"_EMAIL_CORE_VERIFICATION_PASSWORD_SUBJECT";s:31:"Smart Link - Email Verification";s:38:"_EMAIL_CORE_VERIFICATION_PASSWORD_BODY";s:479:"[header]
+
+Thank you for joining Smart Link. To verify your email address and continue, please click the following link:
+http://[host][object_link]
+
+Email: [email]
+Password: [password]
+
+Be sure to follow the SmartLink Help Circle, the circle is where you can ask questions, get tips and find the tutorials on how to get around and connect with  Smart Link.
+ 
+Click on the link below to jump to the SmartLink Help Circle
+ 
+http://[host]//circleitem/mgslhelp
+
+[footer]";s:14:"Invite Friends";s:32:"Invite friends to join SmartLink";s:0:"";s:0:"";s:19:"Invite Friends Page";s:21:"Invite Friends Circle";s:50:"How many ads will be shown on invite friends page?";s:50:"How many ads will be shown on invite friends page?";s:21:"Invite Friends & Fans";s:21:"Invite Friends & Fans";s:25:"Invite Friends &amp; Fans";s:25:"Invite Friends &amp; Fans";s:743:"Enter the number of friends till which users should be shown the Invite Friends block in the Welcome Tab (This block enables users to invite their contacts to become members of the site and their friends on it, by importing contacts from various services or manually entering email IDs. Those who are already site members get friend request. Users can thus quickly and easily grow their network on your site. Note that for this to be visible, you must place the "Welcome: Invite Friends" widget in this page from the Layout Editor. If you do not want this widget to be available in the Welcome Tab, then enter 0 below. This block will no more be visible to users in the Welcome Tab after their number of friends reaches the limit set by you.).";s:745:"Enter the number of friends till which users should be shown the Invite Friends block in the Welcome Tab (This block enables users to invite their contacts to become members of the site and their friends on it, by importing contacts from various services or manually 
+entering email IDs. Those who are already site members get friend request. Users can thus quickly and easily grow their network on your site. Note that for this to be visible, you must place the "Welcome: Invite Friends" widget in this page from the Layout Editor. If you do not want this widget to be available in the Welcome Tab, then enter 0 below. This block will no more be visible to users in the Welcome Tab after their number of friends reaches the limit set by you.).";s:425:"The Invite Friends block in the Welcome Tab requires either the "%s" or the "%s" plugin installed or enabled on your site. This block enables users to invite their contacts to become members of the site and their friends on it, by importing contacts from various services or manually entering email IDs. Those who are already site members get friend request. Users can thus quickly and easily grow their network on your site.";s:428:"The Invite Friends block in the Welcome Tab requires either the %s" or the ""%s"" plugin installed or enabled on your site. This block enables users to invite their contacts to become members of the site and their friends on it, by importing contacts from various services or manually entering email IDs. Those who are already site members get friend request. Users can thus quickly and easily grow their network on your site." ";s:53:"Yes, include the "Invite Friends" step during signup.";s:53:"Yes, include the "Invite Friends" step during signup.";s:14:"Invite friends";s:32:"Invite friends to join SmartLink";s:27:"Invite friends to join MGSL";s:32:"Invite friends to join SmartLink";s:22:"_CORE_TERMS_OF_SERVICE";s:17830:"<div class="content-section">
+
+<p>This agreement was written in English (US). To the extent any translated version of this agreement conflicts with the English version, the English version controls. 
+Date of Last Revision: July 2, 2013.</p>
+
+<h3>Statement of Rights and Responsibilities</h3>
+
+<p>This Statement of Rights and Responsibilities (&ldquo;Statement,&rdquo; &ldquo;Terms,&rdquo; or &ldquo;SRR&rdquo;) derives from the SmartLink Core Principles and is our terms of service that governs our relationship with users and others who interact with SmartLink . By using or accessing SmartLink, you agree to this Statement, as updated from time to time in accordance with Section 11 below.</p>
+
+<ol>
+	<li>
+		<h4>Privacy</h4>
+		<p>Your privacy is very important to us. We designed our Privacy Policy to make important disclosures about how you can use SmartLink to share with others and how we collect and can use your content and information.  We encourage you to read the Privacy Policy, and to use it to help you make informed decisions.</p>
+	</li>
+
+	<li>
+		<h4>Sharing Your Content and Information</h4>
+		<p>You own all of the content and information you post on SmartLink, and you can control how it is shared through your privacy and settings. In addition:</p>
+		
+		<ol>
+			<li>For content that is covered by intellectual property rights, like photos and videos (IP content), you specifically give us the following permission, subject to your privacy and settings: you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any IP content that you post on or in connection with Smart Link (IP License). This IP License ends when you delete your IP content or your account unless your content has been shared with others, and they have not deleted it.</li>
+			
+			<li>When you delete IP content, it is deleted in a manner similar to emptying the recycle bin on a computer. However, you understand that removed content may persist in backup copies for a reasonable period of time (but will not be available to others).</li>
+			
+			<li>When you publish content or information using the Public setting, it means that you are allowing everyone, including people off of Smart Link, to access and use that information, and to associate it with you (i.e., your name and profile picture).</li>
+
+			<li>We always appreciate your feedback or other suggestions about Smart Link, but you understand that we may use them without any obligation to compensate you for them (just as you have no obligation to offer them).</li>
+		</ol>
+	</li>
+
+	<li>
+		<h4>Safety</h4>
+		<p>We do our best to keep SmartLink safe, but we cannot guarantee it. We need your help to keep SmartLink safe, which includes the following commitments by you:</p>
+		<ol>
+			<li>You will not post unauthorized commercial communications (such as spam) on Smart Link.</li>
+			<li>You will not collect users' content or information, or otherwise access Smart Link, using automated means (such as harvesting bots, robots, spiders, or scrapers) without our prior permission.</li>
+			<li>You will not engage in unlawful multi-level marketing, such as a pyramid scheme, on Smart Link.</li>
+			<li>You will not upload viruses or other malicious code.</li>
+			<li>You will not solicit login information or access an account belonging to someone else.</li>
+			<li>You will not bully, intimidate, or harass any user.</li>
+			<li>You will not post content that: is hate speech, threatening, or pornographic; incites violence; or contains nudity or graphic or gratuitous violence.</li>
+			<li>You will follow our Promotions Guidelines and all applicable laws if you publicize or offer any contest, giveaway, or sweepstakes (“promotion”) on Smart Link.</li>
+			<li>You will not use Smart Link to do anything unlawful, misleading, malicious, or discriminatory.</li>
+			<li>You will not do anything that could disable, overburden, or impair the proper working or appearance of SmartLink, such as a denial of service attack or interference with page rendering or other SmartLink functionality.</li>
+			<li>You will not facilitate or encourage any violations of this Statement or our policies.</li>
+		</ol>
+	</li>
+ 
+	<li>
+		<h4>Registration and Account Security</h4>
+		<p>SmartLink users provide their real names and information, and we need your help to keep it that way. Here are some commitments you make to us relating to registering and maintaining the security of your account:</p>
+		<ol>
+			<li>You will not provide any false personal information on SmartLink, or create an account for anyone other than yourself without permission.</li>
+			<li>You will not create more than one personal account.</li>
+			<li>If we disable your account, you will not create another one without our permission.</li>
+			<li>You will not use SmartLink if you are under 13.</li>
+			<li>You will not use SmartLink if you are a convicted sex offender.</li>
+			<li>You will keep your contact information accurate and up-to-date.</li>
+			<li>You will not share your password, let anyone else access your account, or do anything else that might jeopardize the security of your account.</li>
+			<li>You will not transfer your account to anyone without first getting our written permission.</li>
+			<li>If you select a username or similar identifier for your account or Page, we reserve the right to remove or reclaim it if we believe it is appropriate (such as when a trademark owner complains about a username that does not closely relate to a user's actual name).</li>
+		</ol>
+ 
+	<li>
+		<h4>Protecting Other People's Rights</h4>
+		<p>We respect other people's rights, and expect you to do the same.</p>
+
+		<ol>
+			<li>You will not post content or take any action on SmartLink that infringes or violates someone else's rights or otherwise violates the law.</li>
+			<li>We can remove any content or information you post on SmartLink if we believe that it violates this Statement or our policies.</li>
+			<li>If we remove your content for infringing someone else's copyright, and you believe we removed it by mistake, we will provide you with an opportunity to appeal.</li>
+			<li>If you repeatedly infringe other people's intellectual property rights, we will disable your account when appropriate.</li>
+			<li>You will not use our copyrights or trademarks (including the SmartLink and SmartLink Logos, and Click. Find. Engage Logos), or any confusingly similar marks, except as expressly permitted by our Brand Usage Guidelines or with our prior written permission.</li>
+			<li>If you collect information from users, you will: obtain their consent, make it clear you (and not SmartLink) are the one collecting their information, and post a privacy policy explaining what information you collect and how you will use it.</li>
+			<li>You will not post anyone's identification documents or sensitive financial information on SmartLink.</li>
+			<li>You will not tag users or send email invitations to non-users without their consent. SmartLink offers social reporting tools to enable users to provide feedback about tagging.</li> 
+		</ol>
+	</li>
+	<li>
+		<h4>Mobile and Other Devices</h4>
+		<ol>
+			<li>We currently provide our mobile services for free, but please be aware that your carrier's normal rates and fees, such as text messaging fees, will still apply.</li>
+			<li>In the event you change or deactivate your mobile telephone number, you will update your account information on SmartLink within 48 hours to ensure that your messages are not sent to the person who acquires your old number.</li>
+			<li>You provide consent and all rights necessary to enable users to sync (including through an application) their devices with any information that is visible to them on SmartLink.</li>
+		</ol>
+	</li>
+	<li>
+		<h4>Payments</h4>
+		<p>If you make a payment on SmartLink you agree to our Payments Terms.</p>
+	</li>
+	<li>
+		<h4>About Advertisements and Other Commercial Content Served or Enhanced by SmartLink</h4>
+		
+		<p>Our goal is to deliver ads and commercial content that are valuable to our users and advertisers. In order to help us do that, you agree to the following:</p>
+
+		<ol>
+			<li>You can use your privacy settings to limit how your name and profile picture may be associated with commercial, sponsored, or related content (such as a brand you like) served or enhanced by us. You give us permission to use your name and profile picture in connection with that content, subject to the limits you place.</li>
+			<li>We do not give your content or information to advertisers without your consent.</li>
+			<li>You understand that we may not always identify paid services and communications as such.</li> 
+		</ol>
+	</li>
+	<li>
+		<h4>Special Provisions Applicable to Advertisers</h4>
+		
+		<p>You can target your desired audience by buying ads on SmartLink.</p>
+
+		<ol>
+			<li>In instances where we believe doing so will enhance the effectiveness of your advertising campaign, we may broaden the targeting criteria you specify.</li>
+			<li>You will pay for your Orders in accordance with our Payments Terms. The amount you owe will be calculated based on our tracking mechanisms.</li>
+			<li>Your ads will comply with our Advertising Guidelines.</li>
+			<li>We will determine the size, placement, and positioning of your ads.</li>
+			<li>We do not guarantee the activity that your ads will receive, such as the number of clicks your ads will get.</li>
+			<li>We cannot control how clicks are generated on your ads. We have systems that attempt to detect and filter certain click activity, but we are not responsible for click fraud, technological issues, or other potentially invalid click activity that may affect the cost of running ads.</li>
+			<li>Our license to run your ad will end when we have completed your Order. You understand, however, that if users have interacted with your ad, your ad may remain until the users delete it.</li>
+			<li>We can use your ads and related content and information for marketing or promotional purposes.</li>
+			<li>You will not issue any press release or make public statements about your relationship with SmartLink without our prior written permission.</li>
+			<li>We may reject or remove any ad for any reason.</li>
+			<li>If you are placing ads on someone else's behalf, you must have permission to place those ads, including the following:</li>
+			<li>You warrant that you have the legal authority to bind the advertiser to this Statement.</li>
+			<li>You agree that if the advertiser you represent violates this Statement, we may hold you responsible for that violation.</li>
+		</ol>
+	</li>
+	<li>
+		<h4>Special Provisions Applicable to Software</h4>
+		<ol>
+			<li>If you download our software, such as a stand-alone software product or a browser plugin, you agree that from time to time, the software may download upgrades, updates and additional features from us in order to improve, enhance and further develop the software.</li>
+			<li>You will not modify, create derivative works of, decompile or otherwise attempt to extract source code from us, unless you are expressly permitted to do so under an open source license or we give you express written permission.</li>
+		</ol>
+	</li>
+	<li>
+		<h4>Amendments</h4>
+
+		<ol>
+			<li>Unless we make a change for legal or administrative reasons, or to correct an inaccurate statement, we will provide you with seven (7) days notice and an opportunity to comment on changes to this Statement. </li>
+			<li>If we make changes to policies referenced in or incorporated by this Statement, we may provide notice.</li>
+			<li>Your continued use of SmartLink following changes to our terms constitutes your acceptance of our amended terms.</li> 
+		</ol>
+	</li>
+	<li>
+		<h4>Termination</h4>
+		
+		<p>If you violate the letter or spirit of this Statement, or otherwise create risk or possible legal exposure for us, we can stop providing all or part of SmartLink to you. We will notify you by email or at the next time you attempt to access your account. You may also delete your account or disable your application at any time. In all such cases, this Statement shall terminate.</p>
+ 
+	<li>
+		<h4>Disputes</h4>
+
+		<ol>
+			<li>If anyone brings a claim against us related to your actions, content or information on SmartLink, you will indemnify and hold us harmless from and against all damages, losses, and expenses of any kind (including reasonable legal fees and costs) related to such claim. Although we provide rules for user conduct, we do not control or direct users' actions on SmartLink and are not responsible for the content or information users transmit or share on SmartLink. We are not responsible for any offensive, inappropriate, obscene, unlawful or otherwise objectionable content or information you may encounter on SmartLink. We are not responsible for the conduct, whether online or offline, or any user of SmartLink.</li>
+
+			<li>WE TRY TO KEEP SmartLink UP, BUG-FREE, AND SAFE, BUT YOU USE IT AT YOUR OWN RISK. WE ARE PROVIDING SmartLink AS IS WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT SmartLink WILL ALWAYS BE SAFE, SECURE OR ERROR-FREE OR THAT SmartLink WILL ALWAYS FUNCTION WITHOUT DISRUPTIONS, DELAYS OR IMPERFECTIONS. SmartLink IS NOT RESPONSIBLE FOR THE ACTIONS, CONTENT, INFORMATION, OR DATA OF THIRD PARTIES, AND YOU RELEASE US, OUR DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS FROM ANY CLAIMS AND DAMAGES, KNOWN AND UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH ANY CLAIM YOU HAVE AGAINST ANY SUCH THIRD PARTIES. WE WILL NOT BE LIABLE TO YOU FOR ANY LOST PROFITS OR OTHER CONSEQUENTIAL, SPECIAL, INDIRECT, OR INCIDENTAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS STATEMENT OR SmartLink, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR AGGREGATE LIABILITY ARISING OUT OF THIS STATEMENT OR SmartLink WILL NOT EXCEED THE GREATER OF ONE HUNDRED DOLLARS ($100) OR THE AMOUNT YOU HAVE PAID US IN THE PAST TWELVE MONTHS. APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY OR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN SUCH CASES, SmartLink'S LIABILITY WILL BE LIMITED TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW.</li>
+		</ol>
+	</li>
+	<li>
+		<h4>Definitions</h4>
+		<ol>
+			<li>By &ldquo;SmartLink&rdquo; we mean the features and services we make available, including through (a) our website at smartlink.smartnova.co.za and any other SmartLink branded or co-branded websites (including sub-domains, international versions, widgets, and mobile versions); (b) our Platform; (c) other media, software (such as a toolbar), devices, or networks now existing or later developed.</li>
+			<li>By &ldquo;Platform&rdquo; we mean a set of APIs and services (such as content) that enable others, including application developers and website operators, to retrieve data from SmartLink or provide data to us.</li>
+			<li>By &ldquo;information&rdquo; we mean facts and other information about you, including actions taken by users and non-users who interact with SmartLink.</li>
+			<li>By &ldquo;content&rdquo; we mean anything you or other users post on SmartLink that would not be included in the definition of information.</li>
+			<li>By &ldquo;data&rdquo; or &ldquo;user data&rdquo; or &ldquo;user's data&rdquo; we mean any data, including a user's content or information that you or third parties can retrieve from SmartLink or provide to SmartLink through Platform.</li>
+			<li>By &ldquo;post&rdquo; we mean post on SmartLink or otherwise make available by using SmartLink.</li>
+			<li>By &ldquo;use&rdquo; we mean use, copy, publicly perform or display, distribute, modify, translate, and create derivative works of.</li>
+			<li>By &ldquo;active registered user&rdquo; we mean a user who has logged into SmartLink at least once in the previous 30 days.</li>
+			<li>By &ldquo;application&rdquo; we mean any application or website that uses or accesses Platform, as well as anything else that receives or has received data from us.  If you no longer access Platform but have not deleted all data from us, the term application will apply until you delete the data.</li> 
+		</ol>
+	</li>
+	<li>
+		<h4>Other</h4>
+		<ol>
+			<li>this Statement is an agreement between you and SmartLink PTY LTD. References to &ldquo;us,&rdquo; &ldquo;we,&rdquo; and &ldquo;our&rdquo; mean SmartLink PTY LTD.</li>
+			<li>This Statement makes up the entire agreement between the parties regarding SmartLink, and supersedes any prior agreements.</li>
+			<li>If any portion of this Statement is found to be unenforceable, the remaining portion will remain in full force and effect.</li>
+			<li>If we fail to enforce any of this Statement, it will not be considered a waiver.</li>
+			<li>Any amendment to or waiver of this Statement must be made in writing and signed by us.</li>
+			<li>You will not transfer any of your rights or obligations under this Statement to anyone else without our consent.</li>
+			<li>All of our rights and obligations under this Statement are freely assignable by us in connection with a merger, acquisition, or sale of assets, or by operation of law or otherwise.</li>
+			<li>Nothing in this Statement shall prevent us from complying with the law.</li>
+			<li>This Statement does not confer any third party beneficiary rights.</li>
+			<li>We reserve all rights not expressly granted to you.</li>
+			<li>You will comply with all applicable laws when using or accessing SmartLink.</li>
+		</ol>
+	</li>
+</ol>
+
+</div>";s:14:"_CORE_ABOUT_US";s:1718:"<div class="content-section">
+
+<p>Smart Link is a <strong>Global Online Sports Community</strong></p>
+ 
+<div class="global-map-container">
+</div>
+
+<p>SmartLink is built on a social network platform giving amateur, semi professional and professional sportspeople, their coaches, administrators, clubs, schools and universities a place to securely and privately communicate and share their sport.</p>
+
+<p>Our Slogan indicates how easy it is to get started; <strong>Click. Find. Engage.</strong> <strong>Click</strong> online and sign up. <strong>Find</strong> friends, teammates, schools, clubs and supporters and <strong>Engage</strong> by sharing discussions, photos, videos and strategies.</p>
+
+<p>We Take <strong>Engage</strong> that one step further with our <strong>Circles</strong>. This gives teams and coaches the ability to create a private and secure <strong>Circle</strong> of members, a place where they can communicate important information, share photos, videos and even documents, like forms and newsletter, coaching plans and timetables. All with the safety and comfort in knowing that it is secure and only visible to the members of that <strong>Circle</strong>.</p>
+
+<p>Upcoming events can be added to the private <strong>Circle</strong> or be made public for all your teams, supporters and fans, meaning you never need miss a game, training day or event again.</p>
+
+<p><strong>Our Vision for a Connected Future</strong> will see users, or those who wish to, have the ability to connect with the global sports community using the player profile and directory for future athlete, player or coach recruitment, career advancement and potential access to study scholarships.</p>
+
+</div>
+";s:32:"_EMAIL_ZULU_ANNOUNCEMENT_SUBJECT";s:40:"Smart Link - Medical Record Announcement";s:29:"_EMAIL_ZULU_ANNOUNCEMENT_BODY";s:501:"[header]
+
+Smart Link also provides you with a free medical record repository.
+
+You can load the medical records that are important for your sports performance and emergency situations.
+
+You may want to use the medical record repository instead of completing hand written medical summaries. Just complete and update when your conditions change and print the document or give online access to your medicos.
+
+Click here to use the medical record repository
+http://[host][object_link]
+
+[footer]";s:35:"_EMAIL_ZULU_NO_PROFILEPHOTO_SUBJECT";s:38:"Smart Link - No Profile Photo Uploaded";s:11:"_SITE_TITLE";s:10:"Smart Link";s:23:"_CORE_PRIVACY_STATEMENT";s:14103:"<div class="content-section">
+<h3>Information we receive about you</h3>
+<p>We receive a number of different types of information about you, including:</p>
+
+<h4>Your information</h4>
+<p>Your information is the information that's required when you sign up for the site, as well as the information you choose to share.</p>
+
+<h4>Registration information</h4>
+<ul>
+	<li>When you sign up for Smart Link, you are required to provide information such as your name, email address, birthday, and gender.</li>
+</ul>
+
+<h4>Information you choose to share</h4>
+<ul>
+	<li>Your information also includes the information you choose to share on Smart Link, such as when you post a status update, upload a photo, or comment on a friend's photo. It also includes the information you choose to share when you take an action, such as when you add a friend, join a circle.</li>
+
+	<li>Your name, profile pictures, gender, networks, username and User ID are treated just like information you choose to make public.</li>
+
+	<li>Your birthday allows us to do things like show you age-appropriate content and advertisements.</li>
+</ul>
+
+<h4>Information others share about you</h4>
+<ul>
+	<li>We receive information about you from your friends and others, such as when they post a photo of you, tag you in a photo or status update, or add you to a Circle.</li>
+
+	<li>When people use Smart Link, they may store and share information about you and others that they have, such as when they upload and manage their invites and contacts.</li>
+</ul>
+
+<h4>Other information we receive about you</h4>
+
+<p>We also receive other types of information about you:</p>
+
+<ul>
+	<li>We receive data about you whenever you interact with Smart Link, such as when you look at another person's CV, send or receive a message, search for a friend or a Circle, click on, view or otherwise interact with things, use a Smart Link mobile app, or make purchases through Smart Link.</li>
+	
+	<li>When you post things like photos or videos on Smart Link, we may receive additional related data (or metadata), such as the time, date, and place you took the photo or video.</li>
+
+	<li>We receive data from the computer, mobile phone or other device you use to access Smart Link, including when multiple users log in from the same device. This may include your IP address and other information about things like your internet service, location, the type (including identifiers) of browser you use, or the pages you visit. For example, we may get your GPS or other location information.</li>
+
+	<li>Sometimes we get data from our affiliates or our advertising partners, customers and other third parties that helps us (or them) deliver ads, understand online activity, and generally make Smart Link better. For example, an advertiser may tell us information about you (like how you responded to an ad on Smart Link or on another site) in order to measure the effectiveness of &mdash; and improve the quality of &mdash; ads.</li>
+</ul>
+
+<p>We also put together data from the information we already have about you and your friends. For example, we may put together data about you to determine which friends we should show you in your News Feed or suggest you tag in the photos you post. We may put together your current city with GPS and other location information we have about you to, for example, tell you and your friends about people or events nearby, or offer deals to you that you might be interested in. We may also put together data about you to serve you ads that might be more relevant to you.</p>
+
+<p>When we get your GPS location, we put it together with other location information we have about you (like your current city). But we only keep it until it is no longer useful to provide you services, like keeping your last GPS coordinates to send you relevant notifications.</p>
+
+<p>We only provide data to our advertising partners or customers after we have removed your name or any other personally identifying information from it, or have combined it with other people's data in a way that it is no longer associated with you.</p>
+
+<h4>Public Information</h4>
+
+<p>When we use the phrase &ldquo;public information&rdquo; (which we sometimes refer to as &ldquo;Everyone information&rdquo;), we mean the information you choose to make public, as well as information that is always publicly available.</p>
+
+<h5>Information you choose to make public</h5>
+
+<p>Choosing to make your information public is exactly what it sounds like: anyone, including people off of Smart Link, will be able to see it.</p>
+
+<p>Choosing to make your information public also means that this information:</p>
+
+<ul>
+	<li>can be associated with you (i.e., your name, profile pictures, , CV, User ID, username, etc.) even off Smart Link;</li>
+	<li>can show up when someone does a search on Smart Link or on a public search engine;</li>
+	<li>will be accessible to anyone who uses our APIs.</li>
+</ul>
+
+<p>Sometimes you will not be able to select an audience when you post something This is because some types of posts are always public posts. As a general rule, you should assume that if you do not see a sharing icon, the information will be publicly available.<br />
+When others share information about you, they can also choose to make it public.</p>
+
+<h4>Information that is always publicly available</h4>
+
+<p>The types of information listed below are always publicly available, and are treated just like information you decided to make public.</p>
+
+<ul>
+	<li>
+		<strong>Name</strong><br />
+		This helps your friends and family find you. If you are uncomfortable sharing your real name, you can always delete your account. 
+	</li>
+
+	<li>
+		<strong>Profile Pictures</strong><br />
+		These help your friends and family recognize you. If you are uncomfortable making any of these photos public, you can always delete it. Unless you delete them, when you add a new profile picture the previous photo will remain public in your profile picture album.
+	</li>
+
+	<li>
+		<strong>Network</strong><br />
+		This helps you see whom you will be sharing information with before you choose &ldquo;Friends and Networks&rdquo; as a custom audience.
+	</li>
+
+	<li>
+		<strong>Gender</strong><br />
+		This allows us to refer to you properly.
+	</li>
+</ul>
+
+<h4>How we use the information we receive</h4>
+
+<p>We use the information we receive about you in connection with the services and features we provide to you and other users like your friends, our partners, the advertisers that purchase ads on the site. For example, in addition to helping people see and find things that you do and share, we may use the information we receive about you:</p>
+
+<ul>
+	<li>as part of our efforts to keep SmartLink products, services and integrations safe and secure;</li>
+	
+	<li>to protect SmartLink's or others' rights or property;</li>
+
+	<li>to measure or understand the effectiveness of ads you and others see, including to deliver relevant ads to you;</li>
+	
+	<li>to make suggestions to you and other users on SmartLink, such as: suggesting that your friend use our contact importer because you found friends using it, suggesting that another user add you as a friend because the user imported the same email address as you did, or suggesting that your friend tag you in a picture they have uploaded with you in it; and</li>
+
+	<li>for internal operations, including troubleshooting, data analysis, testing, research and service improvement.</li>
+</ul>
+
+<p>
+Granting us this permission not only allows us to provide SmartLink as it exists today, but it also allows us to provide you with innovative features and services we develop in the future that use the information we receive about you in new ways.</p>
+<p>While you are allowing us to use the information we receive about you, you always own all of your information. Your trust is important to us, which is why we don't share information we receive about you with others unless we have: 
+</p>
+
+<ul>
+	<li>received your permission;</li>
+	<li>given you notice, such as by telling you about it in this policy; or</li>
+	<li>removed your name or any other personally identifying information from it.</li>
+</ul>
+
+<p>Of course, for information others share about you, they control how it is shared.<br />
+We store data for as long as it is necessary to provide products and services to you and others, including those described above. Typically, information associated with your account will be kept until your account is deleted. For certain categories of data, we may also tell you about specific data retention practices.</p>
+
+<h4>Management and security</h4>
+
+<p>We have appointed a Privacy Officer to oversee the management of personal information in accordance with this policy and the Privacy Act.</p>
+
+<p>Other than in relation to Non-Confidential Information, we will take all reasonable steps to protect the personal information that we hold from misuse, loss, or unauthorised access, including by means of firewalls, pass word access, secure servers and encryption of credit card transactions.</p>
+
+<p>However, you acknowledge that the security of online transactions and the security of communications sent by electronic means cannot be guaranteed. You provide information to us via the internet or by post at your own risk. We cannot accept responsibility for misuse or loss of, or unauthorised access to, your personal information where the security of information is not within our control.</p>
+
+<p>You acknowledge that we are not responsible for the privacy or security practices of any third party (including third parties that we are permitted to disclose your personal information to in accordance with this policy or any applicable laws). The collection and use of your information by such third party/ies may be subject to separate privacy and security policies.</p>
+
+<p>If you suspect any misuse or loss of, or unauthorised access to, your personal information, please let us know immediately.</p>
+
+<h5>Accessing and updating your information and how to contact us.</h5>
+
+<p>Subject to some exceptions in the Privacy Act, you have the right to seek access to and update the personal information we hold about you. If you make an access request, we will ask you to verify your identity. We may charge a fee to cover the costs of meeting your request.</p>
+
+<p>Members of our websites will generally be able to access and update their membership details online.</p>
+
+<p>We request that you keep your information as current as possible so that we may continue to improve our service to you.</p>
+
+<p>If you would like to seek access to personal information we hold about you, or if you have any questions or complaints about how we collect, use, disclose, manage or store your personal information, you can contact the department that collected your personal information in the first instance, email no-reply@smartlinksa.net</p>
+
+<h4>Deleting and deactivating your account</h4>
+
+<p>If you want to stop using your account, you can either deactivate or delete it.</p>
+
+<h5>Deactivate</h5>
+<p>Deactivating your account puts your account on hold. Other users will no longer see your timeline, but we do not delete any of your information. Deactivating an account is the same as you telling us not to delete any information because you might want to reactivate your account at some point in the future.<br />
+You can deactivate your account on your account settings page.<br />
+Your friends will still see you listed in their list of friends while your account is deactivated.</p>
+
+<h5>Deletion</h5>
+<p>
+When you delete an account, it is permanently deleted from SmartLink. It typically takes about one month to delete an account, but some information may remain in backup copies and logs for up to 90 days. You should only delete your account if you are sure you never want to reactivate it. You can delete your account from the account settings pages.</p>
+<p>Certain information is needed to provide you with services, so we only delete this information after you delete your account. Some of the things you do on SmartLink aren't stored in your account, like posting to a group or sending someone a message (where your friend may still have a message you sent, even after you delete your account). That information remains after you delete your account.
+</p>
+
+</div>
+
+<div class="content-section">
+
+<h3>Cookies</h3>
+
+<p>Cookies are small pieces of data that are stored on your computer, mobile phone or other device. Pixels are small blocks of code on webpages that do things like allow another server to measure viewing of a webpage and often are used in connection with cookies.</p>
+
+<p>Cookies are small pieces of data that are stored on your computer, mobile phone or other device. Pixels are small blocks of code on webpages that do things like allow another server to measure viewing of a webpage and often are used in connection with cookies.</p>
+
+<p>We use these technologies to do things like:</p>
+
+<ul>
+	<li>make SmartLink easier or faster to use;</li>
+	<li>enable features and store information about you (including on your device or in your browser cache) and your use of SmartLink;</li>
+	<li>deliver, understand and improve advertising;</li>
+	<li>monitor and understand the use of our products and services;</li>
+	<li>to protect you, others and SmartLink.</li>
+</ul>
+
+<p>For example, we may use them to know you are logged in to SmartLink, to know when you are interacting with our advertising or partners.</p>
+
+<p>We may ask advertisers or other partners to serve ads or services to computers, mobile phones or other devices, which may use a cookie, pixel or other similar technology placed by SmartLink or the third party (although we would not share any other information that identifies you with an advertiser).</p>
+
+<p>Most companies on the web use cookies (or other similar technological tools), including our advertising and partners.</p>
+
+</div>";s:18:"_EMAIL_FOOTER_BODY";s:40:"Best Regards,
+Smart Link Administration";s:25:"_EMAIL_FOOTER_MEMBER_BODY";s:40:"Best Regards,
+Smart Link Administration";s:39:"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_SUBJECT";s:30:"Someone has joined Smart Link!";s:36:"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_BODY";s:158:"
+Congratulations, someone has joined Smart Link. Welcome the new member to your site:
+
+[object_title] : http://[host][object_link]
+Signup Date: [date]
+
+";s:32:"_EMAIL_CORE_LOSTPASSWORD_SUBJECT";s:26:"Smart Link - Lost Password";}}

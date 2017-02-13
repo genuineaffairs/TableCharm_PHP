@@ -1,0 +1,65 @@
+@include "~/application/modules/Core/externals/styles/admin/constants.css";
+
+
+#global_page_folder-admin-manage-index .admin_search {
+	max-width: 98%;
+}
+
+
+.folder_widget_form .form-wrapper {
+    border-top: 1px solid #EEEEEE;
+    clear: both;
+    overflow: hidden;
+    padding: 0px 0;
+    margin-top: 4px !important;
+}
+.folder_widget_form .form-label {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 15px;
+    width: 160px;
+}
+.folder_widget_form .form-element {
+    float: left;
+    overflow: hidden;
+}
+#category_list .move-me,
+#industry_list .move-me {
+  cursor: move;
+}
+
+.folder_text_desc {
+  font-size: 0.8em;
+}
+
+#folder_admin_manage_filter #category-search-wrapper,
+#folder_admin_manage_filter #status-search-wrapper {
+  clear: left;
+  margin-left: 0;
+}
+
+
+#folder_list_folders {
+  
+}
+#folder_list_folders thead th.folder_header_package {
+  width: 100px;
+}
+#folder_list_folders thead th.folder_header_status {
+  width: 60px;
+}
+#folder_list_folders thead th.folder_header_epayment {
+  width: 80px;
+}
+#folder_list_folders thead th.folder_header_icon {
+  width: 65px;
+}
+#folder_list_folders thead th.folder_header_expires {
+  width: 60px;
+}
+#folder_list_folders .folder_list_epayment_process_no a {
+  font-weight: bold;
+  color: red;
+}

@@ -1,0 +1,11 @@
+a:1:{s:2:"en";a:18:{s:61:"_EMAIL_SITEPAGEADMINCONTACT_CONTACTS_EMAIL_NOTIFICATION_TITLE";s:40:"Contact Circle
+Owners Email Notification";s:67:"_EMAIL_SITEPAGEADMINCONTACT_CONTACTS_EMAIL_NOTIFICATION_DESCRIPTION";s:92:"This
+email is sent to Circle Admins when Site Admin contact them through emails or
+messages.";s:63:"_EMAIL_SITEPAGEADMINCONTACT_CONTACTS_EMAIL_NOTIFICATION_SUBJECT";s:9:"[subject]";s:60:"_EMAIL_SITEPAGEADMINCONTACT_CONTACTS_EMAIL_NOTIFICATION_BODY";s:66:"
+[template_header]
+[header]
+
+[message]
+
+[footer]
+[template_footer]";s:6:"Status";s:6:"Status";s:130:"Hold down the CTRL key to select or de-select specific Page Status for which Admins of corresponding Pages need to be sent emails.";s:134:"Hold down the CTRL key to select or de-select specific Circle Status for which Admins of corresponding Circles need to be sent emails.";s:9:"All Pages";s:11:"All Circles";s:11:"Draft Pages";s:13:"Draft Circles";s:15:"Published Pages";s:17:"Published Circles";s:10:"Open Pages";s:12:"Open Circles";s:12:"Closed Pages";s:14:"Closed Circles";s:14:"Featured Pages";s:16:"Featured Circles";s:15:"Sponsored Pages";s:17:"Sponsored Circles";s:14:"Approved Pages";s:16:"Approved Circles";s:18:"Dis-approved Pages";s:20:"Dis-approved Circles";s:13:"Running Pages";s:15:"Running Circles";s:13:"Expired Pages";s:15:"Expired Circles";s:132:"Hold down the CTRL key to select or de-select specific Page Status for which Admins of corresponding Pages need to be sent messages.";s:136:"Hold down the CTRL key to select or de-select specific Circle Status for which Admins of corresponding Circles need to be sent messages.";}}

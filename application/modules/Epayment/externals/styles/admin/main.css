@@ -1,0 +1,56 @@
+@include "~/application/modules/Core/externals/styles/admin/constants.css";
+
+table.epayment_view {
+	+rounded(5px);
+  padding: 7px;
+	border: 5px solid #d7e8f1;
+}
+table.epayment_view th {
+	width: 160px;
+	font-weight: bold;
+	padding: 5px;
+	border-bottom-width: 1px;
+}
+table.epayment_view td {
+  padding: 5px;
+	border-bottom-width: 1px;
+}
+
+form#epayment_admin_filter_form div#payer_name-search-wrapper {
+  margin-left: 0;
+  clear: left;
+}
+
+div.epayment_item_nav {
+  margin: 15px 0;
+}
+div.epayment_item_nav li {
+  display: inline;
+
+}
+
+.icon_epayment_view {
+  background-image: url("~/application/modules/Epayment/externals/images/epayment.png");
+}
+.icon_epayment_create {
+  background-image: url("~/application/modules/Epayment/externals/images/create.png");
+}
+.icon_epayment_edit {
+  background-image: url("~/application/modules/Epayment/externals/images/edit.png");
+}
+.icon_epayment_delete {
+  background-image: url("~/application/modules/Epayment/externals/images/delete.png");
+}
+.icon_epayment_process {
+  background-image: url("~/application/modules/Epayment/externals/images/process.png");
+}
+
+form.epayment_process_form div.form-wrapper-heading {
+  padding: 15px 0;
+
+}
+form.epayment_process_form div.form-wrapper-heading span {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2em;
+}

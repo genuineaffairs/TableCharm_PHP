@@ -1,0 +1,196 @@
+/*Community Ad Display Css start here*/
+.cmad_ad_clm{
+	padding:10px;
+	border-width:1px;
+	margin-bottom:10px;
+}
+.cmadrem,
+.cmaddis{
+	clear:both;
+	border-top-width:1px;
+	margin:10px 0 0;
+	font-size:11px;
+	padding-top:10px;
+	width:auto !important;
+}
+.cmad_ad_clm > div,
+.cmad_ad_clm > div + div{
+	border-top:none;
+	margin-top:0px;
+	padding-top:0px;
+}
+.cmad_ad_clm > div + div + div{
+	border-top:1px solid $theme_border_color;
+	margin-top:10px;
+	padding-top:10px;
+}
+.cmaddis *{
+	outline:none;
+}
+.cadcp_preview .cmaddis{
+	border:none !important;
+	margin:0px;
+	padding:0px;
+}
+.cmaddis .cmaddis_close{
+	float:right;
+	padding-left:5px;
+	display:none;
+}
+.cmaddis .cmaddis_close a{
+	background: url(~/application/modules/Communityad/externals/images/close_icon.png) no-repeat right;
+	float: right;
+	height: 11px;
+	width: 11px;
+	margin-top:4px;
+}
+.cmaddis .cmaddis_close a:hover {
+	background:#3b5998 url(~/application/modules/Communityad/externals/images/close_icon.png) no-repeat left;
+}
+.cmaddis .cmad_addis{
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.cmaddis .cmad_addis:hover .cmaddis_title span,
+.cmaddis .cmad_addis:hover .cmaddis_title a{
+	text-decoration:underline;
+}
+.cmaddis .cmaddis_title{
+	font-weight:bold;
+	text-align:left;
+	color:$theme_link_color;
+}
+.cmaddis .cmaddis_title span{
+	font-weight:bold;
+}
+.cmaddis .cmaddis_title a{
+	display:block;
+	overflow:hidden;
+}
+.cmaddis .cmaddis_adinfo a{
+	display:block;
+	font-size:11px;
+	overflow:hidden;
+	font-weight:normal;
+	margin-bottom:3px;
+}
+.cmaddis .cmaddis_image a{
+	width:100%;
+	display:block;
+}
+.cmaddis .cmaddis_image img{
+	margin:3px 0 3px;
+	border:none;
+}
+.cmaddis .cmaddis_body{
+	font-size:11px;
+}
+.cmaddis .cmaddis_body > a{
+	color:$theme_font_color;
+	text-decoration:none;
+	font-weight:normal;
+}
+.cmaddis .cmaddis_title,
+.cmaddis .cmaddis_adinfo,
+.cmaddis .cmaddis_image,
+.cmaddis .cmaddis_body{
+	cursor:pointer;
+}
+#rw_like .cmaddis_cont,
+#ad_like .cmaddis_cont{
+	font-size:11px;
+	margin-top:5px;
+}
+.cmaddis .cmaddis_cont{
+	font-size:11px;
+	margin-bottom:5px;
+}
+.cmad_like_button{
+	overflow:auto;
+}
+.cmaddis_cont .cmad_like_button,
+.cmad_like_button a{
+	clear:both;
+	font-size:11px;
+	outline:none;
+}
+.cmaddis_cont .cmad_like_button i.like_thumbup_icon,
+.cmad_like_button a i.like_thumbup_icon{
+	height:13px;
+	width:13px;
+	float:left;
+	margin-right:5px;
+  background-image:url(~/application/modules/Communityad/externals/images/thumb-up.png);
+}
+.cmad_like_button a i.like_thumbdown_icon{
+	height:13px;
+	width:13px;
+	float:left;
+	margin-right:5px;
+  background-image:url(~/application/modules/Communityad/externals/images/thumb-down.png);
+}
+.cmaddis_cont .cmad_like_button span,
+.cmad_like_button a span{
+	float:left;
+}
+.cmaddis_more{
+	padding:10px 10px 10px;
+	font-size:11px;
+	clear:both;
+	border-top-width:1px;
+}
+.cmadrem div{
+	font-size:11px;
+}
+.cmadrem .cmadrem_rl{
+	float:right;
+	padding-right:5px;
+	margin-bottom:5px;
+}
+.cmadrem .cmadrem_con form{
+	margin-top:5px;
+} 
+.cmadrem .cmadrem_con div{
+	clear:both;
+	overflow:auto;
+	margin-bottom:4px;
+	line-height:16px;
+}
+.cmadrem .cmadrem_con div textarea{
+	margin-top:10px;
+	width:140px;
+	font-size:11px;
+}
+.cmadrem .tip > span{
+	margin:0px;
+}
+/*Community Ad Display Css end here*/
+
+/*BLOCKS END HERE */
+/*CONSTAND START HERE*/
+/*theme border color*/
+.cadva_table table td,
+.cadva_table table,
+.cadva_dsform .global_form > div > div > h3,
+.cadcomp_vad_header,
+.cadmc_statistics_search form,
+.cadmc_list_wrapper > div table td,
+.communityad_faq li div{
+	border-color:$theme_border_color;
+}
+/*theme border color medium*/
+ul.cmad_package_list > li + li,
+.cmad_ad_clm > div .head,
+.cadcp_preview,
+.cadcp_preview{
+	border-color:$theme_border_medium_color;
+}
+/*theme font color light*/
+.cmaddis_cont .cmad_like_un a,
+.cmaddis .cmaddis_adinfo a,
+.cmaddis .cmaddis_cont,
+.cadva_detail_table table th,
+.cadva_total_reports div{
+	color:$theme_font_color_light;
+}
+/*CONSTAND END HERE*/

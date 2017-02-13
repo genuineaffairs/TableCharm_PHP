@@ -1,0 +1,202 @@
+/* COMMON */
+.document_clear
+{
+  clear: both;
+}
+
+/*
+ACTIVITY FEED COMPOSER DOCUMENT
+These styles are used for the attachment composer above the
+main feed.
+*/
+#compose-document-activator,
+#compose-document-menu span
+{
+  background-repeat: no-repeat;
+  background-image: url(~/application/modules/Document/externals/images/document_upload.png);
+}
+#compose-document-form-fancy-file
+{
+  background-image: url(~/application/modules/Document/externals/images/add.png);
+}
+
+/*
+DOCUMENT FEED ITEMS
+Styles documents embedded in the feed.
+*/
+.feed_item_attachments .document-info
+{
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+.feed_item_attachments .document-info .title,
+.feed_item_attachments .document-info .description
+{
+  font-size: .8em;
+}
+.feed_item_attachments .document-info .title
+{
+  font-weight: bold;
+}
+.feed_item_attachments .document-info .description
+{
+  font-style: italic;
+}
+
+/*
+Message DOCUMENT
+Styles for documents attached to the message page.
+*/
+div.message_attachment .document-info
+{
+  overflow: hidden;
+}
+div.message_attachment .document-info .title,
+div.message_attachment .document-info .description
+{
+  font-size: .8em;
+}
+div.message_attachment .document-info .title
+{
+  font-weight: bold;
+}
+div.message_attachment .document-info .description
+{
+  font-style: italic;
+}
+
+/* ACTION TYPE ICONS */
+.activity_icon_comment_document
+{
+  background-image: url(~/application/modules/Core/externals/images/types/post.png);
+}
+
+/* ITEM TYPE ICONS */
+.item_icon_document
+{
+  background-image: url(~/application/modules/Document/externals/images/types/document.png);
+}
+
+.icon_document_edit
+{
+  background-image: url(~/application/modules/Document/externals/images/edit.png);
+}
+.icon_document_delete
+{
+  background-image: url(~/application/modules/Document/externals/images/delete.png);
+}
+
+/* Document view page */
+.layout_page_document_index_view .document_view {
+  margin: 10px;
+}
+
+.layout_page_document_index_view .document_view .document_title {
+  float: left;
+  font-size: 1.5em;
+  color: $theme_link_color;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.layout_page_document_index_view .document_view > .addthis_toolbox {
+  float: right;
+}
+
+.layout_page_document_index_view .document_view .document_description {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.layout_page_document_index_view .document_view .document_owner {
+  margin-bottom: 20px;
+}
+
+.layout_page_document_index_view .document_view ul li + li {
+  padding-top: 7px;
+}
+
+/*
+BROWSE/MANAGE DOCUMENTS
+*/
+ul.documents_browse > li
+{
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+ul.documents_browse > li + li
+{
+  padding-top: 15px;
+  border-top-width: 1px;
+}
+ul.documents_browse .document_info
+{
+  padding-left: 10px;
+  overflow: hidden;
+}
+html[dir="rtl"] ul.documents_browse .document_info
+{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+ul.documents_browse .document_title
+{
+  margin: 0px;
+}
+ul.documents_browse .document_description
+{
+  font-style: italic;
+  margin-top: 5px;
+}
+ul.documents_browse .document_owner
+{
+  margin-top: 5px;
+}
+ul.documents_browse .document_options
+{
+  float: right;
+  overflow: hidden;
+  width: 120px;
+  padding-left: 15px;
+}
+html[dir="rtl"] ul.documents_browse .document_options
+{
+  float: left;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+ul.documents_browse .document_options a
+{
+  clear: both;
+  margin: 3px 0px 0px 0px;
+  font-size: .8em;
+  padding-top: 1px;
+  height: 16px;
+}
+
+/*
+GROUP DOCUMENTS TAB
+*/
+ul.group_documents
+{
+  margin-bottom: 10px;
+}
+ul.group_documents > li
+{
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+}
+ul.group_documents .document_title
+{
+  font-weight: bold;
+}
+ul.group_documents .document_description
+{
+  font-style: italic;
+  margin-top: 5px;
+}
+ul.group_documents .document_owner
+{
+  margin-top: 5px;
+}

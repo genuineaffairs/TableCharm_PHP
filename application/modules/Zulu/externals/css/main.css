@@ -1,0 +1,302 @@
+h2 {
+  font-size: 25px;
+}
+.banner-inner {
+  height: 200px;
+  background-color: greenyellow;
+  color: white;
+  font-size: 20px;
+  line-height: 200px;
+}
+button {
+  border: none;
+  border-bottom: 1px solid #094B09;
+  padding: 5px 7px;
+  line-height: 14px;
+  font-weight: 700;
+  background-color: #40613B;
+  color: #fff;
+  background-image: url(/application/themes/mgsl/images/button_bg.png?c=220);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  margin: 4px 1px 3px 0;
+}
+.layout_page_header #user_form_login #submit-element {
+  padding-top: 24px;
+}
+.layout_page_header * {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.profile_form .inner_wrapper {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d7e8f1;
+  float: left;
+  width: 100%;
+}
+.layout_zulu_clinical_fields .profile_form .inner_wrapper {
+  margin-bottom: 0;
+  border: none;
+}
+
+/* SIGNUP STEPS */
+
+#SignupForm.global_form div.form-element#next-element {
+  max-width: none;
+  text-align: right;
+}
+#SignupForm.global_form div.form-label {
+  width: auto;
+}
+.global_form#profile_sharing_form div > p {
+  max-width: none;
+}
+.global_form#profile_sharing_form select {
+  max-width: none;
+  height: 150px;
+}
+
+/* PROFILE EDIT */
+#global_page_zulu-edit-clinical #buttons-wrapper {
+  margin-bottom: 10px;
+}
+#global_page_zulu-edit-clinical #buttons-wrapper #save {
+  float: left;
+  margin-right: 10px;
+}
+#global_page_zulu-edit-clinical .link_button {
+  border: none;
+  border-bottom: 1px solid #094B09;
+  padding: 5px 7px;
+  line-height: 14px;
+  font-weight: 700;
+  background-color: #40613B;
+  color: #fff;
+  background-image: url(/application/themes/mgsl/images/button_bg.png?c=220);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  margin: 4px 1px 10px 0;
+  display: block;
+  float: left;
+}
+#global_page_zulu-edit-clinical .link_button:hover {
+  background-color: #40613B;
+  background-image: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+#global_page_zulu-edit-profile .global_form div.form-label,
+#global_page_zulu-edit-clinical .global_form div.form-label,
+#global_page_zulu-signup-index .global_form div.form-label
+{
+  width: auto;
+  float: none;
+  clear: both;
+  text-align: left;
+}
+#global_page_zulu-edit-profile div.field-privacy-selector>span.caret,
+#global_page_zulu-edit-clinical div.field-privacy-selector>span.caret
+{
+  margin: 0;
+  border: none;
+}
+#global_page_zulu-edit-profile .form-element,
+#global_page_zulu-edit-clinical .form-element
+{
+  min-width: 0;
+}
+#global_page_zulu-signup-index .global_form div.form-wrapper,
+#global_page_zulu-edit-profile .global_form div.form-wrapper,
+#global_page_zulu-edit-clinical .global_form div.form-wrapper
+{
+  overflow: visible;
+}
+#global_page_zulu-edit-profile #SignupForm .form-element,
+#global_page_zulu-edit-clinical #SignupForm .form-element
+{
+  float: left;
+}
+#global_page_zulu-signup-index .form-options-wrapper,
+#global_page_zulu-edit-profile .form-options-wrapper,
+#global_page_zulu-edit-clinical .form-options-wrapper
+{
+  margin-top: 0;
+}
+#EditProfile #preview-thumbnail img {
+  position: relative;
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  float: left;
+  overflow: hidden;
+
+  margin-right: 5px;
+  font-size: 0;
+  line-height: 0;
+}
+#global_page_user-profile-index li.zulu-normal-fields {
+  padding: 10px 22px;
+}
+#global_page_user-profile-index li.zulu-normal-fields span {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 175px;
+  margin-right: 15px;
+}
+#global_page_user-profile-index li.zulu-normal-fields span+span {
+  min-width: 0;
+  display: block;
+  float: none;
+  overflow: hidden;
+  width: 400px;
+}
+.global_form  .file-form-element div.form-label {
+  margin-bottom: 0;
+}
+.global_form .file-form-element div>p {
+  max-width: none;
+}
+.global_form div.form-wrapper-heading.subheading-form-element {
+  margin: 5px 0 20px 0;
+}
+.remove-file-button {
+  margin-bottom: 10px;
+}
+.icon_zulu_print {
+  background-image: url(/application/modules/Zulu/externals/images/print.png);
+}
+#TB_window {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.access_list_wrapper .access_edit_links {
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+ul.zulu_access_list {
+  min-height: 100px;
+  max-height: 250px;
+  position: relative;
+  overflow: auto;
+}
+ul.zulu_access_list li.selected {
+  color: #FFFFFF;
+  background: #64AF4C;
+}
+ul.zulu_access_list li.selected .autocompleter-choice {
+  color: inherit;
+}
+ul.tag-autosuggest li.autocompleter-choices img {
+  height: auto !important;
+  width: auto !important;
+  max-height: 32px !important;
+  max-width: 32px !important;
+}
+.zulu_child_fields_wrapper {
+  padding: 10px;
+  background: #F9FFF4;
+  border: 1px solid #CCDFBD;
+}
+.access_list_wrapper .zulu_access_edit_link+.zulu_access_edit_link {
+  padding-left: 20px;
+}
+ul.zulu_access_list .loader {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  display: none;
+}
+#global_page_zulu-signup-index .global_form .access_list_wrapper div.form-label {
+  width: 200px;
+  float: left; 
+  text-align: right;
+  clear: left;
+}
+.access_list_wrapper div.form-label {
+  min-height: 100px;
+  color: #D12935;
+  font-size: 14px;
+}
+.global_form .clinical_blocks div.form-label {
+  margin-bottom: 0;
+}
+/*.inner_wrapper.clinical_blocks._ {
+  color: red;
+}*/
+#disclaimer_text-element {
+  padding-bottom: 15px;
+}
+.layout_zulu_clinical_fields .profile_fields>ul>li>span {
+  width: 270px;
+  margin-right: 30px;
+}
+.profile_fields>ul>li span{
+  line-height: 18px;
+}
+.global_form div.form-wrapper-heading.mainheading-form-element, .medical_sections>div>h4 {
+  border: none;
+  font-size: 1em;
+  padding: 0 10px;
+  line-height: 29px;
+  background: url(/application/themes/mgsl/images/heading_bg_dark.png?c=257) #ECEBEB repeat-x top;
+  color: #fff;
+  text-shadow: 0 1px 0 #4C5153;
+  border-top: 1px solid #DEDEDE;
+  height: 30px;
+}
+.global_form div.form-wrapper-heading.mainheading-form-element span {
+  background: none;
+  padding: 0;
+}
+#EditClinical .profile_form .inner_wrapper {
+  padding: 7px;
+}
+#EditClinical h3, h3.medical_record_heading {
+  background: url(/application/modules/Zulu/externals/images/medical-record-logo.png) #606060 no-repeat top left;
+  text-indent: -999px;
+  height: 65px;
+  margin-top: 0;
+}
+.emergency_fields_asterisk {
+  color: #FF0012;
+  padding-left: 5px;
+}
+.global_form>div {
+  width: 100%;
+  min-width: 935px;
+}
+.medical_sections .zulu-grid-table {
+  width: 100%;
+}
+.medical_sections li+li.separated_list_item {
+  border-top: 1px solid #D8D8D8;
+  padding-top: 7px;
+}
+.form-wrapper.zulu-file-wrapper .form-label label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #4C5153;
+}
+div.owner_info_body>p {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 5px;
+  overflow: hidden;
+}
+div.owner_info_body>p+p {
+  margin-top: 8px;
+}
+div.owner_info_body>p span {
+  font-weight: bold;
+  min-width: 170px;
+  display: block;
+  float: left;
+}
+div.owner_info_body>p span+span {
+  font-weight: normal;
+}

@@ -1,0 +1,161 @@
+.slide{
+	margin:0;
+	padding:0;
+}
+.slide .global_form div.form-wrapper-heading > span{
+	position: relative;
+}
+div.suggestions {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+}
+div.suggestions div{
+	cursor: default;
+	padding: 0px 3px;
+}
+.global_form textarea{
+	overflow-x:hidden;
+}
+.global_form div .form-element-age{
+	min-width:70px;
+	width:auto !important;
+}
+.global_form > div{
+	width:100%;
+}
+.cmad_form_left > .form-elements{
+	margin-top:20px;
+}
+#cads_start_date-wrapper select,
+#cads_end_date-wrapper select{
+	margin-left:5px;
+}
+#campaign_id-element select{
+	margin-bottom:10px;
+}
+#package_name-wrapper p{
+	margin-top:5px !important;
+}
+.ad_icon{
+	vertical-align:middle;
+	float:left;
+	margin-right:5px;
+	width:20px;
+}
+p.error{
+	font-size:8pt;
+	color:#FF0000;
+}
+#title-element p.error{
+	padding-top:4px;
+}
+h4.cmad_step, 
+.cmad_ad_steps h4
+{
+	border:none;
+	margin:15px 5px 5px;
+	padding:0px;
+}
+#reviewdiv h5,
+#creatediv h5{
+	margin:10px 0 20px;
+	padding:0px 0 8px;
+	font-size:13px;
+	border-bottom-width:1px;
+}
+.cmad_ad_steps .global_form p.description,
+#creatediv .global_form p.description{
+	font-size:8pt;
+}
+#preview_sponsoredstory .form-label,
+#reviewdiv .form-label{
+	padding-top:0px; 
+}
+#birthday_enable-wrapper .form-element{
+	padding-top:4px;
+	margin-bottom:25px;
+}
+/*css for packages page*/
+ul.cmad_package_list .select_package{
+	clear:both;
+}
+ul.cmad_package_list .select_package > label{
+	float:left;
+	width:100px;
+	font-weight:bold;
+}
+ul.cmad_package_list .select_package .select_package_element{
+	float:left;
+}
+ul.cmad_package_list .select_package .select_package_element ul{
+	margin-top:10px;
+}
+ul.cmad_package_list .select_package .select_package_element ul li{
+	margin-bottom:5px;
+	overflow:hidden;
+}
+ul.cmad_package_list > li{
+  clear: both;
+  overflow: hidden;
+  padding:10px 10px;
+}
+ul.cmad_package_list .cmad_package_list_title{
+	overflow:auto;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+ul.cmad_package_list .cmad_package_list_title h3{
+	background: none;
+	font-weight: bold;
+	letter-spacing: normal;
+	margin-top: 3px;
+	overflow: hidden;
+	padding: 0;
+}
+.cmad_package_stat{
+	padding:5px;
+	overflow:hidden;
+}
+.cmad_package_stat span{
+	margin-right:80px;
+	float:left;
+	line-height:16px;
+}
+ul.cmad_package_list .cmad_list_details{
+	clear:both;
+	float:left;
+	margin-top:10px;
+}
+.cmad_package_loading{
+	text-align:center;
+	margin:30px 0;
+	clear:both;
+}
+.cmad_package_loading img{
+	vertical-align:middle;
+}
+/*sponsored stories create form*/
+.cmad_form_left{
+	width:650px;
+}
+.cmad_sp_wrapper {
+	float: left;
+	margin-left: 10px;
+	width: 200px;
+}
+.cadcp_preview .cmad_sdab{
+	width:180px;
+	padding:5px;
+}
+.cmad_sp_wrapper > b{
+	margin-bottom:5px;
+	float:left;
+}
+.cmad_form_left input[type="text"]{
+	width:194px;
+}
+.cmad_form_left select{
+	width:200px;
+}

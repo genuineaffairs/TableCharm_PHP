@@ -1,0 +1,1 @@
+UPDATE `engine4_core_menuitems` SET `plugin` = 'Messages_Plugin_Menus' WHERE `engine4_core_menuitems`.`name` = 'mgsl_main_messages';

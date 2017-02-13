@@ -1,0 +1,402 @@
+{
+  "type": "module",
+  "name": "sitepageadmincontact",
+  "version": "4.6.0",
+  "revision": null,
+  "path": "application\/modules\/Sitepageadmincontact",
+  "repository": null,
+  "date": "Mon, 15 Jul 2013 12:35:18 +0000",
+  "title": "Directory \/ Pages - Contact Page Owners Extension",
+  "description": "Directory \/ Pages - Contact Page Owners Extension",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 15 Jul 2013 12:35:18 +0000",
+    "title": "Directory \/ Pages - Contact Page Owners Extension",
+    "description": "Directory \/ Pages - Contact Page Owners Extension",
+    "developer": null,
+    "authors": [
+      "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Sitepageadmincontact\/settings\/install.php",
+    "class": "Sitepageadmincontact_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Sitepageadmincontact": {
+      "type": "directory",
+      "path": "application\/modules\/Sitepageadmincontact",
+      "structure": [
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 9822,
+          "sha1": "ecde5352ae0fbd5dc0c46b4d33e6712740746f9f"
+        },
+        {
+          "path": "controllers\/AdminMailsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 13190,
+          "sha1": "ead5fc287848341713cd58c48e97d71c3eb57a1b"
+        },
+        {
+          "path": "controllers\/AdminMessagesController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 820,
+          "sha1": "3721249225d14d8c8e66a89a217254f234094e52"
+        },
+        {
+          "path": "controllers\/AdminMailsettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 734,
+          "sha1": "bc2e453365175d7d3b215a71b8cc0fe454ac54d4"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Compose.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1407,
+          "sha1": "6f6ceaa7c44d7e7ae0aec7aa6841ff6820e68824"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Mail",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Mail\/Mail.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7365,
+          "sha1": "a433570df7a18d9a5308c97d3d3113cecc77a587"
+        },
+        {
+          "path": "Form\/Admin\/Message",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Message\/Message.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4917,
+          "sha1": "0cdc91d0399c86ab9422b0de536bfe4d09519f99"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 450,
+          "sha1": "1bbf9a4fcc4955cb74967375dc3b8653d9d121b3"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-mails",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-mails\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1572,
+          "sha1": "e0f6425213b1ed6063c596a53da9b9c19fbec1c6"
+        },
+        {
+          "path": "views\/scripts\/admin-mails\/upload-photo.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5123,
+          "sha1": "d4cff804aa403f07511b54cce146b068beebf2b1"
+        },
+        {
+          "path": "views\/scripts\/admin-mails\/faq.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 849,
+          "sha1": "0a8efee86570ed44ac717aa9cd43ec688a901ec2"
+        },
+        {
+          "path": "views\/scripts\/admin-mails\/faq_help.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3294,
+          "sha1": "986267a086135da56ba45a1261dd72bee94f35e3"
+        },
+        {
+          "path": "views\/scripts\/admin-messages",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-messages\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2345,
+          "sha1": "0eaeb0610ab4119c6aff71b1cb06d9eab14df168"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2970,
+          "sha1": "50c66d75dd75c507d5d91791f9feca1070f33f9d"
+        },
+        {
+          "path": "views\/scripts\/admin-mailsettings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-mailsettings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1576,
+          "sha1": "8a4ac78fc189fee04d7ca567feea5caa624eb04b"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1939,
+          "sha1": "8a11dd31e60fd94ccc7bd692f5f52e1a6aa02ad9"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3713,
+          "sha1": "6014529d746487dcb5dbaae1d211e44188d98831"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2535,
+          "sha1": "af9e9302998d579868cb3730a8f67cc7ce451c21"
+        }
+      ]
+    },
+    "application\/languages\/en\/sitepageadmincontact.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/sitepageadmincontact.csv",
+      "structure": {
+        "path": "sitepageadmincontact.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0777",
+        "size": 1388,
+        "sha1": "2c0367e5b0a45af63ac0efd3ef46fbd6d41cd75e"
+      }
+    }
+  }
+}

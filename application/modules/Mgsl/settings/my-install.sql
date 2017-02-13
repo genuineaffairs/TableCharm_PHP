@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('mgsl', 'MGSL', 'MGSL module', '4.0.0', 1, 'extra') ;

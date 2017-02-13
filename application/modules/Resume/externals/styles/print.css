@@ -1,0 +1,149 @@
+html
+{
+
+}
+body
+{
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  margin: 10px;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: tahoma,arial,verdana,sans-serif;
+}
+table
+{
+  border-collapse: collapse;
+}
+br
+{
+  clear: both;
+}
+ul
+{
+  list-style-type: none;
+}
+
+*[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+div,
+td
+{
+  font-size: 12px;
+  color: #000;
+  text-align: left;
+}
+*[dir="rtl"] div,
+*[dir="rtl"] td {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
+
+div.resume_body_description
+{
+  line-height: 1.25em;
+}
+
+div.resume_body_description h1,
+div.resume_body_description h2,
+div.resume_body_description h3,
+div.resume_body_description h4,
+div.resume_body_description h5,
+div.resume_body_description h6,
+div.resume_body_description p
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin: 0.75em 0;
+}
+div.resume_body_description blockquote
+{
+  margin: 1.12em 40px;
+}
+div.resume_body_description ul,
+div.resume_body_description ol
+{
+  display: block;
+  margin: 1.12em 40px;
+}
+div.resume_body_description ul li
+{
+  display: list-item;
+  list-style: disc;
+}
+div.resume_body_description ul li ul li
+{
+  display: list-item;
+  list-style: circle;
+}
+div.resume_body_description img
+{
+  max-width: 100%;
+}
+div.resume_body_description br {
+  clear: none;
+}
+
+/* resume profile page - body */
+div.resume_profile_body {
+  
+}
+div.resume_profile_body_section {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+}
+ul.resume_profile_body_section_children {
+}
+ul.resume_profile_body_section_children > li {
+  margin-top: 15px;
+}
+div.resume_profile_body_section_title {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+.resume_body_employment_date{
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.resume_body_employment_company {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.resume_body_employment_position {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.resume_body_education_school {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.resume_body_education_details {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#resume_section_contact > div {
+  text-align: center;
+}
+.resume_section_contact_name {
+  font-size: 20px;
+}
+.resume_section_contact_website {
+  font-size: 11px;
+}
+

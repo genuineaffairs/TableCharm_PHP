@@ -1,0 +1,2 @@
+1. Install from package manager.
+2. Go to the Module the page is self explainatory

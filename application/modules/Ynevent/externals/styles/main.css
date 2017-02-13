@@ -1,0 +1,2309 @@
+/* $Id: main.css 9319 2011-09-23 20:48:26Z john $*/
+
+/*
+FEED ITEMS
+Styles event attachments in the feed.
+*/
+.feed_attachment_event>div {
+	overflow: hidden;
+}
+
+.feed_attachment_event>div>a {
+	display: inline-block;
+	float: left;
+	margin-right: 7px;
+}
+
+.feed_attachment_event>div>a>img {
+	display: block;
+	max-width: 90px;
+	max-height: 90px;
+}
+
+.feed_attachment_event>div>div {
+	overflow: hidden;
+}
+
+/*
+UPCOMING EVENTS WIDGET
+Shown on user home by default.
+*/
+#ynevents-upcoming { +rounded; +foreground;
+	padding: 7px 10px 10px 10px;
+	margin-bottom: 15px;
+}
+
+#ynevents-upcoming li+li {
+	margin-top: 10px;
+	border-top-width: 1px;
+	padding-top: 7px;
+}
+
+#ynevents-upcoming li>a {
+	font-weight: bold;
+	font-size: .8em;
+}
+
+#ynevents-upcoming .ynevents-upcoming-date {
+	font-size: .8em;
+}
+
+#ynevents-upcoming .ynevents-upcoming-ongoing {
+	font-size: .8em;
+}
+/*
+BROWSE EVENTS
+These styles are used on the browse events page
+*/
+ul.ynevents_browse>li {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+ul.ynevents_browse>li+li {
+	padding-top: 15px;
+	border-top-width: 1px;
+}
+
+ul.ynevents_browse .ynevents_photo {
+	float: left;
+	overflow: hidden;
+}
+
+html[dir="rtl"] ul.ynevents_browse .ynevents_photo {
+	float: right;
+}
+
+ul.ynevents_browse .ynevents_photo img {
+	width: 100px;
+	display: block;
+}
+
+ul.ynevents_browse .ynevents_info {
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+html[dir="rtl"] ul.ynevents_browse .ynevents_info {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+ul.ynevents_browse .ynevents_title h3 {
+	margin: 0px;
+}
+
+ul.ynevents_browse .ynevents_members {
+	font-size: .8em;
+	color: $theme_font_color_light;
+}
+
+ul.ynevents_browse .ynevents_desc {
+	margin-top: 5px;
+	clear: both;
+}
+
+ul.ynevents_browse .ynevents_options {
+	float: right;
+	overflow: hidden;
+	width: 120px;
+	padding-left: 15px;
+}
+
+html[dir="rtl"] ul.ynevents_browse .ynevents_options {
+	float: left;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+ul.ynevents_browse .ynevents_options a {
+	clear: both;
+	margin: 3px 0px 0px 0px;
+	font-size: .8em;
+	padding-top: 1px;
+	height: 16px;
+}
+
+.layout_event_browse_search,.layout_event_browse_menu_quick {
+	margin-bottom: 15px;
+}
+
+/*
+VIEW EVENT
+These styles are used on the view event page, i.e.
+the event's profile page
+*/
+.layout_event_profile_info {
+	margin-top: 10px;
+}
+
+#ynevent_photo>img {
+	width: 100%;
+}
+
+div.ynevent_info>h4 {
+	margin-bottom: 1.1em;
+}
+
+div.ynevent_info>ul {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+div.ynevent_info>ul>li {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+div.ynevent_info>ul>li>div {
+	float: left;
+	clear: left;
+	width: 120px;
+}
+
+div.ynevent_info>ul>li>div+div {
+	float: none;
+	clear: none;
+	overflow: hidden;
+	width: auto;
+}
+
+#ynevent_stats {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#ynevent_stats>ul { +foreground; +rounded;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#ynevent_stats>ul>li {
+	font-size: .8em;
+	overflow: hidden;
+}
+
+#ynevent_stats>ul>li:first-child {
+	margin-bottom: 10px;
+	font-size: .8em;
+}
+
+#ynevent_stats .ynevent_date {
+	margin-bottom: 10px;
+}
+
+#ynevent_stats .ynevent_date .label {
+	clear: both;
+}
+
+#ynevent_stats>ul>li+li {
+	margin-top: 5px;
+}
+
+#ynevent_stats>ul>li>div {
+	font-size: 1em;
+}
+
+#ynevent_stats .label {
+	width: 45px;
+}
+
+#ynevent_stats .ynevent_stats_content {
+	font-weight: bold;
+}
+
+#ynevent_stats .label,#ynevent_stats .ynevent_stats_content {
+	float: left;
+}
+
+html[dir="rtl"] #ynevent_stats .label,#ynevent_stats .ynevent_stats_content
+	{
+	float: right;
+}
+
+#ynevent_stats .ynevent_stats_title {
+	font-weight: bold;
+}
+
+#ynevent_stats .ynevent_stats_title a {
+	display: block;
+	font-weight: normal;
+}
+
+#ynevent_stats .ynevent_stats_staff {
+	margin-top: 8px;
+}
+
+#ynevent_stats .ynevent_stats_info span {
+	font-weight: normal;
+}
+/*RSVP widget*/
+.ynevent_rsvp_form { +foreground; +rounded;
+	padding: 10px;
+	font-size: .8em;
+}
+
+.ynevent_rsvp_form input[type="radio"] {
+	*margin-top: 0px;
+}
+
+.ynevents_rsvp>div {
+	font-size: .8em;
+	clear: both;
+}
+
+.ynevents_rsvp>div+div {
+	margin-top: 5px;
+	font-size: .8em;
+	clear: both;
+}
+
+.ynevents_rsvp .ynevent_radio_loading {
+	background-image: url(~/application/modules/Core/externals/images/loading.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.ynevents_rsvp .ynevent_radio_loading input {
+	visibility: hidden;
+}
+/*Even Follow widget */
+.ynevent_follow_form { +foreground; +rounded;
+	padding: 10px;
+	font-size: .8em;
+}
+
+.ynevent_follow_radio input[type=radio] {
+	*margin-top: 0 !important;
+}
+
+.ynevents_follow>div {
+	font-size: .8em;
+	clear: both;
+}
+
+.ynevents_follow>div+div {
+	margin-top: 5px;
+	font-size: .8em;
+	clear: both;
+}
+
+.ynevents_follow .ynevent_radio_loading {
+	background-image:
+		url(~/application/modules/Core/externals/images/loading.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.ynevents_follow .ynevent_radio_loading input {
+	visibility: hidden;
+}
+
+/*Invite Form*/
+#global_page_ynevent-member-invite input[type=checkbox] {
+	margin-top: 0 !important;
+}
+
+#global_page_ynevent-member-invite #users-element {
+	clear: both;
+}
+
+#ynevent_form_invite .form-element>ul>li {
+	overflow: hidden;
+}
+
+#global_page_ynevent-member-invite input[type=checkbox]+label {
+	float: left;
+}
+
+/*event Join form*/
+#global_page_ynevent-member-join input[type="radio"]+label {
+	float: left;
+}
+
+#global_page_ynevent-member-join .form-element>ul>li {
+	overflow: hidden;
+}
+
+#global_page_ynevent-member-accept .form-element>ul>li {
+	overflow: hidden;
+}
+
+#global_page_ynevent-member-join #rsvp-element {
+	clear: both;
+}
+
+#global_page_ynevent-member-join input[type=radio] {
+	margin-top: 0 !important;
+}
+
+/* event members tab */
+.ynevent_members_info {
+	clear: both;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.ynevent_members_info .ynevent_members_total {
+	margin-top: 5px;
+	padding-bottom: 2px;
+	overflow: hidden;
+}
+
+.ynevent_members_info .ynevent_members_search {
+	float: none;
+	overflow: hidden;
+	text-align: right;
+	padding-bottom: 2px;
+}
+
+html[dir="rtl"] .ynevent_members_info .ynevent_members_search {
+	float: left;
+	text-align: left;
+}
+
+ul.ynevent_members {
+	border-top-width: 1px;
+	margin-bottom: 8px;
+}
+
+ul.ynevent_members>li {
+	overflow: hidden;
+	padding: 10px 0px 10px 0px;
+	border-bottom-width: 1px;
+}
+
+ul.ynevent_members .ynevent_members_icon {
+	float: left;
+	display: block;
+}
+
+html[dir="rtl"] ul.ynevent_members .ynevent_members_icon {
+	float: right;
+}
+
+ul.ynevent_members .ynevent_members_icon>img {
+	display: block;
+}
+
+ul.ynevent_members .ynevent_members_body {
+	overflow: hidden;
+	padding-left: 7px;
+}
+
+html[dir="rtl"] ul.ynevent_members .ynevent_members_body {
+	padding-left: 0px;
+	padding-right: 7px;
+}
+
+ul.ynevent_members .ynevent_members_status {
+	font-weight: bold;
+}
+
+ul.ynevent_members .ynevent_members_options {
+	float: right;
+	min-width: 180px;
+	overflow: hidden;
+	padding-left: 15px;
+}
+
+html[dir="rtl"] ul.ynevent_members .ynevent_members_options {
+	float: left;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+ul.ynevent_members .ynevent_members_options a {
+	display: block;
+	clear: both;
+	margin: 1px;
+}
+
+ul.ynevent_members .ynevent_members_options a.buttonlink {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+ul.ynevent_members .ynevent_members_options div {
+	text-align: right;
+}
+
+html[dir="rtl"] ul.ynevent_members .ynevent_members_options div {
+	text-align: left;
+}
+
+ul.ynevent_members .ynevent_members_rsvp {
+	margin-top: 3px;
+	font-size: .8em;
+	color: $theme_font_color_light;
+}
+
+/* photos tab */
+div.ynevent_photos>ul {
+	clear: both;
+	overflow: hidden;
+	margin: 20px 0px 20px 0px;
+}
+
+div.ynevent_photos>ul>li {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right: 20px;
+	height: 170px;
+}
+
+div.ynevent_photos>ul>li>div {
+	float: left;
+	overflow: hidden;
+	padding: 3px;
+	border: 1px solid $theme_photo_border_color;
+}
+
+div.ynevent_photos>ul>li>div:hover {
+	border: 1px solid $theme_photo_border_color_hover;
+}
+
+div.ynevent_photos>ul>li>div img {
+	display: block;
+}
+
+/* discussions tab and view page */
+.ynevent_discussions_options { +foreground; +rounded;
+	padding: 10px 0px 10px 0px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.ynevent_discussion_options a {
+	margin-right: 15px;
+}
+
+html[dir="rtl"] .ynevent_discussion_options a {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+ul.ynevent_discussions>li {
+	padding: 10px 10px 10px 0px;
+	overflow: hidden;
+}
+
+ul.ynevent_discussions>li+li {
+	border-top-width: 1px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_replies { +foreground; +rounded;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 10px;
+	width: 40px;
+	padding: 7px 10px 7px 10px;
+	color: $theme_font_color_light;
+	font-size: .8em;
+}
+
+html[dir="rtl"] ul.ynevent_discussions .ynevent_discussions_replies {
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_replies span {
+	font-size: 2em;
+	display: block;
+}
+
+ul.ynevent_discussions .ynevent_discussions_info {
+	overflow: hidden;
+}
+
+ul.ynevent_discussions h3 {
+	margin-bottom: 0px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_sticky a {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/stick.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: 0px .2em;
+}
+
+html[dir="rtl"] ul.ynevent_discussions .ynevent_discussions_sticky a {
+	background-position: right center;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_lastreply {
+	float: right;
+	overflow: hidden;
+	width: 250px;
+	margin-left: 10px;
+}
+
+html[dir="rtl"] ul.ynevent_discussions .ynevent_discussions_lastreply {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_lastreply>a {
+	float: left;
+	display: block;
+}
+
+html[dir="rtl"] ul.ynevent_discussions .ynevent_discussions_lastreply>a
+	{
+	float: right;
+}
+
+ul.ynevent_discussions .ynevent_discussions_lastreply>a>img {
+	display: block;
+}
+
+ul.ynevent_discussions .ynevent_discussions_lastreply_info {
+	overflow: hidden;
+	padding-left: 5px;
+}
+
+html[dir="rtl"] ul.ynevent_discussions .ynevent_discussions_lastreply_info
+	{
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+ul.ynevent_discussions .ynevent_discussions_lastreply_info_date {
+	font-size: .8em;
+	color: $theme_font_color_light;
+}
+/* some overrides on the tab page for spacing purposes */
+div.ynevent_discussions_list {
+	margin-top: 10px;
+	border-top-width: 1px;
+}
+
+div.ynevent_discussions_list h3 {
+	font-size: 1em;
+	letter-spacing: 0px;
+}
+
+div.ynevent_discussions_list .ynevent_discussions_sticky a {
+	background-position: 0px 0px;
+}
+
+html[dir="rtl"] div.ynevent_discussions_list .ynevent_discussions_sticky a
+	{
+	background-position: top right;
+}
+
+/* view event discussion thread */
+div.ynevent_discussions_thread_options .buttonlink {
+	padding-top: 1px;
+	font-size: .8em;
+	height: 16px;
+	margin-right: 15px;
+}
+
+html[dir="rtl"] div.ynevent_discussions_thread_options .buttonlink {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+div.ynevent_discussions_thread_options_closed {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/close.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	color: $theme_font_color_light;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+html[dir="rtl"] div.ynevent_discussions_thread_options_closed {
+	padding-left: 0px;
+	padding-right: 20px;
+	margin-left: 0px;
+	margin-right: 20px;
+	background-position: right center;
+}
+
+ul.ynevent_discussions_thread {
+	margin: 10px 0px 10px 0px;
+	overflow: hidden;
+}
+
+ul.ynevent_discussions_thread>li { +foreground;
+	overflow: hidden;
+	border-top: 1px solid $theme_border_medium_color;
+}
+
+ul.ynevent_discussions_thread>li+li {
+	margin-top: 5px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_author {
+	float: left;
+	overflow: hidden;
+	width: 120px;
+	font-weight: bold;
+	padding: 5px 10px 7px 10px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_author_name {
+	margin-bottom: 5px;
+}
+
+html[dir="rtl"] ul.ynevent_discussions_thread .ynevent_discussions_thread_author
+	{
+	float: right;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_photo {
+	display: block;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_info {
+	padding: 0px 10px 5px 5px;
+	overflow: hidden;
+}
+
+html[dir="rtl"] ul.ynevent_discussions_thread .ynevent_discussions_thread_info
+	{
+	padding: 0px 5px 5px 10px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details {
+	padding: 6px 0px 6px 0px;
+	border-bottom: 1px solid $theme_border_medium_color;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details_anchor
+	{
+	float: left;
+	overflow: hidden;
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post.png);
+	background-repeat: no-repeat;
+	width: 20px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details_anchor>a
+	{
+	display: block;
+	text-decoration: none;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details_date {
+	font-size: .8em;
+	overflow: hidden;
+	color: $theme_font_color_light;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details_options
+	{
+	margin-top: -2px;
+	float: right;
+	overflow: hidden;
+	text-align: right;
+}
+
+html[dir="rtl"] ul.ynevent_discussions_thread .ynevent_discussions_thread_details_options
+	{
+	float: left;
+	text-align: left;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_details_options .buttonlink
+	{
+	font-size: .8em;
+	height: 16px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_body {
+	padding: 5px 0px 5px 0px;
+}
+
+ul.ynevent_discussions_thread .ynevent_discussions_thread_body blockquote
+	{
+	border: 1px solid $theme_border_color;
+	background: $theme_body_background_color;
+	padding: 10px;
+}
+
+/*
+EVENT PHOTOS UPLOAD FORM
+Some minor changes to the global form.
+*/
+.ynevent_form_upload #file-label,.ynevent_form_upload #submit-label {
+	display: none;
+}
+
+/*
+EVENT CREATE FORM
+Some minor changes to the create new event form.
+*/
+#ynevent_create_form .calendar_output_span {
+	display: inline-block;
+	margin-right: 15px;
+	min-width: 90px;
+}
+
+html[dir="rtl"] #ynevent_create_form .calendar_output_span {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+#ynevent_create_form #starttime-wrapper select+select,#ynevent_create_form #endtime-wrapper select+select
+	{
+	margin-left: 5px;
+}
+
+html[dir="rtl"] #ynevent_create_form #starttime-wrapper select+select,html[dir="rtl"] #ynevent_create_form #endtime-wrapper select+select
+	{
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+/* ITEM TYPE ICONS */
+.item_icon_event {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/types/event.png);
+}
+
+.item_icon_event_topic,.item_icon_event_post {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/types/post.png);
+}
+
+.item_icon_event_album,.item_icon_event_photo {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/types/album.png);
+}
+
+/* NOTIFICATION TYPE ICONS */
+.notification_type_ynevent_discussion_response,.notification_type_ynevent_discussion_reply
+	{
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/types/post.png);
+}
+
+.notification_type_ynevent_invite,.notification_type_ynevent_accepted,.notification_type_ynevent_approve,.notification_type_ynevent_change_details,.notification_type_ynevent_invite,.notification_type_ynevent_invite_message,.notification_type_ynevent_remind,.notification_type_ynevent_delete, 
+.notification_type_ynevent_edit_delete
+	{
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/types/event.png);
+}
+
+/*
+VIEW EVENT ALBUM
+Styles for the list event photo page.
+*/
+.ynevent_album_options a {
+	margin-right: 15px;
+}
+
+html[dir="rtl"] .ynevent_album_options a {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+/*
+VIEW EVENT PHOTO
+These styles are used on the view photo page within
+an album.
+*/
+div.ynevent_photo_view {
+	margin: 25px auto 0px auto;
+	max-width: 750px;
+	min-width: 400px;
+	overflow: visible;
+}
+
+div.ynevent_photo_view #media_photo {
+	border: 1px solid $theme_photo_border_color;
+	margin: auto;
+	display: block;
+	max-width: 720px;
+}
+
+div.ynevent_photo_view .ynevent_photo_nav {
+	clear: both;
+	overflow: visible;
+	margin-bottom: 4px;
+}
+
+div.ynevent_photo_view .ynevent_photo_nav>div {
+	float: left;
+	overflow: visible;
+}
+
+div.ynevent_photo_view .ynevent_photo_nav>div+div {
+	float: none;
+	text-align: right;
+}
+
+div.ynevent_photo_view .ynevent_photo_nav>div+div>a+a {
+	margin-left: 20px;
+}
+
+div.ynevent_photo_info { +foreground; +rounded;
+	text-align: center;
+	padding: 10px;
+	border: 5px solid $theme_foreground_border_color;
+}
+
+div.ynevent_photo_info p {
+	text-align: left;
+}
+
+div.ynevent_photo_container {
+	position: relative;
+	display: inline-block;
+}
+
+div.ynevent_photo_container a:link {
+	text-decoration: none;
+}
+
+div.ynevent_photo_view>span+div>a {
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+div.ynevent_photo_view>span+div>a:link {
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+div.ynevent_photo_info .ynevent_photo_title {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+div.ynevent_photo_info .ynevent_photo_description {
+	font-size: .8em;
+	margin-top: 3px;
+}
+
+div.ynevent_photo_info .ynevent_photo_owner {
+	font-size: .8em;
+	margin-top: 3px;
+}
+
+div.ynevent_photo_info .ynevent_photo_title+.ynevent_photo_tags,div.ynevent_photo_info .ynevent_photo_description+.ynevent_photo_tags
+	{
+	margin-top: 15px;
+}
+
+div.ynevent_photo_info .ynevent_photo_tags {
+	font-size: .8em;
+	margin-top: 5px;
+}
+
+div.ynevent_photo_info .ynevent_photo_date {
+	font-size: .8em;
+	margin-top: 5px;
+}
+
+div.ynevent_photo_view>div.comments {
+	margin-top: 15px;
+}
+
+/*
+EVENTS USER PROFILE TAB
+Styles the list of events on a user's Events profile tab.
+*/
+ul.ynevents_profile_tab>li {
+	overflow: hidden;
+}
+
+ul.ynevents_profile_tab>li+li {
+	margin-top: 10px;
+	border-top-width: 1px;
+	padding-top: 10px;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_photo {
+	float: left;
+	overflow: hidden;
+	margin-right: 7px;
+}
+
+html[dir="rtl"] ul.ynevents_profile_tab .ynevents_profile_tab_photo {
+	float: right;
+	margin-right: 0px;
+	margin-left: 7px;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_photo img {
+	max-width: 90px;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_info {
+	overflow: hidden;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_title>a {
+	font-weight: bold;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_members {
+	font-size: .8em;
+	color: $theme_font_color_light;
+}
+
+ul.ynevents_profile_tab .ynevents_profile_tab_desc {
+	margin-top: 7px;
+}
+
+/*
+POST EVENT TOPIC FORM
+*/
+#ynevent_topic_create .form-elements {
+	margin-top: 10px;
+}
+
+#ynevent_topic_create .form-label {
+	clear: both;
+	float: none;
+	text-align: left;
+	margin-bottom: 3px;
+}
+
+html[dir="rtl"] #ynevent_topic_create .form-label {
+	text-align: right;
+}
+
+#ynevent_topic_create #watch-label {
+	display: none;
+}
+
+/*
+REPLY TO EVENT TOPIC FORM
+*/
+#ynevent_topic_reply h3,#ynevent_topic_reply #body-label,#ynevent_topic_reply #submit-label
+	{
+	display: none;
+}
+
+#ynevent_topic_reply .form-elements {
+	margin-top: 0px;
+}
+
+#ynevent_topic_reply #watch-label {
+	display: none;
+}
+
+/*
+INVITE FORM
+*/
+#ynevent_form_invite #users-label {
+	display: none;
+}
+
+#ynevent_form_invite #users-element {
+	border: 1px solid $theme_border_dark_color;
+	padding: 7px 10px 7px 10px;
+	max-height: 200px;
+	overflow-y: auto;
+	margin: 10px 0px 10px 0px;
+}
+
+/*
+TAG FOR SENDING MESSAGES
+*/
+.tag.tag_event {
+	background-image:
+		url(~/application/modules/Event/externals/images/types/event.png);
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 4px center;
+}
+
+/* ICONS */
+.icon_event_new,.icon_event_create {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/create.png);
+}
+
+.icon_event_edit {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/edit.png);
+}
+
+.icon_event_join {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/join.png);
+}
+
+.icon_event_delete {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/delete.png);
+}
+
+.icon_event_leave {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/leave.png);
+}
+
+.icon_event_accept {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/accept.png);
+}
+
+.icon_event_reject {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/reject.png);
+}
+
+.icon_event_cancel {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/cancel.png);
+}
+
+.icon_event_photo_new {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/photo/upload.png);
+}
+
+.icon_event_photo_view {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/photo/view.png);
+}
+
+.icon_event_post_new {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/create.png);
+}
+
+.icon_event_post_edit {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/edit.png);
+}
+
+.icon_event_post_reply {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/reply.png);
+}
+
+.icon_event_post_stick {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/stick.png);
+}
+
+.icon_event_post_unstick {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/unstick.png);
+}
+
+.icon_event_post_close {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/close.png);
+}
+
+.icon_event_post_open {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/unclose.png);
+}
+
+.icon_event_post_rename {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/rename.png);
+}
+
+.icon_event_post_delete {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/delete.png);
+}
+
+.icon_event_post_quote {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/post/quote.png);
+}
+
+.icon_event_topic_watch {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/watch.png);
+}
+
+.icon_event_topic_unwatch {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/unwatch.png);
+}
+
+.activity_icon_event_join {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/member/join.png);
+}
+
+#global_page_ynevent-index-browse #starttime-element select {
+	display: none;
+}
+
+#global_page_ynevent-index-browse #endtime-element select {
+	display: none;
+}
+/*
+UI Date picker
+*/
+/*Form Filter*/
+.filters .hasDatepicker {
+	width: 80%;
+}
+/*
+Event calendar widget
+*/
+.layout_ynevent_events_calendar .hasDatepicker .ui-datepicker td a {
+	padding: 0.2em 0;
+}
+
+.layout_ynevent_events_calendar .hasDatepicker .ui-datepicker th {
+	padding: 0.7em 0;
+	font-weight: normal !important;
+}
+
+.layout_ynevent_events_calendar .ui-state-default {
+	font-weight: normal !important;
+	text-align: center;
+}
+
+#ui-datepicker-div {
+	font-size: 0.7em;
+}
+
+.layout_ynevent_events_calendar .ui-datepicker {
+	width: auto !important
+}
+/*yn widget*/
+.layout_ynevent_events_calendar {
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+.layout_ynevent_profile_rsvp {
+	margin-bottom: 13px;
+}
+
+.layout_ynevent_profile_follow {
+	margin-bottom: 13px;
+}
+
+.layout_ynevent_browse_search {
+	margin-bottom: 13px;
+}
+
+.layout_ynevent_browse_search #view {
+	max-width: 170px;
+}
+
+.layout_ynevent_browse_search input {
+	max-width: 130px;
+	float: left;
+}
+
+.layout_ynevent_browse_search .ui-datepicker-trigger {
+	padding: 3px 0 0 5px;
+}
+
+#ynevent_rating {
+	margin-bottom: 5px;
+}
+
+#ynevent_rating .rating_text {
+	line-height: 1em;
+}
+
+.ynevent_members_filter {
+	text-align: right;
+	margin-top: 3px;
+}
+/* My calendar css */
+table.calendar {
+	background: #EEE;
+}
+
+td.calendar-day-head {
+	background-color: $theme_topbar_menu_background_color !important;
+}
+
+div.day-number {
+	background-color: $theme_topbar_menu_background_color !important;
+}
+
+td.calendar-day-np {
+	background-color: $theme_foreground_background_color !important;
+}
+
+#global_page_ynevent-admin-manage-index .admin_search {
+	max-width: none !important;
+}
+
+#global_page_ynevent-admin-manage-index .admin_search img {
+	margin-left: 2px;
+	margin-bottom: -6px;
+}
+
+.table_scroll {
+	overflow: auto;
+}
+/*My calendar */
+.ynevent_mycalendar_form select {
+	float: left;
+	margin-left: 7px;
+}
+
+.ynevent_mycalendar_form button {
+	background-position: 0 -2px;
+	float: left;
+	margin: -2px 0 0 10px;
+	*margin: -18px 0 0 10px;
+	padding: 2px 5px;
+}
+
+.ynevent_mycalendar_form a {
+	display: block;
+	float: left;
+	margin: -2px 0 0 5px;
+	*margin: -18px 0 0 5px;
+}
+
+#ynevent_myCalendar {
+	margin-top: 2px;
+}
+
+#global_page_ynevent-member-join .form-label {
+	float: none;
+}
+
+#global_page_ynevent-member-invite .form-label {
+	float: none;
+}
+
+.layout_ynevent_profile_members .event_members_info .event_members_search
+	{
+	float: none !important;
+}
+
+#sub_category_id-wrapper {
+	display: none;
+}
+
+.ynevent_thumpup {
+	vertical-align: bottom;
+	padding-left: 2px;
+	padding-bottom: 3px;
+}
+
+.ynevent_thumpdown {
+	vertical-align: middle;
+	padding-left: 2px;
+}
+
+/*CSS for Add this*/
+.ynevent-addthis {
+	color: #fff;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	clear: both;
+}
+
+.ynevent-addthis span.ynevent-question {
+	background: url(~/application/modules/Ynevent/externals/images/fr.png)
+		no-repeat scroll 0 -499px transparent;
+	display: inline-block;
+	height: 17px;
+	text-indent: -9999px;
+	width: 16px;
+	padding-left: 0;
+}
+
+.ynevent-addthis span.ynevent-value {
+	position: absolute;
+	right: 5px;
+}
+/*Add #global_content .layout_left .generic_layout_container fix xmark theme*/
+#global_content .layout_left .generic_layout_container .ynevent-share {
+	background: #f75c39;
+}
+
+#global_content .layout_left .generic_layout_container .ynevent-click {
+	background: #0077cc;
+}
+
+#global_content .layout_left .generic_layout_container .viral {
+	background: #424242;
+}
+
+.ynevent_PromoteWrapper {
+	width: 540px;
+	padding: 20px 0px 20px 20px;
+}
+
+.ynevent_PromoteWrapper .ynevent_donateCode>h3,.ynevent_contestPromote {
+	margin: 5px 0px 8px 0px;
+}
+
+.ynevent_PromoteWrapper .ynevent_donateCode>h3 {
+	border-bottom: 1px #DFDFDF solid;
+	padding: 0px 0px 5px 0px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+/* Feature event*/
+#ynevent_navigation { +foreground; +rounded;
+	overflow: hidden;
+	padding: 25px 10px 12px 10px;
+	margin-bottom: 15px;
+}
+
+#ynevent_slideshow_left {
+	overflow: hidden;
+	position: relative;
+	height: 235px;
+}
+
+.ynevent_album_photo {
+	float: left;
+	width: 65%;
+	margin-right: 12px;
+}
+
+.ynevent_album_photo img {
+	width: 100%;
+}
+
+.ynevent_albumfeatured_info {
+	float: right;
+	width: 32%;
+}
+
+.ynevent_slideshow_slide {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	background-color: $theme_foreground_background_color;
+}
+
+.ynevent_album_info {
+	margin-bottom: 5px;
+}
+
+ul.ynevent_slideshow_pagination {
+	float: right;
+	margin-top: 10px;
+}
+
+ul.ynevent_slideshow_pagination li {
+	display: inline;
+}
+
+ul.ynevent_slideshow_pagination li a {
+	width: 14px;
+	height: 14px;
+	background:
+		url(~/application/modules/Ynevent/externals/images/slide_pager_off.png)
+		no-repeat left top transparent;
+	float: left;
+}
+
+ul.ynevent_slideshow_pagination li+li a {
+	margin-left: 8px;
+}
+
+ul.ynevent_slideshow_pagination li a.current {
+	background-image:
+		url(~/application/modules/Ynevent/externals/images/slide_pager_on.png);
+}
+
+.ynevent_view_more {
+	margin-top: 10px;
+}
+
+.ynevent_view_more a:link,.ynevent_view_more a:visited { +rounded;
+	background-color: $theme_button_background_color;
+	color: $theme_button_font_color;
+	padding: 2px 6px;
+	float: left;
+}
+
+/* Calendar tooltip*/
+#ynevent_myCalendar .tooltip {
+	display: none;
+	font-size: 12px;
+	width: 300px;
+}
+
+.ynevent-tooltip-container {
+	background-color: $theme_body_background_color;
+	border: 1px solid $theme_buttontabs_background_color_active;
+	width: 300px;
+}
+
+.ynevent-tooltip-container .photo {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #EAEAEA;
+	overflow: hidden;
+	text-align: center;
+	width: 48px;
+	height: 48px;
+}
+
+.ynevent-tooltip-container .info {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-right: 3px;
+	line-height: 15px;
+}
+
+.ynevent-tooltip-container .title a { /*     font-size: 14pt;*/
+	font-weight: bold;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+.ynevent-tooltip-container .stats {
+	font-size: 0.8em;
+}
+
+.tooltip .ynevent_jay {
+	clear: both;
+	border-top: $theme_foreground_border_color;
+	background-color: $theme_buttontabs_background_color_active;
+	min-height: 25px;
+	margin-top: 10px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.tooltip .ynevent_arrow {
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid $theme_buttontabs_background_color_active;
+	margin: 0 auto;
+	position: relative;
+	top: -1px;
+	z-index: 100;
+}
+
+/* calendar */
+table.calendar {
+	border-left: 1px solid #999;
+}
+
+tr.calendar-row {
+	
+}
+
+td.calendar-day {
+	min-height: 80px;
+	font-size: 11px;
+	background-color: $theme_foreground_background_color;
+}
+
+* html div.calendar-day {
+	height: 80px;
+}
+
+td.calendar-day:hover {
+	background: $theme_foreground_border_color_light;
+}
+
+td.calendar-day-np {
+	background: #eee;
+	min-height: 80px;
+}
+
+* html div.calendar-day-np {
+	height: 80px;
+}
+
+td.calendar-day-head {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+div.day-number {
+	background: $theme_button_background_color;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin: -5px -5px 0 0;
+	width: 20px;
+	text-align: center;
+}
+/* shared */
+td.calendar-day,td.calendar-day-np {
+	width: 120px;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.ynevent_googlemaps {
+	width: 450px;
+	height: 300px;
+	margin-top: 10px;
+}
+
+.ynevent_refresh_map {
+	padding: 10px 10px 10px 0px;
+}
+
+ul.ynevent_sponsor_list {
+	margin-top: 18px !important;
+}
+
+ul.ynevent_sponsor_list>li {
+	height: none !important;
+	margin-bottom: 15px;
+    min-height: 118px;
+}
+
+.ynevent_sponsor_content {
+    /*height: 110px;*/
+    overflow: hidden;
+    padding-left: 8px;
+    float: none !important;
+}
+
+.ynevent_sponsor_content>div:first-child {
+	font-weight: bold;
+}
+
+.ynevent_sponsor_content>div {
+	width: auto;
+	margin-bottom: 8px;
+}
+
+div.ynevent_sponsor_action {
+	float: right !important;
+	/*margin-right: 15px;*/
+	width: 90px;
+}
+
+form#ynevent_sponsor_edit .form-label, form#ynevent_sponsor_create .form-label {
+	float: none;
+	text-align: left;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	font-weight: bold;
+}
+
+div.ynevent_sponsor_image {
+	border: 1px solid;
+	border-color: #CCC;
+	padding: 2px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	float: left
+}
+
+div.ynevent_sponsor_image>img {
+	max-height: 120px;
+	max-width: 120px;
+}
+
+.icon_event_video{
+  background-image: url(~/application/modules/Ynevent/externals/images/video/video.png);
+}
+
+.icon_event_video_new
+{
+  background-image: url(~/application/modules/Ynevent/externals/images/video/new.png);
+}
+
+.event_discussions_options a {
+	margin-right: 15px;
+}
+
+.ynvideo_videos_manage > h3 {
+	margin-bottom: 12px;
+}
+
+
+/* edited by nam nguyen*/
+
+img.yncalendar_button_span{
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+input.calendar-date{width: 120px;margin-right: 4px;}
+
+.yncalendar_button_span{
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding: 2px 12px;
+	background-image: url("~/application/modules/Ynevent/externals/images/calendar.png");	
+}
+
+#custom_event-wrapper, #weekly_event-wrapper, #annually_event-wrapper, #monthly_event-wrapper{display:none;}
+.week .has-events{
+font-weight: bold;
+}
+.ynevent_custom_events td{padding: 2px 5px;}
+.mv-daynames-table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #555555;
+    table-layout: fixed;
+    width: 100%;
+}
+.mv-event-container {
+
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+   /* border-top: 1px solid #DDDDDD;*/
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    width: 99.95%;
+}
+.month-row {
+	height: 21%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.st-bg-table {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    table-layout: fixed;
+    top: 0;
+    width: 100%;
+}
+.st-bg {
+    border-left: 1px solid #DDDDDD;
+}
+.st-contents, .mv-container {
+    font-size: 12px;
+    line-height: 14px;
+}
+.mv-container {
+    white-space: nowrap;
+}
+.st-grid {
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+.st-dtitle {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #222222;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 4px 9px 0;
+}
+.mv-dayname, #calcontent.eui-t .mv-dayname {
+    padding-left: 5px;
+}
+.mv-daynames-table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #555555;
+    table-layout: fixed;
+    width: 100%;
+}
+.st-dtitle span{
+}
+
+#gridcontainer{
+	position: relative;
+	height: 600px;
+	width:980px;/* 1100px;*/
+}
+
+#monthly_event-element {width: 600px;}
+#weekly_event-element {width: 600px;}
+#annually_event-element {width: 600px;}
+#custom_event-element {width: 600px;}
+
+.st-c {
+	vertical-align:top;
+}
+.st-c > div{
+	background-image: url("~/application/modules/Ynevent/externals/images/ro_15.png");
+	background-repeat: repeat;
+	background-position: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7BD148;
+	background-color: #7BD148;
+	margin: 1px;
+	font-size: 11px;
+	padding: 1px 2px;
+	width: 147px;
+}
+.st-c > div a{
+	color: #000;
+}
+.st-c div.yneventcd-type-2,.st-c div.yneventcd-type-3{padding-right: 10px}
+
+#ynevent_create_form >div >div{
+width: 800px;
+}
+
+
+/**
+ * 	define date picker.
+ */
+.datepicker_jqui {
+	position: absolute;
+	font-size: 10px;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	color: #333;
+	line-height: normal;
+	width: 185px;
+	height: 158px;
+	padding: 4px;
+	background: url("~/application/modules/Ynevent/externals/images/datepicker/frame.png") no-repeat;
+}
+.layout_ynevent_events_calendar .datepicker_jqui {
+	position: static;	
+}
+/* header
+********************************************************/
+.datepicker_jqui .header {
+	position: relative;
+	height: 15px;
+	margin-bottom: 5px;
+	padding-top: 1px;
+}
+
+.datepicker_jqui .header .title {
+	text-align: center;
+	margin: 3px 18px 0 18px;
+}
+
+.datepicker_jqui .header .titleText {
+	font-size: 11px;
+	color: #fff;
+}
+
+.datepicker_jqui .header .previous,
+.datepicker_jqui .header .next,
+.datepicker_jqui .header .closeButton {
+	position: absolute;
+	cursor: pointer;
+	text-indent: -40px;
+	overflow: hidden;
+	width: 16px;
+	height: 16px;
+	top: 4px;
+	background-image: url("~/application/modules/Ynevent/externals/images/datepicker/arrows.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.datepicker_jqui .header .previous {
+	left: 5px;
+}
+.datepicker_jqui .header .previous:hover {
+	background-position: left bottom;
+}
+.datepicker_jqui .header .next {
+	right: 4px;
+	background-position: -17px top;
+}
+.datepicker_jqui .header .next:hover {
+	background-position: -17px bottom;
+}
+.datepicker_jqui .header .closeButton {
+	display: none;
+	right: 0px;
+	top: 0px;
+	background-position: right top;
+}
+.datepicker_jqui .header .closeButton:hover {
+	background-position: right bottom;
+}
+
+/* body
+********************************************************/
+.datepicker_jqui .body {
+	position: relative;
+	top: 6px;
+	left: 2px;
+	width: 185px;
+	height: 131px;
+	overflow: hidden;
+}
+
+/* time
+********************************************************/
+.datepicker_jqui .time {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.datepicker_jqui .time .hour,
+.datepicker_jqui .time .separator,
+.datepicker_jqui .time .minutes {
+	background: #fff;
+	border: 0px;
+	width: 50px;
+	font-size: 32px;
+	color: #333;
+	border: 1px solid #aaa;
+	position: absolute;
+	top: 18px;
+	text-align: center;
+	padding: 2px;
+}
+
+.datepicker_jqui .time .hour {
+	left: 23px;
+}
+.datepicker_jqui .time .separator {
+	background: transparent;
+	border: 0px;
+	width: 10px;
+	left: 84px;
+}
+
+.datepicker_jqui .time .minutes {
+	left: 103px;
+}
+.datepicker_jqui .time .ok {
+	position: absolute;
+	top: 80px;
+	height: 32px;
+	width: 136px;
+	left: 23px;
+	font-size: 20px;
+}
+
+/* days-grid
+********************************************************/
+.datepicker_jqui .days .day {
+	float: left;
+	overflow: hidden;
+	width: 19px;
+	padding-top: 1px;
+	padding-right: 3px;
+	height: 13px;
+	border: 1px solid #aaa;
+	text-align: right;
+	margin: 0 2px 2px 0;
+}
+
+.datepicker_jqui .days .titles {
+	margin-bottom: 1px;
+	
+}
+
+.datepicker_jqui .days .titles .title {
+	font-size: 10px;
+	border: 1px solid transparent;
+	text-align: center;
+	height: 16px;
+	padding-right: 0px;
+	width: 22px;
+	padding-top: 2px;
+}
+
+.datepicker_jqui .days .day0 {
+	/*margin-right: 0;*/
+}
+
+.datepicker_jqui .days .week5 .day {
+	margin-bottom: 0;
+}
+
+/* days-colors
+********************************************************/
+.datepicker_jqui .days .week .day {
+	background: #fcfcfc;
+	cursor: pointer;
+	color: #1C94C4;
+	font-size: 11px;
+}
+.datepicker_jqui .days .week .day:hover {
+	background: #fdf5ce;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+.datepicker_jqui .days .week .otherMonth {
+	background: #f2f2f2;
+	color: #94B2BE;
+	border: 1px solid #aaa;
+}
+
+.datepicker_jqui .days .week .selected {
+	background: #fff;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+.datepicker_jqui .days .week .today {
+	background: orange;
+}
+
+
+/* months-grid
+********************************************************/
+.datepicker_jqui .months .month {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	width: 57px;
+	cursor: pointer;
+	background: #fcfcfc;
+	padding-top: 7px;
+	height: 22px;
+	border: 1px solid #aaa;
+	margin: 0 2px 2px 0;
+}
+
+.datepicker_jqui .months .month3,
+.datepicker_jqui .months .month6,
+.datepicker_jqui .months .month9,
+.datepicker_jqui .months .month12 {
+	margin-right: 0;
+}
+
+.datepicker_jqui .months .month10,
+.datepicker_jqui .months .month11,
+.datepicker_jqui .months .month12 {
+	margin-bottom: 0;
+}
+
+/* months-colors
+********************************************************/
+.datepicker_jqui .months .month:hover {
+	background: #fdf5ce;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+.datepicker_jqui .months .selected {
+	background: #fff;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+/* years-grid
+********************************************************/
+.datepicker_jqui .years .year {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	background: #fcfcfc;
+	width: 32px;
+	cursor: pointer;
+	padding-top: 7px;
+	height: 22px;
+	border: 1px solid #aaa;
+	margin: 0 2px 2px 0;
+}
+
+.datepicker_jqui .years .year4,
+.datepicker_jqui .years .year9,
+.datepicker_jqui .years .year14,
+.datepicker_jqui .years .year19 {
+	margin-right: 0;
+	width: 34px;
+}
+
+.datepicker_jqui .years .year15,
+.datepicker_jqui .years .year16,
+.datepicker_jqui .years .year17,
+.datepicker_jqui .years .year18,
+.datepicker_jqui .years .year19 {
+	margin-bottom: 0;
+}
+
+/* years-colors
+********************************************************/
+.datepicker_jqui .years .year:hover {
+	background: #fdf5ce;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+.datepicker_jqui .years .selected {
+	background: #fff;
+	color: #c77405;
+	border: 1px solid #fbcb09;
+}
+
+/* global
+********************************************************/
+.datepicker_jqui .unavailable {
+	cursor: default !important;
+	background: #f0f0f0 !important;
+	color: #ccc !important;
+	border: 1px solid #ccc !important;
+}
+
+.datepicker_jqui table {
+	border-spacing: 0;
+}
+
+.datepicker_jqui th,
+.datepicker_jqui td {
+	padding: 0;
+}
+.datepicker_jqui .titleText .column_1{text-align: center;}
+
+/**
+ * 	define event tool tips
+ */
+
+#ynevent_calendar_date_title,#ynevent_calendar_today{
+	font-size: 16px;
+	font-weight:bold;
+}
+/* end edited by nam nguyen*/
+
+.ynevent_promote_wrapper {
+	width: 540px;
+	padding: 20px 0px 20px 20px;
+}
+
+.ynevent_promote_code {
+	float: left;
+	margin-right: 30px;
+	width: 290px;
+}
+
+.ynevent_review {
+	float: left;
+	background-color: #216DA1;
+}
+
+.ynevent_review > a {
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-bottom: 13px;
+	color: white;
+}
+
+textarea.ynevent_box_code {
+	height: 200px;
+	width: 280px;
+	font-size: 13px;
+	background: url(~/application/modules/Ynevent/externals/images/textarea_input.png) repeat-x #F4F4F4;
+	padding: 4px;
+	border: 1px solid #D7D7D7;
+	border-radius: 0;
+	color: #333;
+}
+
+.ynevent_photo_col_right {
+	text-align: center;
+	margin: 6px 0px 5px 0px;
+}
+
+.ynevent_photo_col_right > a > img {
+	width: 93%;
+}
+
+.ynevent_owner_stat, .ynevent_owner_stat > a:link, .ynevent_owner_stat > a:visited {
+	color: #A3C2D7;
+	font-size: 11px;
+}
+
+.ynevent_owner_stat {
+	padding-left: 5px;
+}
+
+.ynevent_description {
+	margin: 5px 0px 8px 0px;
+	background-color: #216DA1;
+	padding: 0px 5px;
+	width: 195px;
+}
+
+a#promote_event_name {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12.5pt;
+	margin-left: 5px;
+	margin-bottom: 13px;
+}
+
+.ynevent_promote_calendar {
+	background-image: url(~/application/modules/Ynevent/externals/images/promote.png);
+	margin-top: 10px; 
+	/*float: right;*/
+}
+
+.ynevent_promote_calendar_box_code {
+	margin-top: 10px;
+	margin-left: 24px;
+}
+
+.ynevent_sponsor_add {
+	background-image: url(~/application/modules/Ynevent/externals/images/sponsor.png); 
+	float: left;
+}
+
+.layout_ynevent_profile_near_location ul.generic_list_widget > li {
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+
+.ynevent_agent_table {
+	margin-top: 15px;
+}
+
+table.ynevent_agent_table thead tr th
+{
+  +foreground;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  white-space: nowrap;
+  background-color: #E9F4FA;
+}
+table.ynevent_agent_table thead tr th a
+{
+  font-weight: bold;
+}
+table.ynevent_agent_table tbody tr:nth-child(even)
+{
+  background-color: #E9F4FA;
+}
+table.ynevent_agent_table tbody tr td
+{
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: .9em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  white-space: wrap;
+  vertical-align: top;
+}
+.form-options-wrapper{
+    margin-top: 15px;
+}
+.ynevent_like, .ynevent_unlike {
+	padding: 0px 10px;
+	border: 1px solid #CCC;
+	+foreground;
+	+rounded(3px);
+	margin-left:5px;
+}
+.layout_ynevent_profile_status #profile_status > h2 {
+	display: block;
+	margin: 10px 0px;
+}
+/* Invite groups*/
+#global_page_ynevent-member-invite-groups
+{
+	
+}
+ul.invite-group-wrapper {
+	margin-top: 15px;
+}
+#global_content_simple .invite-group-wrapper li{
+	width: 43%;
+	float: left;
+	vertical-align: middle;
+	clear: none;
+	margin-bottom: 10px;
+	height: 48px;
+	line-height: 48px;
+}
+.invite-group-wrapper li + li {
+
+}
+.invite-group-wrapper li input[type="checkbox"] {
+	height: 48px;
+	line-height: 48px;
+	vertical-align: middle;
+}
+.invite-group-wrapper li img {
+	vertical-align: top;
+}
+.invite-group-wrapper li label {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 1em;
+	width: 48%;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ul#ynevent_search_form_mileof_zipcode {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+div.ynevents_title_repeat_type {
+	color: green !important;
+	cursor: pointer;
+}
+
+#global_page_ynevent-event-delete .global_form_popup .form-element ul
+{
+    overflow: hidden;
+}
+#global_page_ynevent-event-delete .global_form_popup .form-element ul > li,
+#global_page_ynevent-event-delete .global_form_popup .form-elements #buttons-wrapper
+{
+    clear: both;
+}
+
+.activity_icon_ynevent_join {
+	background-image: url(~/application/modules/Ynevent/externals/images/join.png);
+}
+
+#global_page_ynevent-event-edit .form-options-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#global_page_ynevent-event-edit .form-options-wrapper > li {
+    clear: both;
+}
+
+div.layout_ynevent_events_calendar {
+	background: none transparent !important;
+	padding: 0px !important;
+}
+
+#ynevent_form_browse_filter .form-wrapper {
+	clear: left;
+}

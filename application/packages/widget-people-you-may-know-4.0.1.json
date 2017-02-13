@@ -1,0 +1,72 @@
+{
+  "type": "widget",
+  "name": "people-you-may-know",
+  "version": "4.0.1",
+  "revision": null,
+  "path": "application\/widgets\/people-you-may-know",
+  "repository": null,
+  "date": "Tue, 17 Feb 2011 17:24:12 +0000",
+  "title": "People You May Know",
+  "description": "Displays a list of Friends of your Friends",
+  "developer": "Sergey Drughinin",
+  "authors": [
+    "SocialEngineMarket"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 17 Feb 2011 17:24:12 +0000",
+    "title": "People You May Know",
+    "description": "Displays a list of Friends of your Friends",
+    "developer": "Sergey Drughinin",
+    "authors": [
+      "SocialEngineMarket"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/people-you-may-know": {
+      "type": "directory",
+      "path": "application\/widgets\/people-you-may-know",
+      "structure": [
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 786,
+          "sha1": "e6ac52a15e3adce3e75e86a541d4bf4d8f107927"
+        },
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 45,
+          "sha1": "0aee4d30d30178721c42ba9885a3ae3686d92316"
+        },
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 138,
+          "sha1": "da68bc68745016a717ce6309e96a1e33dded772b"
+        }
+      ]
+    }
+  }
+}

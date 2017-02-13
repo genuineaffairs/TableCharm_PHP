@@ -1,0 +1,21 @@
+.activity_icon_sitepagenote_new, .icon_sitepagenote_note {
+	background-image: url(~/application/modules/Sitepage/externals/images/icons/note.png);
+}
+/*view page*/
+div.sitepagevideo_view{
+	text-align:center;
+}
+.sitepagenote_view h3{
+	text-align:center;
+	margin-bottom:5px !important;
+}
+.sitepagenote_view_stats{
+	text-align:center;
+	color:$theme_font_color_light;
+}
+.sitepagenote_images{
+	display:none;
+}
+#global_page_sitepagenote-index-view .comments {
+    width: auto;
+}

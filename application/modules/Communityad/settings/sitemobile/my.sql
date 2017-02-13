@@ -1,0 +1,5 @@
+INSERT IGNORE INTO `engine4_sitemobile_menuitems` ( `name`, `module`, `label`, `plugin`, `params`, `menu`, `submenu`, `custom`, `order`, `enable_mobile`, `enable_tablet`) VALUES ('communityad_main_adboard', 'communityad', 'Ad Board', 'Communityad_Plugin_Menus::canViewAdvertiesment', '{"route":"communityad_display","action":"adboard","controller":"display"}', 'communityad_main', NULL, '0', '999', '1', '1');
+
+INSERT IGNORE INTO `engine4_sitemobile_menuitems` (`name`, `module`, `label`, `plugin`, `params`, `menu`, `submenu`, `custom`, `order`, `enable_mobile`, `enable_tablet`) VALUES ('core_main_communityad', 'communityad', 'Advertising', 'Communityad_Plugin_Menus::canViewAdvertiesment', '{"route":"communityad_display"}', 'core_main', NULL, '0', '16', '1', '1');
+
+INSERT IGNORE INTO `engine4_sitemobile_menus` (`name`, `type`, `title`, `order`) VALUES ('communityad_main', 'standard', 'Advertising Main Navigation Menu', '999');

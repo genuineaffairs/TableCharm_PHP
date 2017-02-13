@@ -1,0 +1,370 @@
+{
+  "type": "module",
+  "name": "ecalendar",
+  "version": "4.6.0",
+  "revision": null,
+  "path": "application\/modules\/Ecalendar",
+  "repository": null,
+  "date": "Mon, 09 Feb 2015 09:11:47 +0000",
+  "title": "Event Calendar",
+  "description": "This module allows to display events in the monthly,weekly calendar format",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"ipragmatech.com\"> iPragmatech<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 09 Feb 2015 09:11:47 +0000",
+    "title": "Event Calendar",
+    "description": "This module allows to display events in the monthly,weekly calendar format",
+    "developer": null,
+    "authors": [
+      "<a href=\"ipragmatech.com\"> iPragmatech<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Ecalendar\/settings\/install.php",
+    "class": "Ecalendar_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Ecalendar": {
+      "type": "directory",
+      "path": "application\/modules\/Ecalendar",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 83,
+          "sha1": "7714c29d70eb5a7add51156fef47d56e8b92148b"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 623,
+          "sha1": "6891b07a6219043b72597dd365b51b43616b06c8"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6038,
+          "sha1": "a549763bb36acd9c072f4da9e61dbb5740a8d4a7"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 144,
+          "sha1": "47bb36a5f03278d4b6ea5804e494c00ccb02e8e1"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts\/mecPHPPlugin.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 570,
+          "sha1": "abf6a628c5fff4cfe12ae74ec1c56e063a90d375"
+        },
+        {
+          "path": "externals\/scripts\/mooECal.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 17775,
+          "sha1": "bfe3d6cd7d9df39b20c9f6bb979337763f3d719d"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/admin\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 426,
+          "sha1": "13743dc3a44a12c2ae63d2884c993cc00e935185"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2610,
+          "sha1": "eebc5ad04f0d1d9d35742c8cba6daf8fe4feb1ad"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1847,
+          "sha1": "8c4ea1abf8960d4833cfc14ccf03576e906fe40a"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1271,
+          "sha1": "c4ce7641a3059bfc082331dd453f0e7bfc433d3a"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.0-4.2.4.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 874,
+          "sha1": "4fe2a547218557fb65fa24686f70716a53723859"
+        },
+        {
+          "path": "settings\/my-upgrade-4.2.4-4.6.0.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 828,
+          "sha1": "b2f9a6e84eb3676b59d3ce31799f52c87851ee1d"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1667,
+          "sha1": "4600a369e828692e1fa6b432295fe7c98d0edcd3"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 396,
+          "sha1": "ad2894a3431074f465f84c5e11010efc77ae943c"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/allevents.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1008,
+          "sha1": "9839d86b48100c6a08f78a20ec380ab25eb32a14"
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1010,
+          "sha1": "55b68ff04661c36a6f30976fc56d88a87d8fc6f2"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/plugin-updates",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/plugin-updates\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2731,
+          "sha1": "77c4d843ab3a6fdbda794a22648af33fabc74243"
+        },
+        {
+          "path": "widgets\/plugin-updates\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3156,
+          "sha1": "d9aa81a34d49914347a5a01bb661631a07b047fc"
+        }
+      ]
+    },
+    "application\/languages\/en\/ecalendar.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/ecalendar.csv",
+      "structure": {
+        "path": "ecalendar.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

@@ -1,0 +1,927 @@
+"Delete Link?";"Delete Link?"
+"Are you sure that you want to delete this link? It will not be recoverable after being deleted.";"Are you sure that you want to delete this link? It will not be recoverable after being deleted."
+"Report Post";"Report Post"
+"Report wrong post in a topic to admin";"Report wrong post in a topic to admin"
+
+"Group";"Circle"
+"Groups";"Circles"
+"%s topic";"%s topic";"%s topics"
+"View All Groups";"View All Circles"
+"group";"circle";"circles"
+"%s group";"%s circle";"%s circles"
+"Tags (Keywords)";"Tags (Keywords)"
+"This group has %s member.";"This circle has %s member.";"This circle has %s members."
+"Choose the activity action types that you want to public on the group activity.";"Choose the activity action types that you want to public on the circle activity."
+"Public Activities";"Public Activities"
+"Choose All Activities";"Choose All Activities"
+"No links have been added in this group yet.";"No links have been added in this circle yet."
+"Currently, there are no members you can invite.";"Currently, there are no members you can invite."
+
+"Currently, there are no friends that you can invite.";"Currently, there are no friends that you can invite."
+"No albums have been uploaded to this group yet.";"No albums have been uploaded to this circle yet."
+"If the person you invited decide to join, he/she will be automatically added to your group.";"If the person you invited decide to join, he/she will be automatically added to your circle.";"If the persons you invited decide to join, they will be automatically added to your circle."
+"Invitation Sent";"Invitation Sent";"Invitations Sent";
+
+"You must be a member of group";"You must be a member of circle"
+"before you can join this group.";"before you can join this circle."
+"Parent Group";"Parent Circle"
+
+"Delete Group:";"Delete Circle:"
+"Create New Group";"Create New Circle"
+"Edit Group";"Edit Circle"
+"Delete Group";"Delete Circle"
+"Join Group";"Join Circle"
+"Leave Group";"Leave Circle"
+"Ignored";"Ignored"
+
+"%s member";"%s member";"%s members"
+"led by ";"led by "
+"led by %1$s";"led by %1$s"
+"%d member(s)";"%d member(s)"
+
+"You have no friends you can invite.";"You have no friends you can invite."
+"You are already a member of this group.";"You are already a member of this circle."
+"You must be a member of group.";"You must be a member of circle."
+"You have no users you can invite.";"You have no users you can invite."
+
+"Delete the selected report(s)?";"Delete the selected report(s)?"
+"Are you sure that you want to delete the %d report(s)? It will not be recoverable after being deleted.";"Are you sure that you want to delete the %d report(s)? It will not be recoverable after being deleted."
+"Delete the selected report(s)?";"Delete the selected report(s)?"
+"Please select a report to delete.";"Please select a report to delete."
+"Go Back";"Go Back"
+
+"Tip: %1$sClick here%2$s to create the first group!";"Tip: %1$sClick here%2$s to create the first circle!"
+"Tip: %1$sClick here%2$s to create a group or %3$sbrowse%2$s for groups to join!";"Tip: %1$sClick here%2$s to create a circle or %3$sbrowse%2$s for circles to join!"
+
+"Close";"Close"
+"You have no friends you can invite.";"You have no friends you can invite."
+
+"&#187; Photos";"&#187; Photos"
+"Group Photos";"Circle Photos"
+"&#187;";"&#187;"
+"Photos";"Photos"
+
+"ADD TAG";"ADD TAG"
+"Type a tag or select a name from the list.";"Type a tag or select a name from the list."
+
+"Delete Report?";"Delete Report?"
+"Are you sure that you want to delete this report? It will not be recoverable after being deleted.";"Are you sure that you want to delete this report? It will not be recoverable after being deleted."
+
+
+"Photo";"Photo"
+"of";"of"
+
+"Next";"Next"
+"Prev";"Prev"
+
+"By";"By"
+"Tagged:";"Tagged:"
+"Added";"Added"
+
+"Add Tag";"Add Tag"
+
+"Quote";"Quote"
+"Edit";"Edit"
+"Delete";"Delete"
+"Share";"Share"
+"Report";"Report"
+"Make Profile Photo";"Make Profile Photo"
+
+"%s total view";"%s total view";"%s total views"
+"%s total member";"%s total member";"%s total members"
+"Last updated %s";"Last updated %s"
+"%s advgroup invite";"%s circle invitation";"%s circle invitations"
+
+"This group has %s member waiting for approval or waiting for an invite response.";"This circle has %s member waiting for approval or waiting for an invite response.";"This circle has %s members waiting for approval or waiting for an invite response."
+
+"&#187; Discussions";"&#187; Discussions"
+"Discussions";"Discussions"
+"Back to Group";"Back to Circle"
+"reply";"reply";"replies"
+
+"What's New";"What's New"
+"Last Post";"Last Post"
+
+"Back to Topics";"Back to Topics"
+"Post Reply";"Post Reply"
+"Make Sticky";"Make Sticky"
+"Remove Sticky";"Remove Sticky"
+"Open";"Open"
+"Rename";"Rename"
+"This topic has been closed.";"This topic has been closed."
+
+"Join Group";"Join Circle"
+"or";"or"
+"ignore request";"ignore request"
+
+"Post New Topic";"Post New Topic"
+"View All";"View All"
+"These settings affect all members in your community.";"These settings affect all members in your community."
+"Groups Per Page";"Circles Per Page"
+"How many groups will be shown per page? (Enter a number between 1 and 999)";"How many circles will be shown per page? (Enter a number between 1 and 999)"
+"Maximum Poll Options";"Maximum Poll Options"
+"Change Poll Vote?";"Change Poll Vote?"
+"How many possible poll answers do you want to permit in a group? (Enter a number between 1 and 100)";"How many possible poll answers do you want to permit in a circle? (Enter a number between 1 and 100)"
+"Do you want to permit the group members to change their poll vote in their group?.";"Do you want to permit the circle members to change their poll vote in their circle?."
+"Last Post";"Last Post"
+"Yes, group members can change their vote.";"Yes, circle members can change their vote."
+"No, group members cannot change their vote.";"No, circle members cannot change their vote."
+"No topics have been posted in this group yet.";"No topics have been posted in this circle yet."
+"total views";"total views"
+"total members";"total members"
+"last updated";"last updated"
+
+"Add Friend";"Add Friend"
+"Remove Friend";"Remove Friend"
+"Remove Member";"Remove Member"
+"Approve Request";"Approve Request"
+"Reject Request";"Reject Request"
+"Cancel Invite";"Cancel Invite"
+"Demote Officer";"Demote Officer"
+"Make Officer";"Make Officer"
+
+"Previous";"Previous"
+"Next";"Next"
+"Closed";"Closed"
+"view";"view"
+"delete";"delete"
+
+"No photos have been uploaded to this group yet.";"No photos have been uploaded to this circle yet."
+"By";"By"
+
+"View All Photos";"View All Photos"
+"Upload Photos";"Upload Photos"
+
+"The image you selected was too large.";"The image you selected was too large."
+"Your changes have been saved.";"Your changes have been saved."
+
+"You are now a member of this group.";"You are now a member of this circle."
+"You have successfully left this group.";"You have successfully left this circle."
+
+"Group membership request sent";"Your circle membership request has been sent."
+"Group membership request cancelled.";"Your circle membership request has been cancelled."
+
+"Are you sure you want to leave this group? You will leave all it\'s sub-groups too.";"Are you sure you want to leave this circle? You will leave all it\'s sub-circles too."
+"Are you sure you want to remove this member from the group? It will remove this member from all it 's sub-groups too.";"Are you sure you want to remove this member from the circle? It will remove this member from all it 's sub-circles too."
+"Cannot add a non-member as an officer";"Cannot add a non-member as an officer"
+"Cannot remove a non-member as an officer";"Cannot remove a non-member as an officer"
+
+"Invalid Data";"Invalid Data"
+"Invalid Method";"Invalid Method"
+
+"You have accepted the invite to the group %s";"You have accepted the invite to the circle %s"
+"You have ignored the invite to the group %s";"You have ignored the invite to the circle %s"
+
+"Member Promoted";"This member has been successfully promoted."
+"Member Demoted";"This member has been successfully demoted."
+"Group member removed.";"This member has been successfully removed from the circle."
+"Members invited";"The selected members have been successfully invited."
+"Group invite canceled.";"This invitation has been successfully canceled for this user."
+"Can not invite a member of group";"Can not invite a member of circle"
+
+"Invite Member";"Invite Member"
+"Are you sure you want to resend a invitation to this member?";"Are you sure you want to resend a invitation to this member?"
+
+"The report will be sent to admin.";"The report will be sent to admin."
+
+"Group request approved";"This member's circle request has been approved."
+"Member title changed";"This member's title has been successfully changed."
+
+"Changes saved";"Your changes have been saved."
+"Photo deleted";"The photo has been successfully deleted."
+
+"Max file size limit exceeded (probably).";"Max file size limit exceeded (probably)."
+"Invalid request method";"Invalid request method"
+"No file";"No file"
+"Invalid Upload";"Invalid Upload"
+"An error occurred.";"An error occurred"
+
+"Post deleted.";"The selected post has been deleted."
+"This has been closed for posting.";"This topic is closed for posting."
+"Topic renamed.";"The selected topic has been successfully renamed."
+"Topic deleted.";"The selected topic has been deleted."
+
+"All My Groups";"All My Circles"
+"Only Groups I Lead";"Only Circles I Lead"
+"Search:";"Search:"
+"View:";"View:"
+
+"Accept Group Invitation";"Accept Circle Invitation"
+"Would you like to join this group?";"Would you like to join this circle?"
+"Join Group";"Join Circle"
+"Cancel";"Cancel"
+
+"Approve Group Membership Request";"Approve Circle Membership Request"
+"Would you like to approve the request for membership in this group?";"Would you like to approve the request for membership in this circle?"
+"Approve Request";"Approve Request"
+
+"Cancel Group Membership Request";"Cancel Circle Membership Request"
+"Would you like to cancel your request for membership in this group?";"Would you like to cancel your request for membership in this circle?"
+"Cancel Request";"Cancel Request"
+
+"Demote Member";"Demote Member"
+"Are you sure you want to demote this member from officer?";"Are you sure you want to demote this member from officer?"
+
+"Edit Member Title";"Edit Member Title"
+"Enter a special title for this person.";"Enter a special title for this person."
+"Title";"Title"
+"Save Changes";"Save Changes"
+
+"Join Group";"Join Circle"
+"Would you like to join this group?";"Would you like to join this circle?"
+
+"Leave Group";"Leave Circle"
+"Are you sure you want to leave this group?";"Are you sure you want to leave this circle?"
+
+"Report Group";"Report Circle"
+"Report wrong activities of group to admin";"Report wrong activities of circle to admin"
+
+"(Max 256 characters)";"(Max 256 characters)"
+"URL Link";"URL Link"
+"Post Useful Link";"Post Useful Link"
+"Group Activities";"Circle Activities"
+"Invite By Email";"Invite By Email"
+"Invite All Users";"Invite All Users"
+"Invite Friends";"Invite Friends"
+"Invitations Management";"Invitations Management"
+
+"Promote Member";"Promote Member"
+"Are you sure you want to promote this member to officer?";"Are you sure you want to promote this member to officer?"
+
+"Reject Group Invitation";"Reject Circle Invitation"
+"Would you like to reject the invitation to this group?";"Would you like to reject the invitation to this circle?"
+"Reject Invitation";"Reject Invitation"
+
+"Are you sure you want to remove this member from the group?";"Are you sure you want to remove this member from the circle?"
+
+"Request Group Membership";"Request Circle Membership"
+"Would you like to request membership in this group?";"Would you like to request membership in this circle?"
+"Send Request";"Send Request"
+
+"Delete Group Photo";"Delete Circle Photo"
+"Are you sure you want to delete this photo?";"Are you sure you want to delete this photo?"
+"Delete Photo";"Delete Photo"
+"User";"User"
+"Invite Selected";"Invite Selected"
+"Resend Invite";"Resend Invite"
+"Not Reply";"Not Reply"
+"Rejected / Ignored";"Rejected / Ignored"
+"Not Replied";"Not Replied"
+
+"Cancel Invitation";"Cancel Invitation"
+"Would you like to cancel your invitation for member in this group?";"Would you like to cancel your invitation for member in this circle?"
+"Resend Invitation(s)?";"Resend Invitation(s)?"
+"Please select an user to resend invitation.";"Please select an user to resend invitation."
+"This group don't have any invitations.";"This circle don't have any invitations."
+"Are you sure you want to resend %d invitation(s) to  these members?";"Are you sure you want to resend %d invitation(s) to  these members?"
+
+"This group has %s invitation waiting for resend.";"This circle has %s invitation waiting for resend.";"This circle has %s invitations waiting for resend."
+
+"Edit Photo";"Edit Photo"
+"Title";"Title"
+"Description";"Description"
+
+"Group Info";"Circle Info"
+"Edit Group Details";"Edit Circle Details"
+"Edit Group Style";"Edit Circle Style"
+"Share Group";"Share Circle"
+"Add Events";"Add Events"
+"No events have been added to this group yet.";"No events have been added to this circle yet."
+
+"Add New Photos";"Add New Photos"
+"Choose photos on your computer to add to this album. (2MB maximum)";"Choose photos on your computer to add to this album. (2MB maximum)"
+"Save Photos";"Save Photos"
+
+"Reply";"Reply"
+"Body";"Body"
+"Delete Post";"Delete Post"
+"Are you sure you want to delete this post?";"Are you sure you want to delete this post?"
+
+"Edit Post";"Edit Post"
+
+"Post Discussion Topic";"Post Discussion Topic"
+"Message";"Message"
+
+"Delete Topic";"Delete Topic"
+"Are you sure you want to delete this topic?";"Are you sure you want to delete this topic?"
+
+"Rename Topic";"Rename Topic"
+"Are you sure you want to delete this group?";"Are you sure you want to delete this circle?"
+
+"Group Name";"Circle Name"
+"Profile Photo";"Profile Photo"
+"Category";"Category"
+
+"Include in search results?";"Include in search results?"
+"Yes, include in search results.";"Yes, include in search results."
+"No, hide from search results.";"No, hide from search results."
+
+"Let members invite others?";"Let members invite others?"
+"Yes, members can invite other people.";"Yes, members can invite other people."
+"No, only officers can invite other people.";"No, only officers can invite other people."
+
+"Approve members?";"Approve members?"
+"When people try to join this group, should they be allowed to join immediately, or should they be forced to wait for approval?";"When people try to join this circle, should they be allowed to join immediately, or should they be forced to wait for approval?"
+"New members can join immediately.";"New members can join immediately."
+"New members must be approved.";"New members must be approved."
+
+"View Privacy";"View Privacy"
+"Who may see this group?";"Who may see this circle?"
+"Everyone";"Everyone"
+"Registered Members";"Registered Members"
+"Members, Officers, and Owner";"Members, Officers, and Owner"
+
+"Comment Privacy";"Comment Privacy"
+"Who may post on this group's wall?";"Who may post on this circle's wall?"
+"Members, Officers, and Owner";"Members, Officers, and Owner"
+"Officers and Owner Only";"Officers and Owner Only"
+
+"Photo Uploads";"Photo Uploads"
+"Who may upload photos to this group?";"Who may upload photos to this circle?"
+"Members, Officers, and Owner Only";"Members, Officers, and Owner Only"
+"Officers and Owner Only";"Officers and Owner Only"
+
+"Event Creation";"Event Creation"
+"Who may create events for this group?";"Who may create events for this circle?"
+
+"Invite Members";"Invite Members"
+"Choose the people you want to invite to this group.";"Choose the people you want to invite to this circle."
+"Members";"Members"
+"Choose All";"Choose All"
+"Send Invites";"Send Invites"
+
+"Group Styles";"Circle Styles"
+"Custom Group Styles";"Custom Circle Styles"
+"You can change the colors, fonts, and styles of your group by adding CSS code below. The contents of the text area below will be output between <style> tags on your group.";"You can change the colors, fonts, and styles of your circle by adding CSS code below. The contents of the text area below will be output between <style> tags on your circle."
+
+"%1$s has invited you to the group %2$s";"%1$s has invited you to the circle %2$s"
+
+"This group has %1$s member.";"This circle has %1$s member.";"This circle has %1$s members."
+"This group has %1$s member that matched the query ""%2$s"".";"This circle has %1$s member that matched the query ""%2$s"".";"This circle has %1$s members that matched the query ""%2$s""."
+
+"See Waiting";"View invited users and users waiting for approval/rejection"
+"View all approved members";"View all approved members"
+
+"This group has %s member waiting approval or waiting for a invite response.";"This circle has %s member waiting approval or waiting for a invite response."
+"Send me notifications when other members reply to this topic.";"Send me notifications when other members reply to this topic."
+
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_CREATE";"When a user (subject) creates a new circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_JOIN";"When a user (subject) joins a circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_PHOTO_UPLOAD";"When a user (subject) uploads a new photo to a circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_PROMOTE";"When a user (subject) is given officer status in a circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_TOPIC_CREATE";"When a user (subject) creates a new topic in a circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_TOPIC_REPLY";"When a user (subject) replies to a topic in a circle (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_POLL_NEW";"When a user (subject) creates a new poll in a circle (object)."
+
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_CREATE";"New circles"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_JOIN";"Joining a circle"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_PHOTO_UPLOAD";"Uploading a circle photo"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_ALBUM_UPLOAD";"Uploading a circle album"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_PROMOTE";"Circle promotions"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_TOPIC_CREATE";"Creating a circle discussion topic"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_TOPIC_REPLY";"Replying to a circle discussion topic"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_WIKI_CREATE";"Creating a new wiki page in circle"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_WIKI_MOVE";"Moving a wiki page in circle"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_WIKI_UPDATE";"Updating a wiki page in circle"
+
+"ACTIVITY_TYPE_COMMENTED_ADVGROUP";"When someone comments on a circle I commented on."
+"ACTIVITY_TYPE_COMMENT_ADVGROUP";"When someone comments on one of my circles."
+"ACTIVITY_TYPE_LIKED_ADVGROUP";"When someone comments on a circle I liked."
+"ACTIVITY_TYPE_LIKE_ADVGROUP";"When someone likes one of my circles."
+"ACTIVITY_TYPE_ADVGROUP_APPROVE";"When someone requests to join a circle I created."
+"ACTIVITY_TYPE_ADVGROUP_ACCEPTED";"When my request to join a circle is approved."
+"ACTIVITY_TYPE_ADVGROUP_CREATE";"When a new circle is created."
+"ACTIVITY_TYPE_ADVGROUP_DISCUSSION_REPLY";"When people reply to discussion topics that I've replied to."
+"ACTIVITY_TYPE_ADVGROUP_DISCUSSION_RESPONSE";"When people reply to discussion topics that I create."
+"ACTIVITY_TYPE_ADVGROUP_INVITE";"When I'm invited to join a circle."
+"ACTIVITY_TYPE_ADVGROUP_JOIN";"When a new member joins a circle."
+"ACTIVITY_TYPE_ADVGROUP_PHOTO_UPLOAD";"When a new photo is uploaded to a circle."
+"ACTIVITY_TYPE_ADVGROUP_PROMOTE";"When I'm given officer status in a circle."
+"ACTIVITY_TYPE_ADVGROUP_TOPIC_CREATE";"When a new circle topic is created."
+"ACTIVITY_TYPE_ADVGROUP_TOPIC_REPLY";"When someone replies to a circle topic."
+
+
+"These settings affect all members in your community.";"These settings affect all members in your community."
+"GROUP_FORM_ADMIN_LEVEL_DESCRIPTION";"These settings are applied on a per member level basis. Start by selecting the member level you want to modify, then adjust the settings for that level below."
+
+"Allow  to manage Announcements of Groups?";"Allow  to manage Announcements of Circles?"
+"Do you want to allow this user level to manage announcements of all groups?";"Do you want to allow this user level to manage announcements of all circles?"
+"Yes, allow to manage announcemnents of all groups.";"Yes, allow to manage announcemnents of all circles."
+"No, do not allow to manage announcemnents of any groups.";"No, do not allow to manage announcemnents of any circles."
+
+"Allow Create Wiki Pages on Groups?";"Allow Create Wiki Pages on Circles?"
+"Do you want to let members of this level create wiki pages on groups?";"Do you want to let members of this level create wiki pages on circles?"
+"Yes, allow members to create wiki pages on groups.";"Yes, allow members to create wiki pages on circles."
+"No, do not allow members to create wiki pages on groups.";"No, do not allow members to create wiki pages on circles."
+
+"Wiki Page Creation Options";"Wiki Page Creation Options"
+
+"Allow Viewing of Groups?";"Allow Viewing of Circles?"
+"GROUP_FORM_ADMIN_LEVEL_VIEW_DESCRIPTION";"Do you want to let users view circles? If set to no, some other settings on this page may not apply."
+"No, do not allow groups to be viewed.";"No, do not allow circles to be viewed."
+"Yes, allow viewing and subscription of groups.";"Yes, allow viewing and subscription of circles."
+"Yes, allow members to view all groups, even private ones.";"Yes, allow members to view all circles, even private ones."
+
+"Allow Creation of Groups?";"Allow Creation of Circles?"
+"GROUP_FORM_ADMIN_LEVEL_CREATE_DESCRIPTION";"Do you want to let users create circles? If set to no, some other settings on this page may not apply. This is useful if you want users to be able to view circles and manage their subscriptions, but only want certain levels to be able to create circles."
+"No, do not allow groups to be created.";"No, do not allow circles to be created."
+"Yes, allow creation of groups.";"Yes, allow creation of circles."
+
+"Allow Editing of Groups?";"Allow Editing of Circles?"
+"Do you want to let users edit groups?";"Do you want to let users edit circles?"
+"Yes, allow members to edit everyone\'s groups.";"Yes, allow members to edit everyone\'s circles."
+"No, do not allow groups to be edited.";"No, do not allow circles to be edited."
+"Yes, allow  members to edit their own groups.";"Yes, allow  members to edit their own circles."
+"Yes, allow members to edit everyone's groups.";"Yes, allow members to edit everyone's circles."
+
+"Allow Create Sub Groups on Groups?";"Allow Create Sub Circles on Circles?"
+"Do you want to let members of this level create sub groups on groups?";"Do you want to let members of this level create sub circles on circles?"
+"Yes, allow members to create sub groups on groups.";"Yes, allow members to create sub circles on circles."
+"No, do not allow members to create sub groups on groups.";"No, do not allow members to create sub circles on circles."
+
+"Allow Create Videos on Groups?";"Allow Create Videos on Circles?"
+"Do you want to let members of this level create videos on groups?";"Do you want to let members of this level create videos on circles?"
+"Yes, allow members to create videos on groups.";"Yes, allow members to create videos on circles."
+"No, do not allow members to create videos on groups.";"No, do not allow members to create videos on circles."
+
+"Group Privacy";"Circle Privacy"
+"GROUP_FORM_ADMIN_LEVEL_AUTHVIEW_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can see their circle. If you do not check any options, everyone will be allowed to view circles."
+
+"GROUP_FIELDS_VIEWS_SCRIPTS_ADMINFIELDS_DESCRIPTION";"Your members will be asked to provide some information about their circle information when creating a new circle. Create some circle questions that allow them to describe their circle in a way that relates to the theme of your community. To reorder the circle questions, click on their names and drag them up or down."
+
+"Group Posting Options";"Circle Posting Options"
+"GROUP_FORM_ADMIN_LEVEL_AUTHCOMMENT_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can post to their circle discussions. If you do not check any options, everyone will be allowed to post."
+"Registered Members";"Registered Members"
+"Members, Officers, and Owner";"Members, Officers, and Owner"
+"Officers and Owner Only";"Officers and Owner Only"
+"Owner Only";"Owner Only"
+
+"Photo Upload Options";"Photo Upload Options"
+"GROUP_FORM_ADMIN_LEVEL_AUTHPHOTO_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can upload photos to their circles. If you do not check any options, all members will be allowed to upload."
+
+"Event Creation Options";"Event Creation Options"
+"GROUP_FORM_ADMIN_LEVEL_AUTHEVENT_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create events in their circles. If you do not check any options, all members will be allowed to create events."
+
+"Poll Creation Options";"Poll Creation Options"
+"GROUP_FORM_ADMIN_LEVEL_AUTHPOLL_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create polls in their circles. If you do not check any options, all members will be allowed to create polls."
+"My Groups";"My Circles"
+
+"Delete Group?";"Delete Circle?"
+"Are you sure that you want to delete this group? It will not be recoverable after being deleted.";"Are you sure that you want to delete this circle? It will not be recoverable after being deleted."
+
+"Are you sure you want to delete the selected groups?";"Are you sure you want to delete the selected circles?"
+"GROUP_VIEWS_SCRIPTS_ADMINMANAGE_INDEX_DESCRIPTION";"This page lists all of the circle entries your users have posted. You can use this page to monitor these circles and delete offensive material if necessary. Entering criteria into the filter fields will help you find specific circle entries. Leaving the filter fields blank will show all the circle entries on your social network."
+"GROUP_VIEWS_SCRIPTS_ADMINSETTINGS_CATEGORIES_DESCRIPTION";"If you want to allow your users to categorize their circles, create the categories below. This feature is useful if you want to list all your users' circle that If you have no categories, your users will not be given the option of assigning a circle category."
+"REPORTS_VIEW_GROUPS_ADMINMANAGE_INDEX_DESCRIPTION";"This page lists all of the report entries your users have posted. You can use this page to monitor and moderate activities of circles easily."
+
+"There are currently no categories.";"There are currently no categories."
+
+"Delete Group Category?"
+"Are you sure that you want to delete this category? It will not be recoverable after being deleted."
+
+"Search Members";"Search Members"
+"owner";"owner"
+"officer";"officer"
+
+"Browse Groups";"Browse Circles"
+"All Group Members";"All Circle Members"
+
+"Groups Plugin";"Circles Plugin"
+"Manage Groups";"Manage Circles"
+"Allow Deletion of Groups?";"Allow Deletion of Circles?"
+"Do you want to let members delete groups? If set to no, some other settings on this page may not apply.";"Do you want to let members delete circles? If set to no, some other settings on this page may not apply."
+"Yes, allow members to delete their own groups.";"Yes, allow members to delete their own circles."
+"No, do not allow members to delete their groups.";"No, do not allow members to delete their circles."
+"Allow Commenting on Groups?";"Allow Commenting on Circles?"
+"Do you want to let members of this level comment on groups?";"Do you want to let members of this level comment on circles?"
+"Yes, allow members to comment on groups.";"Yes, allow members to comment on circles."
+"No, do not allow members to comment on groups.";"No, do not allow members to comment on circles."
+
+"Group Profile Discussions";"Circle Profile Discussions"
+"Group Profile Events";"Circle Profile Events"
+"Group Profile Info";"Circle Profile Info"
+"Group Profile Members";"Circle Profile Members"
+"Group Profile Options";"Circle Profile Options"
+"Group Profile Photo";"Circle Profile Photo"
+"Group Profile Photos";"Circle Profile Photos"
+"Group Profile Status";"Circle Profile Status"
+"Profile Groups";"Profile Circles"
+
+"Compose Message";"Compose Message"
+"Sent Messages";"Sent Messages"
+"Inbox";"Inbox"
+"Send To";"Send To"
+"Subject";"Subject"
+"Add Link";"Add Link"
+"Add Video";"Add Video"
+"Sent Message";"Sent Message"
+
+
+# categories
+"Animals";"Animals"
+"Business & Finance";"Business & Finance"
+"Computers & Internet";"Computers & Internet"
+"Cultures & Community";"Cultures & Community"
+"Dating & Relationships";"Dating & Relationships"
+"Entertainment & Arts";"Entertainment & Arts"
+"Family & Home";"Family & Home"
+"Games";"Games"
+"Government & Politics";"Government & Politics"
+"Health & Wellness";"Health & Wellness"
+"Hobbies & Crafts";"Hobbies & Crafts"
+"Music";"Music"
+"Recreation & Sports";"Recreation & Sports"
+"Regional";"Regional"
+"Religion & Beliefs";"Religion & Beliefs"
+"Schools & Education";"Schools & Education"
+"Science";"Science"
+
+
+# item types
+"ITEM_TYPE_ADVGROUP_GROUP";"Circles"
+"ITEM_TYPE_ADVGROUP_ALBUM";"Circle Albums"
+"ITEM_TYPE_ADVGROUP_LINK";"Circle Useful Links"
+"ITEM_TYPE_ADVGROUP_ANNOUNCEMENT";"Circle Announcements"
+"ITEM_TYPE_ADVGROUP_PHOTO";"Circle Photos"
+"ITEM_TYPE_ADVGROUP_TOPIC";"Circle Discussion Topic"
+"ITEM_TYPE_ADVGROUP_POST";"Circle Discussion Post"
+"ITEM_TYPE_ADVGROUP_POLL";"Circle Polls"
+
+
+# action types
+"{item:$subject} created a new group:";"{item:$subject} created a new circle:"
+"{item:$subject} joined the group {item:$object}";"{item:$subject} joined the circle {item:$object}"
+"{item:$subject} added {var:$count} photo(s).";"{item:$subject} added {var:$count} photo(s)."
+"{item:$subject} has been made an officer for the group {item:$object}";"{item:$subject} has been made an officer for the circle {item:$object}"
+"{item:$subject} posted a {item:$object:topic} in the group {itemParent:$object:group}: {body:$body}";"{item:$subject} posted a {item:$object:topic} in the circle {itemParent:$object:group}: {body:$body}"
+"{item:$subject} replied to a {item:$object:topic} in the group {itemParent:$object:group}: {body:$body}";"{item:$subject} replied to a {item:$object:topic} in the circle {itemParent:$object:group}: {body:$body}"
+"{item:$subject} has became the owner of the group {item:$object}";"{item:$subject} has became the owner of the circle {item:$object}"
+"{item:$subject} posted a new topic:";"{item:$subject} posted a new topic:"
+"{item:$subject} replied to the topic {body:$body}";"{item:$subject} replied to the topic {body:$body}"
+"{item:$subject} created a new poll:";"{item:$subject} created a new poll:"
+"{item:$subject} created a new sub-group:";"{item:$subject} created a new sub-circle:"
+"{item:$subject} posted a new video:";"{item:$subject} posted a new video:"
+
+# notification types
+"{item:$subject} has {item:$object:posted} on a {itemParent:$object::group topic} you created.";"{item:$subject} has {item:$object:posted} on a {itemParent:$object::group topic} you created."
+"{item:$subject} has {item:$object:posted} on a {itemParent:$object::group topic} you posted on.";"{item:$subject} has {item:$object:posted} on a {itemParent:$object::group topic} you posted on."
+"{item:$subject} has invited you to the group {item:$object}.";"{item:$subject} has invited you to the circle {item:$object}."
+"{item:$subject} has requested to join the group {item:$object}.";"{item:$subject} has requested to join the circle {item:$object}."
+"Your request to join the group {item:$subject} has been approved.";"Your request to join the circle {item:$subject} has been approved."
+"You were promoted to officer in the group {item:$object}.";"You were promoted to officer in the circle {item:$object}."
+"You were set to become the owner of the group {item:$object}.";"You were set to become the owner of the circle {item:$object}."
+"{item:$subject} commented on {item:$owner}''s {item:$object:advgroup_poll}.";"{item:$subject} commented on {item:$owner}''s {item:$object:advgroup_poll}."
+"{item:$subject} liked {item:$owner}''s {item:$object:advgroup_poll}.";"{item:$subject} liked {item:$owner}''s {item:$object:advgroup_poll}."
+"The group {item:$subject} invitation has been cancel, please contact group owner for more information.";"The circle {item:$subject} invitation has been cancel, please contact circle owner for more information."
+
+# mail templates
+
+# notify_advgroup_accepted
+"_EMAIL_NOTIFY_ADVGROUP_ACCEPTED_TITLE";"Circle Approved"
+"_EMAIL_NOTIFY_ADVGROUP_ACCEPTED_DESCRIPTION";"This email is sent to the member when they are approved to join a circle."
+"_EMAIL_NOTIFY_ADVGROUP_ACCEPTED_SUBJECT";"You have been approved to join the circle [object_title]"
+"_EMAIL_NOTIFY_ADVGROUP_ACCEPTED_BODY";"[header]
+
+You have been approved to join the circle ""[object_title]"". Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_approve
+"_EMAIL_NOTIFY_ADVGROUP_APPROVE_TITLE";"Circle Request"
+"_EMAIL_NOTIFY_ADVGROUP_APPROVE_DESCRIPTION";"This email is sent to the member when someone requests to join their circle."
+"_EMAIL_NOTIFY_ADVGROUP_APPROVE_SUBJECT";"[sender_title] has requested to join the circle [object_title]"
+"_EMAIL_NOTIFY_ADVGROUP_APPROVE_BODY";"[header]
+
+[sender_title] has requested to join the circle ""[object_title]"". Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_discussion_reply
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_REPLY_TITLE";"Circle Discussion Reply"
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_REPLY_DESCRIPTION";"This email is sent to the member when people reply to discussion topics that the member created."
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_REPLY_SUBJECT";"A member has posted a reply to your topic ""[object_title]"" in the circle ""[object_parent_title]"""
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_REPLY_BODY";"[header]
+
+[sender_title] has posted a reply to your topic ""[object_title]"" in the circle ""[object_parent_title]"":
+
+""[message]""
+
+Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_discussion_response
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_RESPONSE_TITLE";"Circle Discussion Response"
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_RESPONSE_DESCRIPTION";"This email is sent to the member when people reply to discussion topics that the member replied to."
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_RESPONSE_SUBJECT";"A member has posted a reply to the topic ""[object_title]"" you replied to in the circle ""[object_parent_title]"""
+"_EMAIL_NOTIFY_ADVGROUP_DISCUSSION_RESPONSE_BODY";"[header]
+
+[sender_title] has posted a reply to the topic ""[object_title]"" you replied to in the circle ""[object_parent_title]"":
+
+""[message]""
+
+Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_invite
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_TITLE";"Circle Invitation"
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_DESCRIPTION";"This email is sent to the member when they are invited to a circle."
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_SUBJECT";"You have been invited to join the circle [object_title]"
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_BODY";"[header]
+
+You have been invited to join the circle ""[object_title]"". Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_promote
+"_EMAIL_NOTIFY_ADVGROUP_PROMOTE_TITLE";"Circle Promotion"
+"_EMAIL_NOTIFY_ADVGROUP_PROMOTE_DESCRIPTION";"This email is sent when a member is promoted to officer in a circle."
+"_EMAIL_NOTIFY_ADVGROUP_PROMOTE_SUBJECT";"You have been promoted to officer in the circle [object_title]"
+"_EMAIL_NOTIFY_ADVGROUP_PROMOTE_BODY";"[header]
+
+You have been promoted to officer in the circle ""[object_title]"". Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_invite_nonmembers
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_NONMEMBERS_TITLE";"Circle Invitation Non-Members"
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_NONMEMBERS_DESCRIPTION";"This is the email that gets sent when members invite their friends to join during the signup process."
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_NONMEMBERS_SUBJECT";"You have received an invitation to join our social network and the circle [group_title]!"
+"_EMAIL_NOTIFY_ADVGROUP_INVITE_NONMEMBERS_BODY";"[header]
+
+""[message]""
+
+To join, please follow the link below:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_advgroup_cancel_invite
+"_EMAIL_NOTIFY_ADVGROUP_CANCEL_INVITE_TITLE";"Cancel Circle Invitation"
+"_EMAIL_NOTIFY_ADVGROUP_CANCEL_INVITE_DESCRIPTION";"This is the email that gets sent when members cancel the circle owner invitation to join circle."
+"_EMAIL_NOTIFY_ADVGROUP_CANCEL_INVITE_SUBJECT";"You have received a cancel invitation to join our social network and the circle [group_title]!"
+"_EMAIL_NOTIFY_ADVGROUP_CANCEL_INVITE_BODY";"[header]
+
+You have received a cancel invitation to join our social network and the circle [group_title]
+
+To view the circle, please follow the link below:
+
+http://[host][object_link]
+
+[footer]"
+
+"All categories";"All categories"
+"Everyone's Groups";"Everyone's Circles"
+"Only My Friends' Groups";"Only My Friends' Circles"
+"list by";"list by"
+"Recently created";"Recently created"
+
+"Message Members";"Message Members"
+
+"The changes to your post have been saved.";"The changes to your post have been saved."
+
+"You have not joined any groups yet.";"You have not joined any circles yet."
+"There are no groups yet.";"There are no circles yet."
+"Why don't you %1$screate one%2$s?";"Why don't you %1$screate one%2$s?"
+
+"Group doesn't exists or not authorized to delete";"Circle doesn't exists or not authorized to delete"
+"The selected group has been deleted.";"The selected circle has been deleted."
+
+"Watch Topic";"Watch Topic"
+"Stop Watching Topic";"Stop Watching Topic"
+
+"Manage Announcements";"Manage Announcements"
+"ANNOUNCEMENT_VIEW_SCRIPTS_ADMINMANAGE_DESCRIPTION";"Announcements are a great way to keep your members engaged in the community. Announcements appear inside the ""Announcement Widget"", which you can place anywhere on your site. By default, this widget appears at the top of the member homepage - this way, members see your announcements right when they sign in. You can move this widget elsewhere or change its settings in the <a href='%s'>Layout Editor</a>."
+"There are currently no announcements.";"There are currently no announcements."
+"Post New Announcement";"Post New Announcement"
+"Please compose your new announcement below.";"Please compose your new announcement below."
+"Post Announcement";"Post Announcement"
+"Edit Announcement";"Edit Announcement"
+"Posted by %1$s %2$s";"Posted by %1$s %2$s"
+"Please modifiy your announcement below.";"Please modifiy your announcement below."
+" or ";" or "
+"Delete Announcement?";"Delete Announcement?"
+"Are you sure that you want to delete this announcement? It will not be recoverable after being deleted.";"Are you sure that you want to delete this announcement? It will not be recoverable after being deleted."
+"edit";"edit"
+"Title";"Title"
+"Author";"Author"
+"ID";"ID"
+"%d announcements total";"%d announcements total"
+"Are you sure that you want to delete the %d announcements? It will not be recoverable after being deleted.";"Are you sure that you want to delete the %d announcements? It will not be recoverable after being deleted."
+"Delete the selected announcements?";"Delete the selected announcements?"
+"Please select an announcement to delete.";"Please select an announcement to delete."
+
+"before joining this group.";"before joining this circle."
+"You must join the parent group";"You must join the parent circle"
+"Newest Groups";"Newest Circles"
+"Popular Groups";"Popular Circles"
+"Active Groups";"Active Circles"
+"Featured Groups";"Featured Circles"
+"Recently Created";"Recently Created"
+"Most Popular";"Most Popular"
+"Most Active";"Most Active"
+"Most Active Groups";"Most Active Circles"
+"Statistics";"Statistics"
+"Total Groups";"Total Circles"
+"Total Albums";"Total Albums"
+"Total Photos";"Total Photos"
+"Total Topics";"Total Topics"
+"Category";"Category"
+"Comment Privacy";"Comment Privacy"
+"Photo - Album Creation";"Photo - Album Creation"
+"Everyone";"Everyone"
+"Poll Creation";"Poll Creation"
+"Sub Group Creation";"Sub Circle Creation"
+"cancel";"cancel"
+"Save Changes";"Save Changes"
+"Create Sub Group";"Create Sub Circle"
+"Invite New Guests";"Invite New Guests"
+"Group Albums";"Circle Albums"
+"Group Discussions";"Circle Discussions"
+"Group Polls";"Circle Polls"
+"Group Useful Links";"Circle Useful Links"
+"Sub Groups";"Sub Circles"
+"Parent Groups";"Parent Circles"
+"Total Views";"Total Views"
+"Total Members";"Total Members"
+"Suggested Poll";"Suggested Poll"
+"Recent Albums";"Recent Albums"
+"Top Posters";"Top Posters"
+"Staff List";"Staff List"
+"Basic Information";"Basic Information"
+"Create Album";"Create Album"
+"Search Albums";"Search Albums"
+"All Members Albums";"All Members Albums"
+"Only My Albums";"Only My Albums"
+"Browse By";"Browse By"
+"Most Recent";"Most Recent"
+"Most Viewed";"Most Viewed"
+"Most Commented";"Most Commented"
+"By";"By"
+"Search Topics";"Search Topics"
+"Status";"Status"
+"All Topics";"All Topics"
+"Only Open Topics";"Only Open Topics"
+"Only Closed Topics";"Only Closed Topics"
+"All Members Topics";"All Members Topics"
+"Only My Topics";"Only My Topics"
+"Most Replied";"Most Replied"
+"My Polls";"My Polls"
+"Create New Poll";"Create New Poll"
+"Search Polls";"Search Polls"
+"All Polls";"All Polls"
+"Only Open Polls";"Only Open Polls"
+"Only Closed Polls";"Only Closed Polls"
+"Back";"Back"
+"Edit Poll";"Edit Poll"
+"Close Poll";"Close Poll"
+"Delete Poll";"Delete Poll"
+"Show Results";"Show Results"
+"Share";"Share"
+"Report";"Report"
+"Add New Link";"Add New Link"
+"Add Question";"Add Question"
+"Manage Useful Links";"Manage Useful Links"
+"Global Settings";"Global Settings"
+"Member Level Settings";"Member Level Settings"
+"Member Level";"Member Level"
+"Allow Viewing of Groups";"Allow Viewing of Circles"
+"Categories";"Categories"
+"Profile Fields";"Profile Fields"
+"Manage Reports";"Manage Reports"
+"Title";"Title"
+"Group Title";"Circle Title"
+"Topic Title";"Topic Title"
+"Post ID";"Post ID"
+"Reporter";"Reporter"
+"Owner";"Owner"
+"Filter By";"Filter By"
+"Only Featured Groups";"Only Featured Circles"
+"Only Not Featured Groups";"Only Not Featured Circles"
+"Only Sub Groups";"Only Sub Circles"
+"Only Parent Groups";"Only Parent Circles"
+"Featured";"Featured"
+"Is Sub-group";"Is Sub-circle"
+"Views";"Views"
+"Date";"Date"
+"Options";"Options"
+"Yes, allow members to upload photo on groups.";"Yes, allow members to upload photo on circles."
+"Allow Upload Photo on Groups?";"Allow Upload Photo on Circles?"
+"Do you want to let members of this level upload photo on groups?";"Do you want to let members of this level upload photo on circles?"
+"No, do not allow members to upload photo on groups.";"No, do not allow members to upload photo on circles."
+"Number of Photos per Album";"Number of Photos per Album"
+"How many Photos that a user can upload in an album? (Enter a number between 0 and 999, 0 means unlimited)";"How many Photos that a user can upload in an album? (Enter a number between 0 and 999, 0 means unlimited)"
+"Allow Create Photo Albums on Groups?";"Allow Create Photo Albums on Circles?"
+"Do you want to let members of this level create photo albums on groups?";"Do you want to let members of this level create photo albums on circles?"
+"Yes, allow members to create photo albums on groups.";"Yes, allow members to create photo albums on circles."
+"No, do not allow members to create photo albums on groups.";"No, do not allow members to create photo albums on circles."
+"Number of Albums per Group";"Number of Albums per Circle"
+"How many Albums that a user can create in a group? (Enter a number between 0 and 999, 0 means unlimited)";"How many Albums that a user can create in a circle? (Enter a number between 0 and 999, 0 means unlimited)"
+"Allow Create Polls on Groups?";"Allow Create Polls on Circles?"
+"Do you want to let members of this level create polls on groups?";"Do you want to let members of this level create polls on circles?"
+"Yes, allow members to create polls on groups.";"Yes, allow members to create polls on circles."
+"No, do not allow members to create polls on groups.";"No, do not allow members to create polls on circles."
+"Members Only";"Members Only"
+"All Members";"All Members"
+"Allow Group Style";"Allow Circle Style"
+"Yes, allow custom group styles.";"Yes, allow custom circle styles."
+"No, do not allow custom group styles.";"No, do not allow custom circle styles."
+"Number of Sub Groups per Group";"Number of Sub Circles per Circle"
+"How many sub groups that an user can create in a group? (Enter a number between 1 and 10)";"How many sub circles that an user can create in a circle? (Enter a number between 1 and 10)"
+"Manage Announcement";"Manage Announcement"
+"Request Membership";"Request Membership"
+"Transfer Owner";"Transfer Owner"
+"Add New Category";"Add New Category"
+"Group Categories";"Circle Categories"
+"Category Name";"Category Name"
+"Options";"Options"
+"Add Sub Category";"Add Sub Category"
+"Are you sure you want to leave this group? You will leave all it's sub-groups too.";"Are you sure you want to leave this circle? You will leave all it's sub-circles too."
+"Group Videos";"Circle Videos"
+"Search Videos";"Search Videos"
+"There is no video found.";"There is no video found."
+"Search Videos";"Search Videos"
+"Member";"Member"
+"Video Creation";"Video Creation"
+"Who may create videos for this group?";"Who may create videos for this circle?"
+"GROUP_FORM_ADMIN_LEVEL_AUTHVIDEO_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create videos in their circles. If you do not check any options, all members will be allowed to create videos."
+"GROUP_FORM_ADMIN_LEVEL_AUTHSUBGROUP_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create sub circles in their circles. If you do not check any options, all members will be allowed to create sub circles."
+"GROUP_FORM_ADMIN_LEVEL_AUTHWIKI_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create wiki pages in their circles. If you do not check any options, all members will be allowed to create wiki pages."
+"Sub Group Creation Options";"Sub Circle Creation Options"
+"Video Creation Options";"Video Creation Options"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_POLL_NEW";"Creating a circle poll"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_SUB_CREATE";"Creating a sub circle"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_TRANSFER";"Transferring circle owner to other member"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_VIDEO_CREATE";"Creating a circle video"
+"ACTIVITY_TYPE_ADVGROUP_POLL_COMMENT";"When someone comment on a poll that I create."
+"ACTIVITY_TYPE_ADVGROUP_POLL_LIKE";"When someone like a poll that I create."
+"ACTIVITY_TYPE_ADVGROUP_TRANSFER";"When someone transfer owner of a circle to me."
+"ACTIVITY_TYPE_ADVGROUP_CANCEL_INVITE";"When someone cancel the circle invitation"
+"No Replied";"No Replied"
+"Latest";"Latest"
+"Latest Replied";"Latest Replied"
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_SUB_CREATE";"When a user (subject) create a new sub circle"
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_TRANSFER";"When a user (subject) transfer the circle owner to another user (object)"
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_VIDEO_CREATE";"When a user (subject) create a new circle video"
+"Allow Create Wiki Pages on Groups?";"Allow Create Wiki Pages on Circles?"
+"Do you want to let members of this level create wiki pages on groups?";"Do you want to let members of this level create wiki pages on circles?"
+"Yes, allow members to create wiki pages on groups.";"Yes, allow members to create wiki pages on circles."
+"No, do not allow members to create wiki pages on groups.";"No, do not allow members to create wiki pages on circles."
+"Wiki Page Creation Options";"Wiki Page Creation Options"
+"Wiki Page Creation";"Wiki Page Creation"
+"'Who may create videos for this group?";"'Who may create videos for this circle?"
+"There is no featured group yet.";"There is no featured circle yet."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_WIKI_CREATE";"When a user (subject) creates a new circle wiki page (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_WIKI_MOVE";"When a user (subject) moves a circle wiki page (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_WIKI_UPDATE";"When a user (subject) updates a circle wiki page (object)."
+
+"Leader";"Leader"
+"Report Topic";"Report Topic"
+"Create New Album";"Create New Album"
+"Create a %1$snew one%2$s";""Create a %1$snew one%2$s"
+"No albums have been uploaded.";"No albums have been uploaded."
+"There is no contact in your address book";"There is no contact in your address book"
+"Invitation Sent";"Invitation Sent";"Invitations Sent";
+"Who may create polls for this group?";"Who may create polls for this circle?"
+"Who may create sub group for this group?";"Who may create sub circle for this circle?"
+"Who may create wiki pages for this group?";"Who may create wiki pages for this circle?"
+"Are you sure you want to delete this group? All it's sub-group will also be deleted too and cannot be undone.";"Are you sure you want to delete this circle? All it's sub-circle will also be deleted too and cannot be undone."
+"Please choose a member you want to transfer the owner role to:";"Please choose a member you want to transfer the owner role to:"
+"Group Owner Transfer";"Circle Owner Transfer"
+"(filter the search box and press Enter to search)";"(filter the search box and press Enter to search)"
+"Create a new one %1$shere%2$s";"Create a new one %1$shere%2$s"
+"%s post";"%s post";"%s posts"
+"Last Replied";"Last Replied"
+"&#187; Manage Useful Links";"&#187; Manage Useful Links"
+
+"Activities updated.";"Activities updated."
+"group_activity_post";"Circle activities"
+"group_activity_advgroup_create";"Circle creation."
+"group_activity_advgroup_join";"Join of members in the circle."
+"group_activity_advgroup_promote";"Promotion of members in the circle."
+"group_activity_advgroup_topic_create";"Topic creation in the circle."
+"group_activity_advgroup_topic_reply";"Topic replies in the circle."
+"group_activity_advgroup_photo_upload";"Photo Upload in the circle."
+"group_activity_advgroup_poll_new";"Poll creation in the circle."
+"group_activity_advgroup_sub_create";"Sub-circle creation."
+"group_activity_advgroup_transfer";"Owner Transfering in circle."
+"group_activity_advgroup_video_create";"Video creation in circle."
+"There are no public group actitivies yet.";"There are no public circle actitivies yet."
+"group_activity_advgroup_video_create";"Video creation in circle."
+"group_activity_advgroup_wiki_create";"Wiki page creation in circle."
+"group_activity_advgroup_wiki_move";"Wiki page moving in circle."
+"group_activity_advgroup_wiki_update";"Wiki page updates in circle."

@@ -1,0 +1,3 @@
+@include "~/application/modules/Sitemobile/externals/styles/photoswipe/photoswipe.css";
+@include "~/application/modules/Sitemobile/externals/styles/mobile_tablet.css";
+@scan "application/modules/" "externals/styles/mobile_tablet.css" "Sitemobile";

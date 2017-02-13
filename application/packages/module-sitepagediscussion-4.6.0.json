@@ -1,0 +1,330 @@
+{
+  "type": "module",
+  "name": "sitepagediscussion",
+  "version": "4.6.0",
+  "revision": null,
+  "path": "application\/modules\/Sitepagediscussion",
+  "repository": null,
+  "date": "Mon, 15 Jul 2013 12:35:20 +0000",
+  "title": "Directory \/ Pages - Discussions Extension",
+  "description": "Directory \/ Pages - Discussions Extension",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 15 Jul 2013 12:35:20 +0000",
+    "title": "Directory \/ Pages - Discussions Extension",
+    "description": "Directory \/ Pages - Discussions Extension",
+    "developer": null,
+    "authors": [
+      "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Sitepagediscussion\/settings\/install.php",
+    "class": "Sitepagediscussion_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Sitepagediscussion": {
+      "type": "directory",
+      "path": "application\/modules\/Sitepagediscussion",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 446,
+          "sha1": "a6b920d8f31a6360e3c64c9b56368519f37f4f01"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5510,
+          "sha1": "df7bfeb071d18d73d164c63d9206326e4559a100"
+        },
+        {
+          "path": "Plugin\/Sitemobile.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4871,
+          "sha1": "1973e81861ede4bcb18fa76eaf0f64de48c74b51"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 14,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.5p2-4.1.5p5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 710,
+          "sha1": "dfcbafe931b072c0e6a4671dc8fd6a0dd1f275e0"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.8p2-4.1.8p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 907,
+          "sha1": "8956410e81630ae209afdd6519e5f710d56709e0"
+        },
+        {
+          "path": "settings\/my-upgrade-4.2.5-4.3.0p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 135,
+          "sha1": "03eb4a0a8214c98e7da5e6552b12e1a96041874b"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4089,
+          "sha1": "c2c49c464a2661cc832fe258c3f1877c51ef6c4e"
+        },
+        {
+          "path": "settings\/content_user.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1109,
+          "sha1": "bdbc2845c343625fd45a3d3e9f9e3e0e98474d06"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1699,
+          "sha1": "8eafbdf90917fb08e057aa84692563171baa8fac"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7p2-4.1.7p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 116,
+          "sha1": "9d7dbbd51e6e2c7835a33e636567c09e866c3367"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4964,
+          "sha1": "56691468e676ec6d28d26b37b4e3d68fb0cb986f"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.6-4.1.6p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 831,
+          "sha1": "abcc12d6a421724925ae079d00b37de660a25f98"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 28909,
+          "sha1": "8e9ab7311fa6cc6782acdffe669b37a65eb7af77"
+        },
+        {
+          "path": "settings\/sitemobile",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "settings\/sitemobile\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1317,
+          "sha1": "d65e9b73f9ed813aa63e815311a38004b64caf37"
+        },
+        {
+          "path": "settings\/sitemobile\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1566,
+          "sha1": "8d98c60da3dfc62cbb904b80cb6aa1c70029cd8a"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/style_sitepagediscussion.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 6451,
+          "sha1": "5798f9060ebee97a1408b89867a8a93e85cb94a5"
+        },
+        {
+          "path": "externals\/styles\/mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 471,
+          "sha1": "329fb38c4ab7b603b0a5c55244bbba18dba8ad9b"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ]
+    },
+    "application\/languages\/en\/sitepagediscussion.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/sitepagediscussion.csv",
+      "structure": {
+        "path": "sitepagediscussion.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0777",
+        "size": 2842,
+        "sha1": "1e50506939aa9527ee8f0fbb050aacfc5f880fbd"
+      }
+    }
+  }
+}

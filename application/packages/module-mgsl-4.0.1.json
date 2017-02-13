@@ -1,0 +1,5074 @@
+{
+  "type": "module",
+  "name": "mgsl",
+  "version": "4.0.1",
+  "revision": null,
+  "path": "application\/modules\/Mgsl",
+  "repository": null,
+  "date": "Tue, 24 Feb 2015 03:57:05 +0000",
+  "title": "MGSL",
+  "description": "MGSL module",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "My Global Sport Link"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 24 Feb 2015 03:57:05 +0000",
+    "title": "MGSL",
+    "description": "MGSL module",
+    "developer": null,
+    "authors": [
+      "My Global Sport Link"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Mgsl": {
+      "type": "directory",
+      "path": "application\/modules\/Mgsl",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 681,
+          "sha1": "2601ddd2cebb0dbcd802570f7d678470dd1e723a"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5826,
+          "sha1": "92cec2907e7b1cc2843b79b8ef43a3ec1950d96c"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/carousel",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_01.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 78961,
+          "sha1": "ad00879c7b0fa5610be8e19468363bf2658ad6d4"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_02.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 78244,
+          "sha1": "271071ee3d642306212424bb8e1b2592665bb472"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_03.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 68566,
+          "sha1": "0a9e055694e6f9003517ec3df29c4dbd6ce00d72"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_04.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 719367,
+          "sha1": "ea5578a58d2d495e63244ad99326330fc61aa684"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_05.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 202338,
+          "sha1": "0c225208f9c9d2a40018305d3ea4743eb2f8099c"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_06.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 249005,
+          "sha1": "f662b9c23adc17e9b97ced9818648a97d93d446f"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_07.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 209492,
+          "sha1": "e0b44c940a0e810926c9deedf3abe6a8e4a3a313"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_08.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 215269,
+          "sha1": "ea16011fc94bb8a154806bd6aafc2af009bc895c"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_09.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 315635,
+          "sha1": "3d44393c45e37fc64ff8531bd7cdfaab3d6f7603"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_10.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 262992,
+          "sha1": "8fdf2f3483c8c3166e6c89cb8115b12eed7bac5f"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_11.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 201449,
+          "sha1": "e59775f433c26a75d80aba3dc17b484348b85b80"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_12.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 201771,
+          "sha1": "80840db5168bf3fa40fe848000c0f1195232b40d"
+        },
+        {
+          "path": "externals\/images\/carousel\/MGSLFP_Image_13.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 143971,
+          "sha1": "8ece38ff74d5ce1d668cf6c7947e7854b9b06ff3"
+        },
+        {
+          "path": "externals\/images\/icons",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/.DS_Store",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6148,
+          "sha1": "47b0bf5aa9e0fe7b49ccf20f12dc5af393b7ad7c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 98304,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Abkhazia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 442,
+          "sha1": "eaa18ab0668c67842444a775f9bdefbdd984c648"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Afghanistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 525,
+          "sha1": "86bfad790042fb28e665b9195855db1dc8bed156"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Aland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 359,
+          "sha1": "3068e7c34c36cbfba09ebce43a62a0b2e4c47bf3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Albania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 464,
+          "sha1": "e158551a4f45b2855f4f572b8f88ad73d0ce3359"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Algeria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 565,
+          "sha1": "5a7298cea83fccdc1f50c56935c9cfbf2705e240"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/American-Samoa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 557,
+          "sha1": "28990180bdb619b209c63b0986af2e5f47d70aca"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Andorra.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 525,
+          "sha1": "048e1eb784856e3c5850def646d62782c96035e4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Angola.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 413,
+          "sha1": "2ecd4c1268d4e36618f29d86663394cd91316e2f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Anguilla.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 502,
+          "sha1": "24ba9c7aeec60eacf13b9106b039e46e3f0a8b87"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Antarctica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 517,
+          "sha1": "c312029e9c961262a2e63f514ba8f1eb5fa98998"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Antigua-and-Barbuda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 407,
+          "sha1": "7939029e36ff7548698f2e7314ce8ca0f6807441"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Argentina.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 389,
+          "sha1": "b445107225cf1431b0908eeee545a81862011e5d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Armenia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "a2f48c976826040da3044b2782c6987b844a889c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Aruba.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 365,
+          "sha1": "0ef41b8fc8777af17dcecbe917d890197c4088ba"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Australia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 442,
+          "sha1": "4dba0950a95e3dbee6aa4afcad60a56a14b71774"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Austria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "22255d7e04bd26c2c7eb5b9e47ea87a5ecaf13d8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Azerbaijan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 434,
+          "sha1": "c759199c7d7dabb0580a9097a125ec420340e811"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bahamas.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 432,
+          "sha1": "c8cc630b4a3a86669fc7e5daf0015c14ec43354a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bahrain.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 449,
+          "sha1": "03838fd8fd97cdc211b2bd63f8742fc860f27742"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bangladesh.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 417,
+          "sha1": "cc971b6eca1858c74db9d1ce2565263357e589c8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Barbados.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 376,
+          "sha1": "29b20cd4e3802ceab29a94ca6e7b9e6436efdcd9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Basque-Country.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 445,
+          "sha1": "29a674c4e6c04c810fff5911d28db3575cb315f5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Belarus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 433,
+          "sha1": "da28ed0b362512750ac182e30d6ced92cd4c5725"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Belgium.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 410,
+          "sha1": "2f30120911b633cbd5aa032c4f1760d6199e4561"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Belize.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 470,
+          "sha1": "2dea8bf3fdc5d206b397d0ddeb1087895a7845a9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Benin.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 384,
+          "sha1": "e666a98f1647220be63e956cdda3c1abb883616f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bermuda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 491,
+          "sha1": "0c3bbe7cc77ae2618f07bd506ec5ba4c88eb4d07"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bhutan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 578,
+          "sha1": "8d7b0f995a251efe1b034d656ec2a1bcb6387464"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bolivia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 415,
+          "sha1": "5ea2fe4221a1a683eb8b3d10dcc0b8d42a7c862c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bosnia-and-Herzegovina.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 517,
+          "sha1": "6be1fdcd35a881ea317008fd4c146c6723bd621c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Botswana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 292,
+          "sha1": "738811e418985155860dadbb8cecfff2f3611550"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Brazil.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 527,
+          "sha1": "b2ec236a6eb10e02eada9b1079f4f0f4472f13f2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/British-Antarctic-Territory.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 493,
+          "sha1": "4bbd84a9605da72b5f280d0f66c895477fd3b237"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/British-Virgin-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 494,
+          "sha1": "18cbb83bac0f4d57fc5ffed3c72ae9a0b7d05b48"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Brunei.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 581,
+          "sha1": "c1dd10e8ea3a621ca0499c107bf070a1d6d97c7b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Bulgaria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 287,
+          "sha1": "ed631c301b1b73e28efabf2931842bd57efde089"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Burkina-Faso.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 340,
+          "sha1": "bcf5331c1dfb0eed88de4caf6f91854d8bd267ea"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Burundi.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 552,
+          "sha1": "bf05777181398dd6c5936d103b706be205d79a4b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cambodia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 420,
+          "sha1": "760b7da21360aeaa54de72861c1339067e26a427"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cameroon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 461,
+          "sha1": "92e9af613edf2193a498d04bcc8958bbed973b0d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Canada.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 389,
+          "sha1": "282d3afa18e65f7f6194781aa4e0641487165d95"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Canary-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 469,
+          "sha1": "dc4ce4784d62f1f97fe0a72ebca71ec87a2b4340"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cape-Verde.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 333,
+          "sha1": "7b2f15ecfc0260b70498b05041d576336e200591"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cayman-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 513,
+          "sha1": "2220fe712d08d6670107f555ea30d72ec2edb295"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Central-African-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 358,
+          "sha1": "93914b566d362609f92b3edacdb766eb6953d79b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Chad.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "660558a6e0d3b393a72febcc9a71f27dec67179b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Chile.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 367,
+          "sha1": "78846a78a4fdf20eb25ad6992237e9570b6f3369"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/China.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 503,
+          "sha1": "c8b6f41de2c0b642f5ad45c58173b690eb1f08d2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Christmas-Island.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 539,
+          "sha1": "d423874a425e347af8d709317cfdc0df519cae13"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cocos-Keeling-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 459,
+          "sha1": "2d05dcf964a06f011aeca238dcf812901ee8e0e2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Colombia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "9a3d79be083e542dba5fe542e02f60b1475405ee"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Commonwealth.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 584,
+          "sha1": "03dd055171e90aaf651430f03957281d49763eea"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Comoros.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 439,
+          "sha1": "22d936026e462df946a8740b1afa83679dd2eba2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cook-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 516,
+          "sha1": "d356092db8aa790d08b8fe3076dc1f6c3d7f7329"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Costa-Rica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 289,
+          "sha1": "ff4fee5bc304160ad4308e8bb104094a20ff9634"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cote-dIvoire.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 421,
+          "sha1": "4f13068adc8a6f64af66dd50808080f10e205928"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Croatia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 519,
+          "sha1": "4abf9ff625928f53ddef8e5ed8e3373a5ca954da"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cuba.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 457,
+          "sha1": "e953198fb2c917f5dbd9771ec75982cb221525b5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Curacao.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 376,
+          "sha1": "4df7c1408e47f7bc86959f4f4c9fce72d37b15fe"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Cyprus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 500,
+          "sha1": "2c1f1648da8389435b334300ff3ec533721de919"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Czech-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 432,
+          "sha1": "21a546d98628c61430301752bbc0271060254455"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Democratic-Republic-of-the-Congo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 571,
+          "sha1": "7710969aa1c23b0e83b423ce829374901dc91fdd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Denmark.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 326,
+          "sha1": "f24c4ad82304b2139200f7fef9ce3b9b79754e08"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Djibouti.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 440,
+          "sha1": "d1688bc56018ce43f93f3491ea1bc3d43225ecab"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Dominica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 504,
+          "sha1": "758470e6879370ee31268c84db7cc519733fcb5e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Dominican-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 411,
+          "sha1": "5f17a358d4d7872f90a335e0d2593100fe76e329"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/East-Timor.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 514,
+          "sha1": "e008290b403e88ccd2eb7284f53202927ca4376f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Ecuador.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 418,
+          "sha1": "4a58ae9310f70eea0a1396a8a23199792496e4bc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Egypt.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 374,
+          "sha1": "037abe9f5a50fd523b8553252c3c5b262bcf7310"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/El-Salvador.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 392,
+          "sha1": "f820217c6cc33de1cc67a31e31dd7421e376eda3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/England.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 327,
+          "sha1": "9c2a6904c17ee1602248b0389a1e28209f27cb5e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Equatorial-Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 492,
+          "sha1": "08241eb89478c0fd64558aa509a5b423898a3e9b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Eritrea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 549,
+          "sha1": "12f637b0c5a9819f955c65dd48969003d0c85011"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Estonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "98a3f9a8548146913cc8f7621c1a29de2e92984a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Ethiopia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 492,
+          "sha1": "24048c709a30563530d21768e7e5be46d4244a0f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/European-Union.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 528,
+          "sha1": "a873d7b599cff46509b9c4f20807826e27bf3dd0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Falkland-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 503,
+          "sha1": "b04f6d4b0e1358c7f74b540f893862dc255cb221"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Faroes.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 354,
+          "sha1": "c96357034854e9250fe45245e0e06e7fc84eb9a0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Fiji.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 516,
+          "sha1": "aac8d201c4d0e91dcb7c86cd9fb730a4e36aa3a2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Finland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 328,
+          "sha1": "7889725690644473c5625f9c44184cbbbe59b6a0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/France.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 421,
+          "sha1": "dd4720ea99b539cad9f754b4a56241f59921a534"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/French-Polynesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 389,
+          "sha1": "a0b6e60f4746d7fc2080c93776a0148d1bf8fcd9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/French-Southern-Territories.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 425,
+          "sha1": "ae5b08284ef6de74ecb09ca45ae261e62fe1cc9b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Gabon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "942e5af16f09aa1ae3d7bf1fd32c0800f37534d9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Gambia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 292,
+          "sha1": "96272fa497793d752b240e9b291ce173f6a457bc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Georgia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 337,
+          "sha1": "26dddf98307ccbf43d5fc8be317cb82056fa0c74"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Germany.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 292,
+          "sha1": "a6332daa0cea8d6c6a04aca83435d994d51daf82"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Ghana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 346,
+          "sha1": "2ad398ba4c6f5d765187a9e3815751cd88724526"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Gibraltar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 381,
+          "sha1": "42357d8fd9f8b8c997041e538568261280a9c4fe"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/GoSquared.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 441,
+          "sha1": "d525e4f834cfd2d8551fdfd1fee04f5a105fd9e8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Greece.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 361,
+          "sha1": "ed5af65ca832ff5fc008aad764cf6194a717ac46"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Greenland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 375,
+          "sha1": "901f6781bae0a78d92acb2b714380de9a9cd8d95"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Grenada.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 452,
+          "sha1": "e99b25fa85d81f49de921e6f67b9ee95fe7498ac"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guam.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 387,
+          "sha1": "4003dad98de390af0cf1e091c99e06b25e572492"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guatemala.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 419,
+          "sha1": "577e7f4aa4eb74b82470e4460bca3eb737fec3b7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guernsey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 353,
+          "sha1": "626efdcb0382dc2f417f60952bd3fc5eb9b10f04"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guinea-Bissau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 418,
+          "sha1": "bce5660f52108dda5a472dc2c1c925e686a54d06"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "7296780219bbb1b3e4a4ea6909241a19e9a4e6e3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Guyana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 553,
+          "sha1": "299a8df7f616e62654f978a2798248e0c454e09f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Haiti.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 397,
+          "sha1": "7a1daa550c16909f0943567d95d9368fc8647e27"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Honduras.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 344,
+          "sha1": "ec748a63cbd189fd8173f6acc13e5e8056b89347"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Hong-Kong.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 539,
+          "sha1": "93fed76dbbba5590c9daa5628e687a0074b612ed"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Hungary.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "b9480885adcd181aecfed814ae487cf71b39917c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Iceland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 360,
+          "sha1": "80db64fc69f69996c60e2b0096d13d24761398ca"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/India.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 385,
+          "sha1": "449883bbe4f62ac327c83ba91afc9785652081d4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Indonesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "1b779bb247e93f07d0244e298ffa9c068b076357"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Iran.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 480,
+          "sha1": "e3d4325a970628e0d21206efb518b33b05a37790"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Iraq.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 421,
+          "sha1": "7a0f1544fa6b719be3083120f2e65c39db210eb8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Ireland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 421,
+          "sha1": "f9af7a1bc2dfe32d0a44aee7c27c46ec8eb9d2f5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Isle-of-Man.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 508,
+          "sha1": "de643c20e98d1b675848b8589bd41bf43548c2ad"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Israel.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 363,
+          "sha1": "077a3e68252c9838ef469853a0df440089ebef13"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Italy.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 421,
+          "sha1": "31694e97182b338a72263f3ffd15b3ac73191426"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Jamaica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 522,
+          "sha1": "31bdb1019731ec9cbb10d309e079a03abb941822"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Japan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 341,
+          "sha1": "811e500cda072c041f959f0e9fb66dcad821f014"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Jersey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 516,
+          "sha1": "ff7d992dd825ad312d41301540c7f90fea3e194e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Jordan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 442,
+          "sha1": "1f88c5f569a170e2ec3564f41d651affae9db75d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kazakhstan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 571,
+          "sha1": "c0e110e702ad24ee9b53cbdef3ff84b6c4b56ab1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kenya.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 456,
+          "sha1": "02f8fada175d400dd6a206dae8a5dceefd99f0f2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kiribati.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 543,
+          "sha1": "d4a0fc786d02c2546ad5b0e25ef2057e837af0c1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kosovo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 557,
+          "sha1": "f2619619138d30a4c635b6a8d7ed05be2b9261d7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kuwait.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 413,
+          "sha1": "c6d391eea9139f36e365b9f33c7d2ea4db47da16"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Kyrgyzstan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 516,
+          "sha1": "21fd90e19f50906cf0ff2673e1c5db3255e6d717"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Laos.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 372,
+          "sha1": "468a23edcebb876bfb87faa53e8b77d467021115"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Latvia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 296,
+          "sha1": "a2cfc2e8469d42c7cbb0d2e32bee30cbc47f448a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Lebanon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 385,
+          "sha1": "3401e6ef2a7773a2eb7de99dc7178d4ed5a4bf1c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Lesotho.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 378,
+          "sha1": "595d90fe5d9fb2341835f7b9abdc922a3ac1805d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Liberia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 363,
+          "sha1": "08f8d05d30ba6dbcc0d488c718d136730dc1170d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Libya.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 398,
+          "sha1": "49a6494b767dfba618fe34b95b95c50c8723685d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Liechtenstein.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 403,
+          "sha1": "a8b0a0cef48ea6b2d6873c6a34e44bc7457229f2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Lithuania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "e3d2415cad68c09f0f7af2b7ddb5a3a3c738d7cf"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Luxembourg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "a5689d78ba6f4fd127845f33a0347b84057cef9a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Macau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 505,
+          "sha1": "7b02e8cd7c5c7ac22a9e594ae5c783d0f052e898"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Macedonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 500,
+          "sha1": "dc4994019678ef3122e4cd2518af9c540bae7baf"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Madagascar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 374,
+          "sha1": "6c1bfa5eb53881a44bcb5d5fb553f87f05322ed5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Malawi.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 349,
+          "sha1": "7dbf4e200f64f49f9a3d81462343e8f41f6dec36"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Malaysia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 467,
+          "sha1": "61a38b98e9493230fe5b66fc9c6e1cd587103c09"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Maldives.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 390,
+          "sha1": "6c384339dd7f9c0765d9a6af01b27ab91f9b14d8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mali.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "7db3c9ccd4d9cb33509d2cfacd919d0474b92cd0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Malta.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 400,
+          "sha1": "afe320b2c01cbcfd6d1bd3d0d6e28e6f2f22b896"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mars.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "8b7491a6469ffd715359e61d6f2c484c51cd6ac0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Marshall-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 535,
+          "sha1": "0fac1b073165b7873ede11dd996584f4debe720c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Martinique.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 473,
+          "sha1": "d04aa9b27d5221cb22121163e3b3f98a9c56689c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mauritania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 420,
+          "sha1": "8dde201e8dde332ee0cdb75fceafe3a1b41d9896"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mauritius.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "9863c91bb73a54f624be4ba4577345fbaa3b0b41"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mayotte.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 538,
+          "sha1": "8a27522b69b2dfdf5e2a02476a4df8b14cdb3b71"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mexico.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 499,
+          "sha1": "2f3b9b27b559df094de596be4d35663cdfd99db6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Micronesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 397,
+          "sha1": "627cb7157e4f0e8daacece35659c95c30575ca9b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Moldova.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 489,
+          "sha1": "0a0eafff57023877cacd6c421774ddefa1047c21"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Monaco.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "1b779bb247e93f07d0244e298ffa9c068b076357"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mongolia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 436,
+          "sha1": "1431b5de62838a96126801dd74a91ea711c93db2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Montenegro.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 458,
+          "sha1": "2a681e5b73ea42841b5b9bb8f126608e78b989d3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Montserrat.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "4e74d0ded773c37fa18716a23f84021e2371c269"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Morocco.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 472,
+          "sha1": "8d70ed93daa93fbe918fd96627b0d89c9f6001f5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Mozambique.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 461,
+          "sha1": "d9540bea34c88e664ce88d9e8974d8013a2cb94d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Myanmar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 367,
+          "sha1": "81a6acf7d1cce38545e276c4741318ffb8ee2797"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Nagorno-Karabakh.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 355,
+          "sha1": "4763ab0d9bc785619bbff0a5c2db08a1b3908513"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Namibia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 575,
+          "sha1": "81f31926ee214edc6b72755934b08b31bb8db565"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/NATO.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 353,
+          "sha1": "3b2b106b6acff2b13387dbc225ec4a4b8347b118"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Nauru.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 341,
+          "sha1": "7a4478372097f38f7e2d07b8bbc7c76c22f788ff"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Nepal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 657,
+          "sha1": "6e9c3ac2caa8f25b90a4b0eaccb38cdbf9d0d3af"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Netherlands-Antilles.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 361,
+          "sha1": "1ee2a2b8c5758fa210b6a01a35f14b0c833a5c91"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Netherlands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "c4169396b1424b551ec37f17de5117b649278732"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/New-Caledonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 466,
+          "sha1": "3323943f9f1614b34a7253ccf33f01985837d68d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/New-Zealand.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 422,
+          "sha1": "3ed2a7712905592c1da87b275e3ce06508402edd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Nicaragua.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 388,
+          "sha1": "772b4b87245971811b9f6f606a50178caa13150b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Niger.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 344,
+          "sha1": "90b52e8f341d54b6bc92877fb1885559f6bec1c4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Nigeria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 329,
+          "sha1": "0b36a00061d849cb190bef24a3f64872fed159f3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Niue.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 431,
+          "sha1": "0c1c25516b1fcbe467ef0108132766214b1618da"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Norfolk-Island.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 458,
+          "sha1": "b33ff02a80b0593dde7c1a04d8dfd0664b91cc76"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/North-Korea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 375,
+          "sha1": "8ff282cced9b8b1f5e7f513126adaca588fecad1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Northern-Cyprus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 407,
+          "sha1": "a01cd3fb016afb70e04ad337a2a1c65aa7dac84f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Northern-Mariana-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 606,
+          "sha1": "2c739c5306e31a3d15421587bb18e7398a1db25f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Norway.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 360,
+          "sha1": "2e76dd041b9ca9001828c78712cdd67e0271da45"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Olympics.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 469,
+          "sha1": "98fa9c0a6aa4571c45e6e8bf0fa014faca47f144"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Oman.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 411,
+          "sha1": "3c5dbe02e05e364156c03614cb2f4b562af17a1a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Pakistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 557,
+          "sha1": "79be46d983177069926ff0e94655d66945844933"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Palau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 409,
+          "sha1": "9b1b6ba83feb63ef5842af15505fff6c89649c22"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Palestine.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 399,
+          "sha1": "296b6796f3749a7d94e80f53d5e69505b0acb600"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Panama.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 438,
+          "sha1": "db174bed9c0cd8e8c8a372c64eac509506b9977c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Papua-New-Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 563,
+          "sha1": "21146beb283794e91647c7e89bb06a98447a218c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Paraguay.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 380,
+          "sha1": "0d369b838727a33754259c1a40563db36f67479a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Peru.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 329,
+          "sha1": "b2948f0e52f8543932fd8ad47f15455945d89aa4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Philippines.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 521,
+          "sha1": "80099f888d4d55cb3d2d1ec8cca7aa22b7b4eced"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Pitcairn-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 529,
+          "sha1": "8f12192282f96c1f6c719cd86975c76da715a9e6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Poland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "0d247bb368cc0f19feec82b10b2463c0662df357"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Portugal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 515,
+          "sha1": "ce0d137499f7bfc64897d1e2a3a7c83a2ff8ef4d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Puerto-Rico.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 457,
+          "sha1": "0b32b4aa942dd347bd29321674dc7606d513b867"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Qatar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 493,
+          "sha1": "19a43f439f1c47865a9576d40031c3e10516f20e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Red-Cross.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 315,
+          "sha1": "6b9020427842402d186783f4a0bcbc0e16ad8260"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Republic-of-the-Congo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 468,
+          "sha1": "b5531ee52decf9cbce10a536c1c005ade85fa70f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Romania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "089167d0fbfe47dd9ad15e7212468fe140e5c05f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Russia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 287,
+          "sha1": "57c40bad672317622ab256378fafa750f1f1e947"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Rwanda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 384,
+          "sha1": "e53055f5254a86844478971b60b85eb358e15ced"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Barthelemy.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 578,
+          "sha1": "b83e54c3ed684b95ea30c086c972db7eca9c5ad8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Helena.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "97ec2ce7486adf34cb7e7322d61ff3304fde7b95"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Kitts-and-Nevis.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 555,
+          "sha1": "20b65c220c87de15caa9c592641826a97e2d35f2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Lucia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 363,
+          "sha1": "8616e7508f41c64daaf5fac4779388240b0fd58c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Martin.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 358,
+          "sha1": "78d1682b27ba6649ed5709556c477e74290eef31"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saint-Vincent-and-the-Grenadines.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 518,
+          "sha1": "9d6365509911e5f1f8425135a24f4797685f3b9d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Samoa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 450,
+          "sha1": "b897c3cada082be4440afd8ed2dc728342fc2e36"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/San-Marino.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 440,
+          "sha1": "83103e033590fb0015ba6986b9d3086597f91a4d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Sao-Tome-and-Principe.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 459,
+          "sha1": "b704da0099e0a8bba57685e6527de5d91d5d0f04"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Saudi-Arabia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 537,
+          "sha1": "4bb934417e95b0fd9749c99f16f52b26860d6eb2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Scotland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 472,
+          "sha1": "7ae185f7bcd6361d795590f9cb93ed8e7e4b58b7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Senegal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 461,
+          "sha1": "3ae93fad2dc1cba5aa61b3ca4ac559e087c39766"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Serbia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 441,
+          "sha1": "aead353d366e9ba10a5608ef4aed833f4c5786ae"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Seychelles.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 525,
+          "sha1": "fc79a5db5af70e3a686ce3502b59b291282825eb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Sierra-Leone.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "266527f0c721e72de662bd8d32b002897c1c81ad"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Singapore.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 442,
+          "sha1": "5c9a81a21b98e36d277fea18b63e8bdbfa52f883"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Slovakia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 395,
+          "sha1": "6f15bc16686fb4a772b5e5c0ffe87298f689894b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Slovenia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 347,
+          "sha1": "0274ee453b37e8eb4f9e69c13ba586153d90b1e4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Solomon-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 507,
+          "sha1": "117b8fd06883fc24f0fae8915884e46a53071689"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Somalia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 365,
+          "sha1": "f1edd185c098d41d2e4c0726282c1d222307d920"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Somaliland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 441,
+          "sha1": "0cc0112cb341bf369fbf7475dcd4bc456565293b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/South-Africa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 486,
+          "sha1": "4571ccd4623c9c8f4b6dac34ddbb324da724cfe7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/South-Georgia-and-the-South-Sandwich-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 557,
+          "sha1": "39161934927a5950bd751db9be26939fabf7a712"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/South-Korea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 537,
+          "sha1": "e521eaa9b033597456cb10b2b5e90dd11ab51bfa"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/South-Ossetia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 287,
+          "sha1": "608f7c5bf32f809398467d7f2b28922bfe93f2fa"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/South-Sudan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 475,
+          "sha1": "af0506700bdcd87e6efe3ad0014bacd72e4461a7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Spain.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 414,
+          "sha1": "11c2a1bcfef12197ded7fbfc7c31e69ad94d9340"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Sri-Lanka.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 507,
+          "sha1": "f57caee05fe512567b0eda7d2b1c1dc7009d032e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Sudan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 400,
+          "sha1": "0e3d55ab3e0105d0f2cb0ad4b666904c46dc0262"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Suriname.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 340,
+          "sha1": "ac542db9e07ed1481beb62c2b6c0bdc78479ef59"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Swaziland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 466,
+          "sha1": "29541128ad304440ad8a78e7aaa388c0a097ecb2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Sweden.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 328,
+          "sha1": "b5bc99fb26779eda82fbfd54311abc33d1b3838f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Switzerland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 335,
+          "sha1": "aa7b670b2a2ab9989a4aff69118f032b07a9a8e8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Syria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 333,
+          "sha1": "85e0f3651dd054991cea9280f9fb3c53942db08a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Taiwan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 426,
+          "sha1": "105c615273b64f5b670cfc28f87768d4b5d22526"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tajikistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 388,
+          "sha1": "fcf05c8e00775dda76877fec28fe24ab17c8571c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tanzania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 569,
+          "sha1": "ee2eabf9dca46179597e162a417dc1076068e023"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Thailand.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 289,
+          "sha1": "72adeb467906ba7d4b43c181cdec617feb57feda"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Togo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 386,
+          "sha1": "416aab28834e2edc050117918ebc19a7f6cb7abb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tokelau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 434,
+          "sha1": "302b79126d515c6a64b9d7c9b26fd9de78a5ce9f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tonga.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 369,
+          "sha1": "974c0c425fae683cdca992f7335df694958b55ac"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Trinidad-and-Tobago.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 544,
+          "sha1": "b36a176e4961e95fa9c98e2f2ac5a1ced5b3ca7e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tunisia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 498,
+          "sha1": "dd62d4639c33b7ca34f667764a216d326bc48794"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Turkey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 489,
+          "sha1": "8627e153a83d1df06d909e1a9f6ec987d33a16a2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Turkmenistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 577,
+          "sha1": "74ea6b28a5b06dcbdc1f2613de4c580af927aff3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Turks-and-Caicos-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 491,
+          "sha1": "df9a471d72487b8ac2193189fe9906d26bea87a6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Tuvalu.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 547,
+          "sha1": "c381847a85858cda97466ca28d528c68561dba1f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Uganda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 357,
+          "sha1": "07ae7ef6af2b6ce608c43018eeb60e8962097374"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Ukraine.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 290,
+          "sha1": "206d18bb0b980c10db1b3bb2e2a3a38eac4dd5fe"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/United-Arab-Emirates.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 386,
+          "sha1": "a635ea5a562c26b9de75b76d02c037bbf5af7139"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/United-Kingdom.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 542,
+          "sha1": "2c848a1a1dbd425c7c9d2e9ca790ed6c96c72e93"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/United-Nations.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 504,
+          "sha1": "f7f620bcb8c44af42b482a84ff2922fde84b3e10"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/United-States.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 389,
+          "sha1": "f1f415d6a049e03a6fd7afea7cbf63810ae42ce7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Unknown.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 390,
+          "sha1": "1e2d1c4f9dc316d4c9f059c2cf977457abbadbeb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Uruguay.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 405,
+          "sha1": "cca7ff0d51701360f127c5dd38c4f446dab823ef"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/US-Virgin-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 549,
+          "sha1": "90b81f18affb0cb3e4f8d5827697f093f35243eb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Uzbekistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 344,
+          "sha1": "d672021465e4e5fafb99347841052216c4c8c5d5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Vanuatu.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 471,
+          "sha1": "2dd44a226a5b0c2ea4a6d3f67b714125403093fc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Vatican-City.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 458,
+          "sha1": "304229475c963662f4d62cfb3a19b1a615ae8ac1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Venezuela.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 435,
+          "sha1": "259a4d7b14c4c4a5b3135944bc9c543c88668392"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Vietnam.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 365,
+          "sha1": "05fb23a22d5e06cfef16f6de79068e63ccb605d3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Wales.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 577,
+          "sha1": "7e1fe241f22015aff961b9d361e018c3bec805cd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Wallis-And-Futuna.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 424,
+          "sha1": "64133f2ccf2e602d3cfd6e1c52776629ff064583"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Western-Sahara.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 474,
+          "sha1": "51375f0e11813e742e337c57855feaa307a53f64"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Yemen.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 295,
+          "sha1": "b6f53d0c92dda4d19418a86dc6e1c83d836ca06c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Zambia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 446,
+          "sha1": "7dcc6edcfb227050cee04e48d58605ae3ef0cdb8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/16\/Zimbabwe.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 479,
+          "sha1": "304197c7012c20c03d2ceba2f6d3d9e5eff94148"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 98304,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Abkhazia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 759,
+          "sha1": "febb451bb09c7efc16088b73d7dc7456bb9798bb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Afghanistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 742,
+          "sha1": "c52f47fa533e274ed5d4124ebef61ffa0b361845"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Aland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 620,
+          "sha1": "7b60d3ffbb5f523270904d73e5b5a450a9d0c435"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Albania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 825,
+          "sha1": "d2732ff599502cf18d21842d6a3fb77f4656bcc8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Algeria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 911,
+          "sha1": "0fc3dbe63ba35f4dbb3af3ea85b082e2036e70bb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/American-Samoa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1004,
+          "sha1": "5c74dcc5677eb725811ab060b25a36d01c8f010f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Andorra.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 809,
+          "sha1": "c7c5e77e7a6e5e55e7c147ec941b122f006090e3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Angola.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 788,
+          "sha1": "ddd771ae8f6f398d764cddc1449d33f905c6a364"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Anguilla.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 936,
+          "sha1": "56da97c0117870bde566ea8ddc7d33500e4b4e43"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Antarctica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 892,
+          "sha1": "3f5e346aeea62a44149f69ca8c432491a0638955"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Antigua-and-Barbuda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 691,
+          "sha1": "b5f61d43f2edbb4835272062ac81b58322a45cff"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Argentina.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 622,
+          "sha1": "b37bd5a7a14fa6ae449faab2694836531d06570b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Armenia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "9198e786e7ef241732b93f088b3be0043f91ae74"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Aruba.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 643,
+          "sha1": "8901d3c781a3f2a16546be5a177726da13c85ac8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Australia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 879,
+          "sha1": "47513db9b37f61bef094b8f6880809dc36edb3fe"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Austria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "1875fbdf931436f2dfa67f4da2b32f86ca775e13"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Azerbaijan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 693,
+          "sha1": "a3e9562de08b6894db7b8ff77428ad663d0cfe74"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bahamas.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 809,
+          "sha1": "65d0ace584f97f43652f24a19a2a68f59e14fc23"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bahrain.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 697,
+          "sha1": "f98fb85984c296683110ff70f0dec31a8357734c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bangladesh.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "5dbc5667c42e9a4ad787dadb6b8c5bed7489dbcb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Barbados.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 635,
+          "sha1": "a173a1c359118a9c0e4c391dd5bdddb2ad1bf221"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Basque-Country.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 738,
+          "sha1": "860561144f0d0240002ba1205fd68c26602a1f1a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Belarus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 843,
+          "sha1": "2556ababea7e7ac4e6e5da9b0398771cb2a89e44"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Belgium.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 850,
+          "sha1": "f083f29a13bf575f42648712ae1950df9be012b3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Belize.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 906,
+          "sha1": "8f391538b54fb83bf1d7d0339e260875dc3ae313"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Benin.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 812,
+          "sha1": "2699d4334dc7426c1381a6e7f708ac6a07d0c0dd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bermuda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 902,
+          "sha1": "ac14e635ec4b6198cf48f6f4e63d84643b158a86"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bhutan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 958,
+          "sha1": "074ba7131bbe31d420857f9b5a7abe029bc706b3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bolivia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 654,
+          "sha1": "6279ff5bdd9487a6b1572029d803546c0b34fe6d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bosnia-and-Herzegovina.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 977,
+          "sha1": "a8dd44dcc5135685729ff12d78d4ac567490a681"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Botswana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "9caa970eb8032a635af9710f86618f097637ada2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Brazil.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1004,
+          "sha1": "2997f5a669d2f3bc3af5c6f3687990da6bb8b532"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/British-Antarctic-Territory.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 946,
+          "sha1": "0270a1866ea3f2e9822d0b3fa20f06df3e0ec93f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/British-Virgin-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 925,
+          "sha1": "9e1a01168657c794c1a2d98cbfe54ea73ca4dc73"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Brunei.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1045,
+          "sha1": "191052afbd810de58367adaf368fd94eb2d28aec"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Bulgaria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 520,
+          "sha1": "b9d729fe8f111551d51d3565996cdaa0d34d9a81"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Burkina-Faso.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 560,
+          "sha1": "9105a39275ce6a169d8bc8ff9916bbe2119bebe6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Burundi.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 846,
+          "sha1": "0c1aba0241366c035faccc720b2132f5f3b386bf"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cambodia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 755,
+          "sha1": "0dbba0fb381733613922497b08ec69a57ed2ec48"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cameroon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 906,
+          "sha1": "4e3cf6fbb1725a3d5c05595884dacc95e8ce7995"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Canada.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 632,
+          "sha1": "9f71ab786945cdc2c301e74d58d7cac3e1a07c2c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Canary-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 949,
+          "sha1": "74ed881e60192b6e3990bf846f31e040d826f938"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cape-Verde.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 648,
+          "sha1": "878955724ae384d0cc2841d619c2d7ec9efacdd5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cayman-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 927,
+          "sha1": "70afbfa888ecf55b954819634a1e724713ca0928"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Central-African-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 614,
+          "sha1": "b734e04cb8175dd4ee4db520c9c2431401abecda"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Chad.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "dda584cb4cb088e413343681ce400cb0d846ee78"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Chile.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 698,
+          "sha1": "1d42f7229bb4b88841fcdae31dba180bb2a9de0e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/China.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 845,
+          "sha1": "fad49306a1b1213600e64b01d229fecff9069f87"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Christmas-Island.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 938,
+          "sha1": "2fb2aabc1ba8eca8b65d7bfecd0160c76f88647a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cocos-Keeling-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 824,
+          "sha1": "9efad65fa7bce8d0ece15ad231e401f6b01bb299"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Colombia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "b7b9c75b018b001bde0388eec663d1c58d51f1f6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Commonwealth.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 977,
+          "sha1": "47e70a7a8710a6e11743bc9fb1e94ec7c2338ae2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Comoros.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 825,
+          "sha1": "34535a7459a2cb4e26759617be46dfd6058c654f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cook-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 965,
+          "sha1": "61a661308a5bde5538af4d79f0fc92d6c8b69ff4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Costa-Rica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "54bf6009f5a264624ce687d17978ac006fdeccd3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cote-dIvoire.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "90908f707129130efb8c81f6fcfa3cd625eaa0c8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Croatia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 767,
+          "sha1": "56ee2b8150f6c69fb352e4092562f45b25dae692"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cuba.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 845,
+          "sha1": "54348bad1b5acecb3e5107b8dc4f5bd0c0e7349a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Curacao.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 633,
+          "sha1": "30d7cb439cacb0bcdf71dedae69338dd690e3139"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Cyprus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 859,
+          "sha1": "a9f542e93b7a1da1050f8f724ebbd95fe6fba553"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Czech-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 818,
+          "sha1": "91fff9afb2f3aac24da04606645f099e8b88ed7c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Democratic-Republic-of-the-Congo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 973,
+          "sha1": "b72742965cfe1f47cad3b48d6f7cb5636eab7870"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Denmark.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 575,
+          "sha1": "afb96bd5ad60552a7196c17f504eaa197de7e5ae"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Djibouti.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 834,
+          "sha1": "239b7a0211e9a34d6b5fe5264d7b547a684e8a27"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Dominica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 946,
+          "sha1": "535beedc41c8b9e9a479861f49e2d4068c08a4f1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Dominican-Republic.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 840,
+          "sha1": "3841269410a71b6e75eb99cbdc3e6a5665862992"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/East-Timor.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 914,
+          "sha1": "4d58258e5bc82a1eb16606f496e351a2d4e3068f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Ecuador.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 730,
+          "sha1": "3ebcbfb463efcbbd259512502aea75b48f9a282c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Egypt.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 616,
+          "sha1": "e04883cb9b1866e965ef13deb11f1e6d2909ac5c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/El-Salvador.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 624,
+          "sha1": "616c873ca40233e0acde91f962ca3fd66f3ddeb1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/England.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 562,
+          "sha1": "52d364d6892e5b78c323afe5324e8f3d2765d18b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Equatorial-Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 827,
+          "sha1": "fca52a3c78f2f6824fcd65edc53d56f57ac7f6a7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Eritrea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 935,
+          "sha1": "bb40a6d28cb0034f837ce053eb08ad7c94784a10"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Estonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "ea2a52625c439cbce9d506ae80b78cb70fedcc84"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Ethiopia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 889,
+          "sha1": "b593674f714ef687404fa697877c6eece18b4342"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/European-Union.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 832,
+          "sha1": "ce81d85ac6dd105cdfa9b6a975d7a691a33be602"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Falkland-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 953,
+          "sha1": "071cdcee6897c9373dbba7106d25a0b7a7ff47a5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Faroes.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 637,
+          "sha1": "86b262da897d411b9f113fff59023c31e5bf7edc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Fiji.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 976,
+          "sha1": "7a0981e097c2166b1e550f53e345c3f497b6084d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Finland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 589,
+          "sha1": "6979c1bd242ac24103a4cfbd6ece1c2d23ff95da"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/France.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "d9906e4a075baab760acb46736f4d5a197fbe856"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/French-Polynesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 713,
+          "sha1": "2967bd29cbc9c6f56103a574d2f940387c02bf1c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/French-Southern-Territories.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 807,
+          "sha1": "966d1f156d2d8f721f74ab0dc3c27d997c8cd862"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Gabon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "3629cfd6243cd3e64242c6ee814aa9c60e98ac91"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Gambia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "24d4d4ec4d43b1409c15104d211cea5b196a90c2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Georgia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 559,
+          "sha1": "db72ba69365bccab406eedebf87f2a6ab1d987b9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Germany.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "5401047600cffa8b63432f2e8f46eca34e89eade"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Ghana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 560,
+          "sha1": "f3b5274addee8889c6535d7d0474c928abb86c3a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Gibraltar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 754,
+          "sha1": "4e6ee553f6a50b5269780fa01c53c286862a4094"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/GoSquared.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 753,
+          "sha1": "14e2ff126011e96f3778259ad8a56c926809e20f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Greece.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 671,
+          "sha1": "edea8b4aab63793b1eeee4b2fff15724b7424efc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Greenland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 640,
+          "sha1": "11e282239216846723bd843fd8aa0d558a683a52"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Grenada.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 732,
+          "sha1": "496ee6ca45bca144850fef2e0611e1536ae88ead"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guam.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 792,
+          "sha1": "95da413edd3cf0393abfa339116a674e3d320848"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guatemala.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 669,
+          "sha1": "e2bcb2fc0ea5b41dac61d7960b1bc95738f06980"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guernsey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 618,
+          "sha1": "204705f7c068817424908ceb6e0bf6e6bf1b3260"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guinea-Bissau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 822,
+          "sha1": "48b30143aedef1c55793cfa228a9fc44281d4f28"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "76f2827f3ccc18ad411d29b36d19f9b937141aa2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Guyana.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1001,
+          "sha1": "2d5912b670652dafda5c185f51916bbd2e7f2748"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Haiti.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 622,
+          "sha1": "2bb0bb5a90e0f1635b24cbdf7a7a6c09b08ce17e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Honduras.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 559,
+          "sha1": "c6a6c9a9a1fa3c4cba44d4d9a5eece59cd7a4556"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Hong-Kong.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 963,
+          "sha1": "bd119382ccca2490a68ee5d04e620b8df64b3db1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Hungary.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "8d32d6a42d5d9b480424c34798da36176eeb824d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Iceland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 626,
+          "sha1": "e438a4d74c218666b82e2cca2d74d209625de314"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/India.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 613,
+          "sha1": "50d362e8c663fe9a0059621583d256a0e4d82a37"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Indonesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "ba5ac218446bec0dcb5cab6d51e8b17309e40c73"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Iran.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 842,
+          "sha1": "41d4ffcd81504b1bd026f2a49019092a0e5c9ca7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Iraq.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 686,
+          "sha1": "81d1da94826c3559ea788388f2be39167c1039c3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Ireland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "ecc506095b204543a877056cc1f24c1ecf468e95"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Isle-of-Man.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 872,
+          "sha1": "cc54862d0022682289dc05c22c508136bdd38c5d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Israel.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 637,
+          "sha1": "ab9e5ca41ef799ba3289b326b8225c60af084ec4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Italy.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "87a57dc8151351f2710e5a268ae9663d38dfcbbb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Jamaica.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 868,
+          "sha1": "4e9118b9dbac4b890fadc323323de2655d395880"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Japan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 626,
+          "sha1": "4f43e4646ea27fdbd2bd3591afb5924e50f326f4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Jersey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 926,
+          "sha1": "6003bcbba44f272215cce6d810d9828f23f542c1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Jordan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 811,
+          "sha1": "1264627c1fdaee2a820086548ed0e47a8af95c8a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kazakhstan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 858,
+          "sha1": "26ddc38a500889eec5244b558a672f5bdb3a3476"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kenya.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 729,
+          "sha1": "df4c09a202d85304de565f7f22c3e01cc3de8ac6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kiribati.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1121,
+          "sha1": "f9500fe26bbd26d12704ef8716c6e9835ab68ab6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kosovo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 970,
+          "sha1": "6d29b74ecc38b578bebb655eafbe013b12e8799b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kuwait.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 769,
+          "sha1": "25cbf75084e9528c4fa9feb2dbf9cbed587e701b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Kyrgyzstan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 920,
+          "sha1": "23f92eb7dc17106344357a55978d78161fd8bc77"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Laos.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 593,
+          "sha1": "a105e21030305ceda85a041d52e530703a265b5d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Latvia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "ad276c9f8e31a728395f6dca69f3a775480e4599"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Lebanon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 714,
+          "sha1": "20c2cca550263a9b97255e86a3145814208cc93f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Lesotho.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 608,
+          "sha1": "f50797ed9bac2ca832cfe62c940c4dad4a3e36d7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Liberia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 696,
+          "sha1": "d345cc2e878ed38d0767b2a608ecfc08e5cf5ebc"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Libya.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 634,
+          "sha1": "aa445d5a4ee59a176d9dd28daa3457efde14ff1a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Liechtenstein.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 686,
+          "sha1": "fbffb788ce2a3b108836defce9227b84b293377e"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Lithuania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "4485043b56e2e2a032c71f2d8a51772d40fa498a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Luxembourg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "7eddbf0bb1331b9d3a02cedcb96c48e9582ef337"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Macau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 877,
+          "sha1": "e419cce67eaad1bed5be14070491556e86e5e8da"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Macedonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 789,
+          "sha1": "8c7613f3058aeacd75da2c38729f358795ba3101"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Madagascar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 821,
+          "sha1": "c8fa1f8cab802a12f2185a0e9bbff1c7c54609f2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Malawi.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 649,
+          "sha1": "26fedc2380860fdce43ed99ded86f8644008deb4"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Malaysia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 782,
+          "sha1": "7158264c142680db72e5bf9944e75563eece0d6d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Maldives.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 599,
+          "sha1": "000e3f68503f626b8251c8e1a237833cf962a649"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mali.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "303a4e6bc4bdfcae50a7d5d3a5eca7aec7af57c8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Malta.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 848,
+          "sha1": "cdb48736d15adcc2cff976c7fa813644c695c520"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mars.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "3875fe811aadc52ca5c5fcf5167afb92841661d8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Marshall-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 942,
+          "sha1": "b1da0157f607fe882771eab4374eb2043eff2dc2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Martinique.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 889,
+          "sha1": "bcf3f0406a60f0d9af579cf1bb737555830550e6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mauritania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 679,
+          "sha1": "a98152425502ca04310ac240a4a898229d5c1a0d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mauritius.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "101f6c8f83a2889ef4466bd922238e7ac367126b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mayotte.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 969,
+          "sha1": "a57258c6becf8346cdf3d5b3dd79531463d67278"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mexico.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 966,
+          "sha1": "3c7091ffe29aa5c58cc0f5b9ce12716c1cd075fe"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Micronesia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 632,
+          "sha1": "aed63c7cd03e0b1be5f9295578b2db8d8a319503"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Moldova.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 741,
+          "sha1": "d2038603506a1dad14483f606b1eea196623b78a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Monaco.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "ba5ac218446bec0dcb5cab6d51e8b17309e40c73"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mongolia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 793,
+          "sha1": "bf0753563740dcadfce1eb07f4c4d24a45fdb5f0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Montenegro.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 847,
+          "sha1": "c5f2874c39cd3d632a81ce4440a70b2dcc342de5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Montserrat.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 928,
+          "sha1": "d730bb7a229ea80e3c12e4c63474adefa723be16"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Morocco.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 767,
+          "sha1": "b525710cd5be52ee5738ba30be32492ce14c8daf"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Mozambique.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 827,
+          "sha1": "7e2432cc4ed5ebef735a8b2caf27c29792f8db9c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Myanmar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 638,
+          "sha1": "39031967719f96d087d06ac263314f0b119a8914"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Nagorno-Karabakh.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 665,
+          "sha1": "f204b7eaf317ed4c5a4bcf82da0f4c5e19782cf7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Namibia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1058,
+          "sha1": "aa18cd8a36129ea4b38e1474b34ebb976107b3c3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/NATO.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 761,
+          "sha1": "634efd17db946457488ba7ae661dcc1e02c3a306"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Nauru.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 588,
+          "sha1": "4d0f81df4e1c8e6e53562e05e9e1688cec4f11cb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Nepal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1134,
+          "sha1": "3ee0ce96a81c225c78bd99c451a0765146af9f40"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Netherlands-Antilles.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 609,
+          "sha1": "789630f0ccfd952eadabe0a1ba0de8a0e0b5e6c2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Netherlands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "f4467373fb90a8e590022d1a99629e52a72239a7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/New-Caledonia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 825,
+          "sha1": "7457459a2a9313702627292001c5ed3191ba52d3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/New-Zealand.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 809,
+          "sha1": "70040e3e3736eab903ece953ec0dd01ed0b988e9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Nicaragua.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 624,
+          "sha1": "052433d123f5ae9c361d20dfe17e0afdee508c30"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Niger.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 585,
+          "sha1": "98425a0cc9a7ec90d12a0a7167621e6e223ff650"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Nigeria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 553,
+          "sha1": "d4c4c5dc05d05474b0d28b1e596f330c2281d8ba"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Niue.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 801,
+          "sha1": "6dbf9b5b2944b468cd46c62941558616d77657c7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Norfolk-Island.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 840,
+          "sha1": "5a7245041e879f2732364b0478e00b9c3cb014a8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/North-Korea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 684,
+          "sha1": "33a1cedfaa5e47e6108a07e642ac929b9004ceb1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Northern-Cyprus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 641,
+          "sha1": "9dfa0b2b075979e9eecc2dfd395f71565da2725a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Northern-Mariana-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1103,
+          "sha1": "7f163bc4cf8a6aab66a81f545adc47ea6cdfc936"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Norway.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 626,
+          "sha1": "6908b2a4a82c1ac33d40a906ff65780c9b5c60ea"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Olympics.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 875,
+          "sha1": "e2097914e0df7c95c519d0c46119cb58c3922bfb"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Oman.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 816,
+          "sha1": "5246718a7bde228dba61727adbae296a8c085698"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Pakistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 822,
+          "sha1": "8871d38b0a62e6dbbeb7d745be245ebed5e5c17f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Palau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 672,
+          "sha1": "b958ef0fe9e23914bd43e656c89f48f46d6462ab"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Palestine.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 749,
+          "sha1": "9112fbb720937f5c9e5e8558d176d59f510994b3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Panama.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 877,
+          "sha1": "2833786b292b05303b3f72bc7aba31b0970378f6"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Papua-New-Guinea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 933,
+          "sha1": "4ce2e7f961165995cb5ddf68dbb3b4e5d51f2c94"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Paraguay.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 624,
+          "sha1": "e326bdb5fdd6cea9127126e101250f0d1dcfcf08"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Peru.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 553,
+          "sha1": "187438765fe410ad0ef8ae170c2945ab1cacd537"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Philippines.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 932,
+          "sha1": "5182a883abc2a4ca8f62523ddf3785f043ebebf9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Pitcairn-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 967,
+          "sha1": "fa8708fd40192ffa6b2ca4473a1304c3ad70cf96"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Poland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "788fc057b02e8671921b47661afa86b9a08b5f66"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Portugal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 869,
+          "sha1": "2284663251e728e08dd4658c09c27e79719e80f0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Puerto-Rico.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 845,
+          "sha1": "a12544b94b3cd4aa2d2d349ba9dbb184d05429d5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Qatar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 706,
+          "sha1": "923976f536306e1de98565e574881f971356902d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Red-Cross.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 561,
+          "sha1": "e6d15e33b4e6b34325072f209a87e49cae588196"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Republic-of-the-Congo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 915,
+          "sha1": "c9c18aebde5c643365a3d52b3d79b272659c4a29"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Romania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 851,
+          "sha1": "c95878e3514f85c64df09d38aacc44d061af445d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Russia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 520,
+          "sha1": "47b4d4d7df8acbed5954aad7624fc4fcbe25b0ef"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Rwanda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 629,
+          "sha1": "4862187f49097b93dcc30ad83e22d9b626cbc33b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Barthelemy.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1117,
+          "sha1": "0b3f0e68ec055528df218e062354a358a942b024"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Helena.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 928,
+          "sha1": "96f09e8a53de19031a4d06276ae2a4f560cd9775"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Kitts-and-Nevis.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1071,
+          "sha1": "6e047487251f73676aca6e09ce4f430cd816f54f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Lucia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 610,
+          "sha1": "eab6a70e12cd129384887205e5c289e4fb99e6aa"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Martin.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 621,
+          "sha1": "e7487171219ab8ab0e2e975699c59b72e87b7319"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saint-Vincent-and-the-Grenadines.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 939,
+          "sha1": "3f461bbccd934c51fa5b78542a63c92eb3df8477"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Samoa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 771,
+          "sha1": "c28efc25cccf046a5b85c207e73acf2f1ddc5e32"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/San-Marino.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 766,
+          "sha1": "b73371341dba72d377d86626b699cd9cd8149992"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Sao-Tome-and-Principe.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 788,
+          "sha1": "4fe751de33c5b8348ad5213a007a5f2fc2226c52"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Saudi-Arabia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 939,
+          "sha1": "cbae46318f34db200044133f9fad10339dd3c269"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Scotland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 825,
+          "sha1": "30a5ce039683df167fa729f7fe1f8951f4ed2cde"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Senegal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 908,
+          "sha1": "212ce097bb22ff759eeb1ab53ecd23d291401353"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Serbia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 731,
+          "sha1": "faaf61e55f146cb688082902a8fed1aef98dc748"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Seychelles.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 903,
+          "sha1": "cfe489e270d0dca132417a0b93c1f6086b56fe56"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Sierra-Leone.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "a544dc9f6f024e15c40c9c6347dbdd9fa4ea3d11"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Singapore.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 745,
+          "sha1": "5e2ad9a4f1aeb79ebab7d80db269d08c128a7597"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Slovakia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 667,
+          "sha1": "3a1086d31703d1a35dc168d5408f49b20f4c435a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Slovenia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 602,
+          "sha1": "9abcae9e9bc60c3c2159f3b3e66085069d7d0353"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Solomon-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 943,
+          "sha1": "5aee4a98c9e1e64eb35377e8aca326f63858e16b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Somalia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 615,
+          "sha1": "711a81a6ca759f4af456a6f69b212a5d53476b62"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Somaliland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 782,
+          "sha1": "5a84ff171f6218f2998c89d78470999b1602c30c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/South-Africa.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 953,
+          "sha1": "42acfbb9363dd293a8c827e3f62ffdafc9133d0d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/South-Georgia-and-the-South-Sandwich-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1056,
+          "sha1": "25a226112460b6ca275aafcb249c80e46a50cab3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/South-Korea.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 947,
+          "sha1": "95ef49b78f6fafb1b6a46f2979015f68fc20b5ab"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/South-Ossetia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 520,
+          "sha1": "24e365e7e943cec1aba293add4c3f6afc4b022d0"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/South-Sudan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 849,
+          "sha1": "4746e15d730cfdf8bd0a57f69c701a6969bcfc2b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Spain.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 705,
+          "sha1": "1a4687e79eb4b6941ac17c079a731607cca21c25"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Sri-Lanka.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 944,
+          "sha1": "5c2cbab4cc12743047ad146db8451655f56098fd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Sudan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 772,
+          "sha1": "84f42ae1e18e92fd4b1a229591bfcdca6e2359f7"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Suriname.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 564,
+          "sha1": "5262424ec36a872340a6a7c2ef9741ed4dec22b3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Swaziland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 886,
+          "sha1": "d3858844ea33453139d9a1feba292217995d327d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Sweden.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 575,
+          "sha1": "d093d7aed58dee41f29552da727ad84824a3e952"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Switzerland.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 507,
+          "sha1": "5a6cf7540b9aee6ce9e096b4275f70f7e642569c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Syria.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 559,
+          "sha1": "b47742ab5bfa1d4fbc249e45a052ed5ccf8740bd"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Taiwan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 750,
+          "sha1": "9d4498682b60ece3869e7ee9ef0fe3751de57eb1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tajikistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 713,
+          "sha1": "65780e1ef3603b9a685fcfcbe8117b9717ea8a83"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tanzania.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 979,
+          "sha1": "38089699528c54741acc55ee38216fb6a07cc270"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Thailand.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "25828648a536ba615a97bbbda415b230f5d96eff"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Togo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 729,
+          "sha1": "6d872d7e3c4eda77529959ef11a98a6a2c11f1a2"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tokelau.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 762,
+          "sha1": "93dae3a4d97bb793333207b9acdbabd815b23498"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tonga.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 682,
+          "sha1": "c542c0233697b4bbbbc485af331b87dab898b1a9"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Trinidad-and-Tobago.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 973,
+          "sha1": "e7e8cc0f4e9e858398f939762954dc16a7964032"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tunisia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 925,
+          "sha1": "97040def799bb01017f3eb29bbf29baf94aeb84b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Turkey.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 718,
+          "sha1": "a6cf41ba3c41eca1676daca1889c1b80c975cec8"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Turkmenistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 862,
+          "sha1": "006e128e140ab120bbac975a7646036884f818b3"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Turks-and-Caicos-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 938,
+          "sha1": "45191f0a2bd6442c0332029ce8ca808b9055fde5"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Tuvalu.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1019,
+          "sha1": "9e8f9cb32a4be2b65a70cde24244b33d67d8eb08"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Uganda.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 627,
+          "sha1": "30c18650dfb946c0100342f8a3562ce5b3470e2d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Ukraine.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "744f29961ba4d729b9b7ba2e024e329d46cf032d"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/United-Arab-Emirates.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 806,
+          "sha1": "818353a61defdc0441dd379cddf9abe31b9d0217"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/United-Kingdom.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1132,
+          "sha1": "31a534aca1b0094344c8d87450e7066e3139b614"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/United-Nations.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 886,
+          "sha1": "07f49cbadf07d21f50e0503a76327533a6987018"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/United-States.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 765,
+          "sha1": "3e09b19938b9acf2b0453728e4878506f1e38160"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Unknown.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 669,
+          "sha1": "c158b8f8b3777423e57458e242eb12b2ab5d3b25"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Uruguay.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 769,
+          "sha1": "28cd2347ccc2b4026c642a4480b2fd8fd7b8fc8b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/US-Virgin-Islands.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1059,
+          "sha1": "e8789b0d38999cf32a698ed0ac8c1564762c603c"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Uzbekistan.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 590,
+          "sha1": "d945ebadedea9e6c577009a3f8bdaf1ee384b171"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Vanuatu.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 868,
+          "sha1": "bb0f3a92e34f88b7d0ad7f7494673cf6240a8bdf"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Vatican-City.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 832,
+          "sha1": "3066cca2a244e31e55231b0dcb5057018fbce582"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Venezuela.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 760,
+          "sha1": "7237c3d1e0682763a10b5b62b1c6eac2ab41ea6a"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Vietnam.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 615,
+          "sha1": "1714feefa0f95c7447d0518b4fc8c9b11a7eb30f"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Wales.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1032,
+          "sha1": "f9b9b2c682f48113c573f0d0eee1982d97d405df"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Wallis-And-Futuna.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 770,
+          "sha1": "73d94067a03d6c16cd6de956d8e493259eeb8bf1"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Western-Sahara.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 843,
+          "sha1": "d8fe54c1e9fadac0e9d5fc164fea5781a3744d18"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Yemen.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 506,
+          "sha1": "76e20d9971814abfc34a67668bc284146d5f6682"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Zambia.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 875,
+          "sha1": "63f6734e2427b0a8d433f2dd9d9b4d6584d1462b"
+        },
+        {
+          "path": "externals\/images\/icons\/flags\/24\/Zimbabwe.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 869,
+          "sha1": "7122e4eaafd3964e9e3d12f845061a11e62936af"
+        },
+        {
+          "path": "externals\/images\/icons\/quick-links",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/quick-links\/activity_feed.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 814,
+          "sha1": "f6cf4d7c871b2415d9eb0bab594e7ee1105711e9"
+        },
+        {
+          "path": "externals\/images\/icons\/quick-links\/browse_members.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 753,
+          "sha1": "fc729cc6d3b5f029d751cd7e934e97e8e286ac0b"
+        },
+        {
+          "path": "externals\/images\/icons\/quick-links\/invite_friends.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 754,
+          "sha1": "6cd1ff4a775d58d70d6440bdc097ca14b8153325"
+        },
+        {
+          "path": "externals\/images\/icons\/sports",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_8ball.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 490,
+          "sha1": "0d350534022056c0dbf839720d461d8751cc5fae"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_basketball.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 977,
+          "sha1": "196b93db7a4fa579d24afb08f33923354b02e2bd"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_football.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 875,
+          "sha1": "2f6d596b745fc65190c225e40e85d023b27b5477"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_golf.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 504,
+          "sha1": "8a0de6c98441f9379bf5222ade05b667da3e1053"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_raquet.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 719,
+          "sha1": "d89fab8a14775256c7c6498fa14a00f51c2352b9"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_shuttlecock.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 683,
+          "sha1": "540952cec3e60fcdea038ec894bf23d5d3d3e0b4"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_soccer.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 517,
+          "sha1": "e4b9a98af2f3395a820e170999591964b01fa16d"
+        },
+        {
+          "path": "externals\/images\/icons\/sports\/sport_tennis.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 884,
+          "sha1": "a1c26fcb21449d3f5693f14332c0131f05df2e44"
+        },
+        {
+          "path": "externals\/images\/print.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 731,
+          "sha1": "f2ee3924658f6968d1f832696b24f9e43adca378"
+        },
+        {
+          "path": "externals\/images\/static",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/static\/Global_Map.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 94234,
+          "sha1": "409c65f1cca9d7c8ab197b22ffdd179534e34ffa"
+        },
+        {
+          "path": "externals\/images\/static\/Green_Mail.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 75174,
+          "sha1": "3a84e67389a7836ff4041cb69b5568d3bdda5de4"
+        },
+        {
+          "path": "externals\/images\/static\/Vision.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 97017,
+          "sha1": "b600223ccd46c127d0ecbe995475b4d1d525bb64"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 857,
+          "sha1": "61e531fcc22783e088bd6193aaa702a41d894215"
+        },
+        {
+          "path": "externals\/scripts\/sports-marketing-carousel.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 804,
+          "sha1": "e6476b79e5f7504c085f37afd0a1869799929006"
+        },
+        {
+          "path": "externals\/scripts\/wheres-my-sport.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1379,
+          "sha1": "4390d23e30df58aedbaf0516307047beca85b87d"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/global.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 32,
+          "sha1": "9fbffc9261584950db6aa09b8ee008e22f2af857"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles\/print.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1222,
+          "sha1": "7d3f2401c0a7e7ff36d36e321e221590873deb2c"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Widget",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Widget\/HomeLinks.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 287,
+          "sha1": "0213488c3bd7c0b787eb64acbd7062e6e0021d8a"
+        },
+        {
+          "path": "Form\/Admin\/Widget\/HomeUser.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 285,
+          "sha1": "721c3dcb093cf12dc09d062a9310348f0006118f"
+        },
+        {
+          "path": "Form\/Admin\/Widget\/UserCircles.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 292,
+          "sha1": "e3dabd25f8d13d4ab0233d01621e90d53ea47fbe"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 15123,
+          "sha1": "99ab034cebc92fa2c19b70cbd2157232c0265d31"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2863,
+          "sha1": "02c2e1d0ee3f43def293e5e787efbde136e2ebdb"
+        },
+        {
+          "path": "settings\/custom-queries",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/custom-queries\/custom.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1374,
+          "sha1": "25cc1e328647f9420ed31928bfe25e023226a16f"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 953,
+          "sha1": "110cf704d2cddc95d5619620197d90d49acb0a93"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 167,
+          "sha1": "0bc60de608252acb6887b9c2a613e12835bad853"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.0-4.0.1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 525,
+          "sha1": "ef3b462c00e75920d2c6261423e07763f62fdf96"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 73,
+          "sha1": "56dc819540f3d8c8d461d6340b86baf453b2ae4d"
+        },
+        {
+          "path": "views\/scripts\/index\/print-sharing-medical.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6127,
+          "sha1": "8c6bfb1d6a28891b9dd053e76176a3bf85c0ba8a"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/.DS_Store",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6148,
+          "sha1": "0f4be3715dff9bbc72348c0b7b2b2c5ee372399b"
+        },
+        {
+          "path": "widgets\/carousel",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/carousel\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 631,
+          "sha1": "f6000dff4ef65ca236ac1a946347fcb59ba778fb"
+        },
+        {
+          "path": "widgets\/carousel\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 899,
+          "sha1": "b4aaad199816adf4578632258694b5c949b5eebd"
+        },
+        {
+          "path": "widgets\/circle-summary",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/circle-summary\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1050,
+          "sha1": "7deec91b1fe969746eb02b524cd673a0b6bfbfc4"
+        },
+        {
+          "path": "widgets\/circle-summary\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 451,
+          "sha1": "814fcc329ae1d231206da0dd32b9108cbe033c7d"
+        },
+        {
+          "path": "widgets\/circles-grid",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/circles-grid\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2634,
+          "sha1": "e2dd6185aae52a31f57cae56ff74c48ed34b388f"
+        },
+        {
+          "path": "widgets\/circles-grid\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3659,
+          "sha1": "f601cb93ce733bd7c686bfdb684c79087d7ac41e"
+        },
+        {
+          "path": "widgets\/group-profile-videos",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/group-profile-videos\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2059,
+          "sha1": "f8f27e0e2b68160a603cb8504072ad2e38792263"
+        },
+        {
+          "path": "widgets\/group-profile-videos\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3094,
+          "sha1": "4ab8ce011d9c0c6ad458739919ce52c7de8fa02a"
+        },
+        {
+          "path": "widgets\/home-links",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/home-links\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1070,
+          "sha1": "0c337c0d6b4e0e15cb8f3692964e1f7c76e10338"
+        },
+        {
+          "path": "widgets\/home-links\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 582,
+          "sha1": "642f08da6387c8c93b33a8cab37638ee2b027542"
+        },
+        {
+          "path": "widgets\/home-user",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/home-user\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 985,
+          "sha1": "d3f4af115268ea039f8115c5c99e57a572ca33c2"
+        },
+        {
+          "path": "widgets\/home-user\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 752,
+          "sha1": "a5355988ea42efdd0135d495716615887cb17d5e"
+        },
+        {
+          "path": "widgets\/menu-mini",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/menu-mini\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1680,
+          "sha1": "b2e51cdbe0f6802b066ff1bd31ae04b0032f8401"
+        },
+        {
+          "path": "widgets\/menu-mini\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8172,
+          "sha1": "32e32094c1e7aa551dca13645b7f74b1bec96927"
+        },
+        {
+          "path": "widgets\/signup",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/signup\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2118,
+          "sha1": "430ecdac0670539ee1a765d46e8583b3fa1b94ba"
+        },
+        {
+          "path": "widgets\/signup\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3586,
+          "sha1": "cbd1bfd37989d9dfbc887d61e43395a04aa0eb85"
+        },
+        {
+          "path": "widgets\/user-circles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/user-circles\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2306,
+          "sha1": "36d64c8b9d995bdaae501f86ef5165a46012b7a3"
+        },
+        {
+          "path": "widgets\/user-circles\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1401,
+          "sha1": "2e8739378855f6c92ada9785739ddfcdb87d8d98"
+        },
+        {
+          "path": "widgets\/user-profile-summary",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/user-profile-summary\/.DS_Store",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6148,
+          "sha1": "df2fbeb1400acda0909a32c1cf6bf492f1121e07"
+        },
+        {
+          "path": "widgets\/user-profile-summary\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3806,
+          "sha1": "c8ea9309817bc9af3356e1d81689e97b9f588ee3"
+        },
+        {
+          "path": "widgets\/user-profile-summary\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1360,
+          "sha1": "688461c9205387294edcf5a2503bafd0766cebb7"
+        }
+      ]
+    },
+    "application\/languages\/en\/mgsl.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/mgsl.csv",
+      "structure": {
+        "path": "mgsl.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 2688,
+        "sha1": "a53fbca71d1252bdd8ea718966a6c2bac33805c1"
+      }
+    }
+  }
+}

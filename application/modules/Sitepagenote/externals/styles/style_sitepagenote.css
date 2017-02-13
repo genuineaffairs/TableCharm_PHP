@@ -1,0 +1,274 @@
+ /* $Id: style_sitepagenote.css 2011-05-05 9:40:21Z SocialEngineAddOns Copyright 2010-2011 BigStep Technologies Pvt. Ltd. $ */
+/*SITEPAGE NOTES VIEW PAGE START HERE*/
+.sitepagenotes_view_photo{
+  padding: 7px;
+  overflow: hidden;
+	text-align:center;
+	margin-bottom:15px;
+}
+.sitepagenotes_view_photo img{
+  width: 99%;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+.sitepagenote_options{
+	margin-top:15px;
+	clear:both;
+}
+div.sitepagenotes_view_options{
+	clear:both;
+	margin-top:5px;
+}
+div.sitepagenotes_view_options p{
+	margin:5px 0;
+	width:100%;
+	float:left;
+	clear:both;
+}
+ul.sitepagenote_view > li{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+	overflow:hidden;
+}
+ul.sitepagenote_view h3{
+  margin-bottom: 1px;
+	letter-spacing:normal;
+}
+ul.sitepagenote_view .sitepagenote_view_stats{
+  font-size: 8pt;
+  margin-bottom: 12px;
+	padding-bottom:10px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+ul.sitepagenote_view li .sitepagenote_images{
+	clear:both;
+	margin-top:5px;
+	font-size:11px;
+	float:left;
+	padding:5px;
+}
+ul.sitepagenote_view li .sitepagenote_images .sitepagenote_img{
+	float:left;
+	width:60px;
+	margin:5px;
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+}
+ul.sitepagenote_view li .sitepagenote_images .sitepagenote_img img{
+	width:60px;
+	height:60px;
+}
+ul.sitepagenote_view .sitepagenote_view_detail_body{
+  line-height: 1.5em;
+  padding: 5px 5px 5px 0px;
+}
+ul.sitepagenote_view .sitepagenote_view_detail_body img{
+  max-width: 100%;
+}
+ul.sitepagenote_view .sitepagenote_view_detail_body + .buttonlink{
+  margin-top: 5px;
+}
+ul.sitepagenotes_profile .sitepagenotes_profile_info_desc ul,
+ul.sitepagenote_view li .sitepagenote_desc ul{
+	list-style:disc;
+	width:100%;
+}
+ul.sitepagenotes_profile .sitepagenotes_profile_info_desc ol,
+ul.sitepagenote_view li .sitepagenote_desc ol{
+	float:left;
+	width:100%;
+}
+ul.sitepagenotes_profile .sitepagenotes_profile_info_desc ul li,
+ul.sitepagenotes_profile .sitepagenotes_profile_info_desc ol li,
+ul.sitepagenote_view li .sitepagenote_desc ul li,
+ul.sitepagenote_view li .sitepagenote_desc ol li{
+	margin-left:20px;
+}
+/*SITEPAGE NOTES VIEW PAGE END HERE*/
+/*SITEPAGE VIEW, EDIT AND UPLOAD PHOTOS PAGE START HERE*/
+#global_page_sitepagenote-photo-upload .form-elements{
+	margin-top:10px !important;
+}
+#form-upload-sitepagenote div.form-label{
+  float: none;
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 5px 0px;
+	width:auto;
+}
+#form-upload-sitepagenote #search-label,
+.sitepagenote_form_upload #file-label, 
+.sitepagenote_form_upload #submit-label{
+    display: none;
+}
+ul.sitepagenotes_editphotos{
+  width: 600px;
+}
+ul.sitepagenotes_editphotos > li{
+  padding-top: 15px;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.sitepagenotes_editphotos_photo{
+  float: left;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.sitepagenotes_editphotos_photo img{
+  display: block;
+  margin: 3px;
+  width: 170px;
+}
+.sitepagenotes_editphotos_info{
+  overflow: hidden;
+}
+#global_page_sitepagenote-photo-photoedit h3{
+	margin-bottom:10px;
+} 
+#global_page_sitepagenote-photo-photoedit input, 
+.sitepagenotes_editphotos_title_input input{
+  margin: 2px 0px 6px 0px;
+  width: 25em;
+}
+#global_page_sitepagenote-photo-photoedit textarea, 
+.sitepagenotes_editphotos_caption_input textarea{
+  margin: 2px 0px 6px 0px;
+  width: 25em;
+  height: 3em;
+  min-height: 0px;
+}
+.sitepagenotes_editphotos_label{
+  float: left;
+}
+.sitepagenotes_editphotos_cover{
+  float: left;
+}
+.sitepagenotes_editphotos_info .sitepagenotesphoto-delete-wrapper{
+  float: left;
+  margin-right: 15px;
+}
+.sitepagenotes_editphotos_info .photo-delete-wrapper > label{
+  display: block;
+  float: left;
+	margin-right:5px;
+}
+div.sitepagenote_viewmedia{
+  margin: 25px auto 0px auto;
+  max-width: 750px;
+  min-width: 400px;
+  overflow: visible;
+}
+div.sitepagenote_viewmedia .sitepagenote_viewmedia_nav{
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+div.sitepagenote_viewmedia .sitepagenote_viewmedia_nav > div{
+  float: left;
+  overflow: visible;
+}
+div.sitepagenote_viewmedia .sitepagenote_viewmedia_nav > div + div{
+  float: none;
+  text-align: right;
+}
+div.sitepagenote_viewmedia .sitepagenote_viewmedia_nav > div + div > a + a{
+  margin-left: 20px;
+}
+div.sitepagenote_viewmedia_info{
+  text-align: center;
+  padding: 10px;
+	border-width: 5px;
+	border-style:solid;
+}
+div.sitepagenote_viewmedia_container{
+  position: relative;
+  display: inline-block;
+}
+div.sitepagenote_viewmedia_container a:link{
+  text-decoration: none;
+}
+div.sitepagenote_viewmedia_info p{
+  text-align: left;
+}
+div.sitepagenote_viewmedia > span + div > a{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.sitepagenote_viewmedia > span + div > a:link{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.sitepagenote_viewmedia_info .sitepagenote_photo_title{
+  margin-top: 5px;
+  font-weight: bold;
+}
+div.sitepagenote_viewmedia_info .sitepagenote_photo_description{
+  font-size: .8em;
+  margin-top: 3px;
+}
+div.sitepagenote_viewmedia_info .sitepagenote_photo_title + .sitepagenote_photo_tags,
+div.sitepagenote_viewmedia_info .sitepagenote_photo_description + .sitepagenote_photo_tags{
+  margin-top: 15px;
+}
+div.sitepagenote_viewmedia_info .sitepagenote_photo_tags{
+  font-size: .8em;
+  margin-top: 5px !important;
+}
+div.sitepagenote_viewmedia_info .sitepagenote_photo_date{
+  font-size: .8em;
+  margin-top: 5px;
+}
+div.sitepagenote_viewmedia_info > div.comments{
+  margin-top: 15px;
+}
+.sitepagenote_photo_right_options{
+ float:right;
+}
+.sitepagenote_photo_right_options a{
+	float: left;
+	height: 16px;
+	margin-left: 10px;
+	width: 16px;
+}
+/*SITEPAGE VIEW, EDID AND UPLOAD PHOTOS PAGE END HERE*/
+/*sitepagenote tag page*/
+.sitepagepage_note_tag_options{
+	margin-bottom:15px;
+	padding:5px;
+	font-size:17px;
+}
+.sitepagepage_note_tag_options a{
+	margin-left:5px;
+}
+ul.sitepagenotes_tags{
+  overflow: hidden;
+}
+ul.sitepagenotes_tags > li{
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+  height: 180px;
+  max-width: 140px;
+}
+html[dir="rtl"] ul.sitepagenotes_tags > li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+/*create and edit page*/
+.sitepagenote_form p.description {
+	font-size: 11px !important;
+	margin-bottom: 0 !important;
+}
+.sitepagenote_form .global_form div.form-element {
+	max-width: 700px;
+}
+.sitepagenote_form .defaultSkin iframe {
+	height:300px !important;
+	width: 650px !important;
+}

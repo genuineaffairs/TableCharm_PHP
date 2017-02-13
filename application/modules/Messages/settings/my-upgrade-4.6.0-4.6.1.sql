@@ -1,0 +1,1 @@
+ALTER TABLE `engine4_messages_conversations` ADD `source_type` VARCHAR(64) CHARACTER SET latin1 COLLATE latin1_general_ci NULL , ADD `source_id` INT(11) NULL , ADD INDEX (`source_type`, `source_id`) ;

@@ -1,0 +1,290 @@
+{
+  "type": "module",
+  "name": "shared-resources",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/modules\/SharedResources",
+  "repository": null,
+  "date": "Wed, 18 Mar 2015 04:47:53 +0000",
+  "title": "Shared Resources Management",
+  "description": "Module to manage share resources",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Tristan"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Wed, 18 Mar 2015 04:47:53 +0000",
+    "title": "Shared Resources Management",
+    "description": "Module to manage share resources",
+    "developer": null,
+    "authors": [
+      "Tristan"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/SharedResources\/settings\/install.php",
+    "class": "SharedResources_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/SharedResources": {
+      "type": "directory",
+      "path": "application\/modules\/SharedResources",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2363,
+          "sha1": "52f266b54fad0d0650eb2eb50e3b5eec33985129"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 195,
+          "sha1": "95d967e49eee454012e7f694e26a9ad75ac9bae4"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 176,
+          "sha1": "6cc35463bdeee416fa2d46edcde126fc64e32406"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Abstract.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1887,
+          "sha1": "767cee60e34b9eeebe75123b517efbbdb202757b"
+        },
+        {
+          "path": "Model\/DbTable\/FieldsAbstract.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1043,
+          "sha1": "933281a72d4f1d2d6fefe8227af4d492e75c50c7"
+        },
+        {
+          "path": "Model\/DbTable\/MembershipAbstract.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 733,
+          "sha1": "c2154717698789489d01db5a911a843785bd784b"
+        },
+        {
+          "path": "Model\/DbTable\/RadcodesAbstract.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 735,
+          "sha1": "1ae99f00bc369703b3d741b5b31e2b69d01da87b"
+        },
+        {
+          "path": "Model\/DbTable\/Sites.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 688,
+          "sha1": "a424576a72c200577a1b47b9e22a42d03fd9c4a5"
+        },
+        {
+          "path": "Model\/DbTable\/UsersSites.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 601,
+          "sha1": "9d1c40101d39b43c4ea4c3f9a075771afe32dc14"
+        },
+        {
+          "path": "Model\/Item",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/Item\/Abstract.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2478,
+          "sha1": "92ed00c4aec7079f0e0a2694528548b7387c2f21"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1833,
+          "sha1": "37c05ca8dcf08e188f70694b5836af8773261ea6"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 759,
+          "sha1": "da0fb04d49355e8c41d437b6087abc05d633da52"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1433,
+          "sha1": "bb36988608840e912107afcd2de4469ff0ffa28c"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1081,
+          "sha1": "53b48dbef3461652e99f25901f342783187379f1"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 88,
+          "sha1": "d5f1b2c8f6a4f1603b3d5b883e26fc8acddd9920"
+        }
+      ]
+    },
+    "application\/languages\/en\/shared-resources.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/shared-resources.csv",
+      "structure": {
+        "path": "shared-resources.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

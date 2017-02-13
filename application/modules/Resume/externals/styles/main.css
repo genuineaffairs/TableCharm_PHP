@@ -1,0 +1,1646 @@
+
+@include "~/application/modules/Core/externals/styles/constants.css";
+
+/*
+FEED ITEMS
+Styles items with resume attachments in the feed.
+*/
+ul.feed .feed_attachment_resume
+{
+  display: block;
+  overflow: hidden;
+  margin: 0px 5px 5px 0px;
+  vertical-align: top;
+}
+ul.feed .feed_attachment_resume > div > a
+{
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+ul.feed .feed_attachment_resume > div > a > img
+{
+  display: inline-block;
+  max-width: 90px;
+  max-height: 90px;
+  vertical-align: top;
+}
+ul.feed .feed_attachment_resume > div > div
+{
+  overflow: hidden;
+}
+
+/* === ITEM TYPE ICONS === */
+.item_icon_resume
+{
+  background-image: url(~/application/modules/Resume/externals/images/types/resume.png);
+}
+.icon_resume_new,
+.icon_resume_create
+{
+  background-image: url(~/application/modules/Resume/externals/images/create.png);
+}
+.icon_resume_view {
+  background-image: url(~/application/modules/Resume/externals/images/resume.png);
+}
+.icon_resume_edit
+{
+  background-image: url(~/application/modules/Resume/externals/images/edit.png);
+}
+.icon_resume_delete
+{
+  background-image: url(~/application/modules/Resume/externals/images/delete.png);
+}
+.icon_resume_publish
+{
+  background-image: url(~/application/modules/Resume/externals/images/publish.png);
+}
+.icon_resume_print
+{
+  background-image: url(~/application/modules/Resume/externals/images/print.png);
+}
+.icon_resume_sections {
+  background-image: url(~/application/modules/Resume/externals/images/sections.png);
+}
+.icon_resume_location {
+  background-image: url(~/application/modules/Resume/externals/images/location.png);
+}
+.icon_resume_style {
+  background-image: url(~/application/modules/Resume/externals/images/style.png);
+}
+.icon_resume_epayments {
+  background-image: url(~/application/modules/Resume/externals/images/epayment.png);
+}
+.icon_resume_viewall
+{
+  background-image: url(~/application/modules/Resume/externals/images/allentries.png);
+}
+.icon_resume_category {
+  background-image: url(~/application/modules/Resume/externals/images/types/resume.png);
+}
+
+.icon_resume_share {
+  background-image: url(~/application/modules/Resume/externals/images/share.png);
+}
+.icon_resume_report {
+  background-image: url(~/application/modules/Resume/externals/images/report.png);
+}
+.icon_resume_photo,
+.icon_resume_photo_new
+{
+  background-image: url(~/application/modules/Resume/externals/images/photo/upload.png);
+}
+.icon_resume_photo_view
+{
+  background-image: url(~/application/modules/Resume/externals/images/photo/view.png);
+}
+
+
+.icon_resume_packages_start {
+  background-image: url(~/application/modules/Resume/externals/images/get_started.png);
+}
+
+.notification_type_resume_status_update {
+  background-image: url(~/application/modules/Resume/externals/images/types/resume.png);
+}
+
+.generic_layout_container h3.resume_main_header {
+  margin-bottom: 20px;
+}
+
+div.resumes_browse_map_container {
+  margin-bottom: 15px;
+}
+
+
+ul.resume_view_options {
+  float: right;
+  list-style: none;
+  +rounded(2px);
+  +foreground;
+  height: 20px;
+  padding: 3px 6px;  
+}
+ul.resume_view_options li {
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+ul.resume_view_options li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+ul.resume_view_options li a#resume_show_list_trigger {
+  background: url(~/application/modules/Resume/externals/images/view_list.png) center center no-repeat;
+}
+ul.resume_view_options li a#resume_show_map_trigger {
+  background: url(~/application/modules/Resume/externals/images/view_map.png) center center no-repeat;
+}
+ul.resume_view_options li a#resume_show_list_trigger:hover,
+ul.resume_view_options li a#resume_show_map_trigger:hover {
+  background-color: $theme_body_background_color;
+}
+ul.resume_view_options li a span {
+  display: none;
+}
+
+form.resumes_style textarea {
+  max-width: 500px;
+  width: 500px;
+}
+
+
+div.resume_published_tip {
+  font-size: 11px;
+}
+
+/* === SEARCH FORM === */
+.browseresumes_criteria
+{
+	
+  +rounded;
+  +foreground;
+  padding: 7px;
+}
+.browseresumes_criteria span.overTxtLabel
+{
+  color: $theme_font_color_light;
+}
+.browseresumes_criteria > ul > li + li
+{
+  margin-top: 7px;
+}
+.browseresumes_criteria > ul > li
+{
+  clear: both;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.browseresumes_criteria > ul > li > span
+{
+  display: block;
+  margin-bottom: 3px;
+}
+.browseresumes_criteria > ul > li textarea {
+  width: 95%;
+  height: 50px;
+}
+
+/* === RESUME BROWSE - ENTRIES - WIDE MODE == */
+
+div.resumes_result_filter_details {
+  font-size: 0.8em;
+  margin: 5px 0 15px 0;
+}
+div.resumes_result_filter_details a {
+  font-weight: bold;
+}
+
+ul.resumes_rows {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+ul.resumes_rows > li {
+  clear: both;
+  overflow: hidden;
+}
+ul.resumes_rows > li + li {
+  border-top-width: 1px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+ul.resumes_rows .resume_photo {
+  float: left; 
+  margin-right: 10px;
+  overflow: hidden;
+  width: 102px;
+  text-align: center;
+}
+ul.resumes_rows .resume_photo img {
+  max-width: 100px;
+}
+ul.resumes_rows .resume_content {
+  overflow: hidden;
+}
+ul.resumes_rows .resume_title {
+  font-weight: bold;
+}
+ul.resumes_rows .resume_title h3 {
+    margin: 0;
+}
+ul.resumes_rows .resume_details  {
+  margin: 5px 0;
+}
+ul.resumes_rows .resume_details .resume_specs {
+  margin-top: 5px;
+}
+ul.resumes_rows .resume_details .resume_location {
+}
+ul.resumes_rows .resume_details .resume_price {
+  font-size: 14px;
+  font-weight: bold;
+}
+ul.resumes_rows .resume_details .resume_category {
+  font-size: 11px;
+}
+
+ul.resumes_rows .resume_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+ul.resumes_rows .resume_meta a {
+  font-weight: bold;
+}
+ul.resumes_rows .resume_meta li {
+  display: inline;
+  margin-right: 10px;
+}
+ul.resumes_rows .resume_description { 
+  margin: 5px 0;
+  font-size: 11px;
+}
+ul.resumes_rows .resume_options a {
+    font-size: 0.8em;
+    height: 16px;
+    margin-right: 15px;
+    padding-top: 1px;
+}
+
+ul.resumes_rows .resume_settings {
+  font-size: 0.8em;
+  border: 1px solid $theme_foreground_border_color;
+  padding: 5px;
+  +rounded(3px);
+  float: right;
+  width: 160px;
+  margin-left: 10px;
+}
+
+ul.resumes_rows .resume_settings li.resume_settings_epayment {
+  border-top: 1px solid $theme_border_color;
+  margin-top: 3px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+ul.resumes_rows .resume_settings li .resume_paynow
+{
+  +rounded;
+  display: block;
+  padding: .3em .6em .3em .6em;
+  font-weight: bold;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color;
+  background-color: $theme_buttontabs_background_color;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+ul.resumes_rows .resume_settings li .resume_paynow:hover
+{
+  background-color: $theme_buttontabs_background_color_hover;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color_hover;
+}
+ul.resumes_rows .resume_title h3.resume_title_sponsored_yes a {
+  background: url(~/application/modules/Resume/externals/images/sponsored.png) right 2px no-repeat;
+  padding-right: 22px;
+}
+ul.resumes_rows .resume_title h3.resume_title_featured_yes {
+  background: url(~/application/modules/Resume/externals/images/featured.png) right 2px no-repeat;
+}
+
+
+/* == RESUME EDIT == */
+div.resume_edit_info {
+  font-size: 0.8em;
+  border: 1px solid $theme_foreground_border_color;
+  padding: 5px;
+  +rounded(3px);
+}
+
+div.resume_edit_info li.resume_settings_epayment {
+  border-top: 1px solid $theme_border_color;
+  margin-top: 3px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+div.resume_edit_info li .resume_paynow
+{
+  +rounded;
+  display: block;
+  padding: .3em .6em .3em .6em;
+  font-weight: bold;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color;
+  background-color: $theme_buttontabs_background_color;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+div.resume_edit_info li .resume_paynow:hover
+{
+  background-color: $theme_buttontabs_background_color_hover;
+  text-decoration: none;
+  color: $theme_buttontabs_font_color_hover;
+}
+table.resume_epayments {
+  width: 95%;
+}
+table.resume_epayments th {
+  padding: 5px;
+  +foreground;
+}
+table.resume_epayments td {
+  padding: 5px;
+  border-bottom-width: 1px;
+}
+
+
+/* === RESUME BROWSE - NARROW MODE == */
+ul.resumes_list {
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+ul.resumes_list > li + li {
+  margin-top: 15px;
+}
+
+ul.resumes_list .resume_photo {
+  float: right;
+  overflow: hidden;
+  margin-left: 7px;
+}
+ul.resumes_list .resume_photo img {
+    height: 24px;
+    width: 24px;
+}
+ul.resumes_list .resume_content {
+
+}
+ul.resumes_list .resume_title {
+  font-weight: bold;
+}
+ul.resumes_list .resume_meta {
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+ul.resumes_list .resume_description {
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+ul.resumes_list .resume_details span {
+  font-size: 0.8em;
+  display: block;
+}
+ul.resumes_list .resume_details .resume_details_joiner {
+  display: none;
+}
+ul.resumes_list .resume_specs {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+ul.resumes_list .resume_specs .resume_price {
+  font-weight: bold;
+}
+.resume_profile_resumes_link_narrow {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+/* featured resumes widget */
+.resume_featured_mask {
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	width: 	inherit;
+}
+.resume_featured_mask .resume_featured_slides {
+  position: absolute;
+}
+.resume_featured_mask .resume_featured_slides > div {
+  float: left;
+  height: 150px;
+  width: 100%;
+  +rounded(4px);
+  border: 5px solid $theme_form_border_color;
+  padding: 10px;
+  background-color: $theme_form_background_color; 
+  overflow: hidden;  
+}
+.resume_featured_slideshow_buttons {
+  padding: 5px;
+  font-size: 0.8em;
+  
+}
+.resume_featured_slideshow_buttons > span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 3px;
+  cursor: pointer;
+  alignment-baseline:central
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_prev {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat 0px 0px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_prev:hover {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat 0px -16px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_play {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -16px 0px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_play:hover {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -16px -16px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_stop {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -32px 0px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_stop:hover {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -32px -16px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_next {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -48px 0px;
+}
+.resume_featured_slideshow_buttons > span.resume_slideshow_button_next:hover {
+  background: url("~/application/modules/Resume/externals/images/slideshow/buttons.png") no-repeat -48px -16px;
+}
+.resume_featured_slideshow_buttons > span > span {
+  display: none;
+}
+
+div.resume_featured_slide .resume_photo {
+  float: right; 
+  margin-left: 7px;
+  overflow: hidden;
+}
+div.resume_featured_slide .resume_photo img {
+  max-width: 100px;
+  max-height: 140px;
+}
+div.resume_featured_slide .resume_content  {
+  overflow: hidden;
+}
+div.resume_featured_slide .resume_title {
+  font-weight: bold;
+}
+div.resume_featured_slide .resume_details {
+  margin: 5px 0;
+}
+div.resume_featured_slide .resume_details .resume_price {
+  font-size: 14px;
+  font-weight: bold;
+}
+div.resume_featured_slide .resume_details .resume_category {
+  font-size: 0.8em;
+}
+div.resume_featured_slide .resume_details .resume_specs {
+  margin-top: 5px;
+}
+div.resume_featured_slide .resume_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+div.resume_featured_slide .resume_meta a {
+  font-weight: bold;
+}
+div.resume_featured_slide .resume_meta ul li {
+  display: inline;
+}
+div.resume_featured_slide .resume_meta ul li + li {
+  margin-left: 10px;
+}
+div.resume_featured_slide .resume_description { 
+  margin: 5px 0;
+  font-size: 0.8em;
+}
+div.resume_featured_slide .resume_title h3 {
+    margin: 0;
+}
+
+/* sponsored resumes widget */
+div.resume_sponsored_resumes {
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+  +foreground;
+  +rounded; 
+  display: block;
+}
+.resume_sponsored_resumes > ul > li + li {
+}
+.resume_sponsored_resumes > ul > li {
+  padding: 7px;
+  min-height: 300px;
+}
+.resume_sponsored_resumes > ul > li .resume_photo img {
+  max-width: 180px;
+  max-height: 140px;
+}
+.resume_sponsored_resumes > ul > li .resume_content  {
+  overflow: hidden;
+}
+.resume_sponsored_resumes > ul > li .resume_title h3 {
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+.resume_sponsored_resumes > ul > li .resume_price {
+  font-weight: bold;
+}
+.resume_sponsored_resumes > ul > li .resume_category {
+  font-size: 0.8em;
+}
+.resume_sponsored_resumes > ul > li .resume_details {
+  margin: 5px 0;
+}
+.resume_sponsored_resumes > ul > li .resume_details .resume_details_joiner {
+  display: none;
+}
+.resume_sponsored_resumes > ul > li .resume_details span {
+  display: block;
+  font-size: 0.8em;
+}
+.resume_sponsored_resumes > ul > li .resume_specs {
+  margin-top: 5px;
+}
+.resume_sponsored_resumes > ul > li .resume_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+.resume_sponsored_resumes > ul > li .resume_meta a {
+}
+.resume_sponsored_resumes > ul > li .resume_meta ul li {
+
+}
+.resume_sponsored_resumes > ul > li .resume_meta ul li + li {
+}
+.resume_sponsored_resumes > ul > li .resume_description { 
+  margin: 5px 0;
+  font-size: 0.8em;
+}
+.resume_sponsored_resumes > ul > li .resume_title h3 {
+    margin: 0;
+}
+.resume_sponsored_resumes_action {
+  padding: 5px;
+}
+.resume_sponsored_resumes_action a {
+  font-size: 0.8em;
+}
+
+
+/* categories widget */
+.resumes_categories_links > ul > li {
+  overflow: hidden;
+}
+.resumes_categories_links > ul > li + li {
+  margin-top: 10px;
+}
+.resumes_categories_links .resume_category_info {
+    padding-top: 5px;
+overflow: hidden;
+}
+.resumes_categories_links .resume_category_title {
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 1.2em;
+}
+.resumes_categories_links .resume_category_desc {
+  font-size: 0.8em;
+  color: $theme_font_color_light;
+  overflow: hidden;
+}
+.resumes_categories_links .resume_category_photo {
+  margin-right: 5px;
+  float: left;
+}
+.resumes_categories_links img.item_photo_resume_category {
+  border: none;
+}
+.resumes_categories_links > ul > li li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+/* top submitters widget */
+ul.resume_top_submitters {
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+ul.resume_top_submitters > li {
+  clear: both;
+  overflow: hidden; 
+}
+ul.resume_top_submitters > li + li {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+ul.resume_top_submitters img.thumb_icon {
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+ul.resume_top_submitters .resume_submitter_title {
+  font-weight: bold;
+}
+ul.resume_top_submitters .resume_submitter_meta {
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+
+ul.resume_top_submitters .resume_submitter_meta span.resume_submitter_total {
+  +rounded;
+  display: inline-block;
+  padding: 2px 4px;
+  margin-right: 2px;
+  color: $theme_buttontabs_font_color;
+  background-color: $theme_buttontabs_background_color;  
+  text-align: center;
+}
+
+div.resumes_popular_tags ul li sup {
+  display: inline-block !important;
+}
+
+/* === RESUME PROFILE === */
+
+.layout_resume_categories,
+.layout_resume_create_new,
+.layout_resume_edit_info,
+.layout_resume_edit_menu,
+.layout_resume_featured_resumes,
+.layout_resume_list_resumes,
+.layout_resume_map_resumes,
+.layout_resume_packages,
+.layout_resume_packages_menu,
+.layout_resume_popular_tags,
+.layout_resume_profile_breadcrumb,
+.layout_resume_profile_comments,
+.layout_resume_profile_description,
+.layout_resume_profile_details,
+.layout_resume_profile_icon_featured,
+.layout_resume_profile_icon_package,
+.layout_resume_profile_icon_sponsored,
+.layout_resume_profile_info,
+.layout_resume_profile_intro,
+.layout_resume_profile_location,
+.layout_resume_profile_notice,
+.layout_resume_profile_options,
+.layout_resume_profile_photo,
+.layout_resume_profile_photos,
+.layout_resume_profile_resumes,
+.layout_resume_profile_related_resumes,
+.layout_resume_profile_social_shares,
+.layout_resume_profile_stats,
+.layout_resume_profile_submitter,
+.layout_resume_profile_tools,
+.layout_resume_search_form,
+.layout_resume_sponsored_resumes,
+.layout_resume_top_submitters
+{
+  margin-bottom: 15px;
+}
+.layout_resume_search_form
+{
+	margin-bottom: 15px;
+}
+.layout_left 
+{
+	width: auto;
+	
+}
+.layout_resume_profile_title
+{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/* resume profile breadcrumb widget */
+div.resume_profile_breadcrumb {
+  border-bottom-width: 1px;
+  padding: 5px 0;
+}
+div.resume_profile_breadcrumb ul li {
+  display: inline;
+}
+
+
+/* resume profile title widget */
+
+
+div.resume_profile_title .resume_details  {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+div.resume_profile_title .resume_details .resume_specs {
+  margin-top: 5px;
+}
+div.resume_profile_title .resume_details .resume_location {
+}
+div.resume_profile_title .resume_details .resume_price {
+  font-size: 14px;
+  font-weight: bold;
+}
+div.resume_profile_title .resume_details .resume_category {
+  font-size: 11px;
+}
+
+div.resume_profile_title .resume_meta {
+  font-size: 0.8em;
+  margin: 5px 0;
+  color: $theme_font_color_light;
+}
+div.resume_profile_title .resume_meta a {
+  font-weight: bold;
+}
+div.resume_profile_title .resume_meta li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+/* resume profile photo widget */
+div.resume_profile_photo img.thumb_profile {
+  max-width: 190px;
+  border: none;
+}
+
+/* resume profile icon package */
+.resume_profile_icon_package {
+  text-align: center;
+}
+.resume_profile_icon_package img {
+  max-width: 190px;
+  max-height: 120px;
+  border: 0;
+}
+
+/* resume profile icon featured */
+.resume_profile_icon_featured,
+.resume_profile_icon_featured_image,
+.resume_profile_icon_featured_text,
+.resume_profile_icon_featured_text span {
+  text-align: center;
+}
+.resume_profile_icon_featured_image img {
+  max-width: 190px;
+  max-height: 120px;
+  border: 0;  
+}
+.resume_profile_icon_featured_text {
+  +rounded;
+  background: $theme_buttontabs_background_color_active;
+  color: $theme_buttontabs_font_color_active;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+/* resume profile icon sponsored */
+.resume_profile_icon_sponsored,
+.resume_profile_icon_sponsored_image,
+.resume_profile_icon_sponsored_text,
+.resume_profile_icon_sponsored_text span {
+  text-align: center;
+}
+.resume_profile_icon_sponsored_image img {
+  max-width: 190px;
+  max-height: 120px;
+  border: 0;  
+}
+.resume_profile_icon_sponsored_text {
+  +rounded;
+  background: #E45656;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+/* resume profile options widget */
+div.resume_profile_options > ul > li {
+    font-size: 0.8em;
+    margin: 10px 10px 10px 10px;
+}
+div.resume_profile_options > ul > li {
+    margin: 10px 10px 10px 10px;
+}
+
+div.resume_profile_options > ul .buttonlink {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* resume profile intro widget */
+div.resume_profile_intro {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+  font-size: 0.8em;
+}
+
+/* resume profile submitter widget */
+div.resume_profile_submitter {
+  border: 1px solid $theme_foreground_border_color;
+  padding: 7px;
+  +rounded(3px);
+  overflow: hidden;
+}
+div.resume_profile_submitter .resume_profile_submitter_photo {
+  float: left;
+  margin-right: 7px;
+  overflow: hidden;
+}
+div.resume_profile_submitter .resume_profile_submitter_user {
+  overflow: hidden;
+  font-weight: bold;
+  display: block;
+}
+div.resume_profile_submitter span {
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: $theme_font_color_light;
+}
+
+/* resume profile application widget */
+div.resume_profile_application {
+
+}
+div.resume_profile_application > div.resume_profile_application_description + div.resume_profile_application_url {
+  margin-top: 10px;
+}
+div.resume_profile_application_description {
+  +foreground;
+  +rounded;
+  padding: 7px;  
+  font-size: 0.8em;  
+}
+div.resume_profile_application_url a {
+  +rounded;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  background-color: $theme_button_background_color;
+  border: 1px solid $theme_button_border_color;
+  color: $theme_button_font_color;
+  background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+  background-repeat: repeat-x;
+  background-position: 0px 1px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+div.resume_profile_application_url a:hover
+{
+  background-color: $theme_button_background_color_hover;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* resume profile info widget */
+div.resume_profile_info
+{
+  overflow: hidden;
+}
+div.resume_profile_info > ul
+{
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+div.resume_profile_info > ul > li
+{
+  font-size: .8em;
+}
+div.resume_profile_info > ul > li + li
+{
+  margin-top: 5px;
+}
+
+
+/* resume profile stats widget */
+div.resume_profile_stats
+{
+  overflow: hidden;
+}
+div.resume_profile_stats > ul
+{
+  +foreground;
+  +rounded;
+  padding: 7px;
+}
+div.resume_profile_stats > ul > li
+{
+  font-size: .8em;
+}
+div.resume_profile_stats > ul > li + li
+{
+  margin-top: 5px;
+}
+
+
+/* resume profile tools widget */
+.resume_profile_tools .icon_resume_share,
+.resume_profile_tools .icon_resume_report {
+  padding-left: 13px;
+  font-size: 0.8em;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-position: left center;
+}
+
+
+
+/* -- RESUME PACKAGES -- */
+
+ul.resumes_packages_list {
+  margin: 15px 0;
+}
+ul.resumes_packages_list > li {
+  padding: 10px;
+  border: 1px solid $theme_foreground_border_color;
+  +rounded(4px);
+}
+ul.resumes_packages_list > li + li {
+  margin-top: 15px;
+}
+ul.resumes_packages_list .resumes_packages_list_title {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid $theme_border_color;
+}
+ul.resumes_packages_list_details {
+  margin: 5px 0 15px;  
+}
+ul.resumes_packages_list_details > li {
+  display: inline-block; 
+  margin-right: 20px;
+  font-weight: bold;
+}
+ul.resumes_packages_list_details > li span {
+  font-weight: normal;
+}
+.layout_resume_packages ul.resumes_packages_list_details > li .resumes_packages_list_desc {
+  font-size: 0.8em;
+}
+.resumes_packages_list_view_details {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+.resumes_packages_list_submit {
+  margin: 15px 0;
+}
+.resumes_packages_list .resumes_packages_list_submit {
+  text-align: right;
+}
+.resumes_packages_list .resumes_packages_list_submit a.resume_create_button {
+  font-size: 1em;
+  padding: 4px 12px;
+}
+.resumes_packages_list_submit a
+ {
+  +foreground;
+  +rounded;
+  padding: 3px 5px;
+  font-weight: bold;
+  background-image: url(~/application/modules/Resume/externals/images/resume.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  padding-left: 27px;
+}
+.resumes_packages_list_submit a.resume_post_new {
+  background-image: url(~/application/modules/Resume/externals/images/create.png);
+}
+.resumes_packages_list_submit a.resume_post_renew {
+  background-image: url(~/application/modules/Resume/externals/images/renew.png);
+}
+.resumes_packages_list_submit a.resume_post_upgrade {
+  background-image: url(~/application/modules/Resume/externals/images/upgrade.png);
+}
+.resumes_packages_list_submit a.resume_post_checkout {
+  background-image: url(~/application/modules/Resume/externals/images/checkout.png);
+}
+.resumes_packages_list_submit a.resume_post_new {
+  +foreground;
+  +rounded;
+  padding: 3px 5px;
+  font-weight: bold;
+  background-image: url(~/application/modules/Resume/externals/images/create.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  padding-left: 27px;
+}
+
+
+.resumes_packages_list_submit span.resume_cannot_renew,
+.resumes_packages_list_submit span.resume_cannot_upgrade {
+  +rounded;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+  padding: 6px;
+  padding-left: 27px;
+  background-color: #FAE5E4;
+  background-image: url(~/application/modules/Core/externals/images/error.png);
+  border: 1px solid #E4C6C6;
+}
+
+.resume_package_viewall {
+  font-size: 0.8em;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+div.resume_package_view .resume_package_body h1,
+div.resume_package_view .resume_package_body h2,
+div.resume_package_view .resume_package_body h3,
+div.resume_package_view .resume_package_body h4,
+div.resume_package_view .resume_package_body h5,
+div.resume_package_view .resume_package_body h6,
+div.resume_package_view .resume_package_body p
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin: 0.75em 0;
+}
+div.resume_package_view .resume_package_body blockquote
+{
+  margin: 1.12em 40px;
+}
+div.resume_package_view .resume_package_body ul,
+div.resume_package_view .resume_package_body ol
+{
+  display: block;
+  margin: 1.12em 0;
+  margin-left: 40px;
+}
+div.resume_package_view .resume_package_body ul li
+{
+  display: list-item;
+  list-style: disc;
+}
+div.resume_package_view .resume_package_body ul li ul li
+{
+  display: list-item;
+  list-style: circle;
+}
+div.resume_package_view .resume_package_body img
+{
+  max-width: 100%;
+}
+div.resume_package_view .resume_package_body br
+{
+  clear: none;
+}
+div.resume_package_view .resumes_packages_list_submit {
+  text-align: center;
+  margin: 25px 0;
+}
+ul.resume_package_quick > li + li {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+ul.resume_package_quick > li a {
+  font-weight: bold;
+}
+ul.resume_package_quick > li span {
+  display: block;
+  color: $theme_font_color_light;
+  font-size: 0.8em;
+}
+ul.resumes_package_details {
+  margin: 20px 0;
+}
+ul.resumes_package_details li {
+  display: inline;
+  margin-right: 20px;
+}
+ul.resumes_package_details li > span {
+  font-weight: bold;
+}
+div.resume_package_gutter .item_photo_resume_package {
+  border: none;
+  max-width: 190px;
+}
+
+/* -- RESUME FAQ -- */
+ul.resumes_faq {
+  margin: 15px 0;
+}
+ul.resumes_faq li + li {
+  margin-top: 15px;
+}
+ul.resumes_faq .resumes_faq_question {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+ul.resumes_faq .resumes_faq_answer {
+  color: $theme_font_color_light;
+  font-size: 0.8em;
+}
+
+
+
+/* -- success panel - display confirmation right after submit resume --*/
+div.resume_success_panel .resume_payment_note {
+  font-weight: bold;
+}
+div.resume_success_panel .resume_success_notice a {
+  font-weight: bold;
+}
+div.resume_success_panel .resume_paynow_button
+{
+  +rounded;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  background-color: $theme_button_background_color;
+  border: 1px solid $theme_button_border_color;
+  color: $theme_button_font_color;
+  background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+  background-repeat: repeat-x;
+  background-position: 0px 1px;
+  text-decoration: none;
+}
+div.resume_success_panel .resume_paynow_button:hover
+{
+  background-color: $theme_button_background_color_hover;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* photos */
+.resume_album_options > a {
+    margin-right: 15px;
+}
+.resume_form_upload #file-label, 
+.resume_form_upload #submit-label {
+    display: none;
+}
+
+/* photos tab */
+div.resume_photos > ul
+{
+  clear: both;
+  overflow: hidden;
+  margin: 20px 0px 20px 0px;
+}
+div.resume_photos > ul > li
+{
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-right: 20px;
+  height: 170px;
+}
+div.resume_photos > ul > li > div
+{
+  float: left;
+  overflow: hidden;
+  padding: 3px;
+  border: 1px solid $theme_photo_border_color;
+}
+div.resume_photos > ul > li > div:hover
+{
+  border: 1px solid $theme_border_dark_color;
+}
+div.resume_photos > ul > li > div img
+{
+  display: block;
+}
+
+
+/*
+VIEW RESUME PHOTO
+These styles are used on the view photo page within
+an album.
+*/
+div.resume_photo_view
+{
+  margin: 25px auto;
+  max-width: 750px;
+  min-width: 400px;
+  overflow: visible;
+}
+div.resume_photo_view #media_photo
+{
+  border: 1px solid $theme_photo_border_color;
+  margin: auto;
+  display: block;
+  max-width: 720px;
+}
+div.resume_photo_view .resume_photo_nav
+{
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+div.resume_photo_view .resume_photo_nav > div
+{
+  float: left;
+  overflow: visible;
+}
+html[dir="rtl"] div.resume_photo_view .resume_photo_nav > div
+{
+  float: right;
+}
+div.resume_photo_view .resume_photo_nav > div + div
+{
+  float: none;
+  text-align: right;
+}
+html[dir="rtl"] div.resume_photo_view .resume_photo_nav > div + div
+{
+  float: left;
+  text-align: left;
+}
+div.resume_photo_view .resume_photo_nav > div + div > a + a
+{
+  margin-left: 20px;
+}
+html[dir="rtl"] div.resume_photo_view .resume_photo_nav > div + div > a + a
+{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+div.resume_photo_info
+{
+  +foreground;
+  +rounded;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid $theme_foreground_border_color;
+}
+div.resume_photo_info p
+{
+  text-align: left;
+}
+html[dir="rtl"] div.resume_photo_info p
+{
+  text-align: right;
+}
+div.resume_photo_container
+{
+  position: relative;
+  display: inline-block;
+}
+div.resume_photo_container a:link
+{
+  text-decoration: none;
+}
+div.resume_photo_view > span + div > a
+{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.resume_photo_view > span + div > a:link
+{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.resume_photo_info .resume_photo_title
+{
+  margin-top: 5px;
+  font-weight: bold;
+}
+div.resume_photo_info .resume_photo_description
+{
+  margin-top: 3px;
+  font-size: .8em;
+}
+div.resume_photo_info .resume_photo_owner
+{
+  margin-top: 3px;
+  font-size: .8em;
+}
+div.resume_photo_info .resume_photo_title + .resume_photo_tags,
+div.resume_photo_info .resume_photo_description + .resume_photo_tags
+{
+  margin-top: 15px;
+}
+div.resume_photo_info .resume_photo_tags
+{
+  font-size: .8em;
+  margin-top: 5px;
+}
+div.resume_photo_info .resume_photo_date
+{
+  font-size: .8em;
+  margin-top: 5px;
+}
+div.resume_photo_view > div.comments
+{
+  margin-top: 15px;
+}
+
+/* super grad button */
+a.resume_create_button,
+a.resume_create_button:link,
+a.resume_create_button:visited {
+  -moz-box-shadow:inset 0px 1px 0px 0px $theme_body_background_color;
+  -webkit-box-shadow:inset 0px 1px 0px 0px $theme_body_background_color;
+  box-shadow:inset 0px 1px 0px 0px $theme_body_background_color;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $theme_foreground_background_color), color-stop(1, $theme_foreground_border_color) );
+  background:-moz-linear-gradient( center top, $theme_foreground_background_color 5%, $theme_foreground_border_color 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme_foreground_background_color', endColorstr='$theme_foreground_border_color');
+  background-color:$theme_foreground_background_color;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid $theme_foreground_border_color_light;
+  display:inline-block;
+  color:#555555;
+  font-family:arial;
+  font-size:1.5em;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px $theme_body_background_color;
+}a.resume_create_button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $theme_foreground_border_color), color-stop(1, $theme_foreground_background_color) );
+  background:-moz-linear-gradient( center top, $theme_foreground_border_color 5%, $theme_foreground_background_color 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme_foreground_border_color', endColorstr='$theme_foreground_background_color');
+  background-color:$theme_foreground_border_color;
+}a.resume_create_button:active {
+  position:relative;
+}
+
+.resume_publish_button,
+.resume_publish_button:link,
+.resume_publish_button:visited {
+  -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+  background-color:#f24537;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #d02718;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:12px;
+  font-weight:bold;
+  padding:5px 12px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #810e05;
+}.resume_publish_button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+  background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+  background-color:#c62d1f;
+}.resume_publish_button:active {
+  position:relative;
+  top:1px;
+}
+div.resume_publish_action {
+  text-align: center;
+}
+
+/* resume sections */
+div.resume_add_section_link {
+  text-align: right;
+}
+div.resume_add_section_link a.resume_create_button {
+  font-size: 12px;
+}
+div.resume_sections_manage_block {
+  padding: 10px;
+  border: 1px solid $theme_foreground_border_color;
+  +rounded(4px);
+  margin: 10px auto;
+  position: relative;
+}
+div.resume_sections_manage_section_title {
+  padding: 5px;
+  border-bottom: 1px solid $theme_foreground_border_color;
+  font-size: 1.2em;
+  cursor: move;
+  padding-left: 26px;
+  background: $theme_foreground_background_color url(~/application/modules/Core/externals/images/admin/sortable.png) 4px center no-repeat;  
+}
+div.resume_sections_manage_section_title:hover {
+}
+div.resume_sections_manage_section_description {
+  margin-top: 5px;
+}
+ul.resume_sections_actions {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+ul.resume_sections_actions li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+ul.resume_sections_actions li a {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 21px;
+}
+li.resume_sections_actions_edit a {
+  background-image: url(~/application/modules/Resume/externals/images/section/edit.png);
+}
+li.resume_sections_actions_delete a {
+  background-image: url(~/application/modules/Resume/externals/images/section/delete.png);
+}
+li.resume_sections_actions_add_employment a {
+  background-image: url(~/application/modules/Resume/externals/images/section/add_employment.png);
+}
+li.resume_sections_actions_add_education a {
+  background-image: url(~/application/modules/Resume/externals/images/section/add_education.png);
+}
+
+ul.resume_sections_children {
+  margin-top: 10px;
+}
+ul.resume_sections_children > li {
+  padding: 5px;
+  overflow: hidden;
+}
+ul.resume_sections_children > li + li {
+  border-top: 1px solid $theme_border_color;
+}
+ul.resume_sections_children img.move-me {
+  cursor: move;
+}
+div.resume_sections_child_title {
+  font-weight: bold;
+  float: left;
+  width: 240px;
+}
+div.resume_sections_child_details {
+  float: left;
+  width: 230px;
+}
+div.resume_sections_child_date {
+  float: left;
+  width: 150px;
+}
+ul.resume_sections_children_actions {
+  float: right;
+  font-size: 0.8em;
+}
+ul.resume_sections_children_actions li a {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 11px;
+}
+li.resume_sections_children_actions_edit a {
+  background-image: url(~/application/modules/Resume/externals/images/section/child_edit.png);
+}
+li.resume_sections_children_actions_delete a {
+  background-image: url(~/application/modules/Resume/externals/images/section/child_delete.png);
+}
+
+form.resume_form_popup .form-wrapper {
+  margin: 10px 0;
+}
+form.resume_form_popup .form-label {
+  font-weight: bold;
+}
+form.resume_form_popup .form-element .description {
+  font-size: 0.8em;
+}
+form.resume_form_popup #is_current-label,
+form.resume_form_popup #buttons-label {
+  display: none;
+}
+
+div.resume_profile_screen_container {
+  +rounded(8px);
+  padding: 20px;
+  border: 3px solid $theme_border_medium_color;
+  
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);  
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.1);    
+  
+}
+
+
+div.resume_body_description
+{
+  line-height: 1.25em;
+}
+
+div.resume_body_description h1,
+div.resume_body_description h2,
+div.resume_body_description h3,
+div.resume_body_description h4,
+div.resume_body_description h5,
+div.resume_body_description h6,
+div.resume_body_description p
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin: 0.75em 0;
+}
+div.resume_body_description blockquote
+{
+  margin: 1.12em 40px;
+}
+div.resume_body_description ul,
+div.resume_body_description ol
+{
+  display: block;
+  margin: 1.12em 40px;
+}
+div.resume_body_description ul li
+{
+  display: list-item;
+  list-style: disc;
+}
+div.resume_body_description ul li ul li
+{
+  display: list-item;
+  list-style: circle;
+}
+div.resume_body_description img
+{
+  max-width: 100%;
+}
+div.resume_body_description br {
+  clear: none;
+}
+
+/* resume profile page - body */
+div.resume_profile_body {
+  
+}
+div.resume_profile_body_section {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+}
+ul.resume_profile_body_section_children {
+}
+ul.resume_profile_body_section_children > li {
+  margin-top: 15px;
+}
+div.resume_profile_body_section_title {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+.resume_body_employment_date{
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.resume_body_employment_company {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.resume_body_employment_position {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.resume_body_education_school {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.resume_body_education_details {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#resume_section_contact > div {
+  text-align: center;
+}
+.resume_section_contact_name {
+  font-size: 20px;
+}
+.resume_section_contact_website {
+  font-size: 11px;
+}
+

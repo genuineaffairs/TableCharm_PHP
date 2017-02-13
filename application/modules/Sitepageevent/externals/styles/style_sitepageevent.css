@@ -1,0 +1,524 @@
+ /* $Id: style_sitepageevent.css 2011-05-05 9:40:21Z SocialEngineAddOns Copyright 2010-2011 BigStep Technologies Pvt. Ltd. $ */
+/*Icon*/
+.item_icon_sitepageevent_location{
+	background-image: url(../images/map.png);
+}
+
+/*sitepagevent feed item end here*/
+/*SITEPAGE EVENT VIEW PAGE START HERE*/
+.layout_sitepageevent_profile_info{
+  margin-top:10px;
+}
+#sitepageevent_photo > img{
+  width: 100%;
+}
+#sitepageevent_stats{
+  margin-top: 10px;
+  overflow: hidden;
+}
+#sitepageevent_stats > ul{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#sitepageevent_stats > ul > li{
+  font-size: .8em;
+  overflow: hidden;
+	text-align:justify;
+}
+#sitepageevent_stats > ul > li:first-child{
+  margin-bottom: 10px;
+  font-size: .8em;
+}
+#sitepageevent_stats .sitepageevent_date{
+  margin-bottom: 10px;
+}
+#sitepageevent_stats .sitepageevent_date .label{
+ clear: both; 
+}
+#sitepageevent_stats > ul > li + li{
+  margin-top: 5px;
+}
+#sitepageevent_stats > ul > li > div{
+  font-size: 1em;
+}
+#sitepageevent_stats .label{
+  width: 45px;
+}
+#sitepageevent_stats .sitepageevent_stats_content{
+  font-weight: bold;
+}
+#sitepageevent_stats .label, #sitepageevent_stats .sitepageevent_stats_content{
+  float: left;
+}
+html[dir="rtl"] #sitepageevent_stats .label, html[dir="rtl"] #sitepageevent_stats .sitepageevent_stats_content{
+  float: right;
+}
+#sitepageevent_stats .sitepageevent_stats_title{
+  font-weight: bold;
+}
+#sitepageevent_stats .sitepageevent_stats_title a{
+  display: block;
+  font-weight: normal;
+}
+#sitepageevent_stats .sitepageevent_stats_staff{
+  margin-top: 8px;
+}
+#sitepageevent_stats .sitepageevent_stats_info span{
+  font-weight: normal;
+}
+/*RSVP INFO */
+.sitepageevent_rsvp_form{
+  padding: 10px;
+  font-size: .8em;
+}
+.sitepageevent_rsvp > div{
+  font-size: .8em;
+  clear: both;
+}
+.sitepageevent_rsvp > div + div{
+  margin-top: 5px;
+  font-size: .8em;
+  clear: both;
+}
+.sitepageevent_rsvp .sitepageevent_radio_loading{
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.sitepageevent_rsvp .sitepageevent_radio_loading input{
+  visibility: hidden;
+}
+/* SITEPAGE EVENT MEMBER INFO TAB*/
+.sitepageevent_members_info{
+  clear: both;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.sitepageevent_members_info .sitepageevent_members_total{
+  margin-top: 5px;
+  padding-bottom: 2px;
+  overflow: hidden;
+}
+.sitepageevent_members_info .sitepageevent_members_search{
+  float: right;
+  overflow: hidden;
+  text-align: right;
+  padding-bottom: 2px;
+}
+html[dir="rtl"] .sitepageevent_members_info .sitepageevent_members_search{
+  float: left;
+  text-align: left;
+}
+.sitepageevent_members_info .sitepageevent_members_search input{
+	background-image: url(~/application/modules/Sitepage/externals/images/search.png);
+	background-position: right 50%;
+	background-repeat: no-repeat;
+	padding-right: 17px !important;
+}
+ul.sitepageevent_members{
+  border-top-width: 1px;
+  margin-bottom: 8px;
+}
+ul.sitepageevent_members > li{
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+  border-bottom-width: 1px;
+}
+ul.sitepageevent_members .sitepageevent_members_icon{
+  float: left;
+  display: block;
+}
+html[dir="rtl"] ul.sitepageevent_members .sitepageevent_members_icon{
+  float: right;
+}
+ul.sitepageevent_members .sitepageevent_members_icon > img{
+  display: block;
+}
+ul.sitepageevent_members .sitepageevent_members_body{
+  overflow: hidden;
+  padding-left: 7px;
+}
+html[dir="rtl"] ul.sitepageevent_members .sitepageevent_members_body{
+  padding-left: 0px;
+  padding-right: 7px;
+}
+ul.sitepageevent_members .sitepageevent_members_status{
+  font-weight: bold;
+}
+ul.sitepageevent_members .sitepageevent_members_options{
+  float: right;
+  min-width: 180px;
+  overflow: hidden;
+  padding-left: 15px;
+}
+html[dir="rtl"] ul.sitepageevent_members .sitepageevent_members_options{
+  float: left;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+ul.sitepageevent_members .sitepageevent_members_options a{
+  display: block;
+  clear: both;
+  margin: 1px;
+}
+ul.sitepageevent_members .sitepageevent_members_options a.buttonlink
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: .8em;
+}
+ul.sitepageevent_members .sitepageevent_members_options div{
+  text-align: right;
+}
+html[dir="rtl"] ul.sitepageevent_members .sitepageevent_members_options div{
+  text-align: left;
+}
+ul.sitepageevent_members .sitepageevent_members_rsvp{
+  margin-top: 3px;
+  font-size: .8em;
+}
+.layout_sitepageevent_profile_status{
+	float:left;
+}
+/*SITEPAGE EVENT VIEW PAGE END HERE*/
+/*INVITE FORM*/
+#sitepageevent_form_invite #users-label{
+  display: none;
+}
+#sitepageevent_form_invite #users-element{
+  padding: 7px 10px 7px 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 10px 0px 10px 0px;
+	border-width: 1px;
+	border-style:solid;
+}
+
+#global_page_sitepageevent-index-view #compose-photo-activator,
+#global_page_sitepageevent-index-view #compose-photo-menu span,
+#global_page_sitepageevent-index-view #compose-photo-activator,
+#global_page_sitepageevent-index-view #compose-photo-menu span,
+#global_page_sitepageevent-index-view #compose-music-activator,
+#global_page_sitepageevent-index-view #compose-music-menu span,
+#global_page_sitepageevent-index-view #compose-video-activator,
+#global_page_sitepageevent-index-view #compose-video-menu span
+{
+ display: none;
+}
+/*Browse Location Page*/
+.eventlocation_advanced_search_form{
+	clear:both;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+.eventlocation_advanced_search_form .grp_field{
+	margin:5px 0 0 13px;
+	width:100%;
+}
+.eventlocation_advanced_search_form #group1,
+.eventlocation_advanced_search_form #group3{
+	margin:0px;
+}
+.eventlocation_advanced_search_form  .form-wrapper + .form-wrapper{
+	margin:0px !important;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 .form-wrapper{
+	width:25%;
+	float:left;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 #category_id-wrapper{
+	width:20%;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 #locationmiles-wrapper{
+	float:left;
+	width:13%;
+}
+.eventlocation_advanced_search_form #advances_search{
+	float: left;
+	font-size: 11px;
+	margin-top: 20px;
+}
+html[dir="rtl"] .eventlocation_advanced_search_form #fieldset-grp3 .form-wrapper,
+html[dir="rtl"] .eventlocation_advanced_search_form #fieldset-grp3 #locationmiles-wrapper,
+html[dir="rtl"] .eventlocation_advanced_search_form #advances_search{
+	float:right;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 .form-label{
+	font-weight:bold;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 .form-element input[type="text"],
+.eventlocation_advanced_search_form #fieldset-grp3 .form-element select{
+	font-size:16px;
+	width:90%;
+}
+.eventlocation_advanced_search_form #fieldset-grp3 .description{
+	font-size:10px;
+	padding-top:5px;
+}
+.eventlocation_advanced_search_form #fieldset-grp1, 
+.eventlocation_advanced_search_form #fieldset-grp2{
+	border-width:1px;
+	border-style:solid;
+	clear:both;
+	margin:5px 0 0;
+	padding:10px 5px 10px 0;
+	display:none;
+}
+.eventlocation_advanced_search_form #fieldset-grp1 .form-wrapper,
+.eventlocation_advanced_search_form #fieldset-grp2 .form-wrapper{
+	margin-left:10px !important;
+	display:inline-block;
+}
+html[dir="rtl"] .eventlocation_advanced_search_form #fieldset-grp1 .form-wrapper, 
+html[dir="rtl"] .eventlocation_advanced_search_form #fieldset-grp2 .form-wrapper{
+	margin-left:0px;
+	margin-right:10px;
+}
+.eventlocation_advanced_search_form #fieldset-grp2 #or-wrapper{
+	display:block;
+}
+.eventlocation_advanced_search_form #fieldset-grp2 #or-wrapper .form-label{
+	border-top-width: 1px;
+	float: left;
+	margin:10px 0 5px;
+	position: relative;
+	width: 100%;
+}
+html[dir="rtl"] .eventlocation_advanced_search_form #fieldset-grp2 #or-wrapper .form-label{
+	float:right;
+}
+.eventlocation_advanced_search_form #fieldset-grp2 #or-wrapper .form-label label{
+	font-size: 13px;
+	font-weight: bold;
+	left: 50%;
+	position: absolute;
+	top: -10px;
+}
+.eventlocation_advanced_search_form #done-wrapper{
+	padding-top:10px;
+}
+.eventlocation_advanced_search_form #done-wrapper > div{
+	display:inline;
+}
+.eventlocation_advanced_search_form #done-wrapper .form-label{
+	display:none !Important;
+}
+.eventlocation_advanced_search_form  .browse-separator-wrapper{
+	display:none;
+}
+.eventlocation_browse_location{
+	clear:both;
+	margin-bottom:15px;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+}
+.eventlocation_map_container_list{
+	overflow:hidden;
+	padding-right:10px;
+}
+.eventlocation_map_container_list ul.seaocore_browse_list{
+	margin-right:5px;
+}
+.eventlocation_map_container_list ul.seaocore_browse_list li{
+	border-top-width:1px;
+	padding-top:10px;
+}
+.eventlocation_browse_location_paging{
+	overflow:hidden;
+}
+.eventlocation_browse_location_paging > div{
+	display:inline;
+	float:left;
+	margin:0px;
+}
+.eventlocation_map_container_right{
+	width:40%;
+	padding:1px;
+	float:right;
+	min-height:600px;
+}
+.eventlocation_map_container{
+	border-width:1px;
+	border-style:solid;
+	width:40%;
+}
+.eventlocation_map_container.absolute{
+	position:absolute;
+	right:0px !important;
+	top:0;
+}
+.eventlocation_map_container.fixed{
+	position:fixed;
+	top:0px;
+}
+.eventlocation_map_container.bottom{
+	bottom:0px;
+	position:absolute;
+	right:0px !important
+}
+.eventlocation_map_container.eventlocation_map_container_exp{
+	width:600px !important;
+}
+.eventlocation_map_container.eventlocation_map_container_exp #eventlocationlocation_browse_map_canvas{
+	height:500px !important;
+}
+.eventlocation_map_container_topbar{
+	padding:5px;
+	overflow:hidden;
+}
+.eventlocation_map_container_map_area{
+	border-style:solid none none none;
+	border-width:1px;
+	width:100%;
+}
+
+/*SITEPAGE VIEW, EDIT AND UPLOAD PHOTOS PAGE START HERE*/
+#global_page_sitepageevent-photo-upload .form-elements{
+	margin-top:10px !important;
+}
+#form-upload-sitepageevent div.form-label{
+  float: none;
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 5px 0px;
+	width:auto;
+}
+#form-upload-sitepageevent #search-label,
+.sitepageevent_form_upload #file-label, 
+.sitepageevent_form_upload #submit-label{
+    display: none;
+}
+ul.sitepageevents_editphotos{
+  width: 600px;
+}
+ul.sitepageevents_editphotos > li{
+  padding-top: 15px;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.sitepageevents_editphotos_photo{
+  float: left;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.sitepageevents_editphotos_photo img{
+  display: block;
+  margin: 3px;
+  width: 170px;
+}
+.sitepageevents_editphotos_info{
+  overflow: hidden;
+}
+#global_page_sitepageevent-photo-photoedit h3{
+	margin-bottom:10px;
+} 
+#global_page_sitepageevent-photo-photoedit input, 
+.sitepageevents_editphotos_title_input input{
+  margin: 2px 0px 6px 0px;
+  width: 25em;
+}
+#global_page_sitepageevent-photo-photoedit textarea, 
+.sitepageevents_editphotos_caption_input textarea{
+  margin: 2px 0px 6px 0px;
+  width: 25em;
+  height: 3em;
+  min-height: 0px;
+}
+.sitepageevents_editphotos_label{
+  float: left;
+}
+.sitepageevents_editphotos_cover{
+  float: left;
+}
+.sitepageevents_editphotos_info .sitepageeventsphoto-delete-wrapper{
+  float: left;
+  margin-right: 15px;
+}
+.sitepageevents_editphotos_info .photo-delete-wrapper > label{
+  display: block;
+  float: left;
+	margin-right:5px;
+}
+div.sitepageevent_viewmedia{
+  margin: 25px auto 0px auto;
+  max-width: 750px;
+  min-width: 400px;
+  overflow: visible;
+}
+div.sitepageevent_viewmedia .sitepageevent_viewmedia_nav{
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+div.sitepageevent_viewmedia .sitepageevent_viewmedia_nav > div{
+  float: left;
+  overflow: visible;
+}
+div.sitepageevent_viewmedia .sitepageevent_viewmedia_nav > div + div{
+  float: none;
+  text-align: right;
+}
+div.sitepageevent_viewmedia .sitepageevent_viewmedia_nav > div + div > a + a{
+  margin-left: 20px;
+}
+div.sitepageevent_viewmedia_info{
+  text-align: center;
+  padding: 10px;
+	border-width: 5px;
+	border-style:solid;
+}
+div.sitepageevent_viewmedia_container{
+  position: relative;
+  display: inline-block;
+}
+div.sitepageevent_viewmedia_container a:link{
+  text-decoration: none;
+}
+div.sitepageevent_viewmedia_info p{
+  text-align: left;
+}
+div.sitepageevent_viewmedia > span + div > a{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.sitepageevent_viewmedia > span + div > a:link{
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+div.sitepageevent_viewmedia_info .sitepageevent_photo_title{
+  margin-top: 5px;
+  font-weight: bold;
+}
+div.sitepageevent_viewmedia_info .sitepageevent_photo_description{
+  font-size: .8em;
+  margin-top: 3px;
+}
+div.sitepageevent_viewmedia_info .sitepageevent_photo_title + .sitepageevent_photo_tags,
+div.sitepageevent_viewmedia_info .sitepageevent_photo_description + .sitepageevent_photo_tags{
+  margin-top: 15px;
+}
+div.sitepageevent_viewmedia_info .sitepageevent_photo_tags{
+  font-size: .8em;
+  margin-top: 5px !important;
+}
+div.sitepageevent_viewmedia_info .sitepageevent_photo_date{
+  font-size: .8em;
+  margin-top: 5px;
+}
+div.sitepageevent_viewmedia_info > div.comments{
+  margin-top: 15px;
+}
+.sitepageevent_photo_right_options{
+ float:right;
+}
+.sitepageevent_photo_right_options a{
+	float: left;
+	height: 16px;
+	margin-left: 10px;
+	width: 16px;
+}
+/*SITEPAGE VIEW, EDID AND UPLOAD PHOTOS PAGE END HERE*/

@@ -1,0 +1,966 @@
+/* $Id: core.js 2011-02-16 9:40:21Z SocialEngineAddOns Copyright 2009-2011 BigStep Technologies Pvt. Ltd. $ */
+
+/* NOTIFICATION TYPE ICONS */
+.cmad_icon_type_contact{
+	background-image: url(~/application/modules/Communityad/externals/images/message.png);
+}
+.cmad_icon_package{
+	background-image: url(~/application/modules/Communityad/externals/images/package_new.png);
+}
+.cmad_icon_add{
+	background-image: url(~/application/modules/Communityad/externals/images/add.png);
+}
+.cmad_icon_back_icon{
+	background-image: url(~/application/modules/Communityad/externals/images/back.png);
+	float:right;
+	margin-top:5px;
+}
+/*Community Ad Help and Learn More page start here*/
+.cmad_halm_tabs_content{
+	overflow:hidden;
+}
+.cmad_halmc_form{
+	padding:10px;
+ +rounded(3px);
+	clear:both;
+	border-width:1px;
+	border-style:solid;
+}
+.cmad_halmc_form > div{
+	min-height:210px;
+}
+.communityad_faq{
+	clear:both;
+}
+.communityad_faq *{
+	outline:none;
+}
+.communityad_faq li{
+	list-style:none;
+	line-height:20px;
+	margin-bottom:10px;
+}
+.communityad_faq li > a{
+	font-weight:bold;
+}
+.communityad_faq li div{
+	clear:both;
+	border-left-width:3px;
+	border-left-style:solid;
+	padding:5px 5px 5px 10px;
+	margin:5px;
+	font-family:arial;
+	line-height:18px;
+}
+#global_page_communityad-display-send-messages .global_form{
+	margin:10px;
+	width:600px;
+}
+#global_page_communityad-display-send-messages .global_form > div{
+	width:100% !important;
+	float:none !important;
+}
+#global_page_communityad-display-send-messages .global_form ul.form-errors > li, ul.form-notices > li{
+	margin:2px 5px;
+}
+.cmad_halmc_form .cadcomp_vad_header{
+	padding:0px 0 10px;
+	margin-bottom:10px;
+}
+.cmadd_hlm{
+	width:100%;
+}
+.cmadd_hlm h3{
+	margin-bottom:10px;
+}
+.cmadd_hlm b.headlinetxt{
+	font-weight:bold;
+	margin-bottom:5px;
+	float:left;
+}
+.cmadd_hlm ul{
+	clear: both;
+	list-style: disc;
+	width: 100%;
+	margin-bottom:10px;
+}
+.cmadd_hlm ol{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom:10px;
+}
+.cmadd_hlm ul li{
+	margin:3px 5px 3px 20px;
+	max-width:500px;
+}
+.cmadd_hlm ol li{
+	margin:3px 5px 3px 25px;
+}
+.cmadd_hlm p{
+	clear:both;
+	margin-bottom:10px;
+}
+.cmadd_hlm_overview{
+	clear:both;
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+.cmadd_hlm_overview > div{
+	float:left;
+	margin-right:15px;
+}
+.cmadd_hlm_overview div + div{
+	overflow:hidden;
+}
+/*Community Ad Help and Learn More page end here*/
+/*Community Ad Display Css start here*/
+.communityadad_sidebarads{
+	float:left;
+}
+.communityadad_sidebarads *{
+	outline:none;
+}
+.cmaddis_create{
+	clear:both;
+	padding:5px 10px;
+	border-bottom-width:1px;
+	font-size:11px;
+	overflow:auto;
+}
+.cmad_bloack_top{
+	clear:both;
+	padding:5px 10px;
+	border-bottom-width:1px;
+	font-size:11px;
+	overflow:auto;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+.cmad_bloack_top b{
+	float:left;
+}
+.cmad_bloack_top a{
+	float:right;
+}
+.cmadrem, .cmaddis{
+	clear:both;
+	padding:10px;
+	font-size:11px;
+}
+.cmaddis *{
+	outline:none;
+	word-wrap: break-word;
+}
+.layout_left .cmad_ad_clm > div > div + div, 
+.layout_left .cmad_ad_clm > div > div + div + div + div + div,
+.layout_right .cmad_ad_clm > div > div + div,
+.layout_right .cmad_ad_clm > div > div + div + div + div +div{
+ border-top:1px solid $theme_border_color;
+	margin-top:0px;
+}
+.layout_left .cmad_ad_clm .cmad_bloack_top, .layout_right .cmad_ad_clm .cmad_bloack_top{
+	border-bottom:none !important;
+}
+.cadcp_preview{
+	float:left;
+	border-width:1px;
+	border-style:solid;
+	padding:5px;
+	clear:both;
+  width: 150px;
+}
+.cadcp_preview .cmaddis{
+	border:none !important;
+	margin:0px;
+	padding:3px 5px;
+}
+.cmaddis_close{
+	position:relative;
+	float:right;
+	height: 11px;
+	width: 11px;
+	padding:2px;
+}
+.cmaddis_close a{
+	background: url(~/application/modules/Communityad/externals/images/close_icon.png) no-repeat right;
+	float: right;
+	height: 11px;
+	width: 11px;
+	display:none;
+}
+.cmaddis_close a:hover{
+	background:#3b5998 url(~/application/modules/Communityad/externals/images/close_icon.png) no-repeat left;
+}
+.cmaddis:hover .cmaddis_close a, .cmad_sdab:hover .cmaddis_close a{
+	display:block;
+}
+.cmaddis .cmad_addis{
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.cmaddis .cmad_addis:hover .cmaddis_title span, .cmaddis .cmad_addis:hover .cmaddis_title a{
+	text-decoration:underline;
+}
+.cmaddis .cmaddis_title{
+	font-weight:bold;
+	text-align:left;
+ color:$theme_link_color;
+}
+.cmaddis .cmaddis_title span{
+	font-weight:bold;
+}
+.cmaddis .cmaddis_title a{
+	display:block;
+	overflow:hidden;
+}
+.cmaddis .cmaddis_adinfo a{
+	display:block;
+	font-size:11px;
+	overflow:hidden;
+	font-weight:normal;
+}
+.cmaddis .cmaddis_image a{
+	width:100%;
+	display:block;
+}
+.cmaddis .cmaddis_image img{
+	margin:6px 0 3px;
+	border:none;
+}
+.cmaddis .cmaddis_body{
+	font-size:11px;
+}
+.cmaddis .cmaddis_body > a{
+ color:$theme_font_color;
+	text-decoration:none;
+	font-weight:normal;
+}
+.cmaddis .cmaddis_title, .cmaddis .cmaddis_adinfo, .cmaddis .cmaddis_image, .cmaddis .cmaddis_body{
+	cursor:pointer;
+}
+#global_page_communityad-statistics-view-ad .cmaddis_cont, #rw_like .cmaddis_cont, #ad_like .cmaddis_cont{
+	font-size:11px;
+	margin-top:5px;
+}
+.cmaddis .cmaddis_cont{
+	font-size:11px;
+	margin-bottom:5px;
+}
+.cmad_like_button{
+	overflow:auto;
+}
+.cmaddis_cont .cmad_like_button, .cmad_like_button a{
+	clear:both;
+	font-size:11px;
+	outline:none;
+}
+.cmaddis_cont .cmad_like_button i.like_thumbup_icon, .cmad_like_button a i.like_thumbup_icon{
+	height:13px;
+	width:13px;
+	float:left;
+	margin-right:5px;
+	background-image:url(~/application/modules/Communityad/externals/images/thumb-up.png);
+}
+.cmad_like_button a i.like_thumbdown_icon{
+	height:13px;
+	width:13px;
+	float:left;
+	margin-right:5px;
+	background-image:url(~/application/modules/Communityad/externals/images/thumb-down.png);
+}
+.cmaddis_cont .cmad_like_button span, .cmad_like_button a span{
+	float:left;
+}
+.cmaddis_more{
+	padding:10px 10px 10px;
+	font-size:11px;
+	clear:both;
+	border-top-width:1px;
+}
+.cmadrem div{
+	font-size:11px;
+}
+.cmadrem .cmadrem_rl{
+	float:right;
+	padding-right:5px;
+	margin-bottom:5px;
+}
+.cmadrem .cmadrem_con form{
+	margin-top:5px;
+}
+.cmadrem .cmadrem_con div{
+	clear:both;
+	overflow:auto;
+	margin-bottom:4px;
+	line-height:16px;
+}
+.cmadrem .cmadrem_con div textarea{
+	margin-top:10px;
+	width:140px;
+	font-size:11px;
+}
+.cmadrem .tip > span{
+	margin:0px;
+}
+/*Community Ad Display Css end here*/
+/*Community Ad Manage Canpaigns table Css start here*/
+.cadcomp_page > h3{
+	float:left;
+	margin-top:6px;
+}
+.cadcomp_page p, .cadcomp_page button{
+	font-size:11px;
+}
+.cadmc_export_button{
+	float:right;
+	margin-bottom:10px;
+}
+.cadmc_list_wrapper{
+	padding:10px;
+ +rounded(3px);
+	clear:both;
+}
+.cadmc_list_wrapper > div{
+	border-width:1px;
+	border-style:solid;
+	padding:5px;
+}
+.cadmc_list_wrapper > div .tip > span{
+	margin:10px !important;
+}
+.cadmc_list_wrapper > div table{
+	width:100%;
+}
+.cadmc_list_wrapper > div table th{
+	padding:5px;
+	text-align:center;
+}
+.cadmc_list_wrapper > div table td{
+	padding:5px;
+	text-align:center;
+	border-top-width:1px;
+	border-top-style:solid;
+	font-size:11px;
+}
+.cadmc_list_wrapper > div button{
+	margin:10px 0;
+	clear:both;
+	float:left;
+}
+.cadmc_statistics_search{
+	clear:both;
+	margin-top:0;
+	background-color:transparent;
+	padding:0;
+	+rounded(0px);
+	clear:both;
+}
+.cadmc_statistics_search form{
+	overflow:auto;
+	border:none;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	background-color:transparent;
+	margin-bottom:10px;
+	padding-left:0px !important;
+	background:none;
+}
+.cadmc_statistics_search div{
+	float:left;
+	margin-right:10px;
+	padding-bottom:4px;
+}
+.cadmc_statistics p{
+	font-weight:bold;
+}
+.cadmc_statistics_search .global_form_box #submit-element{
+	margin-top:-5px;
+}
+.cadmc_statistics{
+	clear:both;
+	margin-top:15px;
+	padding:10px;
+	+rounded(3px);
+	clear:both;
+}
+.cadmc_statistics > div{
+	border-width:1px;
+	border-style:solid;
+	padding:10px;
+}
+.cadmc_statistics_nav{
+	float:left;
+	width:100%;
+	font-size:11px;
+	margin-bottom:10px;
+	overflow:auto;
+}
+.cadmc_statistics_nav a{
+	font-weight:bold;
+	cursor:pointer;
+	margin:0 5px;
+}
+.breadcrumb{
+	font-size:11px;
+	width:100%;
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.cadcomp_vad_header{
+	overflow:auto;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding:10px;
+	clear:both;
+}
+.cadcomp_vad_header h3{
+	background:none;
+	float: left;
+	font-weight: bold;
+	letter-spacing: normal;
+	margin: 4px 0 0;
+	padding: 0;
+}
+.cadcomp_vad_header h3 span{
+	font-weight:normal;
+}
+.cadva_detail_table{
+	clear:both;
+	float:left;
+	margin-top:15px;
+	width:100%;
+	border-bottom-width:1px;
+	padding-bottom:20px;
+	margin-bottom:30px;
+}
+.cadva_detail_table table{
+	width:100%;
+}
+.cadva_detail_table table th{
+	padding:5px 10px;
+	text-align:left;
+	font-size:11px;
+	font-weight:normal;
+}
+.cadva_detail_table table td{
+	padding:5px 10px;
+	text-align: left;
+	font-size:11px;
+}
+.cadva_total_reports{
+	width:100%;
+	clear:both;
+	margin-bottom:15px;
+	overflow:auto;
+	padding-left:5px;
+}
+.cadva_total_reports div{
+	float:left;
+	margin-right:20px;
+	font-size:11px;
+}
+.cadva_total_reports div span{
+	font-size:20px;
+	font-weight:bold;
+ color:$theme_font_color;
+}
+.cmaddis_preview_wrapper > b{
+	float:left;
+	margin-bottom:5px;
+}
+.cmaddis_preview_wrapper .cadcp_preview .cmad_sdab{
+	width:190px;
+}
+.cadva_dsform{
+	clear:both;
+	float:left;
+	width:100%;
+	width:700px;
+}
+.cadva_dsform .global_form{
+	width:100%;
+}
+.cadva_dsform .global_form > div{
+	width:100%;
+}
+.cadva_dsform .global_form > div > div{
+	background:none;
+	border:none;
+	padding:0px;
+}
+.cadva_dsform .global_form > div > div > h3 + p{
+	max-width:100% !important;
+	margin-top:5px;
+}
+.cadva_dsform .global_form > div > div > h3 + p + div{
+	margin-top:10px;
+}
+.cadva_dsform .global_form div.form-wrapper{
+	float:left;
+	clear:none;
+	margin-right:10px;
+	margin-top:5px;
+}
+.cadva_dsform .global_form div#submit-wrapper{
+	margin-top:0px;
+}
+.cadva_dsform .global_form div.form-element span{
+	font-size:11px;
+}
+.cadva_dsform .global_form select{
+	margin-left:10px;
+}
+.cadva_dsform .global_form div.form-label{
+	width:auto;
+}
+.cadva_dsform .global_form #submit-element, .cadva_dsform .global_form #submit-label{
+	padding:0px;
+	min-width:0px;
+}
+.cadva_dsform .global_form > div > div > h3{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding-bottom:5px;
+}
+.cadva_table{
+	clear:both;
+	float:left;
+	margin-top:10px;
+	width:100%;
+}
+.cadva_table table{
+	border-width:1px;
+	border-style:solid;
+	border-bottom:none;
+	width:100%;
+}
+.cadva_table table th{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding:5px 10px;
+	text-align:center;
+	font-size:11px;
+}
+.cadva_table table td{
+	padding:5px 10px;
+	text-align: center;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	font-size:11px;
+}
+.cadva_table_left{
+	text-align:left !important;
+}
+.cadva_buttons{
+	clear:both;
+}
+/*Community Ad Manage Canpaigns table Css end here*/
+/*Community Ad Create ad page start here*/
+#global_page_communityad-index-create .global_form > div > div, #global_page_communityad-index-edit .global_form > div > div{
+	max-width:none !important;
+	width:auto !important;
+}
+.cmad_tip{
+	overflow: hidden;
+	clear: both;
+}
+.cmad_tip > span{
+	padding: 10px !important;
+	background-image:none !important;
+	float:none !important;
+	display:block!important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	border-radius:0px !important;
+}
+.cmad_tip > span > b{
+	font-weight:bold;
+	font-size:13px;
+	display:block;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	font-size:17px;
+}
+.cmad_crb{
+	height:100%;
+}
+.cmad_crbn{
+	height:0px;
+}
+.cmad_create > fieldset > form > div{
+	margin-bottom:20px;
+}
+#global_page_communityad-index-edit .layout_middle > .cmad_crbn + div, .cmad_crb > fieldset > form > div + div + div, #global_page_communityad-index-create .cmad_create > fieldset > form > div + div + div, #global_page_communityad-index-edit .cmad_crb > fieldset > form > div{
+	height:auto !important;
+}
+.cmad_acrad_wrapper > div{
+	height:auto !important;
+}
+.cmad_acrad_wrapper .global_form > div > div > h3{
+	background:none;
+	padding:0px;
+}
+.cmad_create .global_form div.form-wrapper{
+	width:600px;
+}
+.cmad_create .global_form div.form-element{
+	max-width:none;
+	width:400px;
+}
+.cmad_create .global_form div.form-element textarea{
+	max-width:380px;
+}
+.disabled_title{
+	color:#999999 !important;
+	background:#ece9d8;
+}
+/*Community Ad Create ad page end here*/
+/*Community Ad Ad Board page start here*/
+.caab_ad_links{
+	float:left;
+	margin:5px 53px;
+}
+.caab_ad_links > a{
+	padding:5px;
+	font-weight:bold;
+	font-size:11px;
+	margin-right:5px;
+}
+.caab_ad_links > a.caab_ad_links_selected{
+	+rounded;
+	background-color: $theme_tag_background_color;
+	color: $theme_font_color;
+	text-decoration:none;
+}
+.caab_ad{
+	overflow:auto;
+	margin-top:20px;
+	clear:both;
+}
+.caab_list_row{
+	clear:both;
+	overflow:auto;
+	margin:0 auto;
+}
+.caab_list .cmaddis, .caab_list .cmadrem{
+	border:none;
+}
+.caab_spsa_list_row{
+	clear:both;
+	margin:0 auto 10px;
+	overflow:hidden;
+}
+.caab_spsa_list_row .caab_spsa_list{
+	width:200px;
+	float:left;
+	margin:10px 20px 20px 10px;
+}
+.caab_spsa_list_row .caab_spsa_list .cmadrem, .layout_communityad_sponsored_stories .cmadrem{
+	width:auto;
+	padding:10px 5px;
+}
+/*Community Ad Ad Board page end here*/
+/*Community Ad widgets start*/
+.layout_communityad_featured_extended_ad, .layout_communityad_featured_left_ad, .layout_communityad_featured_middle_ad, .layout_communityad_featured_right_ad, .layout_communityad_featured_fullwidth_ad, .layout_communityad_sponserd_extended_ad, .layout_communityad_sponsored_left_ad, .layout_communityad_sponserd_middle_ad, .layout_communityad_sponserd_right_ad, .layout_communityad_sponsored_fullwidth_ad, .layout_communityad_extended_1_ads, .layout_communityad_extended_2_ads, .layout_communityad_left_1_ads, .layout_communityad_middle_1_ads, .layout_communityad_right_ads, .layout_communityad_fullwidth_1_ads, .layout_communityad_fullwidth_2_ads, .layout_communityad_left_2_ads, .layout_communityad_sponcerd_ad{
+	overflow:hidden;
+	clear:both;
+}
+.layout_communityad_footer_ads, .layout_communityad_create_ad{
+	margin-bottom:15px;
+	overflow:hidden;
+	clear:both;
+}
+/*css overrides for profile pages start here*/
+#global_page_group-profile-index .cmad_ad_clm, #global_page_event-profile-index .cmad_ad_clm, #global_page_user-profile-index .cmad_ad_clm{
+	border-radius: 3px 3px 3px 3px;
+	display: block;
+	margin-top: 15px;
+	margin-bottom:0px;
+	overflow: auto;
+	padding: 5px;
+}
+#global_page_event-profile-index .layout_middle > div .cmad_ad_clm, #global_page_event-profile-index .layout_left > div .cmad_ad_clm, #global_page_event-profile-index .layout_right > div .cmad_ad_clm, #global_page_group-profile-index .layout_middle > div .cmad_ad_clm, #global_page_group-profile-index .layout_left > div .cmad_ad_clm, #global_page_group-profile-index .layout_right > div .cmad_ad_clm, #global_page_user-profile-index .layout_middle > div .cmad_ad_clm, #global_page_user-profile-index .layout_left > div .cmad_ad_clm, #global_page_user-profile-index .layout_right > div .cmad_ad_clm{
+	margin-top:0px;
+}
+#global_page_event-profile-index .layout_middle > div + div .cmad_ad_clm, #global_page_event-profile-index .layout_left > div + div .cmad_ad_clm, #global_page_event-profile-index .layout_right > div + div .cmad_ad_clm, #global_page_group-profile-index .layout_middle > div + div .cmad_ad_clm, #global_page_group-profile-index .layout_left > div + div .cmad_ad_clm, #global_page_group-profile-index .layout_right > div + div .cmad_ad_clm, #global_page_user-profile-index .layout_middle > div + div .cmad_ad_clm, #global_page_user-profile-index .layout_left > div + div .cmad_ad_clm, #global_page_user-profile-index .layout_right > div + div .cmad_ad_clm{
+	margin-top:15px;
+}
+/*css overrides for profile pages end here*/
+.layout_bottom{
+	clear:both;
+}
+.cmad_ad_clm{
+	background-image: url(~/application/modules/Seaocore/externals/images/blk-bg.png);
+	display:block;
+	overflow:auto;
+ +rounded;
+	padding: 5px;
+	margin-bottom:15px;
+}
+.cmad_ad_clm > div{
+	padding:2px;
+	border-width:1px;
+	border-style:solid;
+	overflow:auto;
+}
+.cmad_ad_clm > div .head{
+	padding:5px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	overflow:auto;
+}
+.cmad_ad_clm > div .head div{
+	font-size:11px;
+}
+.layout_communityad_create_ad ul{
+ +foreground;
+ +rounded;
+	padding: 5px;
+	clear:both;
+}
+.layout_communityad_create_ad ul li{
+	overflow:auto;
+}
+.layout_communityad_create_ad .cont{
+	padding:7px 5px 5px;
+	font-size:11px;
+	overflow:hidden;
+}
+.layout_communityad_create_ad .cont img{
+	margin-right:5px;
+	float:left;
+}
+.cmad_ad_footer{
+	display:block;
+	overflow:auto;
+}
+.cmad_ad_footer > div{
+	border-width:1px;
+	border-style:solid;
+	overflow:auto;
+}
+/*Community Ad widgets end*/
+/*Show tooltip */
+.cmad_show_tooltip{
+	+rounded(3px);
+	display: none;
+	position: absolute;
+	background: #222;
+	color: #fff;
+	text-align: left;
+	padding: 5px;
+	width: 225px;
+	margin-top: 5px;
+	margin-left: 0px;
+	font-weight:normal;
+	font-size:11px !important;
+}
+.cmad_show_tooltip img{
+	margin-top:-13px;
+	position:absolute;
+	left:10px;
+}
+.cmad_show_tooltip_wrapper{
+	clear:both;
+}
+.cmad_show_tooltip_wrapper:hover .cmad_show_tooltip{
+	display: block;
+}
+/*Community Ad Package Pages start here*/
+.cmad_package_page{
+	padding:10px;
+	+rounded(3px);
+	clear:both;
+	margin-top:15px;
+}
+ul.cmad_package_list{
+	border-width:1px;
+	border-style:solid;
+	padding:5px;
+}
+ul.cmad_package_list > li + li{
+	border-top-width:1px;
+	border-top-style:solid;
+}
+/*Community Ad Package Pages end here*/
+/*BUTTONS START HERE*/
+.cadmc_export_button a{
+	padding: 5px 10px;
+	background-position: 0px 1px;
+	float:left;
+	font-size:11px;
+}
+.cadva_buttons a{
+	clear:both;
+	margin-top:10px;
+	padding: 5px 10px;
+	background-position: 0px 1px;
+	float:left;
+	font-size:11px;
+}
+.cmad_hr_link a{
+	padding: 5px 10px;
+	background-position: 0px 0px;
+	float:left;
+	font-size:11px;
+}
+.cmadrem a.cmadrem_button{
+	+rounded;
+	padding: 5px;
+	background-position: 0px 1px;
+	float:left;
+}
+.cadmc_export_button a, .cadva_buttons a, .cmad_hr_link a, .cmadrem a.cmadrem_button{
+	font-weight: bold;
+	border: none;
+	background-color: $theme_button_background_color;
+	border: 1px solid $theme_button_border_color;
+	color: $theme_button_font_color !important;
+	background-repeat: repeat-x;
+	background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+	outline:none;
+}
+.cmadrem a.cmadrem_button:hover, .cmad_hr_link a:hover, .cadmc_export_button a:hover, .cadva_buttons a:hover{
+	background-color: $theme_button_background_color_hover;
+	cursor: pointer;
+	text-decoration:none;
+}
+/*BUTTONS END HERE*/
+/*BLOCKS START HERE */
+.cadmc_list_wrapper > div table th, .cmad_package_stat{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	font-size:11px;
+}
+/*BLOCKS END HERE */
+/*CONSTAND START HERE*/
+/*theme foreground border color*/
+ul.cmad_package_list, .cmad_ad_clm > div, .cadmc_statistics > div, .cadmc_statistics > div, .cadmc_list_wrapper > div, .cmad_bloack_top, .cmad_halmc_form, .cadmc_list_wrapper > div table th, .cmad_package_stat, .cmad_halmc_form, .cmad_halmc_form .cadcomp_vad_header, .communityad_faq li div{
+ border-color:$theme_foreground_border_color;
+}
+/*theme foreground background color*/
+.cmad_package_page, .cmad_ad_clm, .cadva_table table th, .cadmc_statistics, .cadmc_list_wrapper, .cmad_bloack_top, .cmad_halmc_form, .cadmc_list_wrapper > div table th, .cmad_package_stat{
+	background-color:$theme_foreground_background_color;
+}
+/*theme body background color*/
+.cmad_ad_footer > div, ul.cmad_package_list, .cmad_ad_clm > div, .cadmc_statistics > div, .cadmc_list_wrapper > div, .cadcp_preview{
+	background-color:$theme_body_background_color;
+}
+/*theme border color*/
+.cadva_table table td, .cadva_table table, .cadva_dsform .global_form > div > div > h3, .cadcomp_vad_header, .cadmc_statistics_search form, .cadmc_list_wrapper > div table td{
+ border-color:$theme_border_color;
+}
+/*theme border color medium*/
+ul.cmad_package_list > li + li, .cmad_ad_clm > div .head, .cadcp_preview, .cadcp_preview{
+	border-color:$theme_border_medium_color;
+}
+/*theme font color light*/
+.cmaddis_cont .cmad_like_un a, .cmaddis .cmaddis_adinfo a, .cmaddis .cmaddis_cont, .cadva_detail_table table th, .cadva_total_reports div{
+	color:$theme_font_color_light;
+}
+/*CONSTAND END HERE*/
+/*css for page widgets start here*/
+.advertise_your_page{
+	margin-left:10px;
+	border:1px solid $theme_border_color;
+	clear: both;
+	float: left;
+	padding: 10px;
+	margin-bottom:15px;
+}
+.advertise_your_page a{
+	float:left;
+	clear:both;
+	margin-top:10px;
+}
+.advertise_your_page_title{
+	font-weight:bold;
+	margin-bottom:5px;
+	display:block;
+	margin-left:10px;
+	line-height:20px;
+}
+/*css for page widgets end here*/
+/*sponsored stories ads display css start here*/
+.cmad_sdab{
+	display:block;
+	padding:10px 5px;
+}
+.cmad_sdab *{
+	font-size:11px;
+	word-wrap: break-word;
+}
+.cmad_sdab .cmad_sdab_sp{
+	float:left;
+	margin-right:10px;
+}
+.cmad_sdab_sp img{
+	width:30px;
+	height:30px;
+}
+.cmad_sdab_body{
+	overflow:hidden;
+}
+.cmad_sdab_title{
+	margin-bottom:10px;
+}
+.cmad_sdab_cont{
+	clear:both;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.cmad_sdab_cont .cmad_sdab_cont_img{
+	float:left;
+	margin-right:5px;
+	width:50px;
+}
+html[dir="rtl"] .cmad_sdab .cmad_sdab_sp, html[dir="rtl"] .cmad_sdab_cont .cmad_sdab_cont_img{
+	float:right;
+	margin-left:10px;
+}
+.cmad_sdab_cont .cmad_sdab_cont_img img{
+	max-width:48px;
+	border:none;
+}
+.cmad_sdab_cont .cmad_sdab_cont_body{
+	overflow:hidden;
+	font-weight: bold;
+}
+.cmad_sdab_cont_stat{
+	clear:both;
+	margin-bottom:5px;
+}
+/*sponsored stories ads display css end here*/
+.caab_list{
+  display: inline-block;
+  vertical-align: top;
+  float: inherit !important;
+
+}
+.cmad_addis{
+  word-break: break-all;
+}
+.layout_right .cmad_block_wrp,.layout_left .cmad_block_wrp{
+  text-align: left;
+}
+.layout_right .cmadrem,.layout_left .cmadrem,.layout_right .cmaddis,.layout_left .cmaddis{
+  width: 100% !important;
+  padding:10px 0px;
+}
+.layout_right .caab_list,.layout_left .caab_list{
+padding: 0 10px;
+border-top-width:1px;
+border-top-style:solid;
+border-color:$theme_border_medium_color;
+display: block;
+}
+
+.layout_right .cmad_ad_clm .head,
+.layout_left .cmad_ad_clm .head{
+  border-bottom: 0 !important;
+}

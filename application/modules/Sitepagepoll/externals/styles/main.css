@@ -1,0 +1,102 @@
+.item_icon_sitepagepoll_detail, .icon_sitepagepoll_viewall, .item_icon_sitepagepoll_poll, .item_icon_sitepagepoll, .notification_type_sitepagepoll_create{
+	background-image: url(~/application/modules/Sitepage/externals/images/icons/sitepagepoll.png) !important;
+}
+/*common css for poll start hrer*/
+.sitepagepoll_view_single ul.sitepagepoll_options{
+  max-width: 500px;
+  clear: both;
+}
+.sitepagepoll_view_single ul.sitepagepoll_options > li{
+  margin: 12px 0px 12px 0px;
+  clear: both;
+  overflow: hidden;
+}
+.sitepagepoll_view_single .sitepagepoll_radio{
+  float: left;
+  width: 20px;
+  height: 18px;
+  overflow: hidden;
+}
+html[dir="rtl"] .sitepagepoll_view_single .sitepagepoll_radio{
+  float: right;
+}
+.sitepagepoll_view_single .sitepagepoll_radio > input{
+  display: block;
+  float: left;
+  margin-left: 1px;
+}
+html[dir="rtl"] .sitepagepoll_view_single .sitepagepoll_radio > input{
+  float: right;
+  margin-left: 0px;
+  margin-right: 1px;
+}
+.sitepagepoll_view_single .sitepagepoll_radio_loading{
+  float: left;
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+html[dir="rtl"] .sitepagepoll_view_single .sitepagepoll_radio_loading{
+  float: right;
+  background-position: right center;
+}
+.sitepagepoll_view_single .sitepagepoll_radio_loading input{
+  display: none;
+}
+.sitepagepoll_view_single .sitepagepoll_option{
+  margin-bottom: 3px;
+}
+.sitepagepoll_view_single .sitepagepoll_answer{
+  width: 10px;
+  height: 15px;
+  font-size: 1px;
+  float: left;
+  overflow: hidden;
+}
+html[dir="rtl"] .sitepagepoll_view_single .sitepagepoll_answer{
+  float: right;
+}
+.sitepagepoll_view_single .sitepagepoll_answer_total{
+  display: block;
+  height: 15px;
+  font-size: .7em;
+  width: 100px;
+  float: left;
+  padding: 2px 0px 0px 5px;
+}
+html[dir="rtl"] .sitepagepoll_view_single .sitepagepoll_answer_total{
+  float: right;
+  padding: 2px 5px 0px 0px;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-1{
+  background-color: #aaea4f;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-2{
+  background-color: #ea4f4f;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-3{
+  background-color: #4faaea;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-4{
+  background-color: #eaaa4f;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-5{
+  background-color: #4f5eea;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-6{
+  background-color: #4feabc;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-7{
+  background-color: #e54fea;
+}
+.sitepagepoll_view_single div.sitepagepoll-answer-8{
+  background-color: #eae84f;
+}
+.sitepagepoll_view_single .sitepagepoll_stats{
+  margin-top: 15px;
+}
+.sitepagepoll_view_single .sitepagepoll_stats > a{
+  font-weight: bold;
+}
+/*common css for sitepagepoll end here*/

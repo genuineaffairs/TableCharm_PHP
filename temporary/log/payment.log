@@ -1,0 +1,63 @@
+2014-01-10T00:47:59+00:00 DEBUG (7): Request:
+POST /nvp HTTP/1.1
+Accept: */*
+Host: api-3t.paypal.com
+Connection: close
+Accept-encoding: gzip, deflate
+User-Agent: Zend_Http_Client
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 180
+
+METHOD=BMButtonSearch&VERSION=65.0&USER=info_api1.myglobalsportlink.com&PWD=4ML9D38L4J5RPZZ2&SIGNATURE=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AU9H-EwD1l3BltgGeIDSvt1Y96Tl&STARTDATE=1389314878
+Response:
+HTTP/1.1 200 OK
+Date: Fri, 10 Jan 2014 00:47:59 GMT
+Server: Apache
+Content-length: 226
+Connection: close
+Content-type: text/plain; charset=utf-8
+
+TIMESTAMP=2014%2d01%2d10T00%3a47%3a59Z&CORRELATIONID=c849d0b57ca72&ACK=Failure&VERSION=65%2e0&BUILD=8620107&L_ERRORCODE0=10002&L_SHORTMESSAGE0=Restricted%20account&L_LONGMESSAGE0=Account%20is%20restricted&L_SEVERITYCODE0=Error
+
+2014-01-30T04:07:37+00:00 DEBUG (7): Request:
+POST /nvp HTTP/1.1
+Accept: */*
+Host: api-3t.paypal.com
+Connection: close
+Accept-encoding: gzip, deflate
+User-Agent: Zend_Http_Client
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 180
+
+METHOD=BMButtonSearch&VERSION=65.0&USER=info_api1.myglobalsportlink.com&PWD=4ML9D38L4J5RPZZ2&SIGNATURE=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AU9H-EwD1l3BltgGeIDSvt1Y96Tl&STARTDATE=1391054855
+Response:
+HTTP/1.1 200 OK
+Date: Thu, 30 Jan 2014 04:07:37 GMT
+Server: Apache
+Content-length: 246
+Connection: close
+Content-type: text/plain; charset=utf-8
+
+TIMESTAMP=2014%2d01%2d30T04%3a07%3a37Z&CORRELATIONID=67bf3e8ce2da&ACK=Failure&VERSION=65%2e0&BUILD=8620107&L_ERRORCODE0=11998&L_SHORTMESSAGE0=Invalid%20Argument&L_LONGMESSAGE0=The%20start%20date%20specified%20is%20invalid%2e&L_SEVERITYCODE0=Error
+
+2014-01-30T04:07:43+00:00 DEBUG (7): Request:
+POST /nvp HTTP/1.1
+Accept: */*
+Host: api-3t.paypal.com
+Connection: close
+Accept-encoding: gzip, deflate
+User-Agent: Zend_Http_Client
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 180
+
+METHOD=BMButtonSearch&VERSION=65.0&USER=info_api1.myglobalsportlink.com&PWD=4ML9D38L4J5RPZZ2&SIGNATURE=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AU9H-EwD1l3BltgGeIDSvt1Y96Tl&STARTDATE=1391054862
+Response:
+HTTP/1.1 200 OK
+Date: Thu, 30 Jan 2014 04:07:43 GMT
+Server: Apache
+Content-length: 247
+Connection: close
+Content-type: text/plain; charset=utf-8
+
+TIMESTAMP=2014%2d01%2d30T04%3a07%3a43Z&CORRELATIONID=5c810bfc2fd22&ACK=Failure&VERSION=65%2e0&BUILD=8620107&L_ERRORCODE0=11998&L_SHORTMESSAGE0=Invalid%20Argument&L_LONGMESSAGE0=The%20start%20date%20specified%20is%20invalid%2e&L_SEVERITYCODE0=Error
+

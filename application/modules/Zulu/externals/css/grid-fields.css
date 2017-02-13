@@ -1,0 +1,86 @@
+/* GRID FIELD */
+.zulu_admin_field_dependent_field_wrapper {
+  padding-left: 50px;
+  overflow: auto;
+  display: none;
+}
+.zulu_admin_field_dependent_field_wrapper ul {
+  list-style-type: circle;
+  padding-bottom: 5px;
+}
+.zulu_admin_field_dependent_field_wrapper ul b {
+  font-weight: bold;
+}
+.zulu_admin_field_dependent_field_wrapper ul li {
+  padding: 2px 0;
+}
+.zulu-grid-table {
+  margin-top: 5px;
+  border-collapse: collapse;
+}
+.zulu-grid-table td, .zulu-grid-table th {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+.zulu-grid-table textarea, .zulu-grid-table input.text {
+  width: 150px;
+}
+.zulu-grid-table textarea {
+  min-height: 0;
+}
+.normal-col {
+  max-width: 165px;
+  overflow: hidden;
+}
+.grid-type-description {
+  padding: 5px;
+}
+.normal-col span, .normal-col select {
+  display: block;
+  float: left
+}
+.normal-col span {
+  line-height: 27px;
+  padding-right: 5px;
+}
+#global_page_zulu-signup-index div.form-element,
+#global_page_zulu-edit-clinical div.form-element
+{
+  max-width: none;
+}
+.grid-field-value-wrapper {
+  padding-bottom: 5px;
+}
+.mockup-box {
+  background-color: #ff0000;
+  display: block;
+  position: fixed;
+  top: 20%;
+  left: 53%;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+}
+.grid-form-element select {
+  max-width: 150px;
+}
+#global_page_zulu-signup-index .global_form div.form-wrapper,
+#global_page_zulu-edit-clinical .global_form div.form-wrapper
+{
+  overflow: hidden;
+}
+.grid-form-element {
+  margin-bottom: 20px;
+  overflow: auto;
+}
+#global_page_zulu-signup-index .global_form .grid-form-element div.form-wrapper,
+#global_page_zulu-edit-clinical .global_form .grid-form-element div.form-wrapper
+{
+  overflow: visible;
+}
+.global_form .grid-form-element div.form-element {
+  margin-bottom: 0;
+}
+.global_form div>p.grid-type-description {
+  margin-bottom: 0;
+}

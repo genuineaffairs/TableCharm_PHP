@@ -1,0 +1,1 @@
+ALTER TABLE `engine4_communityad_package` CHANGE `price` `price` DECIMAL( 16, 2 ) NULL DEFAULT '0';

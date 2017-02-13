@@ -1,0 +1,28 @@
+.item_icon_sitepagedocument_document {
+	background-image: url(~/application/modules/Sitepage/externals/images/icons/sitepagedocument.png);
+}
+/*view page*/
+.sitepagedocuments_view{
+	text-align:center;
+}
+.sitepagedocuments_view h3{
+	text-align:center;
+	margin-bottom:5px !important;
+}
+.sitepagedocuments_view_date{
+	text-align:center;
+	color:$theme_font_color_light;
+}
+.sitepagedocuments_view .rating {
+	display: inline-block;
+}
+.sitepagedocuments_view_options{
+	display:none;
+}
+#global_page_sitepagedocument-index-view .comments {
+	width: auto;
+}
+.document_view_ipaper .scribd_iframe_embed,
+.sitepagedocument_ipaper embed{
+	width:98% !important;
+}

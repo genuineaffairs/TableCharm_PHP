@@ -1,0 +1,1442 @@
+{
+  "type": "module",
+  "name": "sitepagealbum",
+  "version": "4.7.1p1",
+  "revision": null,
+  "path": "application\/modules\/Sitepagealbum",
+  "repository": null,
+  "date": "Mon, 20 Jan 2014 12:44:54 +0000",
+  "title": "Directory \/ Pages - Photo Albums Extension",
+  "description": "Directory \/ Pages - Photo Albums Extension",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 20 Jan 2014 12:44:54 +0000",
+    "title": "Directory \/ Pages - Photo Albums Extension",
+    "description": "Directory \/ Pages - Photo Albums Extension",
+    "developer": null,
+    "authors": [
+      "<a href=\"http:\/\/www.socialengineaddons.com\" style=\"text-decoration:underline;\" target=\"_blank\">SocialEngineAddOns<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Sitepagealbum\/settings\/install.php",
+    "class": "Sitepagealbum_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Sitepagealbum": {
+      "type": "directory",
+      "path": "application\/modules\/Sitepagealbum",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 436,
+          "sha1": "9029f5e2f59de4f85c2cf8a1c4ed849760b8982e"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 17,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 2739,
+          "sha1": "5fda902765649cf81cb10b926686d342ad9ac308"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 36543,
+          "sha1": "a6b911298012403313a0df6648d441721576c6cf"
+        },
+        {
+          "path": "settings\/ my-upgrade-4.2.0-4.2.1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1378,
+          "sha1": "c2ed322eb01a71cdd36bc4d16e6f316fedbed620"
+        },
+        {
+          "path": "settings\/my-upgrade-4.2.6-4.2.9.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 476,
+          "sha1": "e3da4c604420d354e626a95051dc352cbcb738dc"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.8p3-4.2.0.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1070,
+          "sha1": "0c50e706fe9913990aee4ede8e71f16e5cb48994"
+        },
+        {
+          "path": "settings\/changelog.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1685,
+          "sha1": "3cce0aff959936f29e5b90a791ec5ba5fba707ca"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.6p1-4.1.6p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1535,
+          "sha1": "bb865afff175b1849fe4138240e82f606dedfc01"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 4037,
+          "sha1": "71a6421f693569ccc69c69e5540130f7bdcbf91f"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7p2-4.1.7p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 783,
+          "sha1": "099d8ab5dbb933d6659431dfa82bf1d34c4f29e7"
+        },
+        {
+          "path": "settings\/content_user.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5307,
+          "sha1": "099f709a9a7f97c6719622fd24adca1c0b20fe52"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.5p2-4.1.5p5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 325,
+          "sha1": "f5d98e328d62ea8571a229961ebb390d51ed89eb"
+        },
+        {
+          "path": "settings\/sitemobile",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "settings\/sitemobile\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2976,
+          "sha1": "805055b89000e833939afdb90790a84c4f3410a5"
+        },
+        {
+          "path": "settings\/sitemobile\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4735,
+          "sha1": "af5a35210a6630a075b2d4b3fd89ef0df86d856e"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.5-4.1.5p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 122,
+          "sha1": "c3ee102d5111059eb130a161271c6bf6e015bdc0"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0755",
+          "size": 42445,
+          "sha1": "a666b60b5b35c47ebbdda1a887be81704779d9e2"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 11,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminLevelController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2289,
+          "sha1": "84c649ff730e5d8fd4b057ae0c982655c166bc31"
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4944,
+          "sha1": "068a9d7c3f3f5ef9cf36f0b2f467ae1f1d3dd7d2"
+        },
+        {
+          "path": "controllers\/AdminPhotoController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7546,
+          "sha1": "c5e79ce82df4918d84312066e96b631cc0b02dab"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7575,
+          "sha1": "d2398a10d6e5addc4387b2b384f8cc668bf61726"
+        },
+        {
+          "path": "controllers\/AdminAlbumController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 9725,
+          "sha1": "9540777d17e94bd112a1324eded14e50cd36ce3e"
+        },
+        {
+          "path": "controllers\/AdminWidgetsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1284,
+          "sha1": "66fb9028605e09ee2600394932ac846ab5540912"
+        },
+        {
+          "path": "controllers\/MobiController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2434,
+          "sha1": "5f9f0c986ea677db8e20e23220921ada9e036750"
+        },
+        {
+          "path": "controllers\/license",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 9,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/license\/widgetSettings.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 30916,
+          "sha1": "a499b84c3301e59b24fdf1695bb852a3d7bfe7ec"
+        },
+        {
+          "path": "controllers\/license\/README.txt",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 456,
+          "sha1": "0ae94f034c0d2d2010470a40e64e3bd5eeb5e0bd"
+        },
+        {
+          "path": "controllers\/license\/license1.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 36899,
+          "sha1": "4643221d3e82a7ecdd915552fba9c8ac890005c7"
+        },
+        {
+          "path": "controllers\/license\/mobileLayoutCreation.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2571,
+          "sha1": "07ff09e38be3a640de207240aa8676b2b6d8db13"
+        },
+        {
+          "path": "controllers\/license\/license2.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7259,
+          "sha1": "a316f53b9b10d69fcc39c2c44498f8e5c3375ceb"
+        },
+        {
+          "path": "controllers\/license\/license.html",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7313,
+          "sha1": "5efb045359eabf0a3ff8dfb8d4ea340a8738e95e"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8491,
+          "sha1": "bc70849b8ee2d3653f2ed7891c70d447b0921778"
+        },
+        {
+          "path": "externals\/styles\/style_sitepagealbum.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 9153,
+          "sha1": "ac5998e1a8aa2c7baf5a0e13c39f6e2378b5d300"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 552,
+          "sha1": "d0e2ac0c3f01b7f39c3e7f4ebcc7aeb8c02fdaf6"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 8,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3219,
+          "sha1": "621e4b1db38bc9c631f4492380f43959b6d394da"
+        },
+        {
+          "path": "externals\/scripts\/slideitmoo-1.1_full_source.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 14643,
+          "sha1": "8c53a3abc32b3a4523d19c23400adca525feeab0"
+        },
+        {
+          "path": "externals\/scripts\/composer_photo.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7148,
+          "sha1": "fbd835c82666e4887f29c31c65ef7a5c53605421"
+        },
+        {
+          "path": "externals\/scripts\/sitemobile",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/sitemobile\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2187,
+          "sha1": "cb0d4cd3bb97c5bcc22a12d825aee4359cd53845"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 13,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/loader.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 404,
+          "sha1": "d5f3b09999556ecb5da33466f4233d1d31b885d0"
+        },
+        {
+          "path": "externals\/images\/rotate_ccw.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 608,
+          "sha1": "49616ee556ab6919952b8da2b37fed640faa22e1"
+        },
+        {
+          "path": "externals\/images\/enabled0.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1018,
+          "sha1": "8f57c40b6a771c8695d412ca34beac2d46a7d22d"
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/flip_vertical.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 669,
+          "sha1": "ff907e69ab622d86680688c67ac2c688145644ed"
+        },
+        {
+          "path": "externals\/images\/rotate_cw.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 602,
+          "sha1": "9ebb50d335cd87e13bb64207eae94f8642ca1040"
+        },
+        {
+          "path": "externals\/images\/flip_horizontal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 625,
+          "sha1": "aef2ebca3d00bd338102c8ba91b4cc1836af5d69"
+        },
+        {
+          "path": "externals\/images\/enabled1.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1012,
+          "sha1": "5c19528232d7dca4d2eb8eb55064f6d4bdcc3e69"
+        },
+        {
+          "path": "externals\/images\/sitepagealbum_goldmedal1.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 499,
+          "sha1": "bf7ffa625cb2a1a990d792bd3fb42bd6d1e85cf6"
+        },
+        {
+          "path": "externals\/images\/sitepagealbum_goldmedal0.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 567,
+          "sha1": "ad234dcdd0a9e13200acb8681e1cec70d6a8a933"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 21,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-albums",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-albums\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2296,
+          "sha1": "91d139afe0dee673604cdca533dbb3a23bff4606"
+        },
+        {
+          "path": "widgets\/featured-albums\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2547,
+          "sha1": "6f31c79e0e516fc4efe046442a260a1ebde560d7"
+        },
+        {
+          "path": "widgets\/popularphotos-sitepagealbum",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/popularphotos-sitepagealbum\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 760,
+          "sha1": "152a9234e36aceaf4eacafda30cf07fe2476d7f7"
+        },
+        {
+          "path": "widgets\/popularphotos-sitepagealbum\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1652,
+          "sha1": "bf942dafd1d0398756778c60277d23c56332e898"
+        },
+        {
+          "path": "widgets\/album-content",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/album-content\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7286,
+          "sha1": "5956beacf74c973c8a53b8b9411078d4bda9645b"
+        },
+        {
+          "path": "widgets\/album-content\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 12468,
+          "sha1": "5aa33a59d6a10c1ae459166868bcd9d27891974d"
+        },
+        {
+          "path": "widgets\/album-content\/sitemobile",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/album-content\/sitemobile\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4055,
+          "sha1": "8b59d8942b2afbafd723584c097c52a0fb4e9186"
+        },
+        {
+          "path": "widgets\/search-sitepagealbum",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/search-sitepagealbum\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 10335,
+          "sha1": "2b5287063a1f30631c15c2f6666e318395618d57"
+        },
+        {
+          "path": "widgets\/search-sitepagealbum\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 6617,
+          "sha1": "c09a6a4678ceff8a93693847eb9b19fa9822394e"
+        },
+        {
+          "path": "widgets\/album-of-the-day",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/album-of-the-day\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2207,
+          "sha1": "3b6e0ab6ce29cc1d308ea8007b401f28aa236f76"
+        },
+        {
+          "path": "widgets\/album-of-the-day\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 652,
+          "sha1": "d0e4db3ba2d20ade3e96cde7cec22b4fb1ab1150"
+        },
+        {
+          "path": "widgets\/list-albums-tabs-view",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/list-albums-tabs-view\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3813,
+          "sha1": "5560c1a9758eee850671c9fce77998ddf722d42f"
+        },
+        {
+          "path": "widgets\/list-albums-tabs-view\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 9100,
+          "sha1": "27520dc668438363fa1d1ff8628bf53689870395"
+        },
+        {
+          "path": "widgets\/homephotocomment-sitepage",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/homephotocomment-sitepage\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1467,
+          "sha1": "651ee954aac91608f20b1132b60d523240cb8742"
+        },
+        {
+          "path": "widgets\/homephotocomment-sitepage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 896,
+          "sha1": "32d4779cb7be68a1ee6ef01f644d4d2d75f1707e"
+        },
+        {
+          "path": "widgets\/homephotolike-sitepage",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/homephotolike-sitepage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 888,
+          "sha1": "c1c737c7040635223dedfa7fd8ddbefba8322af5"
+        },
+        {
+          "path": "widgets\/homephotolike-sitepage\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1429,
+          "sha1": "d810c7dd2bfb1175d0a1dfa859a66e8b38234459"
+        },
+        {
+          "path": "widgets\/sitepage-album",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sitepage-album\/sitemobile",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sitepage-album\/sitemobile\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2114,
+          "sha1": "39365ec71fe41f0ea7cb4c92166899c0b267655d"
+        },
+        {
+          "path": "widgets\/sitepage-album\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4287,
+          "sha1": "781d28e44020a4cfaa2c44a31185c2c4a87c410c"
+        },
+        {
+          "path": "widgets\/sitepage-album\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4116,
+          "sha1": "b5000c36795b25b291612b8ad775a3bd9420d6a6"
+        },
+        {
+          "path": "widgets\/sitepagealbumlist-link",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sitepagealbumlist-link\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 480,
+          "sha1": "f8de11d7acef8fffc60905189e773d4c6323cb5a"
+        },
+        {
+          "path": "widgets\/sitepagealbumlist-link\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 690,
+          "sha1": "f667c66f5b0e0a66e188d07a7d9d1958f645c8f8"
+        },
+        {
+          "path": "widgets\/list-popular-albums",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/list-popular-albums\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2835,
+          "sha1": "2dadf6b1f466dcdd6e350df02bef4b6c8c4e919a"
+        },
+        {
+          "path": "widgets\/list-popular-albums\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2793,
+          "sha1": "25ab7e3375d07e3ebaa8d4c1cebde25131e3c2af"
+        },
+        {
+          "path": "widgets\/featured-albums-slideshow",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-albums-slideshow\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 10269,
+          "sha1": "2bc980fe5b779813eb7f891171a43695a355d340"
+        },
+        {
+          "path": "widgets\/featured-albums-slideshow\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2265,
+          "sha1": "82254e7024695c967ec4c4f9f694bb78d108630e"
+        },
+        {
+          "path": "widgets\/sitepage-sponsoredalbum",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sitepage-sponsoredalbum\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2598,
+          "sha1": "c0c8995e82ca68839746cb0dc44fe602f8458e02"
+        },
+        {
+          "path": "widgets\/sitepage-sponsoredalbum\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1089,
+          "sha1": "68696863c0937d7599c120fee0d1b00e5fe9ae4d"
+        },
+        {
+          "path": "widgets\/topcreators-sitepagealbum",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/topcreators-sitepagealbum\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 853,
+          "sha1": "cba768d925d603fbb9b4b648cda5f8c7bc696bbf"
+        },
+        {
+          "path": "widgets\/topcreators-sitepagealbum\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2187,
+          "sha1": "957ec971b76763e0f475ae887abe4de107cadd56"
+        },
+        {
+          "path": "widgets\/photo-of-the-day",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/photo-of-the-day\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2845,
+          "sha1": "18921877e6d0b057e38a9426af07c273ddbeea09"
+        },
+        {
+          "path": "widgets\/photo-of-the-day\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 941,
+          "sha1": "7e49fe55663654c24a7331bdf9e2adcee352c719"
+        },
+        {
+          "path": "widgets\/featured-photos",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-photos\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2730,
+          "sha1": "dd041ad17fe4506051d672e8dac2dd090194023d"
+        },
+        {
+          "path": "widgets\/featured-photos\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2906,
+          "sha1": "5d859a8a0c9bbf971393ffa30aa9994c930811dc"
+        },
+        {
+          "path": "widgets\/list-photos-tabs-view",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/list-photos-tabs-view\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4942,
+          "sha1": "3dd08c21dea8e1e5195867822cab74ed06491883"
+        },
+        {
+          "path": "widgets\/list-photos-tabs-view\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8897,
+          "sha1": "9327e3106f64cbedd7e57a213fff80f95777826c"
+        },
+        {
+          "path": "widgets\/featured-photos-carousel",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 5,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-photos-carousel\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 10365,
+          "sha1": "21eda80c16f13f89820ec70d28bde7b9166f31a4"
+        },
+        {
+          "path": "widgets\/featured-photos-carousel\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1865,
+          "sha1": "1b12ecaf1b371674c9ccd196b58109dec964c0e6"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Searchwidget.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8715,
+          "sha1": "191096244f56aebe02e5327f8b3e2398da9eb497"
+        },
+        {
+          "path": "Form\/ItemOfDayday.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2161,
+          "sha1": "604c43d07aecc39261d1c8d70e84a460724644dd"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 10,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/FeaturedAlbum.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1784,
+          "sha1": "4a40bbb044d2f892fd7102d5b3eca06f7686db0e"
+        },
+        {
+          "path": "Form\/Admin\/Settings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Level.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1728,
+          "sha1": "5ec012e1a2c988fff8af14dea14ceffec2e96c19"
+        },
+        {
+          "path": "Form\/Admin\/Widget.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4545,
+          "sha1": "3fef59d441820de45f6d57f65bc3111e8ac58488"
+        },
+        {
+          "path": "Form\/Admin\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7923,
+          "sha1": "c088f9aaf2f8fb0f17957d5438d5de8c67a54e35"
+        },
+        {
+          "path": "Form\/Admin\/EditTab.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2159,
+          "sha1": "813ad7584a23cbde5d77d5d9937792f8d0b5a5cf"
+        },
+        {
+          "path": "Form\/Admin\/Manage",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage\/Filter.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 849,
+          "sha1": "21c4339e4e99088ea7cdb612f29cc06e6b1ff58f"
+        },
+        {
+          "path": "Form\/Admin\/ItemOfDayday.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2506,
+          "sha1": "52e381dc7ef9b8848b954add221c744c0ea8851f"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 6,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 11476,
+          "sha1": "e169d559048572d26fde68979ac7f861b408be50"
+        },
+        {
+          "path": "Plugin\/Sitemobile.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 10423,
+          "sha1": "b25e7a3b05c5a724b72f4a13d72a79de99d99d22"
+        },
+        {
+          "path": "Plugin\/Composer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1144,
+          "sha1": "5c03814cb6f84e36e208697ac1ef80d25bff7ad8"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4708,
+          "sha1": "2699197656b8c4ed9b5a122baf4f79e6afc57c74"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 10,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-photo",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 8,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-photo\/deletephoto.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1116,
+          "sha1": "2ef26d990631b12b43394249750712c57655767a"
+        },
+        {
+          "path": "views\/scripts\/admin-photo\/photo-of-day.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7768,
+          "sha1": "9d1901eaf33bbdca6e1ef4e6b4baf6563f43c115"
+        },
+        {
+          "path": "views\/scripts\/admin-photo\/edit-tab.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 427,
+          "sha1": "d6801731d29e45155efa437e563a74a8f1e3781a"
+        },
+        {
+          "path": "views\/scripts\/admin-photo\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5377,
+          "sha1": "44d21353cf4046feae933ecd26d5ded255c7e51a"
+        },
+        {
+          "path": "views\/scripts\/admin-photo\/add-photo-of-day.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4300,
+          "sha1": "242de99279b4f0ccd97cd1f01b94e1a55f5ef0f7"
+        },
+        {
+          "path": "views\/scripts\/admin-level",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-level\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1084,
+          "sha1": "8e9ff0bd2e0b6bd2f174797230695d5bfde94728"
+        },
+        {
+          "path": "views\/scripts\/admin-widgets",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 4,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-widgets\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1183,
+          "sha1": "216eb94b18b9b307dac556c488bde35bb1b08f14"
+        },
+        {
+          "path": "views\/scripts\/admin-album",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 8,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-album\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5380,
+          "sha1": "28278731d83639239357ea609f44ce6cffddc797"
+        },
+        {
+          "path": "views\/scripts\/admin-album\/edit-tab.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 427,
+          "sha1": "d6801731d29e45155efa437e563a74a8f1e3781a"
+        },
+        {
+          "path": "views\/scripts\/admin-album\/manage-day-items.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7232,
+          "sha1": "74dfc669fbbfe940eca4b1d2b97698b620f4da7d"
+        },
+        {
+          "path": "views\/scripts\/admin-album\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1116,
+          "sha1": "500e614db509e26b4e9431ec1fdd0cf05c760faa"
+        },
+        {
+          "path": "views\/scripts\/admin-album\/add-album-of-day.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4313,
+          "sha1": "e07e33b3c9daba83ffda588ff5fa1be73f9d40bf"
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 7,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/deleteselected.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1715,
+          "sha1": "775248a3b9d51a453f03ecd4950cd023b5fcd9fa"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1463,
+          "sha1": "362bb6b822b0899fdc8aa9640db421c85153817c"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/multi-delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1715,
+          "sha1": "775248a3b9d51a453f03ecd4950cd023b5fcd9fa"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 9866,
+          "sha1": "96dbee036cc62eed908c19331ef7d9315be74328"
+        },
+        {
+          "path": "views\/scripts\/_composeSitepagePhoto.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4508,
+          "sha1": "48cc06556ccb527c7f0df0b1e34c8dbb25fd09bf"
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "2777",
+          "size": 11,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/featured.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5020,
+          "sha1": "eeff20342bb4e7162696aafbb35e0a2077f5ee80"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/faq_help.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 6920,
+          "sha1": "edc3e5e0193b9e1ed367b5cab857433f7087c7a3"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/form.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 530,
+          "sha1": "e1dff4ad2b1e060fa04010f74672e3330b44838f"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1924,
+          "sha1": "0cb215d7b3e739a2793f469b567825348cd7f1dc"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/un-featured.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1097,
+          "sha1": "030c00063e6a0702c9570106988ff6d750293ce3"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/add-featured.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2048,
+          "sha1": "aba6954f7f05e96923eb610d57f09c3786c299b3"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/readme.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1210,
+          "sha1": "51f287ac087eab874ab1f26a40bf6e94cc0c8a55"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/faq.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 811,
+          "sha1": "173a035c9d1850ddd41c0f9115bfe82c3f90b677"
+        }
+      ]
+    },
+    "application\/languages\/en\/sitepagealbum.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/sitepagealbum.csv",
+      "structure": {
+        "path": "sitepagealbum.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0777",
+        "size": 22887,
+        "sha1": "36b7c72f7f7bf5ba24189d2cf02d51e005db2ed4"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/* 
+    Created on : May 7, 2014, 10:18:36 AM
+    Author     : abakivn
+*/
+
+.layout_core_menu_main .navigation li a.core_main_zulu {
+  background-image: url(../images/zulu.png);
+  background-repeat: no-repeat;
+  width: 65px;
+}
+.special_hidden_fields {
+  display: none;
+}
+.layout_mgsl_user_profile_summary .profile-picture-container {
+  min-height: 70px;
+}
+.custom_label {
+  font-size: .9em;
+  color: rgb(119, 119, 119);
+  font-weight: 700;
+  min-width: 60px;
+  display:inline-block;
+}
+.zulu_small_icon {
+  margin-top: 7px;
+}
+.zulu_icon_wrapper {
+  float: left;
+  margin-top: 5px;
+  padding-left: 4px;
+}
+.zulu_icon_wrapper img {
+  vertical-align: middle;
+}
+#signup_form .form-elements {
+  margin-top: 8px;
+}
+#signup_form h3 {
+  margin-bottom: 0;
+}

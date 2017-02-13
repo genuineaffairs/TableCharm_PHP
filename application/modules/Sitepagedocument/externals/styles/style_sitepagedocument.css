@@ -1,0 +1,287 @@
+ /* $Id: style_sitepagedocument.css 2011-05-05 9:40:21Z SocialEngineAddOns Copyright 2010-2011 BigStep Technologies Pvt. Ltd. $ */
+ /* ACTION TYPE ICONS */
+.icon_sitepagedocument_back {
+	background-image: url(../images/back16.gif);
+}
+.icon_sitepagedocument_download {
+	background-image: url(../images/sitepagedocument_download.gif);
+}
+.icon_sitepagedocuments_email {
+	background-image: url(../images/sitepagedocument_email.gif);
+}
+/*
+	COMPOSE Sitepagedocument Detail
+	Styles the compose sitepagedocument form.
+*/
+#form-upload-sitepagedocument div.form-label {
+	float: none;
+	text-align: left;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	width:auto;
+}
+#form-upload-sitepagedocument #search-label {
+	display:none;
+}
+#filename-element input + p {
+	font-size:10pt;
+}
+/* LIGHTBOX  */
+div.sitepagedocuments_popup {
+	padding:10px;
+}
+div.sitepagedocuments_popup p {
+	clear:both;
+	margin:5px 0;
+}
+div.sitepagedocuments_popup label {
+	float:left;
+	text-align:right;
+	margin-right:10px;
+	width:70px;
+}
+div.sitepagedocuments_popup p textarea {
+	width: 350px !important;
+}
+.white_content{
+	display: none;	
+	position: fixed;
+	left: 40%;
+	width: 30%;
+	top:25%;
+	padding:30px 16px;
+	border:4px solid #525252;
+	background-color: #fff;	
+	z-index:1002;	
+	overflow: auto;	
+	text-align:center;
+}
+.black_overlay{	
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+.layout_sitepagedocument_search_sitepagedocuments div#filter_form {
+	padding:13px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.layout_sitepagedocument_search_sitepagedocuments .global_form_box {
+	background-color:none;
+	background-image:none;
+	background-repeat:no-repeat;
+	border:none;
+	padding:0;
+	width:auto;
+}
+.layout_sitepagedocument_search_sitepagedocuments input[type="text"], .layout_sitepagedocument_search_sitepagedocuments .global_form_box select {
+	max-width:145px;
+}
+.sitepagedocument_form .sitepagedocument_show_tooltip{
+	display: none;
+	position: absolute;
+	background: #222;
+	color: #fff;
+	text-align: left;
+	padding: 5px;
+	width: 200px;
+	font-size: .8em;
+	margin-top: -25px;
+	margin-left: -35px;
+	-moz-box-shadow:3px 3px 3px #bcbcbc;
+	-webkit-box-shadow:3px 3px 3px #bcbcbc;
+	box-shadow: 3px 3px 3px #bcbcbc;
+}
+.sitepagedocument_form .sitepagedocument_show_tooltip_wrapper:hover .sitepagedocument_show_tooltip{
+	display: block;
+}
+.sitepagedocument_form #filename-element input + p,
+.sitepagedocument_form .global_form p.null{
+	font-size:11px;
+}
+.sitepagedocument_form .global_form div.form-element {
+	max-width: 700px;
+}
+.defaultSkin iframe {
+	height:300px !important;
+	width: 650px !important;
+}
+p.description {
+	font-size: 11px !important;
+}	
+/*Sitepagedocument View*/
+.sitepagedocument_rating{
+	border-width:1px;
+	float:right;
+	text-align:center;
+	width:200px;
+	position:relative;
+	overflow:visible;
+	padding:5px;
+	height:30px;
+}
+html[dir="rtl"] .sitepagedocument_rating{
+	float:left;
+	text-align:center;
+}
+.sitepagedocument_rating .rating_star_big_generic{
+	float:none;
+}
+html[dir="rtl"] .sitepagedocument_rating .rating_star_big_generic{
+	float:none;
+}
+.sitepagedocument_rating .rating_text {
+	float: none;
+	left: 0;
+	line-height: 0.8em;
+	margin:0 5px;
+	position: absolute;
+	top: 20px;
+	width: 200px;
+}
+html[dir="rtl"] .sitepagedocument_rating .rating_text{
+	float: none;
+	right: 0;
+	line-height: 0.8em;
+}
+ul.sitepagedocuments_view {
+	overflow:hidden;
+	padding-top: 10px;
+	border-top-width: 1px;
+}
+ul.sitepagedocuments_view > li {
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	margin-bottom: 10px
+}
+ul.sitepagedocuments_view > li .sitepagedocument_title h3 {
+	margin-bottom: 1px;
+	float:left;
+}
+ul.sitepagedocuments_view > li .sitepagedocument_title span {
+	float:right;
+}
+ul.sitepagedocuments_view .sitepagedocuments_view_date {
+	font-size: 8pt;
+	margin-bottom: 5px;
+}
+ul.sitepagedocuments_view .sitepagedocuments_view_body {
+	line-height: 1.5em;
+	padding: 5px 5px 5px 0px;
+	clear:both;
+}
+ul.sitepagedocuments_view .sitepagedocuments_view_body img {
+	max-width: 100%;
+}
+ul.sitepagedocuments_view .sitepagedocuments_view_body + .buttonlink {
+	margin-top: 5px;
+}
+ul.sitepagedocuments_entrylist + .comments {
+	padding-top: 10px;
+}
+.sitepagedocuments_gutter_photo {
+	padding: 7px;
+	overflow: hidden;
+	text-align:center;
+	margin-bottom:15px;
+}
+.sitepagedocuments_gutter_photo > a {
+	padding:0px;
+	margin:0px;
+}
+.sitepagedocuments_gutter_photo img {
+	width: 99%;
+	margin: 0px auto 0px auto;
+}
+.sitepagedocuments_gutter_name {
+	display: block;
+	margin: 5px;
+	font-size:17px;
+}
+.sitepagedocument_options {
+	margin:15px 0;
+	clear:both;
+}
+div.sitepagedocuments_gutter .buttonlink {
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+div.sitepagedocuments_gutter h4 {
+	margin: 20px 0px 5px 0px;
+	text-transform: uppercase;
+}
+div.sitepagedocuments_gutter > ul > li {
+	margin-bottom: 2px;
+}
+ul.sitepagedocuments_gutter_options {
+	margin-bottom:15px;
+}
+div.sitepagedocuments_gutter ul.sitepagedocuments_gutter_options > li {
+	font-size: .8em;
+	margin: 3px 0px 3px 0px;
+}
+.sitepagedocument_ipaper {
+	margin-top:15px;
+ *margin-top:0px;
+}
+div.sitepagedocuments_view_options {
+	clear:both;
+	margin-top:5px;
+}
+div.sitepagedocuments_view_options p {
+	margin:5px 0;
+	width:100%;
+	float:left;
+	clear:both;
+}
+span.sitepagedocuments_license {
+	width:700px;
+	font-size:11px;
+	text-align:right;
+	float:right;
+	padding:5px 0 0 0;
+	display:inline;
+}
+img.photo {
+	border-width:1px;
+}
+.sitepagedocument_alert_box {
+	background:#FFEAAE none repeat scroll 0 0;
+	border:1px solid #F6DC93;
+	color:#000000;
+	font-size:12px;
+	padding:5px;
+	margin:15px 0;
+}
+.sitepagedocument_alert_box img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.button {
+	padding: 5px;
+	font-weight: bold;
+	border: none;
+	background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+	background-repeat: repeat-x;
+	background-position: 0px 1px;
+}
+.sitepagedocuments_view_body ol{
+	margin-left:20px;
+}
+.sitepagedocuments_view_body ul{
+	margin-left:20px;
+	list-style-type:disc;
+}
+.sitepagedocument_fblike_button{
+	margin-bottom:3px;
+}
+/*Sitepage Document Create Page*/

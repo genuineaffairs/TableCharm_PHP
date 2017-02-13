@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'Vegur';
+  src: local('Vegur'), url(../fonts/Vegur-R_0.602.otf);
+}
+.wrapper_padding {
+  padding: 12px !important;
+}
+.wrapper_padding.no_top {
+  padding-top: 0 !important;
+}
+.padding_top_medium {
+  padding-top: 20px !important;
+}
+.padding_bottom_small {
+  padding-bottom: 12px !important;
+}
+.clear {
+  clear: both;
+}
+.overflow_hidden {
+  overflow: hidden;
+}
+.global_form>div {
+  box-shadow: none;
+}
+div.resume_sections_child_title {
+  font-weight: normal;
+}
+.small_header {
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold !important;
+}
+.nobold {
+  font-weight: normal !important;
+}
+.layout_resume_profile_messages .global_form div.form-element {
+  max-width: 425px;
+}
+.layout_resume_profile_messages .global_form div.form-label {
+  width: 140px;
+}
+.layout_resume_profile_messages .global_form>div>div>h3+p {
+  max-width: 720px;
+}
+.textfield_wrapper {
+  padding-top: 3px;
+}
+.textfield_wrapper .label {
+  color: #777;
+  font-weight: bold;
+}
+#main_tabs>li.tab_layout_resume_profile_messages {
+  /*  border: 3px solid #FF0000;
+    height: 25px;*/
+}
+#main_tabs>li.tab_layout_resume_profile_messages>a {
+  background: #DD0000;
+  border: none;
+  color: #FFF;
+  text-shadow: 0 1px 0 #565656;
+}
+.label {
+  font-weight: bold;
+}
+ul.resume_profile_body_section_children>li {
+  overflow: hidden;
+}
+div.resume_profile_body_section_title {
+  border: none;
+  font-size: 1em;
+  padding: 0 10px;
+  line-height: 29px;
+  background: url(/application/themes/mgsl/images/heading_bg_dark.png?c=257) #ECEBEB repeat-x top;
+  color: #fff;
+  text-shadow: 0 1px 0 #4C5153;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.resume_summary_participation_level {
+  padding-left: 10px;
+  overflow: hidden;
+}
+.resume_summary_participation_level span {
+  margin-right: 15px;
+  display: block;
+  float: left;
+}
+.resume_summary_topfields {
+  padding-left: 10px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.resume_summary_topfields span {
+  margin-right: 15px;
+  display: block;
+  float: left;
+}
+.layout_resume_profile_title {
+  margin: 10px;
+}
+.resume_profile_title {
+  background-color: #606060;
+  padding: 10px;
+}
+.resume_profile_title a {
+  color: #c2c2c2;
+}
+.resume_profile_title h3 {
+  font-family: Vegur,arial,helvetica,verdana,sans-serif;
+  color: #B7E732;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  padding: 10px 0;
+}
+div.resume_profile_title .resume_description, div.resume_profile_title .resume_meta {
+  color: #fff;
+  text-align: center;
+}
+#resume_section_contact {
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #C2C2C2;
+}
+div.resume_profile_screen_container, div.resume_profile_details {
+  border: 3px solid #4C5153;
+}
+.layout_resume_profile_details {
+  margin-bottom: 0;
+}
+.profile_fields>ul>li>span, .resume_summary_participation_level span, .resume_summary_topfields span {
+  width: 300px;
+}
+.profile_fields>ul>li>span+span, .resume_summary_participation_level span+span, .resume_summary_topfields span+span {
+  width: 300px;
+}
+.resume_body_education_details {
+  font-style: normal;
+  font-size: 13px;
+}
+.resume_body_education_school {
+  font-size: 13px;
+}
+.profile_fields>ul {
+  padding-top: 8px;
+}
+.padding_bottom_medium {
+  padding-bottom: 20px;
+}
+.layout_folder_profile_folders .folder_profile_folders {
+  max-width: none;
+}
+.layout_folder_profile_folders, .layout_resume_profile_photos {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.layout_folder_profile_files, .layout_folder_browse_folders {
+  margin-bottom: 0;
+}
+.layout_folder_browse_folders .inner_wrapper {
+  padding: 12px;
+}
+div.resume_profile_screen_container.zulu_app {
+  border: none;
+}
+.resume_profile_body.zulu_app #resume_section_contact {
+  border: none;
+  width: auto;
+  text-align: center;
+}
+.resume_profile_body.zulu_app .resume_section_contact_name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.resume_profile_body.zulu_app .resume_profile_body_section_description>p {
+  padding: 0 10px;
+}
+.resume_profile_body.zulu_app .resume_profile_body_section_description table {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: auto;
+}
+.resume_profile_body.zulu_app ul {
+  padding-left: 10px;
+}
+.resume_profile_body.zulu_app .resume_body_education_description p {
+  margin-top: 5px;
+}
+.resume_profile_body.zulu_app .resume_body_education_school, .resume_profile_body.zulu_app .resume_body_education_details {
+  font-size: 14px;
+}
+.resume_profile_body.zulu_app .resume_body_employment_company {
+  font-weight: bold;
+}
+.resume_profile_body.zulu_app .resume_profile_body_section_children_employment li+li, 
+.resume_profile_body.zulu_app .resume_profile_body_section_children_education li+li,
+.resume_profile_body.zulu_app .resume_profile_body_section_children_sportinghistory li+li,
+.resume_profile_body.zulu_app .resume_profile_body_section_children_award li+li {
+  margin-top: 15px;
+}
+.resume_count {
+  margin-left: 10px;
+}

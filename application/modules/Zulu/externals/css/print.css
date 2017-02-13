@@ -1,0 +1,226 @@
+html
+{
+
+}
+body
+{
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  margin: 10px;
+  font-weight: bold;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: tahoma,arial,verdana,sans-serif;
+}
+table
+{
+  border-collapse: collapse;
+}
+br
+{
+  clear: both;
+}
+ul
+{
+  list-style-type: none;
+}
+
+*[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+div,
+td
+{
+  font-size: 13px;
+  color: #000;
+  text-align: left;
+}
+*[dir="rtl"] div,
+*[dir="rtl"] td {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+}
+td, th {
+  border: 1px solid #000;
+  padding: 2px 5px;
+  min-width: 50px;
+  font-weight: normal;
+  min-height: 21px;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+.form-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.form-logo {
+  text-align: center;
+  padding-top: 10px;
+}
+.form-header {
+  text-align: center;
+  padding: 15px 0;
+}
+.answer {
+  border-bottom: 1px solid #000;
+  min-width: 195px;
+  padding-left: 5px;
+}
+span {
+  display: block;
+  float: left;
+}
+p {
+  overflow: hidden;
+}
+.mbot15 {
+  margin-bottom: 15px;
+}
+.mbot_big_gap {
+  margin-bottom: 20px;
+}
+.underline {
+  text-decoration: underline;
+}
+.italic {
+  font-style: italic;
+}
+.fontweightnormal {
+  font-weight: normal;
+}
+.fontweightbold {
+  font-weight: bold;
+}
+table {
+  empty-cells: show;
+  width: 100%;
+  font-weight: normal;
+  word-break: break-word;
+}
+.answer.bigwidth {
+  width: 550px;
+}
+td.mediumwidth {
+  width: 30px;
+}
+
+/* GENERIC FORM */
+.generic .form-header {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.generic .label {
+  border-bottom: 1px solid #fff;
+  padding-right: 5px;
+}
+.generic .answer.bigwidth {
+  padding-left: 0;
+  float: none;
+  width: auto;
+}
+h3.medical_record_heading_print {
+  height: 65px;
+  margin-top: 0;
+  background: #606060;
+  -webkit-print-color-adjust:exact;
+}
+.section_heading {
+  border: none;
+  font-size: 1em;
+  padding: 0 10px;
+  line-height: 29px;
+  background: url(/application/themes/mgsl/images/heading_bg_dark.png?c=257) #ECEBEB repeat-x top;
+  color: #fff;
+  text-shadow: 0 1px 0 #4C5153;
+  border-top: 1px solid #DEDEDE;
+  height: 30px;
+  -webkit-print-color-adjust:exact;
+}
+table th {
+  font-weight: bold;
+}
+td.bigwidth {
+  width: 60%;
+}
+#printButtons label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #777;
+  font-size: .9em;
+}
+.link_button {
+  border: none;
+  border-bottom: 1px solid #094B09;
+  padding: 5px 7px;
+  line-height: 14px;
+  font-weight: 700;
+  background-color: #40613B;
+  color: #fff;
+  background-image: url(/application/themes/mgsl/images/button_bg.png?c=220);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  margin: 4px 1px 10px 0;
+  display: block;
+  float: left;
+}
+.link_button:hover {
+  background-color: #40613B;
+  background-image: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+#printButtons {
+  width: 586px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid #d7e8f1;
+}
+#printButtons * {
+  font-family: arial, verdana, sans-serif;
+}
+#printButtons select {
+  padding: 1px 1px 1px 0;
+  max-width: 250px;
+  border-radius: 0px;
+  border: 1px solid rgb(169, 169, 169);
+  margin-bottom: 5px;
+}
+@media print {
+  #printButtons {
+    display: none;
+  }
+}
+div.display_group {
+  page-break-inside: avoid;
+  -webkit-region-break-inside: avoid; 
+}
+a.link_button+a.link_button {
+  margin-left: 10px;
+}
+div.medications table td:last-child {
+  min-width: 80px;
+}
+div.allergies table .label {
+  font-weight: bold;
+}
+.dark-background {
+  position: relative;
+}
+.dark-background h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

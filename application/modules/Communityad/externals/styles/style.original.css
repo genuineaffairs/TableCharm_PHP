@@ -1,0 +1,76 @@
+ .floatl
+ {
+   float:left;
+}
+
+.cmadrem,
+.cmaddis
+{
+	width:150px;
+}
+
+.caab_list_row_middle_featured
+{
+	width:480px;
+}
+
+.caab_list_row_middle_featured .cmadrem, 
+.caab_list_row_middle_featured .cmaddis {
+ margin-left:5px !important;
+ margin-right:5px !important ;
+ padding:10px 0px;
+}
+
+.caab_list_row_middle_sponsored
+{
+	width:480px;
+}
+
+.caab_list_row_middle_sponsored .cmadrem, 
+.caab_list_row_middle_sponsored .cmaddis {
+ margin-left:5px !important;
+ margin-right:5px !important;
+ padding:10px 0px;
+}
+
+.caab_list_row_middle_1
+{
+	width:480px;
+}
+
+.caab_list_row_middle_1 .cmadrem, 
+.caab_list_row_middle_1 .cmaddis {
+ margin-left:5px !important;
+ margin-right:5px !important;
+ padding:10px 0px;
+}
+
+.caab_list_row_full_1
+{
+	width:850px;
+}
+
+.caab_list_row_full_featured
+{
+	width:850px;
+}
+
+.caab_list_row_full_sponsored
+{
+	width:850px;
+}
+
+.caab_list_row_ext_featured
+{
+	width:680px;
+}
+
+.caab_list_row_ext_sponsored
+{
+	width:680px;
+}
+
+.caab_list_row_ext_1
+{
+	width:680px;
+}

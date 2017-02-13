@@ -1,0 +1,196 @@
+<?php
+
+/**
+ * SocialEngine
+ *
+ * @category   Application_Extensions
+ * @package    Resume_video
+ * @copyright  Copyright 2010-2011 BigStep Technologies Pvt. Ltd.
+ * @license    http://www.socialengineaddons.com/license/
+ * @version    $Id: Controller.php 2011-05-05 9:40:21Z SocialEngineAddOns $
+ * @author     SocialEngineAddOns
+ */
+class Resume_Widget_ProfileMessagesController extends Engine_Content_Widget_Abstract {
+
+  protected $_childCount;
+  protected $_messageTitle = 'CV Profiler';
+
+  public function indexAction() {
+
+    //DONT RENDER IF SUBJECT IS NOT SET
+    if (!Engine_Api::_()->core()->hasSubject()) {
+      return $this->setNoRender();
+    }
+
+    //GET SUBJECT
+    if (Engine_Api::_()->core()->getSubject()->getType() == 'resume') {
+      $this->view->resume = $resume = Engine_Api::_()->core()->getSubject('resume');
+    } else {
+      $this->view->resume = $resume = Engine_Api::_()->core()->getSubject()->getParent();
+    }
+
+    //GET VIEWER DETAIL
+    $viewer = Engine_Api::_()->user()->getViewer();
+    $this->view->viewer_id = $viewer_id = $viewer->getIdentity();
+
+    // Do not render if user is the owner of the resume
+    if ($resume->user_id === $viewer->getIdentity()) {
+      return $this->setNoRender();
+    }
+
+    // Make form
+    $this->view->form = $form = new Messages_Form_Compose();
+
+    // Get resume owner
+    $resumer_owner = $resume->getOwner();
+    $resumer_owner_link = $this->view->htmlLink($resumer_owner->getHref(), $resumer_owner->getTitle(), array('target' => '_blank'));
+
+    // Modify form
+    $form->addElement('Hidden', 'tab', array(
+        'order' => 999
+    ));
+    $messageTabId = Engine_Api::_()->resume()->getMessageTabId();
+    $form->tab->setValue($messageTabId);
+    // Remove unnecessary field(s)
+    $form->removeElement('toValues');
+    // Replace 'to' field
+    $noteName = 'to';
+    $form->removeElement($noteName);
+    $note = new Zulu_Form_Element_Note(
+            $noteName, array(
+        'value' => "<div class='textfield_wrapper'>" . $resumer_owner_link . "</div>",
+        'order' => 0,
+        'label' => 'Send To',
+    ));
+    $form->addElement($note);
+    Engine_Form::addDefaultDecorators($form->to);
+    // Replace 'title' field
+    $noteName = 'title';
+    $form->removeElement($noteName);
+    $note = new Zulu_Form_Element_Note(
+            $noteName, array(
+        'value' => "<div class='textfield_wrapper'><span class='label'>{$this->_messageTitle}: {$resume->getTitle()}</span></div>",
+        'order' => 3,
+        'label' => 'Subject',
+    ));
+    $form->addElement($note);
+    Engine_Form::addDefaultDecorators($form->title);
+    
+    // Change form description
+    $form->setDescription($this->view->translate('Create your new message with the form below. Your message will be sent to the inbox of this CV Profile\'s owner.'));
+    
+    // Assign the composing stuff
+    $composePartials = array();
+    foreach (Zend_Registry::get('Engine_Manifest') as $data) {
+      if (empty($data['composer'])) {
+        continue;
+      }
+      foreach ($data['composer'] as $type => $config) {
+        if (array_key_exists('auth', $config)) {
+          // is the current user has "create" privileges for the current plugin
+          $isAllowed = Engine_Api::_()
+                  ->authorization()
+                  ->isAllowed($config['auth'][0], null, $config['auth'][1]);
+
+          if (!empty($config['auth']) && !$isAllowed) {
+            continue;
+          }
+        }
+        if($config['script'][1] === 'album') {
+          $composePartials[] = $config['script'];
+        }
+      }
+    }
+    $this->view->composePartials = $composePartials;
+    // Get config
+    $this->view->maxRecipients = $maxRecipients = 10;
+
+    $frontController = Zend_Controller_Front::getInstance();
+    
+    if($frontController->getRequest()->getParam('messageDone') == 1) {
+      $form->addNotice('Your message has been sent to the CV Profile owner');
+    }
+    
+    // Check method/data
+    if (!$frontController->getRequest()->isPost()) {
+      return;
+    }
+
+    if (!$form->isValid($frontController->getRequest()->getPost())) {
+      $form->to->setValue($resumer_owner_link);
+      return;
+    }
+    $form->to->setValue($resumer_owner_link);
+
+    // Process
+    $db = Engine_Api::_()->getDbtable('messages', 'messages')->getAdapter();
+    $db->beginTransaction();
+
+    try {
+      // Try attachment getting stuff
+      $attachment = null;
+      $attachmentData = $frontController->getRequest()->getParam('attachment');
+      if (!empty($attachmentData) && !empty($attachmentData['type'])) {
+        $type = $attachmentData['type'];
+        $config = null;
+        foreach (Zend_Registry::get('Engine_Manifest') as $data) {
+          if (!empty($data['composer'][$type])) {
+            $config = $data['composer'][$type];
+          }
+        }
+        if ($config) {
+          $plugin = Engine_Api::_()->loadClass($config['plugin']);
+          $method = 'onAttach' . ucfirst($type);
+          $attachment = $plugin->$method($attachmentData);
+          $parent = $attachment->getParent();
+          if ($parent->getType() === 'user') {
+            $attachment->search = 0;
+            $attachment->save();
+          } else {
+            $parent->search = 0;
+            $parent->save();
+          }
+        }
+      }
+
+      $recipientsUsers = array($resumer_owner);
+      $recipients = $resumer_owner;
+      
+      $values = $form->getValues();
+      
+      // Create conversation
+      $conversation = Engine_Api::_()->getItemTable('messages_conversation')->send(
+              $viewer, $recipients, $this->_messageTitle . ': ' . $resume->getTitle(), $values['body'], $attachment, $resume
+      );
+
+      // Send notifications
+      foreach ($recipientsUsers as $user) {
+        if ($user->getIdentity() == $viewer->getIdentity()) {
+          continue;
+        }
+        Engine_Api::_()->getDbtable('notifications', 'activity')->addNotification(
+                $user, $viewer, $conversation, 'message_new'
+        );
+      }
+
+      // Increment messages counter
+      Engine_Api::_()->getDbtable('statistics', 'core')->increment('messages.creations');
+
+      // Commit
+      $db->commit();
+      // Redirect to prevent duplicated messages when refreshing page
+      $route_params = array(
+          'messageDone' => 1,
+          'resume_id' => $resume->getIdentity(),
+          'slug' => $resume->getSlug(),
+          'tab' => Engine_Api::_()->resume()->getDetailTabId()
+      );
+      Zend_Controller_Action_HelperBroker::getStaticHelper('redirector')->gotoRoute($route_params, 'resume_profile', true);
+    } catch (Exception $e) {
+      $db->rollBack();
+      throw $e;
+    }
+  }
+}
+
+?>
